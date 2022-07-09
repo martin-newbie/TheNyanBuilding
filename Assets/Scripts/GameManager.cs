@@ -49,8 +49,8 @@ public class GameManager : MonoBehaviour
     public double can;
     public double churu;
     public int[] upgradeLevelList = { 0, 0, 0, 0, 0 };
-
-
+    public List<UserData_Cat> catDatas;
+    public Sprite[] catSprites;
     private void Init()
     {
         Set_rewardUP();
