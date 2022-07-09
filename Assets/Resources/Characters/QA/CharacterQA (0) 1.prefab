@@ -130,7 +130,7 @@ MonoBehaviour:
   posInfo:
     x_pos: 0
     y_pos: 0
-    idx: 0
+    idx: 6
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
   BodyAnimationFrame:
