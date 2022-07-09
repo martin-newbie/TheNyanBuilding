@@ -130,7 +130,7 @@ MonoBehaviour:
   info:
     rewardChance: []
     rewardAmount: []
-    idx: 0
+    idx: 3
   characterType: 1
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
