@@ -47,6 +47,8 @@ public class InGameManager : Singleton<InGameManager>
     public GameObject LockObj;
     public List<GameObject> LockList = new List<GameObject>();
     public Gauge gaugeObj;
+    public SpriteRenderer Node;
+    public SpriteRenderer[,] Grid;
 
     [Header("Characters")]
     public List<ITouchAble> TouchAbleCharacters = new List<ITouchAble>();
@@ -60,6 +62,9 @@ public class InGameManager : Singleton<InGameManager>
     {
         AbleGrid = new GridType[y, x];
         CharacterGridInfo = new Character[y, x];
+        Grid = new SpriteRenderer[y, x];
+        InitGrid();
+
         InitGridPos();
         UnlockGrid(0);
         UnlockGrid(1);
@@ -71,6 +76,19 @@ public class InGameManager : Singleton<InGameManager>
         SpawnCharacter(CharacterType.ProductManager, new Vector2Int(2, 0));
     }
 
+    void InitGrid()
+    {
+        for (int x = 0; x < Grid.GetLength(1); x++)
+        {
+            for (int y = 0; y < Grid.GetLength(0); y++)
+            {
+                SpriteRenderer node = Instantiate(Node);
+                node.transform.position = GetGridPos(x, y);
+                Grid[y, x] = node;
+            }
+        }
+    }
+
     private void Update()
     {
         if (AutoIdlCharacters.Count > 0) AutoCharacterLogic();
@@ -78,6 +96,32 @@ public class InGameManager : Singleton<InGameManager>
         if (Input.GetMouseButtonDown(0)) OnTouch();
         else if (Input.GetMouseButton(0) && curDrag != null) OnDrag();
         else if (Input.GetMouseButtonUp(0) && curDrag != null) EndDrag();
+
+        if(curDrag != null && curDrag is CharacterBuff)
+        {
+            CharacterBuff buff = curDrag.GetComponent<CharacterBuff>();
+            InitGridColor();
+            foreach (var item in buff.BuffList)
+            {
+                int _x = item.x + buff.thisPosIdx.x;
+                int _y = item.y + buff.thisPosIdx.y;
+
+                if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
+
+                Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
+            }
+        }
+    }
+
+    void InitGridColor()
+    {
+        for (int x = 0; x < Grid.GetLength(1); x++)
+        {
+            for (int y = 0; y < Grid.GetLength(0); y++)
+            {
+                Grid[y, x].color = Color.white;
+            }
+        }
     }
 
     Character curDrag;
@@ -122,6 +166,7 @@ public class InGameManager : Singleton<InGameManager>
         }
         curDrag = null;
 
+        InitGridColor();
         SetBuffCharacter();
     }
 

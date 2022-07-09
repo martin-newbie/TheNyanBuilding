@@ -415,6 +415,7 @@ MonoBehaviour:
   LockObj: {fileID: 2857182987337619060, guid: e06f3a91782910043856dd7571727132, type: 3}
   LockList: []
   gaugeObj: {fileID: 6508624494094140468, guid: af78b0a3ccaf327439bbcb33c7d48a55, type: 3}
+  Node: {fileID: 8860817650244381035, guid: 634e03382a3076d4a8ca75e4ef6421bf, type: 3}
 --- !u!1 &1504447942
 GameObject:
   m_ObjectHideFlags: 0
