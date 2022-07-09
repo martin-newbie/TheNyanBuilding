@@ -410,7 +410,7 @@ MonoBehaviour:
   x: 3
   y: 5
   gridSize: 2
-  GridOffset: {x: -2, y: -4}
+  GridOffset: {x: -2, y: 0}
   canvas: {fileID: 1504447945}
   LockObj: {fileID: 2857182987337619060, guid: e06f3a91782910043856dd7571727132, type: 3}
   LockList: []

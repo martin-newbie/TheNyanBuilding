@@ -131,12 +131,16 @@ public class InGameManager : Singleton<InGameManager>
     {
         Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Character nearby = GetTouchCharacter(touchPos);
-        curDrag = nearby;
 
-        nearby.isDrag = true;
+        if (nearby != null)
+        {
+            curDrag = nearby;
 
-        curDrag.BodySR.sortingOrder = 9;
-        curDrag.HeadSR.sortingOrder = 10;
+            nearby.isDrag = true;
+
+            curDrag.BodySR.sortingOrder = 9;
+            curDrag.HeadSR.sortingOrder = 10;
+        }
     }
 
     void OnDrag()
@@ -262,6 +266,9 @@ public class InGameManager : Singleton<InGameManager>
 
     public Character GetTouchCharacter(Vector2 inputPos)
     {
+
+        if (inputPos.y < GridOffset.y) return null;
+
         float distance = 100f;
         Character nearby = null;
 
