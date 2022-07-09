@@ -32,6 +32,7 @@ public class InGameManager : Singleton<InGameManager>
     public Vector2 GridOffset;
     public GridType[,] AbleGrid;
     public Vector2[,] GridPos;
+    public Character[,] CharacterGridInfo;
 
     [Header("UI")]
     public Canvas canvas;
@@ -43,10 +44,12 @@ public class InGameManager : Singleton<InGameManager>
 
     [Header("Characters")]
     public List<ITouchAble> TouchAbleCharacters = new List<ITouchAble>();
+    public List<IAuto> AutoIdlCharacters = new List<IAuto>();
 
     private void Awake()
     {
         AbleGrid = new GridType[y, x];
+        CharacterGridInfo = new Character[y, x];
         InitGridPos();
         UnlockGrid(0);
         InitLock();
@@ -54,6 +57,38 @@ public class InGameManager : Singleton<InGameManager>
 
         InitCharacters();
         SpawnCharacter(CharacterType.Bro, new Vector2Int(0, 0));
+        SpawnCharacter(CharacterType.Developer, new Vector2Int(1, 0));
+    }
+
+    private void Update()
+    {
+        if (AutoIdlCharacters.Count > 0) AutoCharacterLogic();
+    }
+
+    public void GaugeChargeEvent(float bad, float better, float best)
+    {
+        float rand = Random.Range(0f, 1f);
+
+        if (rand <= bad)
+        {
+            //bad
+        }
+        else if (rand <= better)
+        {
+            //better
+        }
+        else if (rand <= best)
+        {
+            //best
+        }
+    }
+
+    void AutoCharacterLogic()
+    {
+        foreach (var item in AutoIdlCharacters)
+        {
+            item.OnIdle();
+        }
     }
 
     void InitLock()
@@ -106,15 +141,26 @@ public class InGameManager : Singleton<InGameManager>
         switch (type)
         {
             case CharacterType.Bro:
+
                 Gauge gauge = Instantiate(gaugeObj, canvas.transform);
                 gauge.transform.SetAsFirstSibling();
-                Character bro = SpawnCharacter(Bro, spawnPos);
 
+                Character bro = SpawnCharacter(Bro, spawnPos);
                 ((CharacterTouchAble)bro).InitGauge(gauge);
+
                 TouchAbleCharacters.Add(bro.GetComponent<ITouchAble>());
+                CharacterGridInfo[pos.y, pos.x] = bro;
                 break;
             case CharacterType.Developer:
+
+                Gauge gauge1 = Instantiate(gaugeObj, canvas.transform);
+                gauge1.transform.SetAsFirstSibling();
+
                 Character dev = SpawnCharacter(Dev[idx], spawnPos);
+                ((CharacterIdle)dev).InitGauge(gauge1);
+
+                AutoIdlCharacters.Add(dev.GetComponent<IAuto>());
+                CharacterGridInfo[pos.y, pos.x] = dev;
                 break;
             case CharacterType.QualityAssureance:
                 SpawnCharacter(QA[idx], spawnPos);
@@ -198,7 +244,7 @@ public interface ITouchAble
     public abstract void OnTouch();
 }
 
-public interface IGauge
+public interface IAuto
 {
     public abstract void OnIdle();
 }

@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public struct PositionInfo
 {
     public float x_pos, y_pos;
+    public int idx;
 }
 
 public abstract class Character : MonoBehaviour
