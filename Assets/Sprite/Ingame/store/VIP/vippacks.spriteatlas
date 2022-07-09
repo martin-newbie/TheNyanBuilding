@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: vippacks
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 41d77178479ea46c081c8cdd357b8bd5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9c14fa4128b9b4c71b4adce32517240e, type: 3}
+  - {fileID: 21300000, guid: c867bf632e048492ea0a8cbac1d45b6f, type: 3}
+  - {fileID: 21300000, guid: b8b3c4b496c6a4ac49597752bfe10c8f, type: 3}
+  - {fileID: 21300000, guid: 8bb2bbe7670c943f88c4e975f2337243, type: 3}
+  - {fileID: 21300000, guid: 05fd2cd8b9e804c9b813b8bb084098d9, type: 3}
+  - {fileID: 21300000, guid: 0b7dbe591695c411ea4259284cb15109, type: 3}
+  - {fileID: 21300000, guid: 874a7e5c8946040cc8649facbe5d2d85, type: 3}
+  - {fileID: 21300000, guid: 6dea516cb38f84f8a9dc21b6070fb7f7, type: 3}
+  - {fileID: 21300000, guid: 054c389c753a44ce79357d4d71abde6e, type: 3}
+  - {fileID: 21300000, guid: 0cce922f307594ef78e56c510bdb15e8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - MA_ui_vipStampMark_3_single
+  - MA_ui_vipStampMark_2_single
+  - MA_ui_vipStampMark_single
+  - VIP3
+  - MA_store_pakageImg_vipOnlyIllust_single
+  - VIP2
+  - VIP4
+  - MA_store_pakageImg_vipGoodsBlackBox_single
+  - MA_ui_vipStampMark_1_single
+  - MA_goods_vipTicketGoods_single
+  m_RenderDataMap: {}
+  m_Tag: vippacks
+  m_IsVariant: 0

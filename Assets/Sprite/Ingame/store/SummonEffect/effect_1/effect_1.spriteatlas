@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: effect_1
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 0
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: dd9b43db2a7b241478e0d77cfe599f34, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 79dca7d0929cec147bae2d63f9d5974c, type: 3}
+  - {fileID: 21300000, guid: bb4129d017748744c84b7134d2b71204, type: 3}
+  - {fileID: 21300000, guid: 4d1a3551ba5e199469d41104302e1b6f, type: 3}
+  - {fileID: 21300000, guid: c98e5c82e2bbeda44807c6b27a3d768e, type: 3}
+  - {fileID: 21300000, guid: 27ac48e20a04f2544be61bec51cd9899, type: 3}
+  - {fileID: 21300000, guid: 3750dad3bf657ad42b824a7d8bdfc234, type: 3}
+  - {fileID: 21300000, guid: cd209495f673f074d844cf9fcc0b3bca, type: 3}
+  - {fileID: 21300000, guid: ddef7946bd7b006458af9b6cfc42f36a, type: 3}
+  - {fileID: 21300000, guid: 60283eb6cd67abb4fa7c05dcdb25c94c, type: 3}
+  - {fileID: 21300000, guid: 780f6d3a4ca98664abc7306d347727f8, type: 3}
+  - {fileID: 21300000, guid: bbcf2dda78ebf2843a75d63b8f410458, type: 3}
+  - {fileID: 21300000, guid: 31da300ddcf626244825e1b4b0cd0ff9, type: 3}
+  - {fileID: 21300000, guid: eaee1b7db7131a44a9053c1d5453dcd6, type: 3}
+  - {fileID: 21300000, guid: 2ffbee1f964792a42a8ebca0bde3cf5f, type: 3}
+  - {fileID: 21300000, guid: 31e5928f18bcec24895936261ce79c2f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Mi_store_draw_endEffect_1_multiple_0003
+  - Mi_store_draw_carrotEffect_1_multiple_0006
+  - Mi_store_draw_carrotEffect_1_multiple_0004
+  - Mi_store_draw_endEffect_1_multiple_0002
+  - Mi_store_draw_carrotEffect_1_multiple_0008
+  - Mi_store_draw_carrotEffect_1_multiple_0002
+  - Mi_store_draw_carrotEffect_1_multiple_0003
+  - Mi_store_draw_carrotEffect_1_multiple_0007
+  - Mi_store_draw_endEffect_1_multiple_0000
+  - Mi_store_draw_endEffect_1_multiple_0001
+  - Mi_store_draw_endEffect_1_multiple_0004
+  - Mi_store_draw_carrotEffect_1_multiple_0001
+  - Mi_store_draw_carrotEffect_1_multiple_0000
+  - Mi_store_draw_carrotEffect_1_multiple_0005
+  - Mi_store_draw_endEffect_1_multiple_0005
+  m_RenderDataMap: {}
+  m_Tag: effect_1
+  m_IsVariant: 0

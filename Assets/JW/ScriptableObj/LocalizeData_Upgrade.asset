@@ -1,0 +1,2483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d252503e4e949d28af436b0dc6fb4c, type: 3}
+  m_Name: LocalizeData_Upgrade
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_Upgrade
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0 <color=#B66418>+{0:P0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: CRT DMG <color=#B66418>+{0:P0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8 <color=#B66418>+{0:P0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3<color=#B66418>+{0:P0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3<color=#B66418>+{0:P0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 1
+    localize_value_kr: "\uAE30\uBCF8 \uACF5\uACA9\uB825 <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Basic ATK <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u57FA\u672C\u653B\u6483\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u57FA\u672C\u653B\u64CA\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u57FA\u672C\u653B\u51FB\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 2
+    localize_value_kr: "\uACE8\uB4DC \uD68D\uB4DD <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Gold Income <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u7372\u5F97 <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u7372\u5F97\u91D1\u5E63 <color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u83B7\u5F97\u91D1\u5E01 <color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 3
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: '-'
+    localize_value_sc: 
+    localize_value_sc2: "-\r"
+  - key_index: 4
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 5
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 6
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 7
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 8
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 9
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 10
+    localize_value_kr: "\uCE58\uBA85\uD0C0\uD655\uB960 <color=#B66418>+{0:P0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: CRT Rate <color=#B66418>+{0:P0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u81F4\u547D\u6253\u78BA\u7387 <color=#B66418>+{0:P0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u7387 <color=#B66418>+{0:P0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u7387 <color=#B66418>+{0:P0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 11
+    localize_value_kr: "\uBCF4\uC720 \uD654\uC0B4 <color=#B66418>+{0:N0}\uAC1C</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Holdable Arrows <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u4FDD\u6709\u3057\u3066\u3044\u308B\u77E2\u306E\u6570 <color=#B66418>+{0:N0}\u500B</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u64C1\u6709\u7BAD\u77E2 <color=#B66418>+{0:N0}\u652F</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u62E5\u6709\u7BAD\u77E2 <color=#B66418>+{0:N0}\u652F</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 12
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 <color=#B66418>+{0:N0}\uAC1C</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Producible Arrows <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u5236\u4F5C\u3057\u305F\u77E2\u306E\u6570 <color=#B66418>+{0:N0}\u500B</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u88FD\u4F5C\u7BAD\u77E2 <color=#B66418>+{0:N0}\u652F</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u5236\u4F5C\u7BAD\u77E2 <color=#B66418>+{0:N0}\u652F</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 13
+    localize_value_kr: "\uB2F4\uC7A5 \uCCB4\uB825\uD68C\uBCF5 <color=#B66418>+{0:N0}/\uBD84</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Fence HP Recovery <color=#B66418>+{0:N0}/Min</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u56DE\u5FA9 <color=#B66418>+{0:N0}/\u5206</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u570D\u58BB\u9AD4\u529B\u56DE\u5FA9<color=#B66418>+{0:N0}/\u5206</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u56F4\u5899\u4F53\u529B\u6062\u590D<color=#B66418>+{0:N0}/\u5206</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 14
+    localize_value_kr: "\uD654\uC0B4 \uACF5\uACA9\uB825 <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Arrow ATK <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u77E2\u306E\u653B\u6483\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u7BAD\u77E2\u653B\u64CA\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u7BAD\u77E2\u653B\u51FB\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 15
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 16
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 17
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 18
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 19
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 20
+    localize_value_kr: "\uACF5\uACA9 \uC18D\uB3C4 <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: ASPD <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6 <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u653B\u901F <color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u653B\u901F <color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 21
+    localize_value_kr: "\uC2A4\uD0AC \uC9C0\uC18D\uC2DC\uAC04 <color=#B66418>+{0:P0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Time of Effect <color=#B66418>+{0:P0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u30B9\u30AD\u30EB\u52B9\u679C\u6642\u9593 <color=#B66418>+{0:P0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u6280\u80FD\u6301\u7E8C\u6642\u9593<color=#B66418>+{0:P0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u6280\u80FD\u6301\u7EED\u65F6\u95F4<color=#B66418>+{0:P0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 22
+    localize_value_kr: "\uB2F4\uC7A5 \uCCB4\uB825 <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Fence HP <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u570D\u58BB\u9AD4\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u56F4\u5899\u4F53\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 23
+    localize_value_kr: "\uACE8\uB4DC \uD68D\uB4DD <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Gold Income <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u7372\u5F97 <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u7372\u5F97\u91D1\u5E63 <color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u83B7\u5F97\u91D1\u5E01 <color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 24
+    localize_value_kr: "\uACF5\uACA9\uB825 <color=#B66418>+{0:P0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: ATK <color=#B66418>+{0:P0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u653B\u6483\u529B <color=#B66418>+{0:P0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u653B\u64CA\u529B <color=#B66418>+{0:P0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u653B\u51FB\u529B <color=#B66418>+{0:P0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 25
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 26
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 27
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 28
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 29
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 30
+    localize_value_kr: "\uC2A4\uD0AC \uC9C0\uC18D\uC2DC\uAC04 <color=#B66418>+{0:P0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Time of Effect <color=#B66418>+{0:P0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u30B9\u30AD\u30EB\u52B9\u679C\u6642\u9593 <color=#B66418>+{0:P0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u6280\u80FD\u6301\u7E8C\u6642\u9593 <color=#B66418>+{0:P0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u6280\u80FD\u6301\u7EED\u65F6\u95F4 <color=#B66418>+{0:P0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 31
+    localize_value_kr: "\uB2F4\uC7A5 \uCCB4\uB825 <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: Fence HP <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u570D\u58BB\u9AD4\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u56F4\u5899\u4F53\u529B <color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 32
+    localize_value_kr: "\uC81C\uC791\uC18D\uB3C4 <color=#B66418>-{0:N1}\uCD08</color>"
+    localize_value_kr2: '-'
+    localize_value_en: "Production Speed <color=#B66418>-{0:N1}\uCD08</color>"
+    localize_value_en2: '-'
+    localize_value_ja: "\u5236\u4F5C\u901F\u5EA6 <color=#B66418>-{0:N1}\u79D2</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u88FD\u4F5C\u901F\u5EA6 <color=#B66418>-{0:N1}\u79D2</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u5236\u4F5C\u901F\u5EA6 <color=#B66418>-{0:N1}\u79D2</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 33
+    localize_value_kr: "\uC2A4\uD0AC \uCFE8\uD0C0\uC784 <color=#B66418>-{0:P0}\uCD08</color>"
+    localize_value_kr2: '-'
+    localize_value_en: "Skill Cooldown <color=#B66418>-{0:P0}\uCD08</color>"
+    localize_value_en2: '-'
+    localize_value_ja: "\u30B9\u30AD\u30EB\u30AF\u30FC\u30EB\u30BF\u30A4\u30E0 <color=#B66418>-{0:P0}\u79D2</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u6280\u80FD\u51B7\u537B\u6642\u9593 <color=#B66418>-{0:P0}\u79D2</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u6280\u80FD\u51B7\u5374\u65F6\u95F4 <color=#B66418>-{0:P0}\u79D2</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 34
+    localize_value_kr: "\uACF5\uACA9 \uC18D\uB3C4 <color=#B66418>+{0:N0}</color>"
+    localize_value_kr2: '-'
+    localize_value_en: ASPD <color=#B66418>+{0:N0}</color>
+    localize_value_en2: '-'
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6 <color=#B66418>+{0:N0}</color>"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u653B\u901F<color=#B66418>+{0:N0}</color>"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u653B\u901F<color=#B66418>+{0:N0}</color>"
+    localize_value_sc2: "-\r"
+  - key_index: 35
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 36
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 37
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 38
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 39
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 40
+    localize_value_kr: "\uAC8C\uC784 \uC18D\uB3C4"
+    localize_value_kr2: "\uAC8C\uC784 \uC9C4\uD589\uC18D\uB3C4\uB97C <color=#B66418>{0:P1}</color>
+      \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+    localize_value_en: Game Speed
+    localize_value_en2: Increases game speed by <color=#B66418>{0:P1}</color>.
+    localize_value_ja: "\u30B2\u30FC\u30E0\u901F\u5EA6"
+    localize_value_ja2: "\u30B2\u30FC\u30E0\u306E\u9032\u884C\u901F\u5EA6\u3092 <color=#B66418>{0:P1}</color>
+      \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u904A\u6232\u901F\u5EA6"
+    localize_value_tc2: "\u904A\u6232\u9032\u884C\u901F\u5EA6\u63D0\u9AD8 <color=#B66418>{0:P1}</color>
+      \u3002"
+    localize_value_sc: "\u6E38\u620F\u901F\u5EA6"
+    localize_value_sc2: "\u6E38\u620F\u8FDB\u884C\u901F\u5EA6\u63D0\u9AD8 <color=#B66418>{0:P1}</color>
+      \u3002\r"
+  - key_index: 41
+    localize_value_kr: "\uC2A4\uD14C\uC774\uC9C0 \uC2A4\uD0B5"
+    localize_value_kr2: "<color=#B66418>{0:P0}</color> \uD655\uB960\uB85C \uC2A4\uD14C\uC774\uC9C0\uB97C
+      \uC2A4\uD0B5\uD55C\uB2E4."
+    localize_value_en: Stage Skip
+    localize_value_en2: <color=#B66418>{0:P0}</color> chance of stage skip.
+    localize_value_ja: "\u30B9\u30C6\u30FC\u30B8\u30B9\u30AD\u30C3\u30D7"
+    localize_value_ja2: "<color=#B66418>{0:P0}</color> \u78BA\u7387\u3067\u30B9\u30C6\u30FC\u30B8\u3092\u30B9\u30AD\u30C3\u30D7\u3059\u308B\u3002"
+    localize_value_tc: "\u8DF3\u904E\u95DC\u5361"
+    localize_value_tc2: "\u4EE5<color=#B66418>{0:P0}</color> \u7684\u6A5F\u7387\u8DF3\u904E\u95DC\u5361\u3002"
+    localize_value_sc: "\u8DF3\u8FC7\u5173\u5361"
+    localize_value_sc2: "\u4EE5<color=#B66418>{0:P0}</color> \u7684\u673A\u7387\u8DF3\u8FC7\u5173\u5361\u3002\r"
+  - key_index: 42
+    localize_value_kr: "\uBA40\uD2F0\uC0F7"
+    localize_value_kr2: "\uD55C\uBC88\uC5D0 <color=#B66418>{0:N0}\uAC1C</color>\uC758
+      \uCD94\uAC00 \uD654\uC0B4\uC744 \uBC1C\uC0AC\uD55C\uB2E4."
+    localize_value_en: Multiple Shot
+    localize_value_en2: Shots <color=#B66418>{0:N0}</color> arrows additionally.
+    localize_value_ja: "\u30DE\u30EB\u30C1\u30B7\u30E7\u30C3\u30C8"
+    localize_value_ja2: "\u4E00\u6C17\u306B <color=#B66418>{0:N0}\u500B</color>\u306E\u77E2\u3092\u8FFD\u52A0\u7684\u306B\u5C04\u308B\u3002"
+    localize_value_tc: "\u591A\u91CD\u5C04\u64CA"
+    localize_value_tc2: "\u4E00\u6B21\u6027\u591A\u5C04\u51FA <color=#B66418>{0:N0}\u652F</color>\u7BAD\u77E2\u3002"
+    localize_value_sc: "\u591A\u91CD\u5C04\u51FB"
+    localize_value_sc2: "\u4E00\u6B21\u6027\u591A\u5C04\u51FA <color=#B66418>{0:N0}\u652F</color>\u7BAD\u77E2\u3002\r"
+  - key_index: 43
+    localize_value_kr: "\uB354\uBE14\uC0F7"
+    localize_value_kr2: "\uC5F0\uC18D\uC73C\uB85C <color=#B66418>{0:N0}\uAC1C</color>\uC758
+      \uD654\uC0B4\uC744 \uBC1C\uC0AC\uD55C\uB2E4."
+    localize_value_en: Double Shot
+    localize_value_en2: Shots <color=#B66418>{0:N0}</color> arrows in a row.
+    localize_value_ja: "\u30C0\u30D6\u30EB\u30B7\u30E7\u30C3\u30C8"
+    localize_value_ja2: "\u9023\u7D9A\u3057\u3066<color=#B66418>{0:N0}\u500B</color>\u306E\u77E2\u3092\u5C04\u308B\u3002"
+    localize_value_tc: "\u96D9\u5C04"
+    localize_value_tc2: "\u9023\u7E8C\u5C04\u51FA<color=#B66418>{0:N0}\u500B</color>\u7BAD\u77E2\u3002"
+    localize_value_sc: "\u53CC\u5C04"
+    localize_value_sc2: "\u8FDE\u7EED\u5C04\u51FA<color=#B66418>{0:N0}\u4E2A</color>\u7BAD\u77E2\u3002\r"
+  - key_index: 44
+    localize_value_kr: "\uB2F4\uC7A5 \uCCB4\uB825\uD68C\uBCF5"
+    localize_value_kr2: "60\uCD08\uB9C8\uB2E4 <color=#B66418>{0:N0}</color>\uC758
+      \uCCB4\uB825\uC744 \uD68C\uBCF5\uD55C\uB2E4."
+    localize_value_en: Fence HP Recovery
+    localize_value_en2: Recovers fence HP for <color=#B66418>{0:N0}</color> per 60sec.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u56DE\u5FA9"
+    localize_value_ja2: "60\u79D2\u3054\u3068\u306B <color=#B66418>{0:N0}</color>\u306E\u4F53\u529B\u3092\u56DE\u5FA9\u3059\u308B\u3002"
+    localize_value_tc: "\u570D\u58BB\u9AD4\u529B\u56DE\u5FA9"
+    localize_value_tc2: "\u6BCF60\u79D2\u56DE\u5FA9 <color=#B66418>{0:N0}</color>\u7684\u9AD4\u529B\u3002"
+    localize_value_sc: "\u56F4\u5899\u4F53\u529B\u6062\u590D"
+    localize_value_sc2: "\u6BCF60\u79D2\u6062\u590D <color=#B66418>{0:N0}</color>\u7684\u4F53\u529B\u3002\r"
+  - key_index: 45
+    localize_value_kr: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9\uC774 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Gold Income Increase
+    localize_value_en2: Increases gold income by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u7372\u53D6\u91CF\u5897\u52A0"
+    localize_value_ja2: "\u30B4\u30FC\u30EB\u30C9\u7372\u53D6\u91CF\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u91D1\u5E63\u7372\u53D6\u91CF"
+    localize_value_tc2: "\u91D1\u5E63\u7372\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u589E\u52A0\u91D1\u5E01\u83B7\u53D6\u91CF"
+    localize_value_sc2: "\u91D1\u5E01\u83B7\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 46
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 \uB808\uBCA8 \uC99D\uAC00"
+    localize_value_kr2: "\uC81C\uC791 \uD654\uC0B4 \uB808\uBCA8\uC774 <color=#B66418>{0:N0}</color>
+      \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Producible Arrow Lv. Increase
+    localize_value_en2: Increases Lv. of producible arrows by <color=#B66418>{0:N0}Lv.</color>.
+    localize_value_ja: "\u5236\u4F5C\u3059\u308B\u77E2\u306E\u30EC\u30D9\u30EB\u5897\u52A0"
+    localize_value_ja2: "\u5236\u4F5C\u3059\u308B\u77E2\u306E\u30EC\u30D9\u30EB\u304C<color=#B66418>{0:N0}</color>\u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u63D0\u9AD8\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A"
+    localize_value_tc2: "\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7\u63D0\u5347 <color=#B66418>{0:N0}</color>
+      \u3002"
+    localize_value_sc: "\u63D0\u9AD8\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7"
+    localize_value_sc2: "\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7\u63D0\u5347 <color=#B66418>{0:N0}</color>
+      \u3002\r"
+  - key_index: 47
+    localize_value_kr: "\uC804\uCCB4 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_kr2: "\uBAA8\uB4E0 \uC544\uCC98\uC758 \uACF5\uACA9\uB825\uC774
+      <color=#B66418>{0:P1}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: All ATK Increase
+    localize_value_en2: Increases ATK of all archers by <color=#B66418>{0:P1}</color>.
+    localize_value_ja: "\u5168\u4F53\u306E\u653B\u6483\u529B\u5897\u52A0"
+    localize_value_ja2: "\u5168\u3066\u306E\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u653B\u6483\u529B\u304C
+      <color=#B66418>{0:P1}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u7E3D\u653B\u64CA\u529B"
+    localize_value_tc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u51FB\u529B\u589E\u52A0
+      <color=#B66418>{0:P1}</color> \u3002"
+    localize_value_sc: "\u589E\u52A0\u603B\u653B\u51FB\u529B"
+    localize_value_sc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u51FB\u529B\u589E\u52A0
+      <color=#B66418>{0:P1}</color> \u3002\r"
+  - key_index: 48
+    localize_value_kr: "\uC804\uCCB4 \uACF5\uACA9\uC18D\uB3C4 \uC99D\uAC00"
+    localize_value_kr2: "\uBAA8\uB4E0 \uC544\uCC98\uC758 \uACF5\uACA9\uC18D\uB3C4\uAC00
+      <color=#B66418>{0:N2}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: All ASPD Increase
+    localize_value_en2: Increases ASPD of all archers by <color=#B66418>{0:N2}</color>.
+    localize_value_ja: "\u5168\u4F53\u306E\u653B\u6483\u901F\u5EA6\u5897\u52A0"
+    localize_value_ja2: "\u5168\u3066\u306E\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u653B\u6483\u901F\u5EA6\u304C
+      <color=#B66418>{0:N2}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u63D0\u9AD8\u7E3D\u653B\u901F"
+    localize_value_tc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u901F\u63D0\u9AD8
+      <color=#B66418>{0:N2}</color>\u3002"
+    localize_value_sc: "\u63D0\u9AD8\u603B\u653B\u901F"
+    localize_value_sc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u901F\u63D0\u9AD8
+      <color=#B66418>{0:N2}</color>\u3002\r"
+  - key_index: 49
+    localize_value_kr: "\uC804\uCCB4 \uCE58\uBA85\uD0C0\uD655\uB960 \uC99D\uAC00"
+    localize_value_kr2: "\uBAA8\uB4E0 \uC544\uCC98\uC758 \uCE58\uBA85\uD0C0\uD655\uB960\uC774
+      <color=#B66418>{0:P1}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: All CRT Rate Increase
+    localize_value_en2: Increases CRT rate of all archers by <color=#B66418>{0:P1}</color>.
+    localize_value_ja: "\u5168\u4F53\u306E\u81F4\u547D\u6253\u78BA\u7387\u5897\u52A0"
+    localize_value_ja2: "\u5168\u3066\u306E\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u81F4\u547D\u6253\u78BA\u7387\u304C<color=#B66418>{0:P1}</color>
+      \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u7E3D\u81F4\u547D\u4E00\u64CA\u7387"
+    localize_value_tc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u81F4\u547D\u4E00\u51FB\u7387\u589E\u52A0<color=#B66418>{0:P1}</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u603B\u81F4\u547D\u4E00\u51FB\u7387"
+    localize_value_sc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u81F4\u547D\u4E00\u51FB\u7387\u589E\u52A0<color=#B66418>{0:P1}</color>\u3002\r"
+  - key_index: 50
+    localize_value_kr: "\uACF5\uACA9\uB825"
+    localize_value_kr2: '-'
+    localize_value_en: ATK
+    localize_value_en2: '-'
+    localize_value_ja: "\u653B\u6483\u529B"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u653B\u64CA\u529B"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u653B\u51FB\u529B"
+    localize_value_sc2: "-\r"
+  - key_index: 51
+    localize_value_kr: "\uACF5\uACA9\uC18D\uB3C4"
+    localize_value_kr2: '-'
+    localize_value_en: ASPD
+    localize_value_en2: '-'
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u653B\u901F"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u653B\u901F"
+    localize_value_sc2: "-\r"
+  - key_index: 52
+    localize_value_kr: "\uCE58\uBA85\uD0C0\uD655\uB960"
+    localize_value_kr2: '-'
+    localize_value_en: CRT Rate
+    localize_value_en2: '-'
+    localize_value_ja: "\u81F4\u547D\u6253\u78BA\u7387"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u7387"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u7387"
+    localize_value_sc2: "-\r"
+  - key_index: 53
+    localize_value_kr: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    localize_value_kr2: '-'
+    localize_value_en: CRT DMG
+    localize_value_en2: '-'
+    localize_value_ja: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3"
+    localize_value_sc2: "-\r"
+  - key_index: 54
+    localize_value_kr: "\uC2A4\uD0AC \uAC15\uD654"
+    localize_value_kr2: '-'
+    localize_value_en: Skill Upgrade
+    localize_value_en2: '-'
+    localize_value_ja: "\u30B9\u30AD\u30EB\u5F37\u5316"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u5F37\u5316\u6280\u80FD"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u5F3A\u5316\u6280\u80FD"
+    localize_value_sc2: "-\r"
+  - key_index: 55
+    localize_value_kr: "\uC2A4\uD0AC \uCFE8\uD0C0\uC784 \uAC10\uC18C"
+    localize_value_kr2: '-'
+    localize_value_en: Cooldown
+    localize_value_en2: '-'
+    localize_value_ja: "\u30AF\u30FC\u30EB\u30BF\u30A4\u30E0\u6E1B\u5C11"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u6E1B\u5C11\u6280\u80FD\u51B7\u537B\u6642\u9593"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u51CF\u5C11\u6280\u80FD\u51B7\u5374\u65F6\u95F4"
+    localize_value_sc2: "-\r"
+  - key_index: 56
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 \uB808\uBCA8"
+    localize_value_kr2: '-'
+    localize_value_en: Producible Arrow Lv.
+    localize_value_en2: '-'
+    localize_value_ja: "\u5236\u4F5C\u3059\u308B\u77E2\u306E\u30EC\u30D9\u30EB"
+    localize_value_ja2: '-'
+    localize_value_tc: "\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A"
+    localize_value_tc2: '-'
+    localize_value_sc: "\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7"
+    localize_value_sc2: "-\r"
+  - key_index: 57
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 58
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 59
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 60
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 61
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 62
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 63
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 64
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 65
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 66
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 67
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 68
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 69
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 70
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 71
+    localize_value_kr: "\uAE30\uBCF8 \uACF5\uACA9\uB825"
+    localize_value_kr2: "\uAE30\uBCF8 \uACF5\uACA9\uB825 <color=#B66418>{0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Basic ATK
+    localize_value_en2: Increases basic ATK by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u57FA\u672C\u653B\u6483\u529B"
+    localize_value_ja2: "\u57FA\u672C\u653B\u6483\u529B\u304C <color=#B66418>{0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u57FA\u672C\u653B\u64CA\u529B"
+    localize_value_tc2: "\u57FA\u672C\u653B\u64CA\u529B\u589E\u52A0 <color=#B66418>{0}</color>
+      \u3002"
+    localize_value_sc: "\u57FA\u672C\u653B\u51FB\u529B"
+    localize_value_sc2: "\u57FA\u672C\u653B\u51FB\u529B\u589E\u52A0 <color=#B66418>{0}</color>
+      \u3002\r"
+  - key_index: 72
+    localize_value_kr: "\uACF5\uACA9\uC18D\uB3C4"
+    localize_value_kr2: "\uACF5\uACA9\uC18D\uB3C4 <color=#B66418>{0}</color> \uC99D\uAC00"
+    localize_value_en: ASPD
+    localize_value_en2: Increases ASPD by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6"
+    localize_value_ja2: "\u653B\u6483\u901F\u5EA6\u304C <color=#B66418>{0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u653B\u901F"
+    localize_value_tc2: "\u653B\u901F\u63D0\u9AD8 <color=#B66418>{0}</color>\u3002"
+    localize_value_sc: "\u653B\u901F"
+    localize_value_sc2: "\u653B\u901F\u63D0\u9AD8 <color=#B66418>{0}</color>\u3002\r"
+  - key_index: 73
+    localize_value_kr: "\uCE58\uBA85\uD0C0\uD655\uB960"
+    localize_value_kr2: "\uCE58\uBA85\uD0C0\uD655\uB960 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: CRT Rate
+    localize_value_en2: Increases CRT Rate by <color=#B66418>{0:P0}</color>
+    localize_value_ja: "\u81F4\u547D\u6253\u78BA\u7387"
+    localize_value_ja2: "\u81F4\u547D\u6253\u78BA\u7387\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u7387"
+    localize_value_tc2: "\u81F4\u547D\u4E00\u64CA\u7387\u589E\u52A0 <color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u7387"
+    localize_value_sc2: "\u81F4\u547D\u4E00\u51FB\u7387\u589E\u52A0 <color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 74
+    localize_value_kr: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    localize_value_kr2: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: CRT DMG
+    localize_value_en2: Increases CRT DMG by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8"
+    localize_value_ja2: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3"
+    localize_value_tc2: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3"
+    localize_value_sc2: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 75
+    localize_value_kr: "\uBC88\uAC1C \uACF5\uACA9\uB825"
+    localize_value_kr2: "\uBC88\uAC1C \uB370\uBBF8\uC9C0 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Lightning DMG
+    localize_value_en2: Increases Lightning DMG by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u96F7\u306E\u653B\u6483\u529B"
+    localize_value_ja2: "\u96F7\u306E\u30C0\u30E1\u30FC\u30B8\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u96F7\u64CA\u653B\u64CA\u529B"
+    localize_value_tc2: "\u96F7\u64CA\u50B7\u5BB3\u589E\u52A0 <color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u96F7\u51FB\u653B\u51FB\u529B"
+    localize_value_sc2: "\u96F7\u51FB\u4F24\u5BB3\u589E\u52A0 <color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 76
+    localize_value_kr: "\uC790\uB3D9 \uBC88\uAC1C \uACF5\uACA9"
+    localize_value_kr2: "(\uC790\uB3D9) 10\uCD08 \uB3D9\uC548 <color=#B66418>{0:N1}\uBC88</color>
+      \uBC88\uAC1C \uACF5\uACA9"
+    localize_value_en: Auto Lightning Bolt
+    localize_value_en2: (Auto) Lightning attacks <color=#B66418>{0:N1}times</color>
+      per 10sec.
+    localize_value_ja: "\u81EA\u52D5\u96F7\u653B\u6483"
+    localize_value_ja2: "(\u81EA\u52D5)10\u79D2\u306E\u9593 <color=#B66418>{0:N1}\u56DE</color>
+      \u96F7\u653B\u6483"
+    localize_value_tc: "\u81EA\u52D5\u96F7\u64CA"
+    localize_value_tc2: "(\u81EA\u52D5) 10\u79D2\u5167\u96F7\u64CA <color=#B66418>{0:N1}\u6B21</color>
+      \u3002"
+    localize_value_sc: "\u81EA\u52A8\u96F7\u51FB"
+    localize_value_sc2: "(\u81EA\u52A8) 10\u79D2\u5185\u96F7\u51FB <color=#B66418>{0:N1}\u6B21</color>
+      \u3002\r"
+  - key_index: 77
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 78
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 79
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 80
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 81
+    localize_value_kr: "\uC5B8\uB355 \uD655\uC7A5"
+    localize_value_kr2: "\uBC30\uCE58 \uAC00\uB2A5\uD55C \uC544\uCCD0\uC758 \uC218<color=#B66418>{0}\uCE78</color>
+      \uC99D\uAC00"
+    localize_value_en: Hill Extension
+    localize_value_en2: Increases capacity of archer by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u5742\u306E\u62E1\u5F35"
+    localize_value_ja2: "\u914D\u7F6E\u53EF\u80FD\u306A\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u6570<color=#B66418>{0}\u5339</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u64F4\u5F35\u5C71\u4E18"
+    localize_value_tc2: "\u53EF\u5B89\u6392\u7684\u5F13\u7BAD\u624B\u589E\u52A0<color=#B66418>{0}\u683C</color>
+      \u3002"
+    localize_value_sc: "\u6269\u5F20\u5C71\u4E18"
+    localize_value_sc2: "\u53EF\u5B89\u6392\u7684\u5F13\u7BAD\u624B\u589E\u52A0<color=#B66418>{0}\u683C</color>
+      \u3002\r"
+  - key_index: 82
+    localize_value_kr: "\uC6B8\uD0C0\uB9AC \uAC15\uD654"
+    localize_value_kr2: "\uC6B8\uD0C0\uB9AC \uCCB4\uB825 <color=#B66418>{0:N0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Fence Upgrade
+    localize_value_en2: Increases fence HP by <color=#B66418>{0:N0}</color>.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u5F37\u5316"
+    localize_value_ja2: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u304C <color=#B66418>{0:N0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u5F37\u5316\u570D\u58BB"
+    localize_value_tc2: "\u570D\u58BB\u9AD4\u529B\u589E\u52A0 <color=#B66418>{0:N0}</color>
+      \u3002"
+    localize_value_sc: "\u5F3A\u5316\u56F4\u5899"
+    localize_value_sc2: "\u56F4\u5899\u4F53\u529B\u589E\u52A0 <color=#B66418>{0:N0}</color>
+      \u3002\r"
+  - key_index: 83
+    localize_value_kr: "\uC6B8\uD0C0\uB9AC \uCE58\uC720"
+    localize_value_kr2: "\uC6B8\uD0C0\uB9AC \uCCB4\uB825 1\uBD84\uC5D0 <color=#B66418>{0:N1}</color>
+      \uD68C\uBCF5"
+    localize_value_en: Fence Recovery
+    localize_value_en2: Recovers fence HP by <color=#B66418>{0:N1}</color> per 60sec.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u56DE\u5FA9"
+    localize_value_ja2: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u309260\u79D2\u3054\u3068\u306B
+      <color=#B66418>{0:N1}</color> \u56DE\u5FA9"
+    localize_value_tc: "\u6CBB\u6108\u570D\u58BB"
+    localize_value_tc2: "\u570D\u58BB\u9AD4\u529B\u4E00\u5206\u9418\u5167\u56DE\u5FA9<color=#B66418>{0:N1}</color>
+      \u3002"
+    localize_value_sc: "\u6CBB\u6108\u56F4\u5899"
+    localize_value_sc2: "\u56F4\u5899\u4F53\u529B\u4E00\u5206\u949F\u5185\u6062\u590D<color=#B66418>{0:N1}</color>
+      \u3002\r"
+  - key_index: 84
+    localize_value_kr: "\uACE8\uB4DC\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Gold Income Increase
+    localize_value_en2: Increases gold income by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u5897\u52A0"
+    localize_value_ja2: "\u30B4\u30FC\u30EB\u30C9\u7372\u53D6\u91CF\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u91D1\u5E63\u7372\u53D6\u91CF"
+    localize_value_tc2: "\u91D1\u5E63\u7372\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u91D1\u5E01\u83B7\u53D6\u91CF"
+    localize_value_sc2: "\u91D1\u5E01\u83B7\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 85
+    localize_value_kr: "\uACE8\uB4DC 2\uBC30 \uD68D\uB4DD"
+    localize_value_kr2: "<color=#B66418>{0:P0}</color> \uD655\uB960\uB85C 2\uBC30\uC758
+      \uACE8\uB4DC\uB97C \uD68D\uB4DD"
+    localize_value_en: Double Gold Income
+    localize_value_en2: <color=#B66418>{0:P0}</color> chance of double gold income.
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C92\u500D\u7372\u5F97"
+    localize_value_ja2: "<color=#B66418>{0:P0}</color> \u78BA\u7387\u30672\u500D\u306E\u30B4\u30FC\u30EB\u30C9\u7372\u5F97"
+    localize_value_tc: "\u7372\u53D6\u5169\u500D\u91D1\u5E63"
+    localize_value_tc2: "\u4EE5<color=#B66418>{0:P0}</color> \u7684\u6A5F\u7387\u7372\u5F97\u5169\u500D\u91D1\u5E63\u3002"
+    localize_value_sc: "\u83B7\u53D6\u4E24\u500D\u91D1\u5E01"
+    localize_value_sc2: "\u4EE5<color=#B66418>{0:P0}</color> \u7684\u673A\u7387\u83B7\u5F97\u4E24\u500D\u91D1\u5E01\u3002\r"
+  - key_index: 86
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 87
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 88
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 89
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 90
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 91
+    localize_value_kr: "\uBE60\uB978 \uC81C\uC791"
+    localize_value_kr2: "\uD654\uC0B4 \uC81C\uC791 \uC2DC\uAC04 <color=#B66418>{0}\uCD08</color>
+      \uAC10\uC18C"
+    localize_value_en: Fast Production
+    localize_value_en2: Decreases arrows production time for <color=#B66418>{0}sec</color>.
+    localize_value_ja: "\u7D20\u65E9\u3044\u5236\u4F5C"
+    localize_value_ja2: "\u77E2\u306E\u88FD\u4F5C\u6642\u9593\u3092 <color=#B66418>{0}\u79D2</color>
+      \u6E1B\u5C11"
+    localize_value_tc: "\u5FEB\u901F\u88FD\u4F5C"
+    localize_value_tc2: "\u7BAD\u77E2\u88FD\u4F5C\u6642\u9593\u6E1B\u5C11 <color=#B66418>{0}\u79D2</color>
+      \u3002"
+    localize_value_sc: "\u5FEB\u901F\u5236\u4F5C"
+    localize_value_sc2: "\u7BAD\u77E2\u5236\u4F5C\u65F6\u95F4\u51CF\u5C11 <color=#B66418>{0}\u79D2</color>
+      \u3002\r"
+  - key_index: 92
+    localize_value_kr: "\uBCF4\uC720 \uD654\uC0B4 \uC99D\uAC00"
+    localize_value_kr2: "\uBCF4\uC720 \uAC00\uB2A5\uD55C \uD654\uC0B4\uC758 \uCD5C\uB300
+      \uAC1C\uC218 <color=#B66418>{0}\uAC1C</color> \uC99D\uAC00"
+    localize_value_en: Amount of Holdable Arrow Increase
+    localize_value_en2: Increases maximal amount of holdable arrows by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u4FDD\u6709\u3067\u304D\u308B\u77E2\u306E\u6570\u5897\u52A0"
+    localize_value_ja2: "\u4FDD\u6709\u3067\u304D\u308B\u77E2\u306E\u4E0A\u9650\u6570\u304C
+      <color=#B66418>{0}\u500B</color> \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u7BAD\u77E2\u64C1\u6709\u91CF"
+    localize_value_tc2: "\u53EF\u64C1\u6709\u7684\u6700\u5927\u7BAD\u77E2\u6578\u589E\u52A0<color=#B66418>{0}\u500B</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u7BAD\u77E2\u62E5\u6709\u91CF"
+    localize_value_sc2: "\u53EF\u62E5\u6709\u7684\u6700\u5927\u7BAD\u77E2\u6570\u589E\u52A0<color=#B66418>{0}\u4E2A</color>\u3002\r"
+  - key_index: 93
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 \uC99D\uAC00"
+    localize_value_kr2: "\uC81C\uC791 \uAC00\uB2A5\uD55C \uD654\uC0B4\uC758 \uCD5C\uB300
+      \uAC1C\uC218<color=#B66418>{0}\uAC1C</color> \uC99D\uAC00"
+    localize_value_en: Amount of Producible Arrow Increase
+    localize_value_en2: Increases maximal amount of producible arrows by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u5236\u4F5C\u3067\u304D\u308B\u77E2\u306E\u6570\u5897\u52A0"
+    localize_value_ja2: "\u5236\u4F5C\u3067\u304D\u308B\u77E2\u306E\u4E0A\u9650\u6570\u304C
+      <color=#B66418>{0}\u500B</color> \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u88FD\u4F5C\u7BAD\u77E2"
+    localize_value_tc2: "\u53EF\u88FD\u4F5C\u7684\u6700\u5927\u7BAD\u77E2\u6578\u589E\u52A0<color=#B66418>{0}\u500B</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u5236\u4F5C\u7BAD\u77E2"
+    localize_value_sc2: "\u53EF\u5236\u4F5C\u7684\u6700\u5927\u7BAD\u77E2\u6570\u589E\u52A0<color=#B66418>{0}\u4E2A</color>\u3002\r"
+  - key_index: 94
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 \uB808\uBCA8 \uC99D\uAC00"
+    localize_value_kr2: "\uC81C\uC791\uB41C \uD654\uC0B4\uC758 \uB808\uBCA8 <color=#B66418>{0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Producible Arrow Lv. Increase
+    localize_value_en2: Increases Lv. of produced arrows by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u5236\u4F5C\u3059\u308B\u77E2\u306E\u30EC\u30D9\u30EB\u5897\u52A0"
+    localize_value_ja2: "\u5236\u4F5C\u3055\u308C\u305F\u77E2\u306E\u30EC\u30D9\u30EB\u304C
+      <color=#B66418>{0}</color> \u5897\u52A0"
+    localize_value_tc: "\u63D0\u5347\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A"
+    localize_value_tc2: "\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A\u63D0\u5347 <color=#B66418>{0}</color>
+      \u3002"
+    localize_value_sc: "\u63D0\u5347\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7"
+    localize_value_sc2: "\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7\u63D0\u5347 <color=#B66418>{0}</color>
+      \u3002\r"
+  - key_index: 95
+    localize_value_kr: "\uD53C\uBC84 \uC2DC\uAC04 \uC99D\uAC00"
+    localize_value_kr2: "\uD53C\uBC84 \uC9C0\uC18D\uC2DC\uAC04\uC774 <color=#B66418>{0}\uCD08</color>
+      \uC99D\uAC00"
+    localize_value_en: Fever Time Increase
+    localize_value_en2: Increases fever time for <color=#B66418>{0}sec</color>.
+    localize_value_ja: "\u30D5\u30A3\u30FC\u30D0\u30FC\u52B9\u679C\u6642\u9593\u5897\u52A0"
+    localize_value_ja2: "\u30D5\u30A3\u30FC\u30D0\u30FC\u306E\u52B9\u679C\u6642\u9593\u304C
+      <color=#B66418>{0}\u79D2</color> \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u72C2\u71B1\u6548\u679C\u6642\u9593"
+    localize_value_tc2: "\u72C2\u71B1\u6548\u679C\u6301\u7E8C\u6642\u9593\u589E\u52A0
+      <color=#B66418>{0}\u79D2</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u72C2\u70ED\u6548\u679C\u65F6\u95F4"
+    localize_value_sc2: "\u72C2\u70ED\u6548\u679C\u6301\u7EED\u65F6\u95F4\u589E\u52A0
+      <color=#B66418>{0}\u79D2</color>\u3002\r"
+  - key_index: 96
+    localize_value_kr: "\uD53C\uBC84 \uB300\uAE30\uC2DC\uAC04 \uAC10\uC18C"
+    localize_value_kr2: "\uD53C\uBC84 \uB300\uAE30\uC2DC\uAC04\uC774 <color=#B66418>{0}\uCD08</color>
+      \uAC10\uC18C"
+    localize_value_en: Fever Cooldown Decrease
+    localize_value_en2: Decreases fever cooldown for <color=#B66418>{0}sec</color>.
+    localize_value_ja: "\u30D5\u30A3\u30FC\u30D0\u30FC\u5F85\u6A5F\u6642\u9593\u6E1B\u5C11"
+    localize_value_ja2: "\u30D5\u30A3\u30FC\u30D0\u30FC\u306E\u5F85\u6A5F\u6642\u9593\u304C
+      <color=#B66418>{0}\u79D2</color> \u6E1B\u5C11"
+    localize_value_tc: "\u6E1B\u5C11\u72C2\u71B1\u51B7\u537B\u6642\u9593"
+    localize_value_tc2: "\u72C2\u71B1\u51B7\u537B\u6642\u9593\u6E1B\u5C11 <color=#B66418>{0}\u79D2</color>
+      \u3002"
+    localize_value_sc: "\u51CF\u5C11\u72C2\u70ED\u51B7\u5374\u65F6\u95F4"
+    localize_value_sc2: "\u72C2\u70ED\u51B7\u5374\u65F6\u95F4\u51CF\u5C11 <color=#B66418>{0}\u79D2</color>
+      \u3002\r"
+  - key_index: 97
+    localize_value_kr: "\uD53C\uBC84 \uC624\uBC84\uCC28\uC9C0"
+    localize_value_kr2: "\uBCF4\uC720 \uD53C\uBC84\uC758 \uAC1C\uC218\uAC00 <color=#B66418>{0}\uAC1C</color>
+      \uC99D\uAC00"
+    localize_value_en: Fever Overcharge
+    localize_value_en2: Increases amount of holdable fever by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u30D5\u30A3\u30FC\u30D0\u30FC\u30AA\u30FC\u30D0\u30FC\u30C1\u30E3\u30FC\u30B8"
+    localize_value_ja2: "\u4FDD\u6709\u3067\u304D\u308B\u30D5\u30A3\u30FC\u30D0\u30FC\u306E\u4E0A\u9650\u6570\u304C
+      <color=#B66418>{0}\u500B</color> \u5897\u52A0"
+    localize_value_tc: "\u8D85\u8D8A\u72C2\u71B1"
+    localize_value_tc2: "\u64C1\u6709\u72C2\u71B1\u6578\u589E\u52A0<color=#B66418>{0}\u500B</color>
+      \u3002"
+    localize_value_sc: "\u8D85\u8D8A\u72C2\u70ED"
+    localize_value_sc2: "\u62E5\u6709\u72C2\u70ED\u6570\u589E\u52A0<color=#B66418>{0}\u4E2A</color>
+      \u3002\r"
+  - key_index: 98
+    localize_value_kr: "\uC790\uB3D9 \uC81C\uC791"
+    localize_value_kr2: "(\uC790\uB3D9)10\uCD08\uC5D0 <color=#B66418>{0:N1}\uBC88</color>
+      \uD654\uC0B4\uC744 \uC81C\uC791"
+    localize_value_en: Auto Production
+    localize_value_en2: (Auto) Produces arrows <color=#B66418>{0:N1}times</color>
+      per 10sec.
+    localize_value_ja: "\u81EA\u52D5\u88FD\u4F5C"
+    localize_value_ja2: "(\u81EA\u52D5)10\u79D2\u3054\u3068\u306B <color=#B66418>{0:N1}\u56DE</color>
+      \u77E2\u3092\u5236\u4F5C"
+    localize_value_tc: "\u81EA\u52D5\u88FD\u4F5C"
+    localize_value_tc2: "(\u81EA\u52D5)10\u79D2\u5167\u88FD\u4F5C<color=#B66418>{0:N1}\u6B21</color>\u7BAD\u77E2"
+    localize_value_sc: "\u81EA\u52A8\u5236\u4F5C"
+    localize_value_sc2: "(\u81EA\u52A8)10\u79D2\u5185\u5236\u4F5C<color=#B66418>{0:N1}\u6B21</color>\u7BAD\u77E2\r"
+  - key_index: 99
+    localize_value_kr: "\uC790\uB3D9 \uBA38\uC9C0"
+    localize_value_kr2: "(\uC790\uB3D9)10\uCD08\uC5D0 <color=#B66418>{0:N1}\uBC88</color>
+      \uD654\uC0B4\uC744 \uACB0\uD569"
+    localize_value_en: Auto Merge
+    localize_value_en2: (Auto) Merges arrows <color=#B66418>{0:N1}times</color> per
+      10sec.
+    localize_value_ja: "\u81EA\u52D5\u7D50\u5408"
+    localize_value_ja2: "(\u81EA\u52D5)10\u79D2\u3054\u3068\u306B <color=#B66418>{0:N1}\u56DE</color>
+      \u77E2\u3092\u7D50\u5408"
+    localize_value_tc: "\u81EA\u52D5\u5408\u4F75"
+    localize_value_tc2: "(\u81EA\u52D5)10\u79D2\u5167\u5408\u4F75<color=#B66418>{0:N1}\u6B21</color>\u7BAD\u77E2"
+    localize_value_sc: "\u81EA\u52A8\u5408\u5E76"
+    localize_value_sc2: "(\u81EA\u52A8)10\u79D2\u5185\u5408\u5E76<color=#B66418>{0:N1}\u6B21</color>\u7BAD\u77E2\r"
+  - key_index: 100
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 \uB808\uBCA8 \uC99D\uAC00"
+    localize_value_kr2: "\uC81C\uC791\uB41C \uD654\uC0B4\uC758 \uB808\uBCA8 <color=#B66418>{0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Produced Arrow Lv. Increase
+    localize_value_en2: Increases Lv. of produced arrows by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u5236\u4F5C\u3059\u308B\u77E2\u306E\u30EC\u30D9\u30EB\u5897\u52A0"
+    localize_value_ja2: "\u5236\u4F5C\u3055\u308C\u305F\u77E2\u306E\u30EC\u30D9\u30EB\u304C
+      <color=#B66418>{0}</color> \u5897\u52A0"
+    localize_value_tc: "\u63D0\u9AD8\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A"
+    localize_value_tc2: "\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A\u63D0\u5347 <color=#B66418>{0}</color>
+      \u3002"
+    localize_value_sc: "\u63D0\u9AD8\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7"
+    localize_value_sc2: "\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7\u63D0\u5347 <color=#B66418>{0}</color>
+      \u3002\r"
+  - key_index: 101
+    localize_value_kr: "\uBAAC\uC2A4\uD130 \uC57D\uD654"
+    localize_value_kr2: "\uBAAC\uC2A4\uD130\uC758 \uCCB4\uB825\uC774 <color=#B66418>{0:P0}</color>
+      \uAC10\uC18C"
+    localize_value_en: Weakened Monster
+    localize_value_en2: Decreases HP of monsters by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u30E2\u30F3\u30B9\u30BF\u30FC\u5F31\u5316"
+    localize_value_ja2: "\u30E2\u30F3\u30B9\u30BF\u30FC\u306E\u4F53\u529B\u304C <color=#B66418>{0:P0}</color>
+      \u6E1B\u5C11"
+    localize_value_tc: "\u5F31\u5316\u602A\u7269"
+    localize_value_tc2: "\u602A\u7269\u9AD4\u529B\u6E1B\u5C11<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u5F31\u5316\u602A\u7269"
+    localize_value_sc2: "\u602A\u7269\u4F53\u529B\u51CF\u5C11<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 102
+    localize_value_kr: "\uBE60\uB978 \uC2DC\uC791"
+    localize_value_kr2: "\uD658\uC0DD \uC774\uD6C4 \uB9C8\uC9C0\uB9C9 \uC2A4\uD14C\uC774\uC9C0\uC758
+      <color=#B66418>{0:P0}</color>\uB9CC\uD07C \uC2A4\uD0B5"
+    localize_value_en: Speedy Restart
+    localize_value_en2: Skips stage <color=#B66418>{0:P0}</color> of last stage after
+      rebirth.
+    localize_value_ja: "\u7D20\u65E9\u3044\u3084\u308A\u76F4\u3057"
+    localize_value_ja2: "\u8EE2\u751F\u3057\u305F\u5F8C\u3001\u6700\u5F8C\u306E\u30B9\u30C6\u30FC\u30B8\u306E
+      <color=#B66418>{0:P0}</color>\u306E\u5206\u3001\u30B9\u30AD\u30C3\u30D7"
+    localize_value_tc: "\u5FEB\u901F\u958B\u59CB"
+    localize_value_tc2: "\u91CD\u751F\u5F8C\u8DF3\u904E\u6700\u5F8C\u4E00\u500B\u95DC\u5361\u7684
+      <color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u5FEB\u901F\u5F00\u59CB"
+    localize_value_sc2: "\u91CD\u751F\u540E\u8DF3\u8FC7\u6700\u540E\u4E00\u4E2A\u5173\u5361\u7684
+      <color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 103
+    localize_value_kr: "\uC2DC\uC791 \uACE8\uB4DC\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uD658\uC0DD \uD6C4 <color=#B66418>{0:N0}</color>\uACE8\uB4DC\uB97C
+      \uC18C\uC9C0\uD55C \uCC44\uB85C \uAC8C\uC784\uC744 \uC2DC\uC791"
+    localize_value_en: Start Gold Increase
+    localize_value_en2: Restart a game with <color=#B66418>{0:N0}</color> golds after
+      rebirth.
+    localize_value_ja: "\u6700\u521D\u306E\u30B4\u30FC\u30EB\u30C9\u5897\u52A0"
+    localize_value_ja2: "\u8EE2\u751F\u3057\u305F\u5F8C\u3001 <color=#B66418>{0:N0}</color>\u30B4\u30FC\u30EB\u30C9\u3092\u6301\u3063\u305F\u307E\u307E\u30B2\u30FC\u30E0\u3092\u958B\u59CB"
+    localize_value_tc: "\u589E\u52A0\u521D\u59CB\u91D1\u5E63\u91CF"
+    localize_value_tc2: "\u91CD\u751F\u5F8C\uFF0C\u4FDD\u6709<color=#B66418>{0:N0}</color>\u91D1\u5E63\u3002"
+    localize_value_sc: "\u589E\u52A0\u521D\u59CB\u91D1\u5E01\u91CF"
+    localize_value_sc2: "\u91CD\u751F\u540E\uFF0C\u4FDD\u6709<color=#B66418>{0:N0}</color>\u91D1\u5E01\u3002\r"
+  - key_index: 104
+    localize_value_kr: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9\uC774 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Rebirth Stone Income Increase
+    localize_value_en2: Increases rebirth stone income by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u8EE2\u751F\u77F3\u7372\u53D6\u91CF\u5897\u52A0"
+    localize_value_ja2: "\u8EE2\u751F\u77F3\u306E\u7372\u53D6\u91CF\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u91CD\u751F\u77F3\u7372\u53D6\u91CF"
+    localize_value_tc2: "\u91CD\u751F\u77F3\u7372\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u589E\u52A0\u91CD\u751F\u77F3\u83B7\u53D6\u91CF"
+    localize_value_sc2: "\u91CD\u751F\u77F3\u83B7\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 105
+    localize_value_kr: "\uD2F0\uC5B4 \uACBD\uD5D8\uCE58\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uC911\uBCF5 \uC544\uCCD0 \uC18C\uD658\uC2DC \uD68D\uB4DD
+      \uACBD\uD5D8\uCE58\uB7C9\uC774 <color=#B66418>{0}</color> \uC99D\uAC00 -> \uACBD\uD5D8\uCE58\uB7C9=\uD68D\uB4DD
+      \uACBD\uD5D8\uCE58?"
+    localize_value_en: Tier EXP Increase
+    localize_value_en2: Increases EXP by <color=#B66418>{0}</color> when same archer
+      is summoned.
+    localize_value_ja: "\u30C6\u30A3\u30A2\u7D4C\u9A13\u5024\u5897\u52A0"
+    localize_value_ja2: "\u91CD\u8907\u3057\u305F\u30A2\u30FC\u30C1\u30E3\u30FC\u3092\u53EC\u559A\u3057\u305F\u5834\u5408\u3001\u7372\u5F97\u3059\u308B\u7D4C\u9A13\u5024\u304C
+      <color=#B66418>{0}</color>  \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u661F\u7D1A\u7D93\u9A57\u503C"
+    localize_value_tc2: "\u53EC\u559A\u91CD\u8907\u7684\u5F13\u7BAD\u624B\u6642\uFF0C\u7372\u5F97\u7684\u7D93\u9A57\u503C\u589E\u52A0
+      <color=#B66418>{0}</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u661F\u7EA7\u7ECF\u9A8C\u503C"
+    localize_value_sc2: "\u53EC\u5524\u91CD\u590D\u7684\u5F13\u7BAD\u624B\u65F6\uFF0C\u83B7\u5F97\u7684\u7ECF\u9A8C\u503C\u589E\u52A0
+      <color=#B66418>{0}</color>\u3002\r"
+  - key_index: 106
+    localize_value_kr: "\uAC8C\uC784 \uC18D\uB3C4 \uC99D\uAC00"
+    localize_value_kr2: "\uAC8C\uC784 \uC9C4\uD589 \uC18D\uB3C4\uAC00 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Game Speed Increase
+    localize_value_en2: Increases game speed by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u30B2\u30FC\u30E0\u901F\u5EA6\u5897\u52A0"
+    localize_value_ja2: "\u30B2\u30FC\u30E0\u306E\u9032\u884C\u901F\u5EA6\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u63D0\u9AD8\u904A\u6232\u901F\u5EA6"
+    localize_value_tc2: "\u904A\u6232\u9032\u884C\u901F\u5EA6\u63D0\u9AD8 <color=#B66418>{0:P0}</color>\u3002 "
+    localize_value_sc: "\u63D0\u9AD8\u6E38\u620F\u901F\u5EA6"
+    localize_value_sc2: "\u6E38\u620F\u8FDB\u884C\u901F\u5EA6\u63D0\u9AD8 <color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 107
+    localize_value_kr: "\uC2A4\uD14C\uC774\uC9C0 \uC2A4\uD0B5"
+    localize_value_kr2: "\uC2A4\uD14C\uC774\uC9C0 \uD074\uB9AC\uC5B4\uC2DC <color=#B66418>{0:P0}</color>
+      \uD655\uB960\uB85C \uC2A4\uD14C\uC774\uC9C0\uB97C \uC2A4\uD0B5"
+    localize_value_en: Stage Skip
+    localize_value_en2: <color=#B66418>{0:P0}</color> chance of stage skip after
+      clearing a stage.
+    localize_value_ja: "\u30B9\u30C6\u30FC\u30B8\u30B9\u30AD\u30C3\u30D7"
+    localize_value_ja2: "\u30B9\u30C6\u30FC\u30B8\u30AF\u30EA\u30A2\u306E\u969B <color=#B66418>{0:P0}</color>
+      \u78BA\u7387\u3067\u30B9\u30C6\u30FC\u30B8\u3092\u30B9\u30AD\u30C3\u30D7"
+    localize_value_tc: "\u8DF3\u904E\u95DC\u5361"
+    localize_value_tc2: "\u901A\u95DC\u6642\uFF0C\u4EE5 <color=#B66418>{0:P0}</color>
+      \u7684\u6A5F\u7387\u8DF3\u904E\u95DC\u5361\u3002"
+    localize_value_sc: "\u8DF3\u8FC7\u5173\u5361"
+    localize_value_sc2: "\u901A\u5173\u65F6\uFF0C\u4EE5 <color=#B66418>{0:P0}</color>
+      \u7684\u673A\u7387\u8DF3\u8FC7\u5173\u5361\u3002\r"
+  - key_index: 108
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 109
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 110
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 111
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 112
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 113
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 114
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 115
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 116
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 117
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 118
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 119
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 120
+    localize_value_kr: "\uAE30\uBCF8 \uACF5\uACA9\uB825"
+    localize_value_kr2: "\uAE30\uBCF8 \uACF5\uACA9\uB825\uC774 <color=#B66418>{0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Basic ATK
+    localize_value_en2: Increases basic ATK by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u57FA\u672C\u653B\u6483\u529B"
+    localize_value_ja2: "\u57FA\u672C\u653B\u6483\u529B\u304C <color=#B66418>{0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u57FA\u672C\u653B\u64CA\u529B"
+    localize_value_tc2: "\u57FA\u672C\u653B\u64CA\u529B\u589E\u52A0<color=#B66418>{0}</color>
+      \u3002"
+    localize_value_sc: "\u57FA\u672C\u653B\u51FB\u529B"
+    localize_value_sc2: "\u57FA\u672C\u653B\u51FB\u529B\u589E\u52A0<color=#B66418>{0}</color>
+      \u3002\r"
+  - key_index: 121
+    localize_value_kr: "\uACF5\uACA9\uC18D\uB3C4"
+    localize_value_kr2: "\uACF5\uACA9\uC18D\uB3C4\uAC00 <color=#B66418>{0}</color>
+      \uC99D\uAC00"
+    localize_value_en: ASPD
+    localize_value_en2: Increases ASPD by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6"
+    localize_value_ja2: "\u653B\u6483\u901F\u5EA6\u304C <color=#B66418>{0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u653B\u901F"
+    localize_value_tc2: "\u57FA\u672C\u653B\u901F\u63D0\u9AD8 <color=#B66418>{0}</color>
+      \u3002"
+    localize_value_sc: "\u653B\u901F"
+    localize_value_sc2: "\u57FA\u672C\u653B\u901F\u63D0\u9AD8 <color=#B66418>{0}</color>
+      \u3002\r"
+  - key_index: 122
+    localize_value_kr: "\uCE58\uBA85\uD0C0\uD655\uB960"
+    localize_value_kr2: "\uCE58\uBA85\uD0C0\uD655\uB960\uC774 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: CRT Rate
+    localize_value_en2: Increases CRT Rate by <color=#B66418>{0:P0}</color>
+    localize_value_ja: "\u81F4\u547D\u6253\u78BA\u7387"
+    localize_value_ja2: "\u81F4\u547D\u6253\u78BA\u7387\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u7387"
+    localize_value_tc2: "\u81F4\u547D\u4E00\u64CA\u7387\u589E\u52A0<color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u7387"
+    localize_value_sc2: "\u81F4\u547D\u4E00\u51FB\u7387\u589E\u52A0<color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 123
+    localize_value_kr: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    localize_value_kr2: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0\uAC00 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: CRT DMG
+    localize_value_en2: Increases CRT DMG by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8"
+    localize_value_ja2: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3"
+    localize_value_tc2: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3"
+    localize_value_sc2: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 124
+    localize_value_kr: "\uBC88\uAC1C \uACF5\uACA9\uB825"
+    localize_value_kr2: "\uBC88\uAC1C \uB370\uBBF8\uC9C0\uAC00 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Lightning DMG
+    localize_value_en2: Increases Lightning DMG by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u96F7\u306E\u653B\u6483\u529B"
+    localize_value_ja2: "\u96F7\u306E\u30C0\u30E1\u30FC\u30B8\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u96F7\u64CA\u653B\u64CA\u529B"
+    localize_value_tc2: "\u96F7\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u96F7\u51FB\u653B\u51FB\u529B"
+    localize_value_sc2: "\u96F7\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 125
+    localize_value_kr: "\uC790\uB3D9 \uBC88\uAC1C \uACF5\uACA9"
+    localize_value_kr2: "\uBC88\uAC1C\uAC00 10\uCD08\uB9C8\uB2E4 <color=#B66418>{0:N1}\uBC88</color>
+      \uC790\uB3D9 \uACF5\uACA9"
+    localize_value_en: Auto Lightning Bolt
+    localize_value_en2: (Auto) Lightning attacks <color=#B66418>{0:N1}times</color>
+      per 10sec.
+    localize_value_ja: "\u81EA\u52D5\u96F7\u653B\u6483"
+    localize_value_ja2: "10\u79D2\u3054\u3068\u306B <color=#B66418>{0:N1}\u56DE</color>
+      \u96F7\u3067\u653B\u6483"
+    localize_value_tc: "\u81EA\u52D5\u96F7\u64CA"
+    localize_value_tc2: "\u6BCF\u5341\u79D2\u81EA\u52D5\u96F7\u64CA <color=#B66418>{0:N1}\u6B21</color>\u3002"
+    localize_value_sc: "\u81EA\u52A8\u96F7\u51FB"
+    localize_value_sc2: "\u6BCF\u5341\u79D2\u81EA\u52A8\u96F7\u51FB <color=#B66418>{0:N1}\u6B21</color>\u3002\r"
+  - key_index: 126
+    localize_value_kr: "\uC6B8\uD0C0\uB9AC \uAC15\uD654"
+    localize_value_kr2: "\uC6B8\uD0C0\uB9AC \uCCB4\uB825\uC744 <color=#B66418>{0:N0}</color>
+      \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
+    localize_value_en: Fence Upgrade
+    localize_value_en2: Increases fence HP by <color=#B66418>{0:N0}</color>.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u5F37\u5316"
+    localize_value_ja2: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u3092 <color=#B66418>{0:N0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u5F37\u5316\u570D\u58BB"
+    localize_value_tc2: "\u570D\u58BB\u9AD4\u529B\u589E\u52A0<color=#B66418>{0:N0}</color>
+      \u3002"
+    localize_value_sc: "\u5F3A\u5316\u56F4\u5899"
+    localize_value_sc2: "\u56F4\u5899\u4F53\u529B\u589E\u52A0<color=#B66418>{0:N0}</color>
+      \u3002\r"
+  - key_index: 127
+    localize_value_kr: "\uC6B8\uD0C0\uB9AC \uCE58\uC720"
+    localize_value_kr2: "\uC6B8\uD0C0\uB9AC \uCCB4\uB825\uC744 1\uBD84\uC5D0 <color=#B66418>{0:N1}</color>
+      \uD68C\uBCF5\uC2DC\uD0A8\uB2E4"
+    localize_value_en: Fence Recovery
+    localize_value_en2: Recovers fence HP by <color=#B66418>{0:N1}</color> per 60sec.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u56DE\u5FA9"
+    localize_value_ja2: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u309260\u79D2\u3054\u3068\u306B
+      <color=#B66418>{0:N1}</color> \u56DE\u5FA9"
+    localize_value_tc: "\u6CBB\u6108\u570D\u58BB"
+    localize_value_tc2: "\u570D\u58BB\u9AD4\u529B\u6BCF\u5206\u9418\u56DE\u5FA9<color=#B66418>{0:N1}</color>\u3002"
+    localize_value_sc: "\u6CBB\u6108\u56F4\u5899"
+    localize_value_sc2: "\u56F4\u5899\u4F53\u529B\u6BCF\u5206\u949F\u6062\u590D<color=#B66418>{0:N1}</color>\u3002\r"
+  - key_index: 128
+    localize_value_kr: "\uACE8\uB4DC\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9\uC774 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Gold Income Increase
+    localize_value_en2: Increases gold income by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u5897\u52A0"
+    localize_value_ja2: "\u30B4\u30FC\u30EB\u30C9\u7372\u53D6\u91CF\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u91D1\u5E63\u7372\u53D6\u91CF"
+    localize_value_tc2: "\u91D1\u5E63\u7372\u53D6\u91CF\u589E\u52A0<color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u91D1\u5E01\u83B7\u53D6\u91CF"
+    localize_value_sc2: "\u91D1\u5E01\u83B7\u53D6\u91CF\u589E\u52A0<color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 129
+    localize_value_kr: "\uACE8\uB4DC 2\uBC30 \uD68D\uB4DD"
+    localize_value_kr2: "<color=#B66418>{0:P0}</color> \uD655\uB960\uB85C 2\uBC30\uC758
+      \uACE8\uB4DC\uB97C \uD68D\uB4DD"
+    localize_value_en: Double Gold Income
+    localize_value_en2: <color=#B66418>{0:P0}</color> chance of double gold income.
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C92\u500D\u7372\u5F97"
+    localize_value_ja2: "<color=#B66418>{0:P0}</color> \u306E\u78BA\u7387\u3067\u30B4\u30FC\u30EB\u30C9\u30922\u500D\u7372\u5F97"
+    localize_value_tc: "\u7372\u53D6\u5169\u500D\u91D1\u5E63"
+    localize_value_tc2: "\u4EE5<color=#B66418>{0:P0}</color>\u6A5F\u7387\u7372\u5F97\u5169\u500D\u91D1\u5E63\u3002"
+    localize_value_sc: "\u83B7\u53D6\u4E24\u500D\u91D1\u5E01"
+    localize_value_sc2: "\u4EE5<color=#B66418>{0:P0}</color>\u673A\u7387\u83B7\u5F97\u4E24\u500D\u91D1\u5E01\u3002\r"
+  - key_index: 130
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 131
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 132
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 133
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 134
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 135
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 136
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 137
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 138
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 139
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 140
+    localize_value_kr: "\uC804\uCCB4 \uCE58\uBA85\uD0C0 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_kr2: "\uBAA8\uB4E0 \uC544\uCC98\uC758 \uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0\uAC00
+      <color=#B66418>{0:P0}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: All CRT DMG Increase
+    localize_value_en2: Increases CRT DMG of all teammates by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u5168\u4F53\u306E\u81F4\u547D\u6253\u78BA\u7387\u5897\u52A0"
+    localize_value_ja2: "\u5168\u3066\u306E\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u81F4\u547D\u6253\u78BA\u7387\u304C<color=#B66418>{0:P0}</color>
+      \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u7E3D\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3"
+    localize_value_tc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u589E\u52A0\u603B\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3"
+    localize_value_sc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 141
+    localize_value_kr: "\uAC1C\uC778 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_kr2: "\uC544\uCC98 \uC790\uC2E0\uC758 \uACF5\uACA9\uB825\uC774
+      <color=#B66418>{0:N0}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Individual ATK Increase
+    localize_value_en2: Increases ATK of archer itself by <color=#B66418>{0:N0}</color>.
+    localize_value_ja: "\u500B\u4EBA\u306E\u653B\u6483\u529B\u5897\u52A0"
+    localize_value_ja2: "\u30A2\u30FC\u30C1\u30E3\u30FC\u81EA\u8EAB\u306E\u653B\u6483\u529B\u304C
+      <color=#B66418>{0:N0}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u500B\u4EBA\u653B\u64CA\u529B"
+    localize_value_tc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u653B\u64CA\u529B\u589E\u52A0
+      <color=#B66418>{0:N0}</color> \u3002"
+    localize_value_sc: "\u589E\u52A0\u4E2A\u4EBA\u653B\u51FB\u529B"
+    localize_value_sc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u653B\u51FB\u529B\u589E\u52A0
+      <color=#B66418>{0:N0}</color> \u3002\r"
+  - key_index: 142
+    localize_value_kr: "\uAC1C\uC778 \uACF5\uACA9\uC18D\uB3C4 \uC99D\uAC00"
+    localize_value_kr2: "\uC544\uCC98 \uC790\uC2E0\uC758 \uACF5\uACA9\uC18D\uB3C4\uAC00
+      <color=#B66418>{0:P0}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Individual ASPD Increase
+    localize_value_en2: Increases ASPD of archer itself by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u500B\u4EBA\u306E\u653B\u6483\u901F\u5EA6\u5897\u52A0"
+    localize_value_ja2: "\u30A2\u30FC\u30C1\u30E3\u30FC\u81EA\u8EAB\u306E\u653B\u6483\u901F\u5EA6\u304C
+      <color=#B66418>{0:P0}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u63D0\u9AD8\u500B\u4EBA\u653B\u901F"
+    localize_value_tc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u653B\u901F\u63D0\u9AD8<color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u63D0\u9AD8\u4E2A\u4EBA\u653B\u901F"
+    localize_value_sc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u653B\u901F\u63D0\u9AD8<color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 143
+    localize_value_kr: "\uAC1C\uC778 \uCE58\uBA85\uD0C0\uD655\uB960 \uC99D\uAC00"
+    localize_value_kr2: "\uC544\uCC98 \uC790\uC2E0\uC758 \uCE58\uBA85\uD0C0\uD655\uB960\uC774
+      <color=#B66418>{0:P0}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Individual CRT Rate Increase
+    localize_value_en2: Increases CRT rate of archer itself by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u500B\u4EBA\u306E\u81F4\u547D\u6253\u78BA\u7387\u5897\u52A0"
+    localize_value_ja2: "\u30A2\u30FC\u30C1\u30E3\u30FC\u81EA\u8EAB\u306E\u81F4\u547D\u6253\u78BA\u7387\u304C
+      <color=#B66418>{0:P0}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u500B\u4EBA\u81F4\u547D\u4E00\u64CA\u7387"
+    localize_value_tc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u81F4\u547D\u4E00\u64CA\u7387\u589E\u52A0<color=#B66418>{0:P0}</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u4E2A\u4EBA\u81F4\u547D\u4E00\u51FB\u7387"
+    localize_value_sc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u81F4\u547D\u4E00\u51FB\u7387\u589E\u52A0<color=#B66418>{0:P0}</color>\u3002\r"
+  - key_index: 144
+    localize_value_kr: "\uAC1C\uC778 \uCE58\uBA85\uD0C0 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_kr2: "\uC544\uCC98 \uC790\uC2E0\uC758 \uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0\uAC00
+      <color=#B66418>{0:P0}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Individual CRT DMG Increase
+    localize_value_en2: Increases CRT DMG of archer itself by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u500B\u4EBA\u306E\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8\u5897\u52A0"
+    localize_value_ja2: "\u30A2\u30FC\u30C1\u30E3\u30FC\u81EA\u8EAB\u306E\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8\u304C
+      <color=#B66418>{0:P0}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u500B\u4EBA\u81F4\u547D\u4E00\u64CA\u653B\u64CA\u529B"
+    localize_value_tc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u589E\u52A0\u4E2A\u4EBA\u81F4\u547D\u4E00\u51FB\u653B\u51FB\u529B"
+    localize_value_sc2: "\u5F13\u7BAD\u624B\u81EA\u5DF1\u7684\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+  - key_index: 146
+    localize_value_kr: "\uBC88\uAC1C \uC790\uB3D9 \uACF5\uACA9"
+    localize_value_kr2: "\uBC88\uAC1C\uAC00 10\uCD08\uC5D0 <color=#B66418>{0:N1}\uBC88</color>
+      \uC790\uB3D9 \uACF5\uACA9\uD55C\uB2E4."
+    localize_value_en: Auto Lightning Bolt
+    localize_value_en2: (Auto) Lightning attacks <color=#B66418>{0:N1}times</color>
+      per 10sec.
+    localize_value_ja: "\u96F7\u81EA\u52D5\u653B\u6483"
+    localize_value_ja2: "10\u79D2\u3054\u3068\u306B <color=#B66418>{0:N1}\u56DE</color>
+      \u96F7\u3067\u81EA\u52D5\u7684\u306B\u653B\u6483\u3059\u308B\u3002"
+    localize_value_tc: "\u81EA\u52D5\u96F7\u64CA"
+    localize_value_tc2: "\u6BCF\u5341\u79D2\u81EA\u52D5\u96F7\u64CA<color=#B66418>{0:N1}\u6B21</color>\u3002"
+    localize_value_sc: "\u81EA\u52A8\u96F7\u51FB"
+    localize_value_sc2: "\u6BCF\u5341\u79D2\u81EA\u52A8\u96F7\u51FB<color=#B66418>{0:N1}\u6B21</color>\u3002\r"
+  - key_index: 147
+    localize_value_kr: "\uBAAC\uC2A4\uD130 \uC57D\uD654"
+    localize_value_kr2: "\uBAAC\uC2A4\uD130\uC758 \uCCB4\uB825\uC774 <color=#B66418>{0:P1}</color>
+      \uAC10\uC18C\uD55C\uB2E4."
+    localize_value_en: Weakened Monster
+    localize_value_en2: Decreases HP of monsters by <color=#B66418>{0:P1}</color>.
+    localize_value_ja: "\u30E2\u30F3\u30B9\u30BF\u30FC\u5F31\u5316"
+    localize_value_ja2: "\u30E2\u30F3\u30B9\u30BF\u30FC\u306E\u4F53\u529B\u304C <color=#B66418>{0:P1}</color>
+      \u6E1B\u5C11\u3059\u308B\u3002"
+    localize_value_tc: "\u5F31\u5316\u602A\u7269"
+    localize_value_tc2: "\u602A\u7269\u9AD4\u529B\u6E1B\u5C11<color=#B66418>{0:P1}</color>
+      \u3002"
+    localize_value_sc: "\u5F31\u5316\u602A\u7269"
+    localize_value_sc2: "\u602A\u7269\u4F53\u529B\u51CF\u5C11<color=#B66418>{0:P1}</color>
+      \u3002\r"
+  - key_index: 148
+    localize_value_kr: "\uAC15\uB825\uD55C \uD55C\uBC29"
+    localize_value_kr2: "5% \uD655\uB960\uB85C <color=#B66418>{0:N0}\uBC30</color>
+      \uB370\uBBF8\uC9C0\uC758 \uD654\uC0B4\uC744 \uBC1C\uC0AC\uD55C\uB2E4."
+    localize_value_en: A Powerful Shot
+    localize_value_en2: 5% chance of shooting a powerful shot and inflicts <color=#B66418>{0:N0}times</color>
+      of DMG.
+    localize_value_ja: "\u5F37\u529B\u306A\u4E00\u767A"
+    localize_value_ja2: "5%\u306E\u78BA\u7387\u3067<color=#B66418>{0:N0}\u500D</color>
+      \u306E\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u77E2\u3092\u5C04\u308B\u3002"
+    localize_value_tc: "\u5F37\u529B\u7684\u4E00\u64CA"
+    localize_value_tc2: "\u4EE55%\u7684\u5E7E\u7387\u5C04\u51FA\u65BD\u52A0<color=#B66418>{0:N0}\u500D</color>
+      \u50B7\u5BB3\u7684\u7BAD\u77E2\u3002"
+    localize_value_sc: "\u5F3A\u529B\u7684\u4E00\u51FB"
+    localize_value_sc2: "\u4EE55%\u7684\u673A\u7387\u5C04\u51FA\u65BD\u52A0<color=#B66418>{0:N0}\u500D</color>
+      \u4F24\u5BB3\u7684\u7BAD\u77E2\u3002\r"
+  - key_index: 149
+    localize_value_kr: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9\uC774 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Rebirth Stone Income Increase
+    localize_value_en2: Increases rebirth stone income by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u8EE2\u751F\u77F3\u7372\u53D6\u91CF\u5897\u52A0"
+    localize_value_ja2: "\u8EE2\u751F\u77F3\u306E\u7372\u53D6\u91CF\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u91CD\u751F\u77F3\u7372\u53D6\u91CF\u589E\u52A0"
+    localize_value_tc2: "\u91CD\u751F\u77F3\u7372\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u91CD\u751F\u77F3\u83B7\u53D6\u91CF\u589E\u52A0"
+    localize_value_sc2: "\u91CD\u751F\u77F3\u83B7\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 150
+    localize_value_kr: "\uBCF4\uC2A4 \uCD94\uAC00 \uB370\uBBF8\uC9C0"
+    localize_value_kr2: "\uBCF4\uC2A4\uC5D0\uAC8C <color=#B66418>{0:P0}</color>\uC758
+      \uCD94\uAC00 \uB370\uBBF8\uC9C0\uB97C \uC900\uB2E4."
+    localize_value_en: Boss Damage
+    localize_value_en2: Inflicts <color=#B66418>{0:P0}</color> DMG to Boss monster.
+    localize_value_ja: "\u30DC\u30B9\u8FFD\u52A0\u30C0\u30E1\u30FC\u30B8"
+    localize_value_ja2: "\u30DC\u30B9\u306B <color=#B66418>{0:P0}</color>\u306E\u8FFD\u52A0\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u3002"
+    localize_value_tc: "BOSS\u984D\u5916\u50B7\u5BB3"
+    localize_value_tc2: "\u5C0DBOSS \u65BD\u52A0<color=#B66418>{0:P0}</color>\u7684\u984D\u5916\u50B7\u5BB3\u3002"
+    localize_value_sc: "BOSS\u989D\u5916\u4F24\u5BB3"
+    localize_value_sc2: "\u5BF9BOSS \u65BD\u52A0<color=#B66418>{0:P0}</color>\u7684\u989D\u5916\u4F24\u5BB3\u3002\r"
+  - key_index: 151
+    localize_value_kr: "\uB2F4\uC7A5 \uCCB4\uB825\uD68C\uBCF5"
+    localize_value_kr2: "60\uCD08\uB9C8\uB2E4 <color=#B66418>{0:N0}</color>\uC758
+      \uCCB4\uB825\uC744 \uD68C\uBCF5\uD55C\uB2E4."
+    localize_value_en: Fence HP Recovery
+    localize_value_en2: Recovers fence HP for <color=#B66418>{0:N0}</color> per 60sec.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u56DE\u5FA9"
+    localize_value_ja2: "60\u79D2\u3054\u3068\u306B <color=#B66418>{0:N0}</color>\u306E\u4F53\u529B\u3092\u56DE\u5FA9\u3059\u308B\u3002"
+    localize_value_tc: "\u570D\u58BB\u9AD4\u529B\u56DE\u5FA9"
+    localize_value_tc2: "\u6BCF60\u79D2\u56DE\u5FA9 <color=#B66418>{0:N0}</color>\u7684\u9AD4\u529B\u3002"
+    localize_value_sc: "\u56F4\u5899\u4F53\u529B\u6062\u590D"
+    localize_value_sc2: "\u6BCF60\u79D2\u6062\u590D <color=#B66418>{0:N0}</color>\u7684\u4F53\u529B\u3002\r"
+  - key_index: 152
+    localize_value_kr: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 \uC99D\uAC00"
+    localize_value_kr2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9\uC774 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Gold Income Increase
+    localize_value_en2: Increases gold income by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u7372\u53D6\u91CF\u5897\u52A0"
+    localize_value_ja2: "\u30B4\u30FC\u30EB\u30C9\u7372\u53D6\u91CF\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u91D1\u5E63\u7372\u53D6\u91CF"
+    localize_value_tc2: "\u91D1\u5E63\u7372\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u589E\u52A0\u91D1\u5E01\u83B7\u53D6\u91CF"
+    localize_value_sc2: "\u91D1\u5E01\u83B7\u53D6\u91CF\u589E\u52A0 <color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 153
+    localize_value_kr: "\uC804\uCCB4 \uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_kr2: "\uBAA8\uB4E0 \uC544\uCC98\uC758 \uACF5\uACA9\uB825\uC774
+      <color=#B66418>{0:P1}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: All ATK Increase
+    localize_value_en2: Increases ATK of all archers by <color=#B66418>{0:P1}</color>.
+    localize_value_ja: "\u5168\u4F53\u306E\u653B\u6483\u529B\u5897\u52A0"
+    localize_value_ja2: "\u5168\u3066\u306E\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u653B\u6483\u529B\u304C
+      <color=#B66418>{0:P1}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u7E3D\u653B\u64CA\u529B"
+    localize_value_tc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u51FB\u529B\u589E\u52A0
+      <color=#B66418>{0:P1}</color> \u3002"
+    localize_value_sc: "\u589E\u52A0\u603B\u653B\u51FB\u529B"
+    localize_value_sc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u51FB\u529B\u589E\u52A0
+      <color=#B66418>{0:P1}</color> \u3002\r"
+  - key_index: 154
+    localize_value_kr: "\uC804\uCCB4 \uACF5\uACA9\uC18D\uB3C4 \uC99D\uAC00"
+    localize_value_kr2: "\uBAA8\uB4E0 \uC544\uCC98\uC758 \uACF5\uACA9\uC18D\uB3C4\uAC00
+      <color=#B66418>{0:N2}</color> \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: All ASPD Increase
+    localize_value_en2: Increases ASPD of all archers by <color=#B66418>{0:N2}</color>.
+    localize_value_ja: "\u5168\u4F53\u306E\u653B\u6483\u901F\u5EA6\u5897\u52A0"
+    localize_value_ja2: "\u5168\u3066\u306E\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u653B\u6483\u901F\u5EA6\u304C
+      <color=#B66418>{0:N2}</color> \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u63D0\u9AD8\u7E3D\u653B\u901F"
+    localize_value_tc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u901F\u63D0\u9AD8
+      <color=#B66418>{0:N2}</color>\u3002"
+    localize_value_sc: "\u63D0\u9AD8\u603B\u653B\u901F"
+    localize_value_sc2: "\u6240\u6709\u5F13\u7BAD\u624B\u7684\u653B\u901F\u63D0\u9AD8
+      <color=#B66418>{0:N2}</color>\u3002\r"
+  - key_index: 155
+    localize_value_kr: "\uBC88\uAC1C \uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_kr2: "\uBC88\uAC1C \uB370\uBBF8\uC9C0\uAC00 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Lightning DMG Increase
+    localize_value_en2: Increases Lightning DMG by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u96F7\u306E\u653B\u6483\u529B\u5897\u52A0"
+    localize_value_ja2: "\u96F7\u306E\u30C0\u30E1\u30FC\u30B8\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u96F7\u64CA\u653B\u64CA\u529B"
+    localize_value_tc2: "\u96F7\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u589E\u52A0\u96F7\u51FB\u653B\u51FB\u529B"
+    localize_value_sc2: "\u96F7\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 156
+    localize_value_kr: "\uBC88\uAC1C \uC790\uB3D9 \uACF5\uACA9"
+    localize_value_kr2: "\uBC88\uAC1C\uAC00 10\uCD08\uC5D0 <color=#B66418>{0:N1}\uBC88</color>
+      \uC790\uB3D9 \uACF5\uACA9\uD55C\uB2E4."
+    localize_value_en: Auto Lightning Bolt
+    localize_value_en2: (Auto) Lightning attacks <color=#B66418>{0:N1}times</color>
+      per 10sec.
+    localize_value_ja: "\u96F7\u81EA\u52D5\u653B\u6483"
+    localize_value_ja2: "10\u79D2\u3054\u3068\u306B <color=#B66418>{0:N1}\u56DE</color>
+      \u96F7\u3067\u81EA\u52D5\u7684\u306B\u653B\u6483\u3059\u308B\u3002"
+    localize_value_tc: "\u81EA\u52D5\u96F7\u64CA"
+    localize_value_tc2: "\u6BCF\u5341\u79D2\u81EA\u52D5\u96F7\u64CA<color=#B66418>{0:N1}\u6B21</color>\u3002"
+    localize_value_sc: "\u81EA\u52A8\u96F7\u51FB"
+    localize_value_sc2: "\u6BCF\u5341\u79D2\u81EA\u52A8\u96F7\u51FB<color=#B66418>{0:N1}\u6B21</color>\u3002\r"
+  - key_index: 157
+    localize_value_kr: "\uBB34\uB8CC \uC81C\uC791"
+    localize_value_kr2: "\uC81C\uC791\uD560 \uB54C <color=#B66418>{0:P1}</color>\uD655\uB960\uB85C
+      \uD654\uC0B4\uC744 \uC18C\uBAA8\uD558\uC9C0 \uC54A\uB294\uB2E4."
+    localize_value_en: Free Production
+    localize_value_en2: Does not consume arrows during production with <color=#B66418>{0:P1}</color>
+      chance.
+    localize_value_ja: "\u7121\u6599\u5236\u4F5C"
+    localize_value_ja2: "\u77E2\u306E\u5236\u4F5C\u306E\u969B\u3001<color=#B66418>{0:P1}</color>\u306E\u78BA\u7387\u3067\u7121\u6599\u3067\u77E21\u672C\u3092\u5236\u4F5C\u3059\u308B\u3002"
+    localize_value_tc: "\u514D\u8CBB\u88FD\u4F5C"
+    localize_value_tc2: "\u88FD\u4F5C\u6642\u4EE5 <color=#B66418>{0:P1}</color>\u5E7E\u7387\u4E0D\u6D88\u8017\u7BAD\u77E2\u3002"
+    localize_value_sc: "\u514D\u8D39\u5236\u4F5C"
+    localize_value_sc2: "\u5236\u4F5C\u65F6\u4EE5 <color=#B66418>{0:P1}</color>\u673A\u7387\u4E0D\u6D88\u8017\u7BAD\u77E2\u3002\r"
+  - key_index: 158
+    localize_value_kr: "\uBC94\uC704 \uACF5\uACA9"
+    localize_value_kr2: "<color=#B66418>{0:P1}</color>\uD655\uB960\uB85C \uC2A4\uD50C\uB808\uC26C
+      \uB2A5\uB825\uC774 \uC788\uB294 \uD654\uC0B4\uC744 \uBC1C\uC0AC\uD55C\uB2E4."
+    localize_value_en: Area Attack
+    localize_value_en2: <color=#B66418>{0:P1}</color> chance of shooting arrows which
+      dealt DMG to AEO.
+    localize_value_ja: "\u7BC4\u56F2\u653B\u6483"
+    localize_value_ja2: "<color=#B66418>{0:P1}</color>\u306E\u78BA\u7387\u3067\u5168\u4F53\u653B\u6483\u3059\u308B\u77E2\u3092\u5C04\u308B\u3002"
+    localize_value_tc: "\u7BC4\u570D\u653B\u64CA"
+    localize_value_tc2: "\u4EE5<color=#B66418>{0:P1}</color>\u5E7E\u7387\u4F7F\u5C04\u51FA\u7684\u7BAD\u77E2\u9020\u6210\u7BC4\u570D\u50B7\u5BB3\u3002"
+    localize_value_sc: "\u8303\u56F4\u653B\u51FB"
+    localize_value_sc2: "\u4EE5<color=#B66418>{0:P1}</color>\u673A\u7387\u9020\u6210\u8303\u56F4\u653B\u51FB\u3002\r"
+  - key_index: 159
+    localize_value_kr: "\uACF5\uACA9 \uD68C\uD53C"
+    localize_value_kr2: "<color=#B66418>{0:P1}</color>\uD655\uB960\uB85C \uC801\uC758
+      \uACF5\uACA9\uC744 \uD68C\uD53C\uD55C\uB2E4."
+    localize_value_en: Evasion
+    localize_value_en2: <color=#B66418>{0:P1}</color> chance of evading enemies'
+      attack.
+    localize_value_ja: "\u653B\u6483\u56DE\u907F"
+    localize_value_ja2: "<color=#B66418>{0:P1}</color>\u306E\u78BA\u7387\u3067\u6575\u306E\u653B\u6483\u3092\u56DE\u907F\u3059\u308B\u3002"
+    localize_value_tc: "\u9583\u907F"
+    localize_value_tc2: "\u4EE5<color=#B66418>{0:P1}</color>\u5E7E\u7387\u9583\u907F\u6575\u65B9\u653B\u64CA\u3002"
+    localize_value_sc: "\u95EA\u907F"
+    localize_value_sc2: "\u4EE5<color=#B66418>{0:P1}</color>\u673A\u7387\u95EA\u907F\u654C\u65B9\u653B\u51FB\u3002
+      \r"
+  - key_index: 160
+    localize_value_kr: "\uC989\uC0AC"
+    localize_value_kr2: "\uC801\uC758 \uCCB4\uB825\uC774 20% \uC774\uD558\uBA74 <color=#B66418>{0:P1}</color>\uD655\uB960\uB85C
+      \uC989\uC0AC\uC2DC\uD0A8\uB2E4."
+    localize_value_en: Sudden Death
+    localize_value_en2: <color=#B66418>{0:P1}</color> chance of eliminating enemies
+      if the enemies' HP is lower than 20%.
+    localize_value_ja: "\u5373\u6B7B"
+    localize_value_ja2: "\u6575\u306E\u4F53\u529B\u304C20%\u4EE5\u4E0B\u306E\u6642\u3001<color=#B66418>{0:P1}</color>\u306E\u78BA\u7387\u3067\u6575\u3092\u5373\u6B7B\u3055\u305B\u308B\u3002"
+    localize_value_tc: "\u79D2\u6BBA"
+    localize_value_tc2: "\u4EE5 <color=#B66418>{0:P1}</color>\u5E7E\u7387\u79D2\u6BBA\u9AD4\u529B\u4F4E\u65BC20%\u7684\u6575\u4EBA\u3002"
+    localize_value_sc: "\u79D2\u6740"
+    localize_value_sc2: "\u4EE5<color=#B66418>{0:P1}</color>\u673A\u7387\u79D2\u6740\u4F53\u529B\u4F4E\u4E8E20%\u7684\u654C\u4EBA\u3002\r"
+  - key_index: 161
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 162
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 163
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 164
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 165
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 166
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 167
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 168
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 169
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: '-'
+    localize_value_tc2: '-'
+    localize_value_sc: '-'
+    localize_value_sc2: "-\r"
+  - key_index: 170
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 \uB808\uBCA8 \uC99D\uAC00"
+    localize_value_kr2: "\uC81C\uC791\uB41C \uD654\uC0B4\uC758 \uB808\uBCA8 <color=#B66418>{0}</color>
+      \uC99D\uAC00"
+    localize_value_en: Producible Arrow Lv. Increase
+    localize_value_en2: Increases Lv. of produced arrows by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u5236\u4F5C\u3059\u308B\u77E2\u306E\u30EC\u30D9\u30EB\u5897\u52A0"
+    localize_value_ja2: "\u5236\u4F5C\u3055\u308C\u305F\u77E2\u306E\u30EC\u30D9\u30EB\u304C
+      <color=#B66418>{0}</color> \u5897\u52A0"
+    localize_value_tc: "\u63D0\u5347\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A"
+    localize_value_tc2: "\u88FD\u4F5C\u7BAD\u77E2\u7B49\u7D1A\u63D0\u5347 <color=#B66418>{0}</color>
+      \u3002"
+    localize_value_sc: "\u63D0\u5347\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7"
+    localize_value_sc2: "\u5236\u4F5C\u7BAD\u77E2\u7B49\u7EA7\u63D0\u5347 <color=#B66418>{0}</color>
+      \u3002\r"
+  - key_index: 171
+    localize_value_kr: "\uC81C\uC791 \uD654\uC0B4 \uC99D\uAC00"
+    localize_value_kr2: "\uC81C\uC791 \uAC00\uB2A5\uD55C \uD654\uC0B4\uC758 \uCD5C\uB300
+      \uAC1C\uC218<color=#B66418>{0}\uAC1C</color> \uC99D\uAC00"
+    localize_value_en: Amount of Producible Arrow Increase
+    localize_value_en2: Increases maximal amount of producible arrows by <color=#B66418>{0}</color>.
+    localize_value_ja: "\u5236\u4F5C\u3067\u304D\u308B\u77E2\u306E\u6570\u5897\u52A0"
+    localize_value_ja2: "\u5236\u4F5C\u3067\u304D\u308B\u77E2\u306E\u4E0A\u9650\u6570\u304C
+      <color=#B66418>{0}\u500B</color> \u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u88FD\u4F5C\u7BAD\u77E2"
+    localize_value_tc2: "\u53EF\u88FD\u4F5C\u7684\u6700\u5927\u7BAD\u77E2\u6578\u589E\u52A0<color=#B66418>{0}\u500B</color>\u3002"
+    localize_value_sc: "\u589E\u52A0\u5236\u4F5C\u7BAD\u77E2"
+    localize_value_sc2: "\u53EF\u5236\u4F5C\u7684\u6700\u5927\u7BAD\u77E2\u6570\u589E\u52A0<color=#B66418>{0}\u4E2A</color>\u3002\r"
+  - key_index: 172
+    localize_value_kr: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    localize_value_kr2: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0\uAC00 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00"
+    localize_value_en: CRT DMG
+    localize_value_en2: Increases CRT DMG by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8"
+    localize_value_ja2: "\u81F4\u547D\u6253\u30C0\u30E1\u30FC\u30B8\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3"
+    localize_value_tc2: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3"
+    localize_value_sc2: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 173
+    localize_value_kr: "\uC6B8\uD0C0\uB9AC \uAC15\uD654"
+    localize_value_kr2: "\uC6B8\uD0C0\uB9AC \uCCB4\uB825\uC744 <color=#B66418>{0:N0}</color>
+      \uC99D\uAC00\uC2DC\uD0A8\uB2E4"
+    localize_value_en: Fence Upgrade
+    localize_value_en2: Increases fence HP by <color=#B66418>{0:N0}</color>.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u5F37\u5316"
+    localize_value_ja2: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u3092 <color=#B66418>{0:N0}</color>
+      \u5897\u52A0"
+    localize_value_tc: "\u5F37\u5316\u570D\u58BB"
+    localize_value_tc2: "\u570D\u58BB\u9AD4\u529B\u589E\u52A0<color=#B66418>{0:N0}</color>
+      \u3002"
+    localize_value_sc: "\u5F3A\u5316\u56F4\u5899"
+    localize_value_sc2: "\u56F4\u5899\u4F53\u529B\u589E\u52A0<color=#B66418>{0:N0}</color>
+      \u3002\r"
+  - key_index: 174
+    localize_value_kr: "\uC6B8\uD0C0\uB9AC \uCE58\uC720"
+    localize_value_kr2: "\uC6B8\uD0C0\uB9AC \uCCB4\uB825\uC744 1\uBD84\uC5D0 <color=#B66418>{0:N1}</color>
+      \uD68C\uBCF5\uC2DC\uD0A8\uB2E4"
+    localize_value_en: Fence Recovery
+    localize_value_en2: Recovers fence HP by <color=#B66418>{0:N1}</color> per 60sec.
+    localize_value_ja: "\u30D5\u30A7\u30F3\u30B9\u56DE\u5FA9"
+    localize_value_ja2: "\u30D5\u30A7\u30F3\u30B9\u306E\u4F53\u529B\u309260\u79D2\u3054\u3068\u306B
+      <color=#B66418>{0:N1}</color> \u56DE\u5FA9"
+    localize_value_tc: "\u6CBB\u6108\u570D\u58BB"
+    localize_value_tc2: "\u570D\u58BB\u9AD4\u529B\u6BCF\u5206\u9418\u56DE\u5FA9<color=#B66418>{0:N1}</color>\u3002"
+    localize_value_sc: "\u6CBB\u6108\u56F4\u5899"
+    localize_value_sc2: "\u56F4\u5899\u4F53\u529B\u6BCF\u5206\u949F\u6062\u590D<color=#B66418>{0:N1}</color>\u3002\r"
+  - key_index: 175
+    localize_value_kr: "\uBC88\uAC1C \uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_kr2: "\uBC88\uAC1C \uB370\uBBF8\uC9C0\uAC00 <color=#B66418>{0:P0}</color>
+      \uC99D\uAC00\uD55C\uB2E4."
+    localize_value_en: Lightning DMG Increase
+    localize_value_en2: Increases Lightning DMG by <color=#B66418>{0:P0}</color>.
+    localize_value_ja: "\u96F7\u306E\u653B\u6483\u529B\u5897\u52A0"
+    localize_value_ja2: "\u96F7\u306E\u30C0\u30E1\u30FC\u30B8\u304C <color=#B66418>{0:P0}</color>
+      \u5897\u52A0\u3059\u308B\u3002"
+    localize_value_tc: "\u589E\u52A0\u96F7\u64CA\u653B\u64CA\u529B"
+    localize_value_tc2: "\u96F7\u64CA\u50B7\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002"
+    localize_value_sc: "\u589E\u52A0\u96F7\u51FB\u653B\u51FB\u529B"
+    localize_value_sc2: "\u96F7\u51FB\u4F24\u5BB3\u589E\u52A0<color=#B66418>{0:P0}</color>
+      \u3002\r"
+  - key_index: 176
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 177
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 178
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 179
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 180
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 181
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 182
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 183
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 184
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 185
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 186
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 187
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 188
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 189
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 190
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 191
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 192
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 193
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 194
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 195
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 196
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 197
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 198
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 199
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 200
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 201
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 202
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: "\r"
+  - key_index: 203
+    localize_value_kr: '-'
+    localize_value_kr2: '-'
+    localize_value_en: '-'
+    localize_value_en2: '-'
+    localize_value_ja: '-'
+    localize_value_ja2: '-'
+    localize_value_tc: 
+    localize_value_tc2: 
+    localize_value_sc: 
+    localize_value_sc2: 
+  resourceName: LocalizeData_Upgrade

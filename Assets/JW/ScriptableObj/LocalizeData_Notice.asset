@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff903ee8c68445baa353b3171d6364, type: 3}
+  m_Name: LocalizeData_Notice
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_Notice
+  datas:
+  - key_index: 0
+    localize_value_kr: "- \uC11C\uBC84 \uC774\uB3D9\uC774 \uAC00\uB2A5\uD574\uC84C\uC2B5\uB2C8\uB2E4."
+    localize_value_en: "- \uC11C\uBC84 \uC774\uB3D9\uC774 \uAC00\uB2A5\uD574\uC84C\uC2B5\uB2C8\uB2E4."
+    localize_value_ja: "- \uC11C\uBC84 \uC774\uB3D9\uC774 \uAC00\uB2A5\uD574\uC84C\uC2B5\uB2C8\uB2E4."
+    localize_value_tc: "- \uC11C\uBC84 \uC774\uB3D9\uC774 \uAC00\uB2A5\uD574\uC84C\uC2B5\uB2C8\uB2E4."
+    localize_value_sc: "- \uC11C\uBC84 \uC774\uB3D9\uC774 \uAC00\uB2A5\uD574\uC84C\uC2B5\uB2C8\uB2E4.\r"
+  - key_index: 1
+    localize_value_kr: "- \uC11C\uBC84 \uC774\uB3D9 \uADDC\uCE59"
+    localize_value_en: "- \uC11C\uBC84 \uC774\uB3D9 \uADDC\uCE59"
+    localize_value_ja: "- \uC11C\uBC84 \uC774\uB3D9 \uADDC\uCE59"
+    localize_value_tc: "- \uC11C\uBC84 \uC774\uB3D9 \uADDC\uCE59"
+    localize_value_sc: "- \uC11C\uBC84 \uC774\uB3D9 \uADDC\uCE59\r"
+  - key_index: 2
+    localize_value_kr: "\\t\uD604\uC7AC \uC11C\uBC84\uBCF4\uB2E4 \uC55E\uC758 \uC11C\uBC84\uB85C\uB9CC
+      \uC774\uB3D9 \uAC00\uB2A5"
+    localize_value_en: "\\t\uD604\uC7AC \uC11C\uBC84\uBCF4\uB2E4 \uC55E\uC758 \uC11C\uBC84\uB85C\uB9CC
+      \uC774\uB3D9 \uAC00\uB2A5"
+    localize_value_ja: "\\t\uD604\uC7AC \uC11C\uBC84\uBCF4\uB2E4 \uC55E\uC758 \uC11C\uBC84\uB85C\uB9CC
+      \uC774\uB3D9 \uAC00\uB2A5"
+    localize_value_tc: "\\t\uD604\uC7AC \uC11C\uBC84\uBCF4\uB2E4 \uC55E\uC758 \uC11C\uBC84\uB85C\uB9CC
+      \uC774\uB3D9 \uAC00\uB2A5"
+    localize_value_sc: "\\t\uD604\uC7AC \uC11C\uBC84\uBCF4\uB2E4 \uC55E\uC758 \uC11C\uBC84\uB85C\uB9CC
+      \uC774\uB3D9 \uAC00\uB2A5\r"
+  - key_index: 3
+    localize_value_kr: "\\t\uD55C \uBC88 \uC11C\uBC84 \uC774\uB3D9 \uC2DC, \uBC14\uB85C
+      \uB2E4\uB978 \uC11C\uBC84\uB85C \uC774\uB3D9 \uBD88\uAC00\uB2A5"
+    localize_value_en: "\\t\uD55C \uBC88 \uC11C\uBC84 \uC774\uB3D9 \uC2DC, \uBC14\uB85C
+      \uB2E4\uB978 \uC11C\uBC84\uB85C \uC774\uB3D9 \uBD88\uAC00\uB2A5"
+    localize_value_ja: "\\t\uD55C \uBC88 \uC11C\uBC84 \uC774\uB3D9 \uC2DC, \uBC14\uB85C
+      \uB2E4\uB978 \uC11C\uBC84\uB85C \uC774\uB3D9 \uBD88\uAC00\uB2A5"
+    localize_value_tc: "\\t\uD55C \uBC88 \uC11C\uBC84 \uC774\uB3D9 \uC2DC, \uBC14\uB85C
+      \uB2E4\uB978 \uC11C\uBC84\uB85C \uC774\uB3D9 \uBD88\uAC00\uB2A5"
+    localize_value_sc: "\\t\uD55C \uBC88 \uC11C\uBC84 \uC774\uB3D9 \uC2DC, \uBC14\uB85C
+      \uB2E4\uB978 \uC11C\uBC84\uB85C \uC774\uB3D9 \uBD88\uAC00\uB2A5\r"
+  - key_index: 4
+    localize_value_kr: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04 \uB4A4\uC5D0
+      \uC11C\uBC84\uBCC0\uACBD \uB2E4\uC2DC \uAC00\uB2A5"
+    localize_value_en: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04 \uB4A4\uC5D0
+      \uC11C\uBC84\uBCC0\uACBD \uB2E4\uC2DC \uAC00\uB2A5"
+    localize_value_ja: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04 \uB4A4\uC5D0
+      \uC11C\uBC84\uBCC0\uACBD \uB2E4\uC2DC \uAC00\uB2A5"
+    localize_value_tc: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04 \uB4A4\uC5D0
+      \uC11C\uBC84\uBCC0\uACBD \uB2E4\uC2DC \uAC00\uB2A5"
+    localize_value_sc: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04 \uB4A4\uC5D0
+      \uC11C\uBC84\uBCC0\uACBD \uB2E4\uC2DC \uAC00\uB2A5\r"
+  - key_index: 5
+    localize_value_kr: "\\t\uD654\uC0B4\uB808\uBCA8 21 \uC774\uC0C1\uBD80\uD130 \uC774\uB3D9
+      \uAC00\uB2A5"
+    localize_value_en: "\\t\uD654\uC0B4\uB808\uBCA8 21 \uC774\uC0C1\uBD80\uD130 \uC774\uB3D9
+      \uAC00\uB2A5"
+    localize_value_ja: "\\t\uD654\uC0B4\uB808\uBCA8 21 \uC774\uC0C1\uBD80\uD130 \uC774\uB3D9
+      \uAC00\uB2A5"
+    localize_value_tc: "\\t\uD654\uC0B4\uB808\uBCA8 21 \uC774\uC0C1\uBD80\uD130 \uC774\uB3D9
+      \uAC00\uB2A5"
+    localize_value_sc: "\\t\uD654\uC0B4\uB808\uBCA8 21 \uC774\uC0C1\uBD80\uD130 \uC774\uB3D9
+      \uAC00\uB2A5\r"
+  - key_index: 6
+    localize_value_kr: "- \uC11C\uBC84\uBCC0\uACBD \uC81C\uC678 \uB300\uC0C1"
+    localize_value_en: "- \uC11C\uBC84\uBCC0\uACBD \uC81C\uC678 \uB300\uC0C1"
+    localize_value_ja: "- \uC11C\uBC84\uBCC0\uACBD \uC81C\uC678 \uB300\uC0C1"
+    localize_value_tc: "- \uC11C\uBC84\uBCC0\uACBD \uC81C\uC678 \uB300\uC0C1"
+    localize_value_sc: "- \uC11C\uBC84\uBCC0\uACBD \uC81C\uC678 \uB300\uC0C1\r"
+  - key_index: 7
+    localize_value_kr: "\\tkorean-1 \uC11C\uBC84 \uC720\uC800"
+    localize_value_en: "\\tkorean-1 \uC11C\uBC84 \uC720\uC800"
+    localize_value_ja: "\\tkorean-1 \uC11C\uBC84 \uC720\uC800"
+    localize_value_tc: "\\tkorean-1 \uC11C\uBC84 \uC720\uC800"
+    localize_value_sc: "\\tkorean-1 \uC11C\uBC84 \uC720\uC800\r"
+  - key_index: 8
+    localize_value_kr: "\\t\uD654\uC0B4\uB808\uBCA8 20 \uC774\uD558 \uC720\uC800"
+    localize_value_en: "\\t\uD654\uC0B4\uB808\uBCA8 20 \uC774\uD558 \uC720\uC800"
+    localize_value_ja: "\\t\uD654\uC0B4\uB808\uBCA8 20 \uC774\uD558 \uC720\uC800"
+    localize_value_tc: "\\t\uD654\uC0B4\uB808\uBCA8 20 \uC774\uD558 \uC720\uC800"
+    localize_value_sc: "\\t\uD654\uC0B4\uB808\uBCA8 20 \uC774\uD558 \uC720\uC800\r"
+  - key_index: 9
+    localize_value_kr: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04\uC774
+      \uC9C0\uB098\uC9C0 \uC54A\uC740 \uC720\uC800"
+    localize_value_en: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04\uC774
+      \uC9C0\uB098\uC9C0 \uC54A\uC740 \uC720\uC800"
+    localize_value_ja: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04\uC774
+      \uC9C0\uB098\uC9C0 \uC54A\uC740 \uC720\uC800"
+    localize_value_tc: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04\uC774
+      \uC9C0\uB098\uC9C0 \uC54A\uC740 \uC720\uC800"
+    localize_value_sc: "\\t\uC11C\uBC84\uBCC0\uACBD \uD6C4\uC5D0 24\uC2DC\uAC04\uC774
+      \uC9C0\uB098\uC9C0 \uC54A\uC740 \uC720\uC800"
+  resourceName: LocalizeData_Notice

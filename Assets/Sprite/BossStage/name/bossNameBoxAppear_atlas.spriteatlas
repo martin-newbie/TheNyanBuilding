@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bossNameBoxAppear_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5fb497172f41af64c91c482ac95e3629, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a629789170efa344d86de797f51ea594, type: 3}
+  - {fileID: 21300000, guid: 23398f6235a897146a2f3de07538f8f1, type: 3}
+  - {fileID: 21300000, guid: 621ceba21f66a864f9627c205dca1d39, type: 3}
+  - {fileID: 21300000, guid: 47612e847a9338140864e8c1e4972039, type: 3}
+  - {fileID: 21300000, guid: 0e184785fca5ec744810c38984ee259e, type: 3}
+  - {fileID: 21300000, guid: 0c4fd2e5212569d45900c64afbfa84c5, type: 3}
+  - {fileID: 21300000, guid: e962cb5737f6aa9408b39ee22785908d, type: 3}
+  - {fileID: 21300000, guid: 1d651fd9a988cf84f808a751aeab6450, type: 3}
+  - {fileID: 21300000, guid: 5dcecfbb509fdf6429969bed3a8efa4d, type: 3}
+  - {fileID: 21300000, guid: cdeea66dd0112d543bc95c855b10b87c, type: 3}
+  - {fileID: 21300000, guid: c517562e602324b48ba9de0fd3378ce1, type: 3}
+  - {fileID: 21300000, guid: 2796b86e0a54cec46ba8c7e8f57f3190, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - MA_ani_bossNameBoxAppear_multiple_0002
+  - MA_ani_bossNameBoxAppear_multiple_0004
+  - MA_ani_bossNameBoxExit_multiple_0000
+  - MA_ani_bossNameBoxAppear_multiple_0006
+  - MA_ani_bossNameBoxAppear_multiple_0001
+  - MA_ani_bossNameBoxExit_multiple_0002
+  - MA_ani_bossNameBoxExit_multiple_0004
+  - MA_ani_bossNameBoxExit_multiple_0001
+  - MA_ani_bossNameBoxAppear_multiple_0000
+  - MA_ani_bossNameBoxExit_multiple_0003
+  - MA_ani_bossNameBoxAppear_multiple_0005
+  - MA_ani_bossNameBoxAppear_multiple_0003
+  m_RenderDataMap: {}
+  m_Tag: bossNameBoxAppear_atlas
+  m_IsVariant: 0

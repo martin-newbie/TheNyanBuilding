@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rabbit_gatcha
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 303e4f8a721384629811782fbb737721, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 613c665045e29244ab930fa027aa00c6, type: 3}
+  - {fileID: 21300000, guid: 9ae29df13f79b3d4fad27f80674377fc, type: 3}
+  - {fileID: 21300000, guid: 3034a17265d6d214087cebcf18319768, type: 3}
+  - {fileID: 21300000, guid: 5de693e28ce05e6449d184c242f872bf, type: 3}
+  - {fileID: 21300000, guid: 43de01f2ac30e66499beffdb72254bd0, type: 3}
+  - {fileID: 21300000, guid: ad7c29c4fa7846d4bb2d7e79cb38ccaf, type: 3}
+  - {fileID: 21300000, guid: e7022f2523b4e044cb4b21d7cc760b43, type: 3}
+  - {fileID: 21300000, guid: 2afeab45ca331a34c8964ea6274cc511, type: 3}
+  - {fileID: 21300000, guid: 25bc35e57da97bc4884394463148ac0c, type: 3}
+  - {fileID: 21300000, guid: 3d699916e6d6f674ba68f8cab72a6348, type: 3}
+  - {fileID: 21300000, guid: b330497639e516c4b8dd8defcac153b4, type: 3}
+  - {fileID: 21300000, guid: 33211c866056bb346afe5564626f27f7, type: 3}
+  - {fileID: 21300000, guid: 6d4fa6a6d34dccd4fa8a77f8775c88a4, type: 3}
+  - {fileID: 21300000, guid: e69adeb6fc7abd449bccf887cf007baf, type: 3}
+  - {fileID: 21300000, guid: 06677f17f594d194db671562e7a2237e, type: 3}
+  - {fileID: 21300000, guid: 6102e847fc636c84094e5cadda79d9bd, type: 3}
+  - {fileID: 21300000, guid: fbf5296720a993b4b9e33c417f262fb7, type: 3}
+  - {fileID: 21300000, guid: 6bfd3c77d8867884ab7bb11ffed6d330, type: 3}
+  - {fileID: 21300000, guid: cbbda68798e704449beca288e217fc52, type: 3}
+  - {fileID: 21300000, guid: 4fb5e0a79f088b3418078a87eaeabedc, type: 3}
+  - {fileID: 21300000, guid: 2262f3b7d3ad5b04f849daf751aae09c, type: 3}
+  - {fileID: 21300000, guid: 589775e8b76aca04cae634d65e27e688, type: 3}
+  - {fileID: 21300000, guid: 920ecef8d3185754daedc3349fd9be1b, type: 3}
+  - {fileID: 21300000, guid: ddaebe39f39e67244968ff399940e782, type: 3}
+  - {fileID: 21300000, guid: c674f85924c78104a9d7cf34021684ff, type: 3}
+  - {fileID: 21300000, guid: a24c8b6b4f96f42428237edc36fd4e95, type: 3}
+  - {fileID: 21300000, guid: 5f7af46c0e9da194cb614b8b86e5478d, type: 3}
+  - {fileID: 21300000, guid: a3ceff6c84993ab4b880311e700d7b50, type: 3}
+  - {fileID: 21300000, guid: 958d63acc10989c44a58dfe9ff9b73fa, type: 3}
+  - {fileID: 21300000, guid: e99af14d18f50544880d68dd1c8ea2d4, type: 3}
+  - {fileID: 21300000, guid: ac229d6d30dae8d4989a85fa9ce6fdd0, type: 3}
+  - {fileID: 21300000, guid: ec43718d76bdc7c49acf02880f007942, type: 3}
+  - {fileID: 21300000, guid: 3267eb2e50069704baf3c2c28c4899b9, type: 3}
+  - {fileID: 21300000, guid: b88f4fde7c16cb343876a8e0311b0c3a, type: 3}
+  - {fileID: 21300000, guid: 20eadf7f82f8fe04f9e57a3a51ea4893, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Mi_store_draw_rabbit_hold_multiple_0003
+  - Mi_store_draw_rabbit_multiple_0018
+  - Mi_store_draw_rabbit_multiple_0008
+  - Mi_store_draw_rabbit_multiple_0025
+  - Mi_store_draw_rabbit_multiple_0019
+  - Mi_store_draw_rabbit_multiple_0005
+  - Mi_store_draw_rabbit_multiple_0023
+  - Mi_store_draw_rabbit_multiple_0012
+  - Mi_store_draw_rabbit_hold_multiple_0004
+  - Mi_store_draw_rabbit_multiple_0007
+  - Mi_store_draw_rabbit_multiple_0003
+  - Mi_store_draw_rabbit_multiple_0002
+  - Mi_store_draw_rabbit_hold_multiple_0001
+  - Mi_store_draw_rabbit_multiple_0000
+  - Mi_store_draw_rabbit_multiple_0010
+  - Mi_store_draw_rabbit_multiple_0013
+  - Mi_store_draw_rabbit_hold_multiple_0002
+  - Mi_store_draw_rabbit_multiple_0016
+  - Mi_store_draw_rabbit_multiple_0015
+  - Mi_store_draw_rabbit_multiple_0017
+  - Mi_store_draw_rabbit_hold_multiple_0006
+  - Mi_store_draw_rabbit_multiple_0001
+  - Mi_store_draw_rabbit_multiple_0021
+  - Mi_store_draw_rabbit_multiple_0011
+  - Mi_store_draw_rabbit_hold_multiple_0007
+  - Mi_store_draw_rabbit_multiple_0020
+  - Mi_store_draw_rabbit_multiple_0009
+  - Mi_store_draw_rabbit_multiple_0014
+  - Mi_store_draw_rabbit_hold_multiple_0008
+  - Mi_store_draw_rabbit_hold_multiple_0000
+  - Mi_store_draw_rabbit_multiple_0006
+  - Mi_store_draw_rabbit_hold_multiple_0005
+  - Mi_store_draw_rabbit_multiple_0022
+  - Mi_store_draw_rabbit_multiple_0004
+  - Mi_store_draw_rabbit_multiple_0024
+  m_RenderDataMap: {}
+  m_Tag: rabbit_gatcha
+  m_IsVariant: 0

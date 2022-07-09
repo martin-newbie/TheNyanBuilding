@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff903ee8c68445baa353b3171d6364, type: 3}
+  m_Name: LocalizeData_Pet
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_Pet
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uBE0C\uB9B0\uB2EC"
+    localize_value_en: Brindal
+    localize_value_ja: "\u30D6\u30EA\u30E5\u30F3\u30C0\u30EB"
+    localize_value_tc: "\u963F\u5E03"
+    localize_value_sc: "\u963F\u5E03"
+  - key_index: 1
+    localize_value_kr: "\uAE40\uB9AC"
+    localize_value_en: Gimli
+    localize_value_ja: "\u30AE\u30E0\u30EA"
+    localize_value_tc: "\u5409\u7C73"
+    localize_value_sc: "\u5409\u7C73"
+  - key_index: 2
+    localize_value_kr: "\uC11C\uD050\uBC84\uC2A4"
+    localize_value_en: Succubus
+    localize_value_ja: "\u30B5\u30AD\u30E5\u30D0\u30B9"
+    localize_value_tc: "\u58DE\u58DE"
+    localize_value_sc: "\u574F\u574F"
+  - key_index: 3
+    localize_value_kr: "\uC544\uADF8\uB2C8\uC2A4"
+    localize_value_en: Agnis
+    localize_value_ja: "\u30A2\u30B0\u30CD\u30B9"
+    localize_value_tc: "\u5C0F\u9695\u77F3"
+    localize_value_sc: "\u5C0F\u9668\u77F3"
+  - key_index: 4
+    localize_value_kr: "\uC81C\uC6B0\uC2A4"
+    localize_value_en: Zeus
+    localize_value_ja: "\u30BC\u30A6\u30B9"
+    localize_value_tc: "\u9583\u9583"
+    localize_value_sc: "\u95EA\u95EA"
+  - key_index: 5
+    localize_value_kr: "\uB77C\uC774\uB374"
+    localize_value_en: Ryden
+    localize_value_ja: "\u30E9\u30A4\u30C7\u30F3"
+    localize_value_tc: "\u96FB\u96FB"
+    localize_value_sc: "\u7535\u7535"
+  - key_index: 6
+    localize_value_kr: "\uD5E4\uB974\uBA54\uC2A4"
+    localize_value_en: Hermes
+    localize_value_ja: "\u30D8\u30EB\u30E1\u30B9"
+    localize_value_tc: "\u7D2B\u9177"
+    localize_value_sc: "\u7D2B\u9177"
+  - key_index: 7
+    localize_value_kr: "\uB9B4\uB9AC\uD2B8"
+    localize_value_en: Lilith
+    localize_value_ja: "\u30EA\u30EA\u30B9"
+    localize_value_tc: "\u5F37\u68EE"
+    localize_value_sc: "\u5F3A\u68EE"
+  - key_index: 8
+    localize_value_kr: "\uB8EC\uB9C8\uC2A4\uD130"
+    localize_value_en: Runemaster
+    localize_value_ja: "\u30EB\u30FC\u30F3\u30DE\u30B9\u30BF\u30FC"
+    localize_value_tc: "\u7B26\u738B"
+    localize_value_sc: "\u7B26\u738B"
+  - key_index: 9
+    localize_value_kr: "\uD53C\uB2C9\uC2A4"
+    localize_value_en: Phoenix
+    localize_value_ja: "\u30D5\u30A3\u30CB\u30C3\u30AF\u30B9"
+    localize_value_tc: "\u9CF3\u51F0"
+    localize_value_sc: "\u51E4\u51F0"
+  resourceName: LocalizeData_Pet

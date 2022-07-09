@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UpgradeIcons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4301a3a9bafe8a2449f1f3091609e402, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9d913940aee35ff41aeabf9145fabafc, type: 3}
+  - {fileID: 21300000, guid: 4a7e88601a65c0c468e9929d7dacd359, type: 3}
+  - {fileID: 21300000, guid: bf1d979044945084cb55da536e8c10db, type: 3}
+  - {fileID: 21300000, guid: f61fe8c1816a7d34099f53c1845341a6, type: 3}
+  - {fileID: 21300000, guid: 1daa3dd117b6baa448460be8c092f5c6, type: 3}
+  - {fileID: 21300000, guid: 41229ab22905d4b428bd909b38412c1f, type: 3}
+  - {fileID: 21300000, guid: 8ef4e483ca833144d84663ea7250381c, type: 3}
+  - {fileID: 21300000, guid: 29cb74a3ab666d949a75645817722194, type: 3}
+  - {fileID: 21300000, guid: 84412fc3b9e14f1499ff5e6bf83f597b, type: 3}
+  - {fileID: 21300000, guid: 432027040c56a374386887a62fbfe971, type: 3}
+  - {fileID: 21300000, guid: d6f3c5149ee3f06438d35820e3a3d0a0, type: 3}
+  - {fileID: 21300000, guid: b364e7246900a0545981d976dd5b542f, type: 3}
+  - {fileID: 21300000, guid: d7de125484f865a4fa680d5a3fa2c351, type: 3}
+  - {fileID: 21300000, guid: 1ba3db5455ed1814791eb10f26e96cf2, type: 3}
+  - {fileID: 21300000, guid: 1e996794af76d3c4fbc4afd14d47dab3, type: 3}
+  - {fileID: 21300000, guid: 7b25bca4971e90c4cb022b594488224a, type: 3}
+  - {fileID: 21300000, guid: 854394b42cce50c4d9a20f9e69e623d8, type: 3}
+  - {fileID: 21300000, guid: 95fd66f45c43b3f4391e203e0d231155, type: 3}
+  - {fileID: 21300000, guid: eb1afb25a5c08274f83bef17e30a0a87, type: 3}
+  - {fileID: 21300000, guid: 606eca451144d894b8e4a9a5f1f62128, type: 3}
+  - {fileID: 21300000, guid: 2ec7fef5e82431c46ab67094cc413bf8, type: 3}
+  - {fileID: 21300000, guid: 8b4e30b68c531bf448aacd26ad1f1fbb, type: 3}
+  - {fileID: 21300000, guid: d2792e17e99c5f7428d976d78ef8ee62, type: 3}
+  - {fileID: 21300000, guid: 68090147674e2b1489f982d4af50b165, type: 3}
+  - {fileID: 21300000, guid: dc6bd547d5f6b5c469f440ac521d7ed0, type: 3}
+  - {fileID: 21300000, guid: 0cbb48e70ee5bb64fba85f9a3e4d2f6b, type: 3}
+  - {fileID: 21300000, guid: aa0ed8188ce3afc489e6906475ac1166, type: 3}
+  - {fileID: 21300000, guid: ab33e3388fd24744aa826697d6468404, type: 3}
+  - {fileID: 21300000, guid: c24a98a828f32cd40956f4ad38661528, type: 3}
+  - {fileID: 21300000, guid: 21bb9e39e4dbe514ea79e58c2f38fcf6, type: 3}
+  - {fileID: 21300000, guid: a225af49e0a26c740a530e18fc5b9a99, type: 3}
+  - {fileID: 21300000, guid: 7be50799508a2844fa559a456edebf85, type: 3}
+  - {fileID: 21300000, guid: 7a60a0b9facd64942a8398fa3eb17f0d, type: 3}
+  - {fileID: 21300000, guid: f03302e9b1f762346a299f68c4399342, type: 3}
+  - {fileID: 21300000, guid: bde6882ade64721448f70120ba9e58b9, type: 3}
+  - {fileID: 21300000, guid: 162a6e7add12d9e43b7b68329bc4b05f, type: 3}
+  - {fileID: 21300000, guid: f646038a765299546a277d444f61452c, type: 3}
+  - {fileID: 21300000, guid: 27ed47cac21ce0b4c9f22cd74d1a7f55, type: 3}
+  - {fileID: 21300000, guid: 97d09afa4cdf8724596a222a9005c6ce, type: 3}
+  - {fileID: 21300000, guid: 853d821bd31cdda4588825fa9b45fd60, type: 3}
+  - {fileID: 21300000, guid: 1b14858b295de564fa520ea449725b79, type: 3}
+  - {fileID: 21300000, guid: 2f4f749bd25256c48b146934781669a3, type: 3}
+  - {fileID: 21300000, guid: f1ee78abf9407be4ca6d17d1f4bb4ea4, type: 3}
+  - {fileID: 21300000, guid: 34e0a73c38bc6014aa0b5ab7bfe1877d, type: 3}
+  - {fileID: 21300000, guid: 9837c46caf9e1894484915a650b23870, type: 3}
+  - {fileID: 21300000, guid: 1147a56c46c536d4a9fedcd8e3920549, type: 3}
+  - {fileID: 21300000, guid: 36ce361d5e7dabf418150c328d99c2e6, type: 3}
+  - {fileID: 21300000, guid: 0aa5425deb0f8a245b0f6f5c66673c09, type: 3}
+  - {fileID: 21300000, guid: f062208db72d75447b8f6f19a391ac57, type: 3}
+  - {fileID: 21300000, guid: d85adebde8e3b1d4bae7d52ec32d35dd, type: 3}
+  - {fileID: 21300000, guid: 40e6241e705d6064fadc1fa231134743, type: 3}
+  - {fileID: 21300000, guid: 601aa71e2b9490e4e876f8824178303e, type: 3}
+  - {fileID: 21300000, guid: b12a4e0f382029c459d2eed2d9c2ddaa, type: 3}
+  - {fileID: 21300000, guid: 76f6749f6131ebd4b8057adf0760d29b, type: 3}
+  - {fileID: 21300000, guid: 9aad63af34f1ba3449bbcb60c7920b07, type: 3}
+  - {fileID: 21300000, guid: 80ce7bcfa0ddeb94886108a936825d3e, type: 3}
+  - {fileID: 21300000, guid: 9a2d31dfa0a8c8f49aee082c5fbda2df, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - rangeAttack
+  - rebirthStageSkip
+  - globalCriticalDamage
+  - dodge
+  - 02
+  - soloCriticalRate
+  - skillCoolDownRate
+  - craftArrowCount
+  - additionalHp
+  - feverCoolDown
+  - doubleAttack
+  - tenGaugeUP
+  - summonArrowCoolDown
+  - basicDamage
+  - soloCriticalDamage
+  - criticalDamage
+  - u_damage
+  - doubleGoldRate
+  - startGold
+  - basicDamageRate
+  - globalCriticalRate
+  - freeCraft
+  - soloBasicDamage
+  - failedRate
+  - arrowAutoMerge
+  - damageRate
+  - rebirthStoneIncrease
+  - archerMaxCount
+  - gameSpeed
+  - multiShotAttack
+  - globalDamageRate
+  - feverCount
+  - arrowDamage
+  - skillDamageRate
+  - powerShot
+  - arrowAutoSummon
+  - criticalRate
+  - freeCraftRate
+  - additionalTierGage
+  - thunderAutoAttack
+  - globalAttackSpeedRate
+  - decreaseEnemyHP
+  - successRate
+  - summonArrowLevel
+  - soloAttackSpeed
+  - instantDeath
+  - hpRegen
+  - arrowDamageRate
+  - attackSpeed
+  - 12
+  - stageSkipChance
+  - summonArrowCount
+  - u_attackSpeed
+  - feverDuration
+  - thunderDamage
+  - rewardUP
+  - touchGaugeUP
+  m_RenderDataMap: {}
+  m_Tag: UpgradeIcons
+  m_IsVariant: 0

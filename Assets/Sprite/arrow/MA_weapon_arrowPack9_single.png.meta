@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 1fbdd32306eb31c4a94cfe6203cb3276
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7636254677417978256
+    second: MA_weapon_arrowPack9_single_0
+  - first:
+      213: -2381190074082333311
+    second: MA_weapon_arrowPack9_single_1
+  - first:
+      213: -5863494049151620973
+    second: MA_weapon_arrowPack9_single_2
+  - first:
+      213: 7082957908416762632
+    second: MA_weapon_arrowPack9_single_3
+  - first:
+      213: 678882758902063852
+    second: MA_weapon_arrowPack9_single_4
+  - first:
+      213: 7941552790604455266
+    second: MA_weapon_arrowPack9_single_5
+  - first:
+      213: -7423657343382031406
+    second: MA_weapon_arrowPack9_single_6
+  - first:
+      213: -1698922767429811176
+    second: MA_weapon_arrowPack9_single_7
+  - first:
+      213: 5241880875380346378
+    second: MA_weapon_arrowPack9_single_8
+  - first:
+      213: 8722502259153013932
+    second: MA_weapon_arrowPack9_single_9
+  - first:
+      213: -317134047710422436
+    second: MA_weapon_arrowPack9_single_10
+  - first:
+      213: -6350207545753559601
+    second: MA_weapon_arrowPack9_single_11
+  - first:
+      213: 4058013709389442532
+    second: MA_weapon_arrowPack9_single_12
+  - first:
+      213: 8682488493874647296
+    second: MA_weapon_arrowPack9_single_13
+  - first:
+      213: 2175755263998989394
+    second: MA_weapon_arrowPack9_single_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 48
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 967
+        width: 165
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099e9e5ab2d69f960800000000000000
+      internalID: 7636254677417978256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 899
+        width: 165
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18de2a36e3054fed0800000000000000
+      internalID: -2381190074082333311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 165
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39863b97a3fa0aea0800000000000000
+      internalID: -5863494049151620973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 773
+        width: 165
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803993ac0b8bb4260800000000000000
+      internalID: 7082957908416762632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 165
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2ae78b540eb6900800000000000000
+      internalID: 678882758902063852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 165
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9df8df20163e60800000000000000
+      internalID: 7941552790604455266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 165
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d37e797afed9f890800000000000000
+      internalID: -7423657343382031406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 165
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814c58a8eb63c68e0800000000000000
+      internalID: -1698922767429811176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409
+        width: 165
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e85fb22e6eeb840800000000000000
+      internalID: 5241880875380346378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 165
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac8b55479d8c0970800000000000000
+      internalID: 8722502259153013932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 165
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ad90c8340599bf0800000000000000
+      internalID: -317134047710422436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 165
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd9a59c1e78fd7a0800000000000000
+      internalID: -6350207545753559601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 165
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eda2d9e7f5f05830800000000000000
+      internalID: 4058013709389442532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 165
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00190db88456e7870800000000000000
+      internalID: 8682488493874647296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_weapon_arrowPack9_single_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 165
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25498dc82e5d13e10800000000000000
+      internalID: 2175755263998989394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MA_weapon_arrowPack9_single_1: -2381190074082333311
+      MA_weapon_arrowPack9_single_12: 4058013709389442532
+      MA_weapon_arrowPack9_single_11: -6350207545753559601
+      MA_weapon_arrowPack9_single_7: -1698922767429811176
+      MA_weapon_arrowPack9_single_4: 678882758902063852
+      MA_weapon_arrowPack9_single_6: -7423657343382031406
+      MA_weapon_arrowPack9_single_10: -317134047710422436
+      MA_weapon_arrowPack9_single_8: 5241880875380346378
+      MA_weapon_arrowPack9_single_5: 7941552790604455266
+      MA_weapon_arrowPack9_single_14: 2175755263998989394
+      MA_weapon_arrowPack9_single_9: 8722502259153013932
+      MA_weapon_arrowPack9_single_0: 7636254677417978256
+      MA_weapon_arrowPack9_single_13: 8682488493874647296
+      MA_weapon_arrowPack9_single_3: 7082957908416762632
+      MA_weapon_arrowPack9_single_2: -5863494049151620973
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

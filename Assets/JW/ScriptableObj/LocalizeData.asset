@@ -1,0 +1,2088 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff903ee8c68445baa353b3171d6364, type: 3}
+  m_Name: LocalizeData
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uB2E4\uC74C\uB808\uBCA8"
+    localize_value_en: Next Lv.
+    localize_value_ja: "\u6B21\u306E\u30EC\u30D9\u30EB"
+    localize_value_tc: "\u4E0B\u4E00\u7B49\u7D1A"
+    localize_value_sc: "\u4E0B\u4E00\u7B49\u7EA7\r"
+  - key_index: 1
+    localize_value_kr: "\uC804\uD22C\uB825"
+    localize_value_en: CP
+    localize_value_ja: "\u6226\u95D8\u529B"
+    localize_value_tc: "\u6230\u9B25\u529B"
+    localize_value_sc: "\u6218\u6597\u529B\r"
+  - key_index: 2
+    localize_value_kr: "\uCD94\uAC00 \uB370\uBBF8\uC9C0"
+    localize_value_en: Additional DMG
+    localize_value_ja: "\u8FFD\u52A0\u30C0\u30E1\u30FC\u30B8"
+    localize_value_tc: "\u50B7\u5BB3\u52A0\u6210"
+    localize_value_sc: "\u4F24\u5BB3\u52A0\u6210\r"
+  - key_index: 3
+    localize_value_kr: "\uD654\uC0B4 \uB808\uBCA8"
+    localize_value_en: Arrow Lv.
+    localize_value_ja: "\u77E2\u306E\u30EC\u30D9\u30EB"
+    localize_value_tc: "\u7BAD\u77E2\u7B49\u7D1A"
+    localize_value_sc: "\u7BAD\u77E2\u7B49\u7EA7\r"
+  - key_index: 4
+    localize_value_kr: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    localize_value_en: Critical DMG
+    localize_value_ja: "\u81F4\u547D\u6253;\u30C0\u30E1\u30FC\u30B8"
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u50B7\u5BB3"
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u4F24\u5BB3\r"
+  - key_index: 5
+    localize_value_kr: "\uD654\uC0B4 \uACF5\uACA9\uB825"
+    localize_value_en: Arrow ATK
+    localize_value_ja: "\u77E2\u306E\u653B\u6483\u529B"
+    localize_value_tc: "\u7BAD\u77E2\u653B\u64CA\u529B"
+    localize_value_sc: "\u7BAD\u77E2\u653B\u51FB\u529B\r"
+  - key_index: 6
+    localize_value_kr: "\uCE58\uBA85\uD0C0\uC728"
+    localize_value_en: CRT Rate
+    localize_value_ja: "\u81F4\u547D\u6253\u78BA\u7387"
+    localize_value_tc: "\u81F4\u547D\u4E00\u64CA\u7387"
+    localize_value_sc: "\u81F4\u547D\u4E00\u51FB\u7387\r"
+  - key_index: 7
+    localize_value_kr: "\uACF5\uACA9\uB825"
+    localize_value_en: ATK
+    localize_value_ja: "\u653B\u6483\u529B"
+    localize_value_tc: "\u653B\u64CA\u529B"
+    localize_value_sc: "\u653B\u51FB\u529B\r"
+  - key_index: 8
+    localize_value_kr: "\uC2A4\uD0AC \uAC15\uD654"
+    localize_value_en: Skill Upgrade
+    localize_value_ja: "\u30B9\u30AD\u30EB\u5F37\u5316"
+    localize_value_tc: "\u5F37\u5316\u6280\u80FD"
+    localize_value_sc: "\u5F3A\u5316\u6280\u80FD\r"
+  - key_index: 9
+    localize_value_kr: "\uACF5\uACA9 \uC18D\uB3C4"
+    localize_value_en: ASPD
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6"
+    localize_value_tc: "\u653B\u901F"
+    localize_value_sc: "\u653B\u901F\r"
+  - key_index: 10
+    localize_value_kr: "\uC2A4\uD0AC \uCFE8\uAC10"
+    localize_value_en: Cooldown
+    localize_value_ja: "\u30AF\u30FC\u30EB\u30BF\u30A4\u30E0;\u6E1B\u5C11"
+    localize_value_tc: "\u6E1B\u5C11\u6280\u80FD\u51B7\u537B\u6642\u9593"
+    localize_value_sc: "\u51CF\u5C11\u6280\u80FD\u51B7\u5374\u65F6\u95F4\r"
+  - key_index: 11
+    localize_value_kr: "\uB808\uBCA8 {0} \uBCF4\uB108\uC2A4 : \uACF5\uACA9\uB825
+      {1:P0} \uC99D\uAC00"
+    localize_value_en: 'Lv. {0} Bonus : ATK {1:P0} increased'
+    localize_value_ja: "\u30EC\u30D9\u30EB {0} \u30DC\u30FC\u30CA\u30B9 : \u653B\u6483\u529B
+      {1:P0} \u5897\u52A0"
+    localize_value_tc: "{0}\u7D1A \u734E\u52F5 : \u63D0\u9AD8\u653B\u64CA\u529B {1:P0} "
+    localize_value_sc: "{0}\u7EA7 \u5956\u52B1 : \u63D0\u9AD8\u653B\u51FB\u529B {1:P0}\r"
+  - key_index: 12
+    localize_value_kr: "\uBC88\uAC1C \uACF5\uACA9\uB825"
+    localize_value_en: Lightning DMG
+    localize_value_ja: "\u96F7\u306E\u653B\u6483\u529B"
+    localize_value_tc: "\u96F7\u64CA\u653B\u64CA\u529B"
+    localize_value_sc: "\u96F7\u51FB\u653B\u51FB\u529B\r"
+  - key_index: 13
+    localize_value_kr: "\uD654\uC0B4\uC774 \uC774\uBBF8 \uCD5C\uB300\uCE58\uC785\uB2C8\uB2E4."
+    localize_value_en: You cannot make arrows anymore.
+    localize_value_ja: "\u3053\u308C\u4EE5\u4E0A\u77E2\u3092\u5236\u4F5C\u3067\u304D\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u7BAD\u77E2\u5DF2\u9054\u6700\u5927\u503C\u3002"
+    localize_value_sc: "\u7BAD\u77E2\u5DF2\u8FBE\u6700\u5927\u503C\u3002\r"
+  - key_index: 14
+    localize_value_kr: "<size=85>\uB808\uBCA8 </size><size=95>{0}</size>"
+    localize_value_en: <size=85>Lv. </size><size=95>{0}</size>
+    localize_value_ja: "<size=85>\u30EC\u30D9\u30EB </size><size=95>{0}</size>"
+    localize_value_tc: <size=85>Lv. </size><size=95>{0}</size>
+    localize_value_sc: "<size=85>Lv. </size><size=95>{0}</size>\r"
+  - key_index: 15
+    localize_value_kr: "\uC54C\uB9BC"
+    localize_value_en: Notice
+    localize_value_ja: "\u304A\u77E5\u3089\u305B"
+    localize_value_tc: "\u63D0\u9192"
+    localize_value_sc: "\u63D0\u9192\r"
+  - key_index: 16
+    localize_value_kr: "\uB85C\uB4DC \uC131\uACF5"
+    localize_value_en: Successfully Loaded
+    localize_value_ja: "\u30ED\u30FC\u30C9\u6210\u529F"
+    localize_value_tc: "\u5DF2\u52A0\u8F09"
+    localize_value_sc: "\u5DF2\u52A0\u8F7D\r"
+  - key_index: 17
+    localize_value_kr: "\uD655\uC778"
+    localize_value_en: Confirm
+    localize_value_ja: "\u78BA\u8A8D"
+    localize_value_tc: "\u78BA\u8A8D"
+    localize_value_sc: "\u786E\u8BA4\r"
+  - key_index: 18
+    localize_value_kr: "\uC774\uBBF8 \uD3EC\uD568\uB41C \uD328\uB110 \uC785\uB2C8\uB2E4."
+    localize_value_en: This panel is already included.
+    localize_value_ja: "\u65E2\u306B\u542B\u307E\u308C\u3066\u3044\u308B\u30D1\u30CD\u30EB\u3067\u3059\u3002"
+    localize_value_tc: 
+    localize_value_sc: "\r"
+  - key_index: 19
+    localize_value_kr: "\uCD5C\uACE0 \uC2A4\uD14C\uC774\uC9C0 : {0}"
+    localize_value_en: 'Maximal Stage : {0}'
+    localize_value_ja: "\u6700\u9AD8\u30B9\u30C6\u30FC\u30B8 : {0}"
+    localize_value_tc: "\u6700\u9AD8\u8A18\u9304\uFF1A{0}"
+    localize_value_sc: "\u6700\u9AD8\u8BB0\u5F55\uFF1A{0}\r"
+  - key_index: 20
+    localize_value_kr: "\uB7EC\uC26C \uAC00\uB2A5 \uC2A4\uD14C\uC774\uC9C0 : {0:N0}"
+    localize_value_en: 'Rush Available Stage : {0:N0}'
+    localize_value_ja: "\u30E9\u30C3\u30B7\u30E5\u53EF\u80FD\u306A\u30B9\u30C6\u30FC\u30B8
+      : {0:N0}"
+    localize_value_tc: "\u53EF\u885D\u95DC\u81F3 : {0:N0}"
+    localize_value_sc: "\u53EF\u51B2\u5173\u81F3 : {0:N0}\r"
+  - key_index: 21
+    localize_value_kr: "\uC544\uCC98\uC81C\uAC70"
+    localize_value_en: Remove Archer
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u9664\u5916"
+    localize_value_tc: "\u79FB\u9664\u5F13\u7BAD\u624B"
+    localize_value_sc: "\u79FB\u9664\u5F13\u7BAD\u624B\r"
+  - key_index: 22
+    localize_value_kr: "\uACE8\uB4DC\uAC00 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    localize_value_en: Not enough gold
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u91D1\u5E63\u4E0D\u8DB3\u3002"
+    localize_value_sc: "\u91D1\u5E01\u4E0D\u8DB3\u3002\r"
+  - key_index: 23
+    localize_value_kr: "\uBCF4\uC11D\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    localize_value_en: Not enough diamonds
+    localize_value_ja: "\u30C0\u30A4\u30A2\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u5BF6\u77F3\u4E0D\u8DB3\u3002"
+    localize_value_sc: "\u5B9D\u77F3\u4E0D\u8DB3\u3002\r"
+  - key_index: 24
+    localize_value_kr: "\uD658\uC0DD\uC11D\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    localize_value_en: Not enough rebirth stone
+    localize_value_ja: "\u8EE2\u751F\u77F3\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u91CD\u751F\u77F3\u4E0D\u8DB3\u3002"
+    localize_value_sc: "\u91CD\u751F\u77F3\u4E0D\u8DB3\u3002\r"
+  - key_index: 25
+    localize_value_kr: "\uAD11\uACE0\uAC00 \uC900\uBE44\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Advertisement is not ready yet.
+    localize_value_ja: "\u5E83\u544A\u304C\u6E96\u5099\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u5EE3\u544A\u66AB\u672A\u51C6\u5099\u597D\u3002"
+    localize_value_sc: "\u5E7F\u544A\u6682\u672A\u51C6\u5907\u597D\u3002\r"
+  - key_index: 26
+    localize_value_kr: "\uC694\uCCAD\uC744 \uCC98\uB9AC\uC911\uC785\uB2C8\uB2E4.;\uC7A0\uC2DC\uB9CC
+      \uAE30\uB2E4\uB824\uC8FC\uC138\uC694."
+    localize_value_en: Processing request.;Please wait.
+    localize_value_ja: "\u8981\u8ACB\u3092\u51E6\u7406\u3057\u3066\u3044\u307E\u3059\u3002;\u3057\u3070\u3089\u304F\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u6B63\u5728\u8655\u7406\u60A8\u7684\u8981\u6C42\uFF0C; \u8ACB\u8010\u5FC3\u7B49\u5F85\u3002"
+    localize_value_sc: "\u6B63\u5728\u5904\u7406\u60A8\u7684\u8981\u6C42\uFF0C; \u8BF7\u8010\u5FC3\u7B49\u5F85\u3002\r"
+  - key_index: 27
+    localize_value_kr: "\uC81C\uC791\uB41C \uD654\uC0B4\uC774 \uCD5C\uB300\uCE58\uC785\uB2C8\uB2E4."
+    localize_value_en: The amount of arrows has reached the maximum.
+    localize_value_ja: "\u5236\u4F5C\u3055\u308C\u305F\u77E2\u304C\u4E0A\u9650\u3067\u3059\u3002"
+    localize_value_tc: "\u88FD\u4F5C\u7684\u7BAD\u77E2\u5DF2\u9054\u4E0A\u9650\u3002"
+    localize_value_sc: "\u5236\u4F5C\u7684\u7BAD\u77E2\u5DF2\u8FBE\u4E0A\u9650\u3002\r"
+  - key_index: 28
+    localize_value_kr: "\uCD5C\uB300 \uC2A4\uD14C\uC774\uC9C0: {0}"
+    localize_value_en: 'Maximal Stage : {0}'
+    localize_value_ja: "\u6700\u5927\u30B9\u30C6\u30FC\u30B8: {0}"
+    localize_value_tc: "\u6700\u9AD8\u8A18\u9304\uFF1A{0}"
+    localize_value_sc: "\u6700\u9AD8\u8BB0\u5F55\uFF1A{0}\r"
+  - key_index: 29
+    localize_value_kr: "\uD658\uC0DD\uC11D \uC99D\uAC00: {0:P0}"
+    localize_value_en: 'Rebirth stone increased: {0:P0}'
+    localize_value_ja: "\u8EE2\u751F\u77F3\u5897\u52A0: {0:P0}"
+    localize_value_tc: "\u91CD\u751F\u77F3\u589E\u52A0\uFF1A{0:P0}"
+    localize_value_sc: "\u91CD\u751F\u77F3\u589E\u52A0\uFF1A{0:P0}\r"
+  - key_index: 30
+    localize_value_kr: "\uD658\uC0DD\uC11D \uBD80\uC2A4\uD2B8: {0:P0}"
+    localize_value_en: 'Rebirth stone boost: {0:P0}'
+    localize_value_ja: "\u8EE2\u751F\u77F3\u30D6\u30FC\u30B9\u30C8: {0:P0}"
+    localize_value_tc: "\u91CD\u751F\u77F3\u52A0\u901F\u5668\uFF1A{0:P0}"
+    localize_value_sc: "\u91CD\u751F\u77F3\u52A0\u901F\u5668\uFF1A{0:P0}\r"
+  - key_index: 31
+    localize_value_kr: "\uB9F5 \uB09C\uC774\uB3C4: {0:P0}"
+    localize_value_en: 'Map difficulty: {0:P0}'
+    localize_value_ja: "\u30DE\u30C3\u30D7\u96E3\u6613\u5EA6: {0:P0}"
+    localize_value_tc: "\u5730\u5716\u96E3\u5EA6\uFF1A{0:P0}"
+    localize_value_sc: "\u5730\u56FE\u96BE\u5EA6\uFF1A{0:P0}\r"
+  - key_index: 32
+    localize_value_kr: "30\uAC1C"
+    localize_value_en: 30
+    localize_value_ja: "30\u500B"
+    localize_value_tc: "30\u500B"
+    localize_value_sc: "30\u4E2A\r"
+  - key_index: 33
+    localize_value_kr: "x2;30\uCD08"
+    localize_value_en: x2;30seconds
+    localize_value_ja: "x2;30\u79D2"
+    localize_value_tc: "x2;30\u79D2"
+    localize_value_sc: "x2;30\u79D2\r"
+  - key_index: 34
+    localize_value_kr: "\uC2E4\uD328\uD558\uC600\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Failed
+    localize_value_ja: "\u5931\u6557\u3057\u307E\u3057\u305F\u3002"
+    localize_value_tc: "\u5931\u6557"
+    localize_value_sc: "\u5931\u8D25\r"
+  - key_index: 35
+    localize_value_kr: "\uBCF4\uC11D \uBCF4\uC0C1 10"
+    localize_value_en: Diamonds reward 10
+    localize_value_ja: "\u30C0\u30A4\u30A2\u5831\u916C\u300010"
+    localize_value_tc: "\u5BF6\u77F3\u734E\u52F5 10"
+    localize_value_sc: "\u5B9D\u77F3\u5956\u52B1 10\r"
+  - key_index: 36
+    localize_value_kr: "60\uCD08\uB3D9\uC548 \uACE8\uB4DC \uD68D\uB4DD 2\uBC30"
+    localize_value_en: Double gold income for 60seconds
+    localize_value_ja: "60\u79D2\u306E\u9593\u3001\u30B4\u30FC\u30EB\u30C9\u7372\u5F972\u500D"
+    localize_value_tc: "60\u79D2\u5167\u7372\u5F972\u500D\u91D1\u5E63"
+    localize_value_sc: "60\u79D2\u5185\u83B7\u5F972\u500D\u91D1\u5E01\r"
+  - key_index: 37
+    localize_value_kr: "\uACE8\uB4DC x 10"
+    localize_value_en: Gold x 10
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9 x 10"
+    localize_value_tc: "\u91D1\u5E63 x 10"
+    localize_value_sc: "\u91D1\u5E01 x 10\r"
+  - key_index: 38
+    localize_value_kr: "\uAC8C\uC784 \uC18D\uB3C4 \uC99D\uAC00"
+    localize_value_en: Game Speed Increase
+    localize_value_ja: "\u30B2\u30FC\u30E0\u901F\u5EA6\u5897\u52A0"
+    localize_value_tc: "\u52A0\u5FEB\u904A\u6232\u9032\u884C\u901F\u5EA6"
+    localize_value_sc: "\u52A0\u5FEB\u6E38\u620F\u8FDB\u884C\u901F\u5EA6\r"
+  - key_index: 39
+    localize_value_kr: "\uACF5\uACA9\uB825 \uC99D\uAC00"
+    localize_value_en: ATK Increase
+    localize_value_ja: "\u653B\u6483\u529B\u5897\u52A0"
+    localize_value_tc: "\u589E\u52A0\u653B\u64CA\u529B"
+    localize_value_sc: "\u589E\u52A0\u653B\u51FB\u529B\r"
+  - key_index: 40
+    localize_value_kr: "\uACF5\uACA9\uC18D\uB3C4 \uC99D\uAC00"
+    localize_value_en: ASPD Increase
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6\u5897\u52A0"
+    localize_value_tc: "\u63D0\u9AD8\u653B\u901F"
+    localize_value_sc: "\u63D0\u9AD8\u653B\u901F\r"
+  - key_index: 41
+    localize_value_kr: "\uC774\uBBF8 \uAD6C\uB9E4\uD55C \uC0C1\uD488\uC785\uB2C8\uB2E4."
+    localize_value_en: This product is already sold.
+    localize_value_ja: "\u65E2\u306B\u8CFC\u5165\u3057\u305F\u5546\u54C1\u3067\u3059\u3002"
+    localize_value_tc: "\u5DF2\u8CFC\u8CB7\u8A72\u5546\u54C1\u3002"
+    localize_value_sc: "\u5DF2\u8D2D\u4E70\u8BE5\u5546\u54C1\u3002\r"
+  - key_index: 42
+    localize_value_kr: "\uBB34\uB8CC"
+    localize_value_en: Free
+    localize_value_ja: "\u7121\u6599"
+    localize_value_tc: "\u514D\u8CBB"
+    localize_value_sc: "\u514D\u8D39\r"
+  - key_index: 43
+    localize_value_kr: "\uC800\uC7A5 \uC131\uACF5"
+    localize_value_en: Successfully saved
+    localize_value_ja: "\u4FDD\u5B58\u6210\u529F"
+    localize_value_tc: "\u4FDD\u5B58\u6210\u529F"
+    localize_value_sc: "\u4FDD\u5B58\u6210\u529F\r"
+  - key_index: 44
+    localize_value_kr: "\uB370\uC774\uD130 \uAC80\uC0AC \uC911 ({0}/{1})"
+    localize_value_en: Checking data ({0}/{1})
+    localize_value_ja: "\u30C7\u30FC\u30BF\u691C\u67FB\u4E2D ({0}/{1})"
+    localize_value_tc: "\u6AA2\u67E5\u6578\u64DA\u4E2D ({0}/{1})"
+    localize_value_sc: "\u68C0\u67E5\u6570\u636E\u4E2D ({0}/{1})\r"
+  - key_index: 45
+    localize_value_kr: "\uB808\uBCA8"
+    localize_value_en: Lv.
+    localize_value_ja: "\u30EC\u30D9\u30EB"
+    localize_value_tc: "\u7B49\u7D1A"
+    localize_value_sc: "\u7B49\u7EA7\r"
+  - key_index: 46
+    localize_value_kr: "\uD2F0\uC5B4"
+    localize_value_en: Tier
+    localize_value_ja: "\u30C6\u30A3\u30A2"
+    localize_value_tc: "\u661F\u7D1A"
+    localize_value_sc: "\u661F\u7EA7\r"
+  - key_index: 47
+    localize_value_kr: "\uB2E4\uC74C \uCDA9\uC804 {0}:{1:D2}:{2:D2}"
+    localize_value_en: Until next recharge {0}:{1:D2}:{2:D2}
+    localize_value_ja: "\u30C1\u30E3\u30FC\u30B8\u307E\u3067 {0}:{1:D2}:{2:D2}"
+    localize_value_tc: "\u96E2\u4E0B\u6B21\u6A5F\u6703\u9084\u5269 {0}:{1:D2}:{2:D2}"
+    localize_value_sc: "\u79BB\u4E0B\u6B21\u673A\u4F1A\u8FD8\u5269 {0}:{1:D2}:{2:D2}\r"
+  - key_index: 48
+    localize_value_kr: "\uBCF4\uC2A4\uC804"
+    localize_value_en: Boss
+    localize_value_ja: "\u30DC\u30B9\u6226"
+    localize_value_tc: "BOSS\u6230"
+    localize_value_sc: "BOSS\u6218\r"
+  - key_index: 49
+    localize_value_kr: "\uBCF4\uC2A4 \uC785\uC7A5\uAD8C\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    localize_value_en: Not enough boss ticket
+    localize_value_ja: "\u30DC\u30B9\u6226\u30C1\u30B1\u30C3\u30C8\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "BOSS\u5165\u5834\u5238\u4E0D\u8DB3\u3002"
+    localize_value_sc: "BOSS\u5165\u573A\u5238\u4E0D\u8DB3\u3002\r"
+  - key_index: 50
+    localize_value_kr: "\uB2E4\uC2DC \uBF51\uAE30({0}/3)"
+    localize_value_en: redraw;({0}/3)
+    localize_value_ja: "\u5F15\u304D\u76F4\u3057;({0}/3)"
+    localize_value_tc: "\u91CD\u65B0\u62BD\u53D6({0}/3)"
+    localize_value_sc: "\u91CD\u65B0\u62BD\u53D6({0}/3)\r"
+  - key_index: 51
+    localize_value_kr: "\uC77C"
+    localize_value_en: d
+    localize_value_ja: "\u65E5"
+    localize_value_tc: "\u5929"
+    localize_value_sc: "\u5929\r"
+  - key_index: 52
+    localize_value_kr: "\uC2DC\\\uAC04"
+    localize_value_en: t
+    localize_value_ja: "\u6642\\\u9593"
+    localize_value_tc: "\u5C0F\\\u6642"
+    localize_value_sc: "\u5C0F\\\u65F6\r"
+  - key_index: 53
+    localize_value_kr: "\uBD84"
+    localize_value_en: m
+    localize_value_ja: "\u5206"
+    localize_value_tc: "\u5206"
+    localize_value_sc: "\u5206\r"
+  - key_index: 54
+    localize_value_kr: "\uCD08"
+    localize_value_en: s
+    localize_value_ja: "\u79D2"
+    localize_value_tc: "\u79D2"
+    localize_value_sc: "\u79D2\r"
+  - key_index: 55
+    localize_value_kr: "\uBA54\uC77C\uC744 \uBD88\uB7EC\uC624\uB294 \uC911 \uC785\uB2C8\uB2E4."
+    localize_value_en: Updating email...
+    localize_value_ja: "\u30E1\u30FC\u30EB\u3092\u547C\u3073\u8FBC\u3093\u3067\u3044\u307E\u3059\u3002"
+    localize_value_tc: "\u6B63\u5728\u8B80\u53D6\u90F5\u4EF6\u3002"
+    localize_value_sc: "\u6B63\u5728\u8BFB\u53D6\u90AE\u4EF6\u3002\r"
+  - key_index: 56
+    localize_value_kr: "\uC548\uC77D\uC740 \uBA54\uC77C \uC218 {0}"
+    localize_value_en: '{0} Unread mails'
+    localize_value_ja: "\u65B0\u7740\u30E1\u30FC\u30EB {0}\u4EF6"
+    localize_value_tc: "\u672A\u8B80 {0}"
+    localize_value_sc: "\u672A\u8BFB {0}\r"
+  - key_index: 57
+    localize_value_kr: "\uBA54\uC77C\uC744 \uC218\uB839\uD558\uC600\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Mail successfully recieved
+    localize_value_ja: "\u30E1\u30FC\u30EB\u3092\u53D7\u3051\u53D6\u308A\u307E\u3057\u305F\u3002"
+    localize_value_tc: "\u5DF2\u9818\u53D6\u90F5\u4EF6"
+    localize_value_sc: "\u5DF2\u9886\u53D6\u90AE\u4EF6\r"
+  - key_index: 58
+    localize_value_kr: "\uBCF4\uAD00\uAE30\uAC04:{0}\uB0A8\uC74C"
+    localize_value_en: valid for:{0}
+    localize_value_ja: "\u6B8B\u308A\u306E\u53D7\u3051\u53D6\u308A\u671F\u9593:{0}"
+    localize_value_tc: "\u4FDD\u7559\u6642\u9593\u9084\u5269\uFF1A{0}"
+    localize_value_sc: "\u4FDD\u7559\u65F6\u95F4\u8FD8\u5269\uFF1A{0}\r"
+  - key_index: 59
+    localize_value_kr: "\uD658\uC0DD\uC11D {0:P0}  \uACE8\uB4DC {1:P0}"
+    localize_value_en: Rebirth stone {0:P0}  Gold {1:P0}
+    localize_value_ja: "\u8EE2\u751F\u77F3 {0:P0}  \u30B4\u30FC\u30EB\u30C9 {1:P0}"
+    localize_value_tc: "\u91CD\u751F\u77F3{0:P0} \u91D1\u5E63 {1:P0}"
+    localize_value_sc: "\u91CD\u751F\u77F3{0:P0} \u91D1\u5E01 {1:P0}\r"
+  - key_index: 60
+    localize_value_kr: "{0} wave {1} \uD544\uC694"
+    localize_value_en: '{0} wave {1} required'
+    localize_value_ja: "{0} wave {1} \u5FC5\u8981"
+    localize_value_tc: "\u9700\u8981\u9054\u5230{0} wave {1}"
+    localize_value_sc: "\u9700\u8981\u8FBE\u5230{0} wave {1}\r"
+  - key_index: 61
+    localize_value_kr: "\uBE44\uC18D\uC5B4\uAC00 \uD3EC\uD568\uB41C \uB2C9\uB124\uC784\uC740;\uACBD\uACE0\uC5C6\uC774
+      \uBCC0\uACBD\uB420 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Nickname with vulgarism may be changed without any notice.
+    localize_value_ja: "\u4FD7\u8A9E\u3092\u4F7F\u7528\u3057\u305F\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0\u306F;\u5225\u9014\u306E\u304A\u77E5\u3089\u305B\u306A\u304F\u5909\u66F4\u3055\u308C\u308B\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059\u3002"
+    localize_value_tc: "\u5305\u542B\u4E0D\u6587\u660E\u7528\u8A9E\u7684\u66B1\u7A31\u5C07\u6703\u88AB\u81EA\u52D5\u4FEE\u6539\u3002"
+    localize_value_sc: "\u5305\u542B\u4E0D\u6587\u660E\u7528\u8BED\u7684\u6635\u79F0\u5C06\u4F1A\u88AB\u81EA\u52A8\u4FEE\u6539\u3002\r"
+  - key_index: 62
+    localize_value_kr: "\uC694\uCCAD\uC744 \uCC98\uB9AC\uC911\uC785\uB2C8\uB2E4"
+    localize_value_en: Processing request
+    localize_value_ja: "\u8981\u8ACB\u3092\u51E6\u7406\u3057\u3066\u3044\u307E\u3059\u3002"
+    localize_value_tc: "\u6B63\u5728\u8655\u7406\u60A8\u7684\u8981\u6C42\u3002"
+    localize_value_sc: "\u6B63\u5728\u5904\u7406\u60A8\u7684\u8981\u6C42\u3002\r"
+  - key_index: 63
+    localize_value_kr: "\uB2C9\uB124\uC784 \uBCC0\uACBD \uC131\uACF5"
+    localize_value_en: Nickname successfully changed
+    localize_value_ja: "\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0\u3092\u5909\u66F4\u3057\u307E\u3057\u305F\u3002"
+    localize_value_tc: "\u6210\u529F\u8B8A\u66F4\u66B1\u7A31\u3002"
+    localize_value_sc: "\u6210\u529F\u53D8\u66F4\u6635\u79F0\u3002\r"
+  - key_index: 64
+    localize_value_kr: "\uC774\uBBF8 \uC0AC\uC6A9\uC911\uC774\uAC70\uB098 \uC798\uBABB\uB41C
+      \uB2C9\uB124\uC784\uC785\uB2C8\uB2E4."
+    localize_value_en: This nickname is already taken or the wrong nickname.
+    localize_value_ja: "\u65E2\u306B\u4F7F\u308F\u308C\u3066\u3044\u308B\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0\u3001\u53C8\u306F\u3001\u9593\u9055\u3063\u305F\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0\u3067\u3059\u3002"
+    localize_value_tc: "\u8A72\u66B1\u7A31\u6B63\u5728\u88AB\u4ED6\u4EBA\u4F7F\u7528\u6216\u662F\u932F\u8AA4\u7684\u66B1\u7A31\u3002"
+    localize_value_sc: "\u8BE5\u6635\u79F0\u6B63\u5728\u88AB\u4ED6\u4EBA\u4F7F\u7528\u6216\u662F\u9519\u8BEF\u7684\u6635\u79F0\u3002\r"
+  - key_index: 65
+    localize_value_kr: "\uC544\uCC98\uD0A4\uC6B0\uAE30 \uBB38\uC758"
+    localize_value_en: Archer Forest Inquiry
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u30D5\u30A9\u30EC\u30B9\u30C8\u304A\u554F\u3044\u5408\u308F\u305B"
+    localize_value_tc: "\u5F13\u7BAD\u624B\u990A\u6210\u5BA2\u670D"
+    localize_value_sc: "\u5F13\u7BAD\u624B\u517B\u6210\u5BA2\u670D\r"
+  - key_index: 66
+    localize_value_kr: "\uBCF8\uBB38\uC5D0 \uBB38\uC758\uB0B4\uC6A9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694.;;;;;;\uBB38\uC758\uD574\uC8FC\uC154\uC11C
+      \uAC10\uC0AC\uD569\uB2C8\uB2E4."
+    localize_value_en: Please enter your message..;;;;;;Thank you for your inquiry.
+    localize_value_ja: "\u304A\u554F\u3044\u5408\u308F\u305B\u306E\u5185\u5BB9\u3092\u8A18\u5165\u3057\u3066\u304F\u3060\u3055\u3044\u3002;;;;;;\u304A\u554F\u3044\u5408\u308F\u305B\u304F\u3060\u3055\u308A\u3001\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u3002"
+    localize_value_tc: "\u8ACB\u8F38\u5165\u54A8\u8A62\u5167\u5BB9\u3002;;;;;;\u611F\u8B1D\u60A8\u7684\u54A8\u8A62\u3002"
+    localize_value_sc: "\u8BF7\u8F93\u5165\u54A8\u8BE2\u5185\u5BB9\u3002;;;;;;\u611F\u8C22\u60A8\u7684\u54A8\u8BE2\u3002\r"
+  - key_index: 67
+    localize_value_kr: "\uCD1D \uC804\uD22C\uB825"
+    localize_value_en: Total CP
+    localize_value_ja: "\u7DCF\u5408\u6226\u95D8\u529B"
+    localize_value_tc: "\u7E3D\u6230\u9B25\u529B"
+    localize_value_sc: "\u603B\u6218\u6597\u529B\r"
+  - key_index: 68
+    localize_value_kr: "\uCD5C\uACE0\uD654\uC0B4\uB808\uBCA8"
+    localize_value_en: Max Arrow Lv.
+    localize_value_ja: "\u77E2\u306E\u6700\u9AD8\u30EC\u30D9\u30EB"
+    localize_value_tc: "\u7BAD\u77E2\u6700\u9AD8\u7B49\u7D1A"
+    localize_value_sc: "\u7BAD\u77E2\u6700\u9AD8\u7B49\u7EA7\r"
+  - key_index: 69
+    localize_value_kr: "\uC21C\uC704\uAD8C \uC678"
+    localize_value_en: Out of Ranking
+    localize_value_ja: "\u7B49\u5916"
+    localize_value_tc: "\u672A\u9032\u5165;\u6392\u540D\u699C"
+    localize_value_sc: "\u672A\u8FDB\u5165;\u6392\u540D\u699C\r"
+  - key_index: 70
+    localize_value_kr: "\uCD5C\uACE0\uC2A4\uD14C\uC774\uC9C0 \uB7AD\uD0B9"
+    localize_value_en: Maximal Stage Ranking
+    localize_value_ja: "\u6700\u9AD8\u30B9\u30C6\u30FC\u30B8\u30E9\u30F3\u30AD\u30F3\u30B0"
+    localize_value_tc: "\u6309\u6700\u9AD8\u95DC\u5361\u6392\u540D"
+    localize_value_sc: "\u6309\u6700\u9AD8\u5173\u5361\u6392\u540D\r"
+  - key_index: 71
+    localize_value_kr: "\uC804\uD22C\uB825 \uB7AD\uD0B9"
+    localize_value_en: CP Ranking
+    localize_value_ja: "\u6226\u95D8\u529B\u30E9\u30F3\u30AD\u30F3\u30B0"
+    localize_value_tc: "\u6309\u6230\u9B25\u529B\u6392\u540D"
+    localize_value_sc: "\u6309\u6218\u6597\u529B\u6392\u540D\r"
+  - key_index: 72
+    localize_value_kr: "\uD654\uC0B4\uB808\uBCA8 \uB7AD\uD0B9"
+    localize_value_en: Maximal;Arrow Lv. Ranking
+    localize_value_ja: "\u77E2\u306E\u30EC\u30D9\u30EB\u30E9\u30F3\u30AD\u30F3\u30B0"
+    localize_value_tc: "\u6309\u7BAD\u77E2\u7B49\u7D1A\u6392\u540D"
+    localize_value_sc: "\u6309\u7BAD\u77E2\u7B49\u7EA7\u6392\u540D\r"
+  - key_index: 73
+    localize_value_kr: "\uCD1D\uD569:{0:"
+    localize_value_en: 'Total:{0:'
+    localize_value_ja: "\u7DCF\u5408:{0:"
+    localize_value_tc: "\u7D2F\u8A08\uFF1A{0:"
+    localize_value_sc: "\u7D2F\u8BA1\uFF1A{0:\r"
+  - key_index: 74
+    localize_value_kr: "(\uCD5C\uB300{1:"
+    localize_value_en: '(Maximal {1:'
+    localize_value_ja: "(\u6700\u5927 {1:"
+    localize_value_tc: "(\u6700\u591A {1:"
+    localize_value_sc: "(\u6700\u591A {1:\r"
+  - key_index: 75
+    localize_value_kr: "\uBCF4\uC11D {0}\uAC1C"
+    localize_value_en: '{0} Diamonds'
+    localize_value_ja: "\u30C0\u30A4\u30A2 {0}\u500B"
+    localize_value_tc: "\u5BF6\u77F3{0}\u500B"
+    localize_value_sc: "\u5B9D\u77F3{0}\u4E2A\r"
+  - key_index: 76
+    localize_value_kr: "\uBCF4\uB2E4 \uC548\uC815\uC801\uC778 \uC11C\uBE44\uC2A4
+      \uC774\uC6A9\uC744 \uC704\uD574\uC11C\uB294 \uCD5C\uC2E0\uBC84\uC804\uC73C\uB85C
+      \uC5C5\uB370\uC774\uD2B8\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4."
+    localize_value_en: Updating to a recent version is required for stable service.
+    localize_value_ja: "\u3088\u308A\u5B89\u5B9A\u7684\u306A\u30B5\u30FC\u30D3\u30B9\u5229\u7528\u306E\u70BA\u3001
+      \u6700\u65B0\u30D0\u30FC\u30B8\u30E7\u30F3\u306B\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u70BA\u4E86\u66F4\u512A\u8CEA\u7684\u670D\u52D9\uFF0C\u8ACB\u66F4\u65B0\u81F3\u6700\u65B0\u7248\u672C\u3002"
+    localize_value_sc: "\u4E3A\u4E86\u66F4\u4F18\u8D28\u7684\u670D\u52A1\uFF0C\u8BF7\u66F4\u65B0\u81F3\u6700\u65B0\u7248\u672C\u3002\r"
+  - key_index: 77
+    localize_value_kr: "\uB098\uC911\uC5D0\uD558\uAE30"
+    localize_value_en: Later
+    localize_value_ja: "\u5F8C\u306B\u3059\u308B"
+    localize_value_tc: "\u4EE5\u5F8C\u66F4\u65B0"
+    localize_value_sc: "\u4EE5\u540E\u66F4\u65B0\r"
+  - key_index: 78
+    localize_value_kr: "\uC5C5\uB370\uC774\uD2B8"
+    localize_value_en: Update
+    localize_value_ja: "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8"
+    localize_value_tc: "\u66F4\u65B0"
+    localize_value_sc: "\u66F4\u65B0\r"
+  - key_index: 79
+    localize_value_kr: "\uC774\uC5B4\uC11C \uD558\uAE30"
+    localize_value_en: Continue
+    localize_value_ja: "\u8AAD\u307F\u8FBC\u307F"
+    localize_value_tc: "\u7E7C\u7E8C"
+    localize_value_sc: "\u7EE7\u7EED\r"
+  - key_index: 80
+    localize_value_kr: "\uC5C5\uB370\uC774\uD2B8 \uD544\uC694"
+    localize_value_en: Update required
+    localize_value_ja: "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u5FC5\u8981"
+    localize_value_tc: "\u9700\u8981\u66F4\u65B0"
+    localize_value_sc: "\u9700\u8981\u66F4\u65B0\r"
+  - key_index: 81
+    localize_value_kr: "<size=50>\uB370\uC774\uD130 \uD655\uC778 \uC911...</size>;\uC7A0\uC2DC\uB9CC
+      \uAE30\uB2E4\uB824\uC8FC\uC138\uC694."
+    localize_value_en: <size=50>Checking Data...</size>;Please wait.
+    localize_value_ja: "<size=50>\u30C7\u30FC\u30BF\u78BA\u8A8D\u4E2D\u2026</size>;\u3057\u3070\u3089\u304F\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "<size=50>\u6B63\u5728\u78BA\u8A8D\u6578\u64DA...</size>;\u8ACB\u7A0D\u7B49\u3002"
+    localize_value_sc: "<size=50>\u6B63\u5728\u786E\u8BA4\u6570\u636E...</size>;\u8BF7\u7A0D\u7B49\u3002\r"
+  - key_index: 82
+    localize_value_kr: "<size=50>\uBC84\uC804 \uD655\uC778 \uC911...</size>;(\uC778\uD130\uB137
+      \uC5F0\uACB0\uC774 \uD544\uC694\uD569\uB2C8\uB2E4.)"
+    localize_value_en: <size=50>Version Checking ...</size>;(Internet connection
+      is required.)
+    localize_value_ja: "<size=50>\u30D0\u30FC\u30B8\u30E7\u30F3\u78BA\u8A8D\u4E2D\u2026</size>;(\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u306B\u63A5\u7D9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002)"
+    localize_value_tc: "<size=50>\u6B63\u5728\u78BA\u8A8D\u7248\u672C...</size>;(\u9700\u8981\u9023\u63A5\u7DB2\u7D61\u3002)"
+    localize_value_sc: "<size=50>\u6B63\u5728\u786E\u8BA4\u7248\u672C...</size>;(\u9700\u8981\u8FDE\u63A5\u7F51\u7EDC\u3002)\r"
+  - key_index: 83
+    localize_value_kr: "\uD658\uC0DD\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    localize_value_en: Would you like to rebirth?
+    localize_value_ja: "\u8EE2\u751F\u3057\u307E\u3059\u304B\uFF1F"
+    localize_value_tc: "\u78BA\u8A8D\u91CD\u751F\u55CE\uFF1F"
+    localize_value_sc: "\u786E\u8BA4\u91CD\u751F\u5417\uFF1F\r"
+  - key_index: 84
+    localize_value_kr: "20\uC2A4\uD14C\uC774\uC9C0 \uBBF8\uB2EC \uD328\uB110\uD2F0
+      : 10%"
+    localize_value_en: 'Under 20 Stage Penalty : 10%'
+    localize_value_ja: "20\u30B9\u30C6\u30FC\u30B8\u672A\u9054\u30DA\u30CA\u30EB\u30C6\u30A3\u30FC
+      : 10%"
+    localize_value_tc: "\u672A\u9054\u5230\u7B2C20\u95DC\u5C11\u5F9710%"
+    localize_value_sc: "\u672A\u8FBE\u5230\u7B2C20\u5173\u5C11\u5F9710%\r"
+  - key_index: 85
+    localize_value_kr: "\uACE8\uB4DC \uC5C5\uADF8\uB808\uC774\uB4DC\uB294 \uD658\uC0DD\uC2DC
+      \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4!"
+    localize_value_en: The gold upgraded stats will be reset after rebirth!
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\u3067\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u305F\u80FD\u529B\u5024\u306F\u8EE2\u751F\u306E\u969B\u3001\u30EA\u30BB\u30C3\u30C8\u3055\u308C\u307E\u3059\uFF01"
+    localize_value_tc: "\u4F7F\u7528\u91D1\u5E63\u5347\u7D1A\uFF0C\u91CD\u751F\u5F8C\u5C07\u6703\u91CD\u7F6E\u3002"
+    localize_value_sc: "\u4F7F\u7528\u91D1\u5E01\u5347\u7EA7\uFF0C\u91CD\u751F\u540E\u5C06\u4F1A\u91CD\u7F6E\u3002\r"
+  - key_index: 86
+    localize_value_kr: "\uD658\uC0DD"
+    localize_value_en: Rebirth
+    localize_value_ja: "\u8EE2\u751F"
+    localize_value_tc: "\u91CD\u751F"
+    localize_value_sc: "\u91CD\u751F\r"
+  - key_index: 87
+    localize_value_kr: "\uC790\uB3D9 \uC2A4\uD0AC"
+    localize_value_en: Auto;Skill
+    localize_value_ja: "\u81EA\u52D5\u30B9\u30AD\u30EB"
+    localize_value_tc: "\u81EA\u52D5\u65BD\u5C55\u6280\u80FD"
+    localize_value_sc: "\u81EA\u52A8\u65BD\u5C55\u6280\u80FD\r"
+  - key_index: 88
+    localize_value_kr: "\uC790\uB3D9 \uC81C\uC791"
+    localize_value_en: Auto;Production
+    localize_value_ja: "\u81EA\u52D5\u88FD\u4F5C"
+    localize_value_tc: "\u81EA\u52D5\u88FD\u4F5C"
+    localize_value_sc: "\u81EA\u52A8\u5236\u4F5C\r"
+  - key_index: 89
+    localize_value_kr: "\uAD00\uB9AC"
+    localize_value_en: Manage
+    localize_value_ja: "\u7BA1\u7406"
+    localize_value_tc: "\u7BA1\u7406"
+    localize_value_sc: "\u7BA1\u7406\r"
+  - key_index: 90
+    localize_value_kr: "\uACF5\uACA9"
+    localize_value_en: ATK
+    localize_value_ja: "\u653B\u6483"
+    localize_value_tc: "\u653B\u64CA"
+    localize_value_sc: "\u653B\u51FB\r"
+  - key_index: 91
+    localize_value_kr: "\uC81C\uC791"
+    localize_value_en: Production
+    localize_value_ja: "\u88FD\u4F5C"
+    localize_value_tc: "\u88FD\u4F5C"
+    localize_value_sc: "\u5236\u4F5C\r"
+  - key_index: 92
+    localize_value_kr: "\uD2B9\uC218"
+    localize_value_en: Special
+    localize_value_ja: "\u7279\u6B8A"
+    localize_value_tc: "\u7279\u6B8A"
+    localize_value_sc: "\u7279\u6B8A\r"
+  - key_index: 93
+    localize_value_kr: "\uD2B9\uC218 \uCE74\uB4DC\uB294 \uBCF4\uC2A4\uC804\uC744
+      \uD074\uB9AC\uC5B4\uD558\uC5EC \uC5BB\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Special cards can be obtained by killing the boss.
+    localize_value_ja: "\u7279\u6B8A\u30AB\u30FC\u30C9\u306F\u30DC\u30B9\u3092\u5012\u3057\u305F\u3089\u8CB0\u3048\u307E\u3059\u3002"
+    localize_value_tc: "\u7279\u6B8A\u5361\u7247\u9700\u8981\u5728BOSS\u6230\u53D6\u5F97\u52DD\u5229\u3002"
+    localize_value_sc: "\u7279\u6B8A\u5361\u7247\u9700\u8981\u5728BOSS\u6218\u53D6\u5F97\u80DC\u5229\u3002\r"
+  - key_index: 94
+    localize_value_kr: "\uAD11\uACE0 \uBCF4\uAE30"
+    localize_value_en: Watch Ad
+    localize_value_ja: "\u5E83\u544A\u3092\u898B\u308B"
+    localize_value_tc: "\u89C0\u770B\u5EE3\u544A"
+    localize_value_sc: "\u89C2\u770B\u5E7F\u544A\r"
+  - key_index: 95
+    localize_value_kr: "30\uBD84 \uB3D9\uC548 \uD654\uC0B4\uC744 \uC790\uB3D9\uC73C\uB85C
+      \uC0DD\uC131\uD569\uB2C8\uB2E4."
+    localize_value_en: Create arrows automatically for 30mins.
+    localize_value_ja: "30\u5206\u9593\u3001\u77E2\u3092\u81EA\u52D5\u7684\u306B\u5236\u4F5C\u3057\u307E\u3059\u3002"
+    localize_value_tc: "\u81EA\u52D5\u751F\u6210\u7BAD\u77E230\u5206\u9418"
+    localize_value_sc: "\u81EA\u52A8\u751F\u6210\u7BAD\u77E230\u5206\u949F\r"
+  - key_index: 96
+    localize_value_kr: "\uC2A4\uD14C\uC774\uC9C0 \uC2A4\uD0B5"
+    localize_value_en: Stage skip
+    localize_value_ja: "\u30B9\u30C6\u30FC\u30B8\u30B9\u30AD\u30C3\u30D7"
+    localize_value_tc: "\u8DF3\u904E\u95DC\u5361"
+    localize_value_sc: "\u8DF3\u8FC7\u5173\u5361\r"
+  - key_index: 97
+    localize_value_kr: "\uC2A4\uD0AC"
+    localize_value_en: Skill
+    localize_value_ja: "\u30B9\u30AD\u30EB"
+    localize_value_tc: "\u6280\u80FD"
+    localize_value_sc: "\u6280\u80FD\r"
+  - key_index: 98
+    localize_value_kr: "\uD328\uC2DC\uBE0C"
+    localize_value_en: Passive
+    localize_value_ja: "\u30D1\u30C3\u30B7\u30D6"
+    localize_value_tc: "\u4EBA\u7269\u6280\u80FD"
+    localize_value_sc: "\u4EBA\u7269\u6280\u80FD\r"
+  - key_index: 99
+    localize_value_kr: "\uC815\uB82C"
+    localize_value_en: Array
+    localize_value_ja: "\u6574\u5217"
+    localize_value_tc: "\u6392\u5E8F"
+    localize_value_sc: "\u6392\u5E8F\r"
+  - key_index: 100
+    localize_value_kr: "\uC544\uCC98 \uBCC0\uACBD"
+    localize_value_en: Change;Archer
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC;\u5909\u66F4"
+    localize_value_tc: "\u8B8A\u66F4\u5F13\u7BAD\u624B"
+    localize_value_sc: "\u53D8\u66F4\u5F13\u7BAD\u624B\r"
+  - key_index: 101
+    localize_value_kr: "\uC544\uCC98 \uC18C\uD658 x 1"
+    localize_value_en: Archer Summon;x 1
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u53EC\u559A;x 1"
+    localize_value_tc: "\u53EC\u559A\u5F13\u7BAD\u624B x 1"
+    localize_value_sc: "\u53EC\u5524\u5F13\u7BAD\u624B x 1\r"
+  - key_index: 102
+    localize_value_kr: "\uC544\uCC98 \uC18C\uD658 x 11"
+    localize_value_en: Archer Summon;x 11
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u53EC\u559A;x 11"
+    localize_value_tc: "\u53EC\u559A\u5F13\u7BAD\u624B x 11"
+    localize_value_sc: "\u53EC\u5524\u5F13\u7BAD\u624B x 11\r"
+  - key_index: 103
+    localize_value_kr: "\uBCF4\uC11D"
+    localize_value_en: Diamonds
+    localize_value_ja: "\u30C0\u30A4\u30A2"
+    localize_value_tc: "\u5BF6\u77F3"
+    localize_value_sc: "\u5B9D\u77F3\r"
+  - key_index: 104
+    localize_value_kr: "\uC2A4\uD398\uC15C \uD328\uD0A4\uC9C0"
+    localize_value_en: Special Packs
+    localize_value_ja: "\u30B9\u30DA\u30B7\u30E3\u30EB\u30D1\u30C3\u30B1\u30FC\u30B8"
+    localize_value_tc: "\u7279\u5225\u79AE\u5305"
+    localize_value_sc: "\u7279\u522B\u793C\u5305\r"
+  - key_index: 105
+    localize_value_kr: "\uBCF4\uC2A4\uC804 \uD2F0\uCF13 x 1"
+    localize_value_en: Boss ticket x 1
+    localize_value_ja: "\u30DC\u30B9\u6226\u30C1\u30B1\u30C3\u30C8;x 1"
+    localize_value_tc: "BOSS\u6230\u5238 x 1"
+    localize_value_sc: "BOSS\u6218\u5238 x 1\r"
+  - key_index: 106
+    localize_value_kr: "\uBCF4\uC2A4\uC804 \uD2F0\uCF13 x 5"
+    localize_value_en: Boss ticket x 5
+    localize_value_ja: "\u30DC\u30B9\u6226\u30C1\u30B1\u30C3\u30C8;x 5"
+    localize_value_tc: "BOSS\u6230\u5238 x 5"
+    localize_value_sc: "BOSS\u6218\u5238 x 5\r"
+  - key_index: 107
+    localize_value_kr: "\uD654\uC0B4 \uBCF4\uAE09 x 10"
+    localize_value_en: Arrow supply;x 10
+    localize_value_ja: "\u77E2\u88DC\u7D66 x 10"
+    localize_value_tc: "\u7BAD\u77E2\u88DC\u7D66 x 10"
+    localize_value_sc: "\u7BAD\u77E2\u8865\u7ED9 x 10\r"
+  - key_index: 108
+    localize_value_kr: "\uC544\uCC98 \uAD00\uB9AC"
+    localize_value_en: Manage Archer
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC;\u7BA1\u7406"
+    localize_value_tc: "\u7BA1\u7406\u5F13\u7BAD\u624B"
+    localize_value_sc: "\u7BA1\u7406\u5F13\u7BAD\u624B\r"
+  - key_index: 109
+    localize_value_kr: "\uC124\uC815"
+    localize_value_en: Settings
+    localize_value_ja: "\u8A2D\u5B9A"
+    localize_value_tc: "\u8A2D\u7F6E"
+    localize_value_sc: "\u8BBE\u7F6E\r"
+  - key_index: 110
+    localize_value_kr: "\uB7AD\uD0B9"
+    localize_value_en: Ranking
+    localize_value_ja: "\u30E9\u30F3\u30AD\u30F3\u30B0"
+    localize_value_tc: "\u6392\u540D\u699C"
+    localize_value_sc: "\u6392\u540D\u699C\r"
+  - key_index: 111
+    localize_value_kr: "\uC9C0\uB3C4"
+    localize_value_en: Map
+    localize_value_ja: "\u5730\u56F3"
+    localize_value_tc: "\u5730\u5716"
+    localize_value_sc: "\u5730\u56FE\r"
+  - key_index: 112
+    localize_value_kr: "\uC6B0\uD3B8\uD568"
+    localize_value_en: Post
+    localize_value_ja: "\u30DD\u30B9\u30C8"
+    localize_value_tc: "\u90F5\u7BB1"
+    localize_value_sc: "\u90AE\u7BB1\r"
+  - key_index: 113
+    localize_value_kr: "\uB4DC\uB9E4 \uB300\uB959"
+    localize_value_en: Continent of Dematt
+    localize_value_ja: "\u30C9\u30E1\u5927\u9678"
+    localize_value_tc: "\u5FB7\u9EA5\u5927\u9678"
+    localize_value_sc: "\u5FB7\u9EA6\u5927\u9646\r"
+  - key_index: 114
+    localize_value_kr: "\uAC70\uBD81 \uC12C"
+    localize_value_en: Turtle Island
+    localize_value_ja: "\u4E80\u5CF6"
+    localize_value_tc: "\u9F9C\u5CF6"
+    localize_value_sc: "\u9F9F\u5C9B\r"
+  - key_index: 115
+    localize_value_kr: "\uD558\uB298 \uC694\uC0C8"
+    localize_value_en: Sky Fortress
+    localize_value_ja: "\u5929\u7A7A\u306E\u8981\u585E"
+    localize_value_tc: "\u5929\u7A7A\u8981\u585E"
+    localize_value_sc: "\u5929\u7A7A\u8981\u585E\r"
+  - key_index: 116
+    localize_value_kr: "\uC774\uB3D9"
+    localize_value_en: Move
+    localize_value_ja: "\u79FB\u52D5"
+    localize_value_tc: "\u79FB\u52D5"
+    localize_value_sc: "\u79FB\u52A8\r"
+  - key_index: 117
+    localize_value_kr: "\uBCC0\uACBD"
+    localize_value_en: Change
+    localize_value_ja: "\u5909\u66F4"
+    localize_value_tc: "\u8B8A\u66F4"
+    localize_value_sc: "\u53D8\u66F4\r"
+  - key_index: 118
+    localize_value_kr: "\uD6A8\uACFC\uC74C"
+    localize_value_en: SFX
+    localize_value_ja: "\u52B9\u679C\u97F3"
+    localize_value_tc: "\u6548\u679C\u97F3"
+    localize_value_sc: "\u6548\u679C\u97F3\r"
+  - key_index: 119
+    localize_value_kr: "\uBC30\uACBD\uC74C"
+    localize_value_en: Music
+    localize_value_ja: "\u80CC\u666F\u97F3"
+    localize_value_tc: "\u80CC\u666F\u97F3"
+    localize_value_sc: "\u80CC\u666F\u97F3\r"
+  - key_index: 120
+    localize_value_kr: "\uAC1C\uC778\uC815\uBCF4;\uBCF4\uD638\uC815\uCC45"
+    localize_value_en: Privacy;Policy
+    localize_value_ja: "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC;\u30DD\u30EA\u30B7\u30FC"
+    localize_value_tc: "\u96B1\u79C1\u6B0A\u653F\u7B56"
+    localize_value_sc: "\u9690\u79C1\u6743\u653F\u7B56\r"
+  - key_index: 121
+    localize_value_kr: "\uC774\uC6A9\uC57D\uAD00"
+    localize_value_en: Terms of Service
+    localize_value_ja: "\u5229\u7528\u5951\u7D04"
+    localize_value_tc: "\u4F7F\u7528\u689D\u6B3E"
+    localize_value_sc: "\u4F7F\u7528\u6761\u6B3E\r"
+  - key_index: 122
+    localize_value_kr: "\uBB38\uC758\uD558\uAE30"
+    localize_value_en: Inquiry
+    localize_value_ja: "\u304A\u554F\u3044\u5408\u308F\u305B"
+    localize_value_tc: "\u54A8\u8A62"
+    localize_value_sc: "\u54A8\u8BE2\r"
+  - key_index: 123
+    localize_value_kr: "\uC2DC\uC791"
+    localize_value_en: Start
+    localize_value_ja: "\u30B9\u30BF\u30FC\u30C8"
+    localize_value_tc: "\u958B\u59CB"
+    localize_value_sc: "\u5F00\u59CB\r"
+  - key_index: 124
+    localize_value_kr: "\uCC98\uCE58\uBCF4\uC0C1"
+    localize_value_en: Clear reward
+    localize_value_ja: "\u30AF\u30EA\u30A2\u5831\u916C"
+    localize_value_tc: "\u52DD\u5229\u734E\u52F5"
+    localize_value_sc: "\u80DC\u5229\u5956\u52B1\r"
+  - key_index: 125
+    localize_value_kr: "\uCD5C\uCD08\uBCF4\uC0C1"
+    localize_value_en: First clear;reward
+    localize_value_ja: "\u521D\u56DE\u5831\u916C"
+    localize_value_tc: "\u6700\u521D\u734E\u52F5"
+    localize_value_sc: "\u6700\u521D\u5956\u52B1\r"
+  - key_index: 126
+    localize_value_kr: "\uC2A4\uD14C\uC774\uC9C0"
+    localize_value_en: Stage
+    localize_value_ja: "\u30B9\u30C6\u30FC\u30B8"
+    localize_value_tc: "\u95DC\u5361"
+    localize_value_sc: "\u5173\u5361\r"
+  - key_index: 127
+    localize_value_kr: "\uC804\uD22C\uB825"
+    localize_value_en: CP
+    localize_value_ja: "\u6226\u95D8\u529B"
+    localize_value_tc: "\u6230\u9B25\u529B"
+    localize_value_sc: "\u6218\u6597\u529B\r"
+  - key_index: 128
+    localize_value_kr: "\uD654\uC0B4\uB808\uBCA8"
+    localize_value_en: Arrow Lv.
+    localize_value_ja: "\u77E2\u306E\u30EC\u30D9\u30EB"
+    localize_value_tc: "\u7BAD\u77E2\u7B49\u7D1A"
+    localize_value_sc: "\u7BAD\u77E2\u7B49\u7EA7\r"
+  - key_index: 129
+    localize_value_kr: "\uC544\uCC98 \uC18C\uD658"
+    localize_value_en: Archer Summon
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u53EC\u559A"
+    localize_value_tc: "\u53EC\u559A\u5F13\u7BAD\u624B"
+    localize_value_sc: "\u53EC\u5524\u5F13\u7BAD\u624B\r"
+  - key_index: 130
+    localize_value_kr: "\uCDE8\uC18C"
+    localize_value_en: Cancel
+    localize_value_ja: "\u53D6\u308A\u6D88\u3057"
+    localize_value_tc: "\u53D6\u6D88"
+    localize_value_sc: "\u53D6\u6D88\r"
+  - key_index: 131
+    localize_value_kr: "\uAD6C\uB9E4\uBCF5\uC6D0"
+    localize_value_en: Purchases Restored
+    localize_value_ja: "\u8CFC\u5165\u5FA9\u65E7"
+    localize_value_tc: "\u8CFC\u8CB7\u5FA9\u539F"
+    localize_value_sc: "\u8D2D\u4E70\u590D\u539F\r"
+  - key_index: 132
+    localize_value_kr: "\uB2E4\uC2DC\uBF51\uAE30"
+    localize_value_en: Redraw
+    localize_value_ja: "\u5F15\u304D\u76F4\u3057"
+    localize_value_tc: "\u91CD\u65B0\u62BD\u53D6"
+    localize_value_sc: "\u91CD\u65B0\u62BD\u53D6\r"
+  - key_index: 133
+    localize_value_kr: "\uD655\uB960\uC815\uBCF4"
+    localize_value_en: Rate information
+    localize_value_ja: "\u78BA\u7387\u60C5\u5831"
+    localize_value_tc: "\u6A5F\u7387\u4FE1\u606F"
+    localize_value_sc: "\u673A\u7387\u4FE1\u606F\r"
+  - key_index: 134
+    localize_value_kr: "\uC0C8\uB85C\uC6B4 \uD654\uC0B4 \uBC1C\uACAC!!"
+    localize_value_en: The New arrow found!
+    localize_value_ja: "\u65B0\u3057\u3044\u77E2\u767A\u898B\uFF01"
+    localize_value_tc: "\u767C\u73FE\u65B0\u7BAD\u77E2\uFF01"
+    localize_value_sc: "\u53D1\u73B0\u65B0\u7BAD\u77E2\uFF01\r"
+  - key_index: 135
+    localize_value_kr: "\uBC1B\uC740 \uBA54\uC77C\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
+    localize_value_en: No emails received.
+    localize_value_ja: "\u65B0\u7740\u30E1\u30FC\u30EB\u304C\u3042\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u672A\u6536\u5230\u90F5\u4EF6"
+    localize_value_sc: "\u672A\u6536\u5230\u90AE\u4EF6\r"
+  - key_index: 136
+    localize_value_kr: "\uB2E4\uC2DC\uD558\uAE30"
+    localize_value_en: Retry
+    localize_value_ja: "\u3084\u308A\u76F4\u3057"
+    localize_value_tc: "\u91CD\u65B0\u958B\u59CB"
+    localize_value_sc: "\u91CD\u65B0\u5F00\u59CB\r"
+  - key_index: 137
+    localize_value_kr: "\uB3CC\uC544\uAC00\uAE30"
+    localize_value_en: Back
+    localize_value_ja: "\u623B\u308B"
+    localize_value_tc: "\u8FD4\u56DE"
+    localize_value_sc: "\u8FD4\u56DE\r"
+  - key_index: 138
+    localize_value_kr: "\uBCF4\uC0C1"
+    localize_value_en: Rewards
+    localize_value_ja: "\u5831\u916C"
+    localize_value_tc: "\u734E\u52F5"
+    localize_value_sc: "\u5956\u52B1\r"
+  - key_index: 139
+    localize_value_kr: "\uBD80\uD65C"
+    localize_value_en: Rebirth
+    localize_value_ja: "\u5FA9\u6D3B"
+    localize_value_tc: "\u5FA9\u6D3B"
+    localize_value_sc: "\u590D\u6D3B\r"
+  - key_index: 140
+    localize_value_kr: "\uBCF4\uC2A4\uC804 \uD2F0\uCF13"
+    localize_value_en: Boss;ticket
+    localize_value_ja: "\u30DC\u30B9\u6226\u30C1\u30B1\u30C3\u30C8"
+    localize_value_tc: "BOSS\u6230\u5238"
+    localize_value_sc: "BOSS\u6218\u5238\r"
+  - key_index: 141
+    localize_value_kr: "\uD654\uC0B4 \uCDA9\uC804\uC11D"
+    localize_value_en: Arrow;stone
+    localize_value_ja: "\u77E2\u306E\u88DC\u7D66\u77F3"
+    localize_value_tc: "\u7BAD\u77E2\u88DC\u7D66\u77F3"
+    localize_value_sc: "\u7BAD\u77E2\u8865\u7ED9\u77F3\r"
+  - key_index: 142
+    localize_value_kr: "\uC815\uBCF4"
+    localize_value_en: Info
+    localize_value_ja: "\u60C5\u5831"
+    localize_value_tc: "\u4FE1\u606F"
+    localize_value_sc: "\u4FE1\u606F\r"
+  - key_index: 143
+    localize_value_kr: "\uC0AC\uC6A9"
+    localize_value_en: Use
+    localize_value_ja: "\u4F7F\u7528"
+    localize_value_tc: "\u4F7F\u7528"
+    localize_value_sc: "\u4F7F\u7528\r"
+  - key_index: 144
+    localize_value_kr: "\uD328\uC2A4\uAD8C"
+    localize_value_en: Pass
+    localize_value_ja: "\u30D1\u30B9\u5238"
+    localize_value_tc: "\u901A\u884C\u8B49"
+    localize_value_sc: "\u901A\u884C\u8BC1\r"
+  - key_index: 145
+    localize_value_kr: "V.I.P \uD2F0\uCF13"
+    localize_value_en: VIP Ticket
+    localize_value_ja: "VIP \u30C1\u30B1\u30C3\u30C8"
+    localize_value_tc: "V.I.P\u5238"
+    localize_value_sc: "V.I.P\u5238\r"
+  - key_index: 146
+    localize_value_kr: "\uD658\uC0DD\uC744 \uD558\uACE0 \uC120\uD0DD\uD55C \uB9F5\uC73C\uB85C
+      \uC774\uB3D9\uD569\uB2C8\uB2E4."
+    localize_value_en: Rebirth and move to the selected map.
+    localize_value_ja: "\u8EE2\u751F\u3057\u3001;\u9078\u629E\u3057\u305F\u5730\u57DF\u3078\u79FB\u52D5\u3057\u307E\u3059\u3002"
+    localize_value_tc: "\u91CD\u751F\u4E14\u79FB\u81F3\u9078\u4E2D\u7684\u5730\u5716\u3002"
+    localize_value_sc: "\u91CD\u751F\u4E14\u79FB\u81F3\u9009\u4E2D\u7684\u5730\u56FE\u3002\r"
+  - key_index: 147
+    localize_value_kr: "\uC5C6\uC74C"
+    localize_value_en: None
+    localize_value_ja: "\u7121\u3057"
+    localize_value_tc: "\u7121"
+    localize_value_sc: "\u65E0\r"
+  - key_index: 148
+    localize_value_kr: "\uB2C9\uB124\uC784 \uBCC0\uACBD"
+    localize_value_en: Change Nickname
+    localize_value_ja: "\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0\u5909\u66F4"
+    localize_value_tc: "\u8B8A\u66F4\u66B1\u7A31"
+    localize_value_sc: "\u53D8\u66F4\u6635\u79F0\r"
+  - key_index: 149
+    localize_value_kr: "\uC0C8 \uC774\uB984 \uC785\uB825 :"
+    localize_value_en: 'New Nickname :'
+    localize_value_ja: "\u65B0\u3057\u3044\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0\uFF1A"
+    localize_value_tc: "\u8ACB\u8F38\u5165\u65B0\u540D\u5B57\uFF1A"
+    localize_value_sc: "\u8BF7\u8F93\u5165\u65B0\u540D\u5B57\uFF1A\r"
+  - key_index: 150
+    localize_value_kr: "\uB2C9\uB124\uC784\uC744 \uC785\uB825\uD558\uC138\uC694.
+      (\uCD5C\uB300 8\uAE00\uC790)"
+    localize_value_en: Enter your nickname. (maximum 16 characters)
+    localize_value_ja: "\u30CB\u30C3\u30AF\u30CD\u30FC\u30E0\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002\uFF08\u6700\u59278\u6587\u5B57\uFF09"
+    localize_value_tc: "\u8ACB\u8F38\u5165\u66B1\u7A31\u3002\uFF08\u6700\u591A8\u500B\u5B57\uFF09"
+    localize_value_sc: "\u8BF7\u8F93\u5165\u6635\u79F0\u3002\uFF08\u6700\u591A8\u4E2A\u5B57\uFF09\r"
+  - key_index: 151
+    localize_value_kr: "\uD658\uC0DD\uC11D"
+    localize_value_en: Rebrith;Stone
+    localize_value_ja: "\u8EE2\u751F\u77F3"
+    localize_value_tc: "\u91CD\u751F\u77F3"
+    localize_value_sc: "\u91CD\u751F\u77F3\r"
+  - key_index: 152
+    localize_value_kr: "{0}\uB808\uBCA8 \uD654\uC0B4"
+    localize_value_en: Lv.{0} Arrow
+    localize_value_ja: "{0}\u30EC\u30D9\u30EB\u77E2"
+    localize_value_tc: "{0}\u7D1A\u7BAD\u77E2"
+    localize_value_sc: "{0}\u7EA7\u7BAD\u77E2\r"
+  - key_index: 153
+    localize_value_kr: "\uACF5\uC9C0\uC0AC\uD56D"
+    localize_value_en: Notice
+    localize_value_ja: "\u304A\u77E5\u3089\u305B"
+    localize_value_tc: "\u901A\u77E5"
+    localize_value_sc: "\u901A\u77E5\r"
+  - key_index: 154
+    localize_value_kr: "{0}\uBC84\uC804 \uC5C5\uB370\uC774\uD2B8 \uC0AC\uD56D"
+    localize_value_en: Update notice for;version. {0}
+    localize_value_ja: "{0}\u30D0\u30FC\u30B8\u30E7\u30F3;\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u4E8B\u9805"
+    localize_value_tc: "{0}\u7248\u672C\u66F4\u65B0\u5167\u5BB9"
+    localize_value_sc: "{0}\u7248\u672C\u66F4\u65B0\u5185\u5BB9\r"
+  - key_index: 155
+    localize_value_kr: "\uD074\uB77C\uC6B0\uB4DC\uC5D0 \uB370\uC774\uD130\uB97C \uC548\uC804\uD788
+      \uC800\uC7A5\uD558\uC600\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Your data is successfully saved in the cloud.
+    localize_value_ja: "\u30AF\u30E9\u30A6\u30C9\u306B\u30C7\u30FC\u30BF\u3092\u5B89\u5168\u306B\u4FDD\u5B58\u3057\u307E\u3057\u305F\u3002"
+    localize_value_tc: "\u5DF2\u5C07\u6578\u64DA\u4FDD\u5B58\u81F3\u96F2\u7AEF\u3002"
+    localize_value_sc: "\u5DF2\u5C06\u6570\u636E\u4FDD\u5B58\u81F3\u4E91\u7AEF\u3002\r"
+  - key_index: 156
+    localize_value_kr: "\uC694\uCCAD\uC744 \uCC98\uB9AC\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4."
+    localize_value_en: The request could not be processed.
+    localize_value_ja: "\u8981\u8ACB\u3092\u51E6\u7406\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+    localize_value_tc: "\u8655\u7406\u5931\u6557\u3002"
+    localize_value_sc: "\u5904\u7406\u5931\u8D25\u3002\r"
+  - key_index: 157
+    localize_value_kr: "\uC7A0\uC2DC \uD6C4 \uB2E4\uC2DC \uC2DC\uB3C4\uD574\uC8FC\uC138\uC694."
+    localize_value_en: Please try again later.
+    localize_value_ja: "\u3057\u3070\u3089\u304F\u3057\u3066\u304B\u3089\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u8ACB\u7A0D\u5F8C\u91CD\u8A66\u3002"
+    localize_value_sc: "\u8BF7\u7A0D\u540E\u91CD\u8BD5\u3002\r"
+  - key_index: 158
+    localize_value_kr: "\uC774\uBBF8 \uC5F0\uB3D9 \uB41C \uACC4\uC815\uC785\uB2C8\uB2E4."
+    localize_value_en: Your account is already connected.
+    localize_value_ja: "\u65E2\u306B\u9023\u643A\u3055\u308C\u305F\u30A2\u30AB\u30A6\u30F3\u30C8\u3067\u3059\u3002"
+    localize_value_tc: "\u8A72\u8CEC\u865F\u5DF2\u7D81\u5B9A\u3002"
+    localize_value_sc: "\u8BE5\u8D26\u53F7\u5DF2\u7ED1\u5B9A\u3002\r"
+  - key_index: 159
+    localize_value_kr: "\uAD6C\uAE00\uD50C\uB808\uC774 \uACC4\uC815\uC744 \uD655\uC778\uD574\uC8FC\uC138\uC694."
+    localize_value_en: Please check your Google Play account.
+    localize_value_ja: "\u30B0\u30FC\u30B0\u30EB\u30D7\u30EC\u30A4\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u8ACB\u78BA\u8A8D\u60A8\u7684\u8C37\u6B4C\u8CEC\u865F\u3002"
+    localize_value_sc: "\u8BF7\u786E\u8BA4\u60A8\u7684\u8C37\u6B4C\u8D26\u53F7\u3002\r"
+  - key_index: 160
+    localize_value_kr: "\uAE30\uAE30 \uB0B4 \uC124\uC815 - \uAC8C\uC784\uC13C\uD130\uB97C
+      \uD655\uC778\uD574\uC8FC\uC138\uC694."
+    localize_value_en: Please check Setting > Game Center on your device.
+    localize_value_ja: "\u6A5F\u5668\u5185\u306E\u8A2D\u5B9A\uFF1E\u30B2\u30FC\u30E0\u30BB\u30F3\u30BF\u30FC\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u8ACB\u5728\u8A2D\u5099\u5167\u78BA\u8A8D\u3010\u8A2D\u7F6E-\u904A\u6232\u4E2D\u5FC3\u3002\u3011"
+    localize_value_sc: "\u8BF7\u786E\u8BA4\u8BBE\u5907\u7684\u3010\u8BBE\u7F6E-\u6E38\u620F\u4E2D\u5FC3\u3002\u3011\r"
+  - key_index: 161
+    localize_value_kr: "\uAD6C\uAE00\uD50C\uB808\uC774;\uC5F0\uB3D9\uC644\uB8CC"
+    localize_value_en: Google Play;Successfully Connected
+    localize_value_ja: "\u30B0\u30FC\u30B0\u30EB;\u30D7\u30EC\u30A4;\u9023\u643A\u6E08\u307F"
+    localize_value_tc: "\u8C37\u6B4C\u5546\u5E97;\u7D81\u5B9A\u6210\u529F"
+    localize_value_sc: "\u8C37\u6B4C\u5546\u5E97;\u7ED1\u5B9A\u6210\u529F\r"
+  - key_index: 162
+    localize_value_kr: "\uAC8C\uC784\uC13C\uD130;\uC5F0\uB3D9\uC644\uB8CC"
+    localize_value_en: Game Center;Connected
+    localize_value_ja: "\u30B2\u30FC\u30E0;\u30BB\u30F3\u30BF\u30FC;\u9023\u643A\u6E08\u307F"
+    localize_value_tc: "\u904A\u6232\u4E2D\u5FC3;\u7D81\u5B9A\u6210\u529F"
+    localize_value_sc: "\u6E38\u620F\u4E2D\u5FC3;\u7ED1\u5B9A\u6210\u529F\r"
+  - key_index: 163
+    localize_value_kr: "\uC18C\uC15C;\uC5F0\uB3D9\uD558\uAE30"
+    localize_value_en: Social;Connection
+    localize_value_ja: "\u30BD\u30FC\u30B7\u30E3\u30EB;\u9023\u643A\u3059\u308B"
+    localize_value_tc: "\u7D81\u5B9A;\u793E\u4EA4\u8CEC\u865F"
+    localize_value_sc: "\u7ED1\u5B9A;\u793E\u4EA4\u8D26\u53F7\r"
+  - key_index: 164
+    localize_value_kr: "\uD074\uB77C\uC6B0\uB4DC;\uC800\uC7A5"
+    localize_value_en: Cloud;Save
+    localize_value_ja: "\u30AF\u30E9\u30A6\u30C9;\u4FDD\u5B58"
+    localize_value_tc: "\u4FDD\u5B58\u5230\u96F2\u7AEF"
+    localize_value_sc: "\u4FDD\u5B58\u5230\u4E91\u7AEF\r"
+  - key_index: 165
+    localize_value_kr: "<size=50>\uAC8C\uC784 \uC815\uCC45\uC744 \uC704\uBC18\uD558\uC5EC
+      \uC774\uC6A9 \uC815\uC9C0\uB41C \uC720\uC800\uC785\uB2C8\uB2E4.</size>;;\uC790\uC138\uD55C
+      \uB0B4\uC6A9\uC740 \uACE0\uAC1D\uC9C0\uC6D0 \uBA54\uC77C\uC744 \uD1B5\uD574
+      \uBB38\uC758\uD558\uC138\uC694;archer@gameduo.net"
+    localize_value_en: <size=50>Account has been suspended.</size>;;Please contact
+      us for details.;archer@gameduo.net
+    localize_value_ja: "<size=50>\u30B2\u30FC\u30E0\u653F\u7B56\u3092\u9055\u53CD\u3057\u305F\u305F\u3081\u3001\u5229\u7528\u505C\u6B62\u3055\u308C\u305F\u30A2\u30AB\u30A6\u30F3\u30C8\u3067\u3059\u3002</size>;;\u8A73\u7D30\u306F\u4EE5\u4E0B\u306E\u304A\u554F\u3044\u5408\u308F\u305B\u30E1\u30FC\u30EB\u3067\u304A\u554F\u3044\u5408\u308F\u305B\u304F\u3060\u3055\u3044\u3002;archer@gameduo.net"
+    localize_value_tc: "<size=50>\u60A8\u7684\u8CEC\u865F\u56E0\u9055\u53CD\u904A\u6232\u653F\u7B56\u800C\u88AB\u7981\u7528\u3002</size>;;\u8A73\u7D30\u5167\u5BB9\u8ACB\u54A8\u8A62\u4EE5\u4E0B\u5BA2\u670D\u90F5\u7BB1\uFF1A;archer@gameduo.net"
+    localize_value_sc: "<size=50>\u60A8\u7684\u8D26\u53F7\u56E0\u8FDD\u53CD\u6E38\u620F\u653F\u7B56\u800C\u88AB\u7981\u7528\u3002</size>;;\u8BE6\u7EC6\u5185\u5BB9\u8BF7\u54A8\u8BE2\u4EE5\u4E0B\u5BA2\u670D\u90AE\u7BB1\uFF1A;archer@gameduo.net\r"
+  - key_index: 166
+    localize_value_kr: "\uB9E4\uC77C\uB9E4\uC77C;\uBCF4\uC11D"
+    localize_value_en: Everyday;Diamonds
+    localize_value_ja: "\u6BCE\u65E5;\u30C0\u30A4\u30A2"
+    localize_value_tc: "\u5929\u5929\u9001;\u5BF6\u77F3"
+    localize_value_sc: "\u5929\u5929\u9001;\u5B9D\u77F3\r"
+  - key_index: 167
+    localize_value_kr: "\uB9E4\uC77C\uB9E4\uC77C;\uBCF4\uC2A4\uC804\uD2F0\uCF13"
+    localize_value_en: Everyday;Boss Ticket
+    localize_value_ja: "\u6BCE\u65E5;\u30DC\u30B9\u6226;\u30C1\u30B1\u30C3\u30C8"
+    localize_value_tc: "\u5929\u5929\u9001;BOSS\u6230\u5238"
+    localize_value_sc: "\u5929\u5929\u9001;BOSS\u6218\u5238\r"
+  - key_index: 168
+    localize_value_kr: "\uB9E4\uC77C\uB9E4\uC77C;\uD654\uC0B4\uCDA9\uC804\uC11D"
+    localize_value_en: Everyday;Arrow Stone
+    localize_value_ja: "\u6BCE\u65E5;\u77E2\u306E\u88DC\u7D66\u77F3"
+    localize_value_tc: "\u5929\u5929\u9001;\u7BAD\u77E2\u88DC\u7D66\u77F3"
+    localize_value_sc: "\u5929\u5929\u9001;\u7BAD\u77E2\u8865\u7ED9\u77F3\r"
+  - key_index: 169
+    localize_value_kr: "\uD658\uC0DD\uC11D;\uD68D\uB4DD\uB7C9"
+    localize_value_en: Rebirth Stone;Income
+    localize_value_ja: "\u8EE2\u751F\u77F3;\u7372\u5F97\u91CF"
+    localize_value_tc: "\u91CD\u751F\u77F3;\u7372\u53D6\u91CF"
+    localize_value_sc: "\u91CD\u751F\u77F3;\u83B7\u53D6\u91CF\r"
+  - key_index: 170
+    localize_value_kr: "\uACE8\uB4DC;\uD68D\uB4DD\uB7C9"
+    localize_value_en: Gold;Income
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9;\u7372\u5F97\u91CF"
+    localize_value_tc: "\u91D1\u5E63;\u7372\u53D6\u91CF"
+    localize_value_sc: "\u91D1\u5E01;\u83B7\u53D6\u91CF\r"
+  - key_index: 171
+    localize_value_kr: "<size=50>\uD604\uC7AC \uC810\uAC80\uC911\uC785\uB2C8\uB2E4.</size>;;\uC790\uC138\uD55C
+      \uB0B4\uC6A9\uC740 \uACE0\uAC1D\uC9C0\uC6D0 \uBA54\uC77C\uC744 \uD1B5\uD574
+      \uBB38\uC758\uD558\uC138\uC694;archer@gameduo.net"
+    localize_value_en: <size=50>We are currently performing maintenance.</size>;;Please
+      contact us for details.;archer@gameduo.net
+    localize_value_ja: "<size=50>\u53EA\u4ECA\u30E1\u30F3\u30C6\u30CA\u30F3\u30B9\u4E2D\u3067\u3059\u3002</size>;;\u8A73\u7D30\u306F\u4EE5\u4E0B\u306E\u304A\u554F\u3044\u5408\u308F\u305B\u30E1\u30FC\u30EB\u3067\u304A\u554F\u3044\u5408\u308F\u305B\u304F\u3060\u3055\u3044\u3002;archer@gameduo.net"
+    localize_value_tc: "<size=50>\u6B63\u5728\u7DAD\u8B77\u4E2D\u3002</size>;;\u8A73\u7D30\u5167\u5BB9\u8ACB\u5411\u4E0B\u5217\u5BA2\u670D\u90F5\u7BB1\u54A8\u8A62\uFF1A;archer@gameduo.net"
+    localize_value_sc: "<size=50>\u6B63\u5728\u7DAD\u8B77\u4E2D\u3002</size>;;\u8A73\u7D30\u5167\u5BB9\u8ACB\u5411\u4E0B\u5217\u5BA2\u670D\u90F5\u7BB1\u54A8\u8A62\uFF1A;archer@gameduo.net\r"
+  - key_index: 172
+    localize_value_kr: "\uAD6C\uB9E4 \uC131\uACF5! \uC6B0\uD3B8\uD568\uC744 \uD655\uC778\uD558\uC138\uC694."
+    localize_value_en: Purchase Successful! Check your postbox.
+    localize_value_ja: "\u8CFC\u5165\u6210\u529F\uFF01\u53D7\u4FE1\u30C8\u30EC\u30A4\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u8CFC\u8CB7\u6210\u529F\uFF01\u8ACB\u78BA\u8A8D\u90F5\u7BB1\u3002"
+    localize_value_sc: "\u8D2D\u4E70\u6210\u529F\uFF01\u8BF7\u786E\u8BA4\u90AE\u7BB1\u3002\r"
+  - key_index: 173
+    localize_value_kr: "\uC544\uC9C1 \uD68D\uB4DD\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4."
+    localize_value_en: You have not summoned this archer yet.
+    localize_value_ja: "\u672A\u6240\u6301\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC"
+    localize_value_tc: "\u66AB\u672A\u7372\u5F97\u3002"
+    localize_value_sc: "\u6682\u672A\u83B7\u5F97\u3002\r"
+  - key_index: 174
+    localize_value_kr: "\uAD81\uC218\uC0AC\uC804"
+    localize_value_en: Archer;Book
+    localize_value_ja: "\u56F3\u9451"
+    localize_value_tc: "\u5F13\u7BAD\u624B\u5716\u9451"
+    localize_value_sc: "\u5F13\u7BAD\u624B\u56FE\u9274\r"
+  - key_index: 175
+    localize_value_kr: "VIP \uBCF4\uC0C1\uC740 \uB9E4\uC77C {0}\uC2DC\uC5D0 \uC6B0\uD3B8\uC73C\uB85C
+      \uC804\uB2EC\uB429\uB2C8\uB2E4."
+    localize_value_en: VIP Pass items will be delivered to your postbox at {0} every
+      day.
+    localize_value_ja: "VIP\u30D1\u30C3\u30B1\u30FC\u30B8\u306E\u30A2\u30A4\u30C6\u30E0\u306F\u6BCE\u65E5
+      {0}\u6642\u306B\u30DD\u30B9\u30C8\u3067\u304A\u9001\u308A\u3044\u305F\u3057\u307E\u3059\u3002"
+    localize_value_tc: "VIP\u734E\u52F5\u5C07\u6703\u5728\u6BCF\u5929 {0}\u9EDE\u9001\u81F3\u60A8\u7684\u90F5\u7BB1\u3002"
+    localize_value_sc: "VIP\u5956\u52B1\u5C06\u4F1A\u5728\u6BCF\u5929 {0}\u70B9\u9001\u81F3\u60A8\u7684\u90AE\u7BB1\u3002\r"
+  - key_index: 176
+    localize_value_kr: "\uAD81\uC218\uC0AC\uC804"
+    localize_value_en: Archer Book
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u56F3\u9451"
+    localize_value_tc: "\u5F13\u7BAD\u624B\u5716\u9451"
+    localize_value_sc: "\u5F13\u7BAD\u624B\u56FE\u9274\r"
+  - key_index: 177
+    localize_value_kr: "\u2018\uD5C8\uC6A9\u2019\uC2DC \uBD88\uD544\uC694\uD558\uAC70\uB098
+      \uBD80\uC801\uC808\uD55C \uAD11\uACE0\uB294 \uB098\uAC00\uC9C0 \uC54A\uACE0,
+      \uC720\uC775\uD55C \uAD11\uACE0\uB9CC \uC81C\uACF5\uD574 \uB4DC\uB9BD\uB2C8\uB2E4."
+    localize_value_en: If you allow us to track you, we provide you  helpful advertisement.
+    localize_value_ja: "\u300C\u30C8\u30E9\u30C3\u30AD\u30F3\u30B0\u8A31\u53EF\u300D\u306E\u969B\u3001\u4E0D\u9069\u5207\u306A\u5E83\u544A\u306F\u62D2\u5426\u3055\u308C\u3001\u9069\u5207\u306A\u5E83\u544A\u306E\u307F\u6D41\u308C\u307E\u3059\u3002"
+    localize_value_tc: "\u8A2D\u7F6E\u70BA\u201C\u5141\u8A31\u201D\u6642\uFF0C\u4E0D\u6703\u51FA\u73FE\u6C92\u7528\u6216\u4E0D\u9069\u5408\u7684\u5EE3\u544A\uFF0C\u53EA\u63D0\u4F9B\u9069\u5408\u60A8\u7684\u5EE3\u544A\u3002"
+    localize_value_sc: "\u8BBE\u7F6E\u4E3A\u201C\u5141\u8BB8\u201D\u65F6\uFF0C\u4E0D\u4F1A\u51FA\u73B0\u6CA1\u7528\u6216\u4E0D\u9002\u5408\u7684\u5E7F\u544A\uFF0C\u53EA\u63D0\u4F9B\u9002\u5408\u60A8\u7684\u5E7F\u544A\u3002\r"
+  - key_index: 178
+    localize_value_kr: "\uC6D0\uD65C\uD55C \uAD11\uACE0 \uBCF4\uC0C1\uC744 \uC704\uD574
+      \uB2E4\uC74C\uD654\uBA74\uC5D0\uC11C \u201C\uD5C8\uC6A9\u201D\uC744 \uD0ED\uD574\uC8FC\uC138\uC694. "
+    localize_value_en: Please allow us to track you so that we can provide you more
+      rewards smoothly.
+    localize_value_ja: "\u3088\u308A\u5186\u6ED1\u306A\u5E83\u544A\u8996\u8074\u5831\u916C\u306E\u652F\u7D66\u306E\u70BA\u3001\u6B21\u306E\u753B\u9762\u3067\u300C\u30C8\u30E9\u30C3\u30AD\u30F3\u30B0\u8A31\u53EF\u300D\u3092\u30BF\u30C3\u30D7\u3057\u3066\u4E0B\u3055\u3044\u3002"
+    localize_value_tc: " \u70BA\u4E86\u66F4\u9806\u5229\u5730\u9818\u53D6\u5EE3\u544A\u734E\u52F5\uFF0C\u8ACB\u5728\u4E0B\u4E00\u500B\u756B\u9762\u9EDE\u64CA\u201C\u5141\u8A31\u201D\u3002"
+    localize_value_sc: "\u4E3A\u4E86\u66F4\u987A\u5229\u5730\u9886\u53D6\u5E7F\u544A\u5956\u52B1\uFF0C\u8BF7\u5728\u4E0B\u4E00\u4E2A\u753B\u9762\u70B9\u51FB\u201C\u5141\u8BB8\u201D\u3002\r"
+  - key_index: 179
+    localize_value_kr: "\uAD11\uACE0 \uBD80\uC871 \uD604\uC0C1\uC744 \uC904\uC5EC,
+      \uB2E4\uC591\uD55C \uBCF4\uC0C1\uC744 \uD68D\uB4DD\uD558\uC2E4 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    localize_value_en: It helps you to get more items by reducing the shortage of
+      advertisement.
+    localize_value_ja: "\u5E83\u544A\u304C\u898B\u308C\u306A\u3044\u73FE\u8C61\u3092\u6E1B\u3089\u3057\u3001\u69D8\u3005\u306A\u5831\u916C\u304C\u7372\u5F97\u3067\u304D\u307E\u3059\u3002"
+    localize_value_tc: "\u53EF\u6E1B\u5C11\u5EE3\u544A\u672A\u6E96\u5099\u597D\u7684\u73FE\u8C61\uFF0C\u7372\u53D6\u66F4\u591A\u734E\u52F5\u3002"
+    localize_value_sc: "\u53EF\u51CF\u5C11\u5E7F\u544A\u672A\u51C6\u5907\u597D\u7684\u73B0\u8C61\uFF0C\u83B7\u53D6\u66F4\u591A\u5956\u52B1\u3002\r"
+  - key_index: 180
+    localize_value_kr: "\uBCF4\uB108\uC2A4"
+    localize_value_en: Bonus
+    localize_value_ja: "\u30DC\u30FC\u30CA\u30B9"
+    localize_value_tc: "\u5EE3\u544A\u734E\u52F5"
+    localize_value_sc: "\u5E7F\u544A\u5956\u52B1\r"
+  - key_index: 181
+    localize_value_kr: "\uACC4\uC18D"
+    localize_value_en: Continue
+    localize_value_ja: "\u7D9A\u304F"
+    localize_value_tc: "\u7E7C\u7E8C"
+    localize_value_sc: "\u7EE7\u7EED\r"
+  - key_index: 182
+    localize_value_kr: "\uB2E4\uC74C"
+    localize_value_en: Next
+    localize_value_ja: "\u6B21\u3078"
+    localize_value_tc: "\u524D\u5F80\u4E0B\u4E00\u500B\u756B\u9762"
+    localize_value_sc: "\u524D\u5F80\u4E0B\u4E00\u4E2A\u753B\u9762\r"
+  - key_index: 183
+    localize_value_kr: "\uCD9C\uC11D\uBCF4\uC0C1\uC740 \uB9E4\uC77C {0}\uC2DC\uC5D0
+      \uC6B0\uD3B8\uC73C\uB85C \uC804\uB2EC\uB429\uB2C8\uB2E4."
+    localize_value_en: Log in reward will be delivered to your postbox at {0}.
+    localize_value_ja: "\u30ED\u30B0\u30A4\u30F3\u30DC\u30FC\u30CA\u30B9\u5831\u916C\u306F\u6BCE\u65E5
+      {0}\u6642\u306B\u30DD\u30B9\u30C8\u3067\u652F\u7D66\u3055\u308C\u307E\u3059\u3002"
+    localize_value_tc: "\u7C3D\u5230\u734E\u52F5\u5C07\u6703\u5728\u6BCF\u65E5 {0}\u9EDE\u767C\u81F3\u60A8\u7684\u90F5\u7BB1\u3002"
+    localize_value_sc: "\u7B7E\u5230\u5956\u52B1\u5C06\u4F1A\u5728\u6BCF\u65E5 {0}\u70B9\u53D1\u81F3\u60A8\u7684\u90AE\u7BB1\u3002\r"
+  - key_index: 184
+    localize_value_kr: "\uCD9C\uC11D \uBCF4\uC0C1"
+    localize_value_en: Log in Reward
+    localize_value_ja: "\u30ED\u30B0\u30A4\u30F3\u30DC\u30FC\u30CA\u30B9\u5831\u916C"
+    localize_value_tc: "\u7C3D\u5230\u734E\u52F5"
+    localize_value_sc: "\u7B7E\u5230\u5956\u52B1\r"
+  - key_index: 185
+    localize_value_kr: "\uC990\uAC70\uC6B4 \uD558\uB8E8 \uB418\uC138\uC694~!"
+    localize_value_en: Have a nice day!
+    localize_value_ja: "\u826F\u3044\uFF11\u65E5\u3092\uFF01"
+    localize_value_tc: "\u795D\u4F60\u4E00\u5929\u9806\u5229~\uFF01"
+    localize_value_sc: "\u795D\u4F60\u4E00\u5929\u987A\u5229~\uFF01\r"
+  - key_index: 186
+    localize_value_kr: "<size=65>\uC544\uCC98\uD0A4\uC6B0\uAE30</size>;\uC7AC\uBC0C\uAC8C
+      \uC990\uAE30\uACE0 \uACC4\uC2E0\uAC00\uC694?"
+    localize_value_en: <size=65>Are you enjoying</size>;Archer Forest?
+    localize_value_ja: "<size=65>\u30A2\u30FC\u30C1\u30E3\u30FC\u30D5\u30A9\u30EC\u30B9\u30C8\u306F</size>;\u3044\u304B\u304C\u3067\u3057\u3087\u3046\u304B\uFF1F"
+    localize_value_tc: "\u60A8\u6EFF\u610F;<size=65>\u5F13\u7BAD\u624B\u990A\u6210</size>\u55CE\uFF1F"
+    localize_value_sc: "\u60A8\u6EE1\u610F;<size=65>\u5F13\u7BAD\u624B\u517B\u6210</size>\u5417\uFF1F\r"
+  - key_index: 187
+    localize_value_kr: "\uB124, \uB9D8\uC5D0 \uB4E4\uC5B4\uC694"
+    localize_value_en: Yes, I like it!
+    localize_value_ja: "\u306F\u3044\u3001\u697D\u3057\u3044\u3067\u3059\u3002"
+    localize_value_tc: "\u662F\uFF0C\u5F88\u6EFF\u610F\u3002"
+    localize_value_sc: "\u662F\uFF0C\u5F88\u6EE1\u610F\u3002\r"
+  - key_index: 188
+    localize_value_kr: "\uC544\uB1E8, \uBCC4\uB85C\uC5D0\uC694"
+    localize_value_en: No, I don't.
+    localize_value_ja: "\u3044\u3044\u3048\u3001\u697D\u3057\u304F\u306A\u3044\u3067\u3059\u3002"
+    localize_value_tc: "\u4E0D\uFF0C\u4E0D\u6EFF\u610F\u3002"
+    localize_value_sc: "\u4E0D\uFF0C\u4E0D\u6EE1\u610F\u3002\r"
+  - key_index: 189
+    localize_value_kr: "\uC88B\uC740 \uB9AC\uBDF0\uB294;\uAC1C\uBC1C\uC790\uC5D0\uAC8C
+      \uD070\uD798\uC774 \uB429\uB2C8\uB2E4.;\uB9AC\uBDF0\uB97C \uB0A8\uACA8\uC8FC\uC2DC\uACA0\uC5B4\uC694?"
+    localize_value_en: Positive review helps the developers.;Would you please leave
+      your review?
+    localize_value_ja: "\u826F\u3044\u30EC\u30D3\u30E5\u30FC\u3067\u5FDC\u63F4\u3057\u3066\u3044\u305F\u3060\u3051\u308B\u3068;\u958B\u767A\u8005\u4E00\u540C\u3055\u308C\u306A\u308B\u52B1\u307F\u306B\u306A\u308A\u307E\u3059\u3002;\u30EC\u30D3\u30E5\u30FC\u3067\u5FDC\u63F4\u3057\u307E\u3059\u304B\uFF1F"
+    localize_value_tc: "\u597D\u8A55\u4F7F\u958B\u767C\u5718\u968A\u9032\u6B65\u3002;\u662F\u5426\u8981\u7559\u4E0B\u8A55\u8AD6\uFF1F"
+    localize_value_sc: "\u597D\u8BC4\u4F7F\u5F00\u53D1\u56E2\u961F\u8FDB\u6B65\u3002;\u662F\u5426\u8981\u7559\u4E0B\u8BC4\u8BBA\uFF1F\r"
+  - key_index: 190
+    localize_value_kr: "\uB124, \uC88B\uC544\uC694"
+    localize_value_en: Yes, I would like to.
+    localize_value_ja: "\u306F\u3044\u3001\u5FDC\u63F4\u3057\u307E\u3059\u3002"
+    localize_value_tc: "\u597D\u3002"
+    localize_value_sc: "\u597D\u3002\r"
+  - key_index: 191
+    localize_value_kr: "\uC544\uB1E8, \uB2E4\uC74C\uC5D0 \uD560\uAC8C\uC694"
+    localize_value_en: No, maybe next time.
+    localize_value_ja: "\u3044\u3044\u3048\u3001\u4ECA\u306F\u3057\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u4E0D\uFF0C\u4E0B\u4E00\u6B21\u8A55\u8AD6\u3002"
+    localize_value_sc: "\u4E0D\uFF0C\u4E0B\u4E00\u6B21\u8BC4\u8BBA\u3002\r"
+  - key_index: 192
+    localize_value_kr: "\uC5B4\uB5A4\uC810\uC774 \uC544\uC26C\uC6E0\uB294\uC9C0 \uC758\uACAC\uC744
+      \uB0A8\uACA8\uC8FC\uC2DC\uACA0\uC5B4\uC694?"
+    localize_value_en: Would you please give us some feedbacks?
+    localize_value_ja: "\u3054\u610F\u898B\u3092\u304A\u805E\u304B\u305B\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u82E5\u6709\u767C\u73FE\u4E0D\u8DB3\u4E4B\u8655\uFF0C\u8ACB\u7559\u4E0B\u60A8\u7684\u5EFA\u8B70\u3002"
+    localize_value_sc: "\u82E5\u6709\u53D1\u73B0\u4E0D\u8DB3\u4E4B\u5904\uFF0C\u8BF7\u7559\u4E0B\u60A8\u7684\u5EFA\u8BAE\u3002\r"
+  - key_index: 193
+    localize_value_kr: "\uB124, \uC758\uACAC \uC788\uC5B4\uC694"
+    localize_value_en: Yes, I would like to.
+    localize_value_ja: "\u610F\u898B\u3092\u66F8\u304F"
+    localize_value_tc: "\u53BB\u5BEB\u8A55\u8AD6\u3002"
+    localize_value_sc: "\u53BB\u5199\u8BC4\u8BBA\u3002\r"
+  - key_index: 194
+    localize_value_kr: "\uC544\uB1E8, \uC758\uACAC \uC5C6\uC5B4\uC694"
+    localize_value_en: No, I don't want to.
+    localize_value_ja: "\u4ECA\u306F\u3057\u306A\u3044"
+    localize_value_tc: "\u4E0D\u7528\u4E86\uFF0C\u8B1D\u8B1D\u3002"
+    localize_value_sc: "\u4E0D\u7528\u4E86\uFF0C\u8C22\u8C22\u3002\r"
+  - key_index: 195
+    localize_value_kr: "\uC544\uCC98\uD0A4\uC6B0\uAE30 \uAC74\uC758"
+    localize_value_en: Archer Forest Inquiry
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u30D5\u30A9\u30EC\u30B9\u30C8\u304A\u554F\u3044\u5408\u308F\u305B"
+    localize_value_tc: "\u5411\u5F13\u7BAD\u624B\u990A\u6210\u63D0\u8B70"
+    localize_value_sc: "\u5411\u5F13\u7BAD\u624B\u517B\u6210\u63D0\u8BAE\r"
+  - key_index: 196
+    localize_value_kr: "\uBCF8\uBB38\uC5D0 \uAC74\uC758\uB0B4\uC6A9\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694.;;;;;;\uAC74\uC758\uD574\uC8FC\uC154\uC11C
+      \uAC10\uC0AC\uD569\uB2C8\uB2E4."
+    localize_value_en: Please enter your message.;;;;;;Thank you for your inquiry.
+    localize_value_ja: "\u304A\u554F\u3044\u5408\u308F\u305B\u306E\u5185\u5BB9\u3092\u8A18\u5165\u3057\u3066\u304F\u3060\u3055\u3044\u3002;;;;;;\u304A\u554F\u3044\u5408\u308F\u305B\u304F\u3060\u3055\u308A\u3001\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u3002"
+    localize_value_tc: "\u8ACB\u8F38\u5165\u63D0\u8B70\u5167\u5BB9\u3002;;;;;\u611F\u8B1D\u60A8\u7684\u5EFA\u8B70\u3002"
+    localize_value_sc: "\u8BF7\u8F93\u5165\u63D0\u8BAE\u5185\u5BB9\u3002;;;;;\u611F\u8C22\u60A8\u7684\u5EFA\u8BAE\u3002\r"
+  - key_index: 197
+    localize_value_kr: "\uC774\uBCA4\uD2B8"
+    localize_value_en: Event
+    localize_value_ja: "\u30A4\u30D9\u30F3\u30C8"
+    localize_value_tc: "\u6D3B\u52D5"
+    localize_value_sc: "\u6D3B\u52A8\r"
+  - key_index: 198
+    localize_value_kr: "\uD654\uC0B4 \uCDA9\uC804\uC11D \uC790\uB3D9 \uC0AC\uC6A9"
+    localize_value_en: Auto arrow stone usage
+    localize_value_ja: "\u81EA\u52D5\u77E2\u306E\u88DC\u7D66\u77F3\u4F7F\u7528"
+    localize_value_tc: "\u81EA\u52D5\u4F7F\u7528\u7BAD\u77E2\u88DC\u7D66\u77F3"
+    localize_value_sc: "\u81EA\u52A8\u4F7F\u7528\u7BAD\u77E2\u8865\u7ED9\u77F3\r"
+  - key_index: 199
+    localize_value_kr: "\uC790\uB3D9 \uC81C\uC791 \uD65C\uC131\uD654 (\uBCF4\uC11D
+      \uC18C\uBAA8)"
+    localize_value_en: Activate auto production (requires diamonds)
+    localize_value_ja: "\u81EA\u52D5\u88FD\u4F5C\u6D3B\u6027\u5316 (\u30C0\u30A4\u30A2\u3092\u6D88\u8017\u3057\u307E\u3059)"
+    localize_value_tc: "\u6FC0\u6D3B\u81EA\u52D5\u88FD\u4F5C\uFF08\u9700\u6D88\u8017\u5BF6\u77F3)"
+    localize_value_sc: "\u6FC0\u6D3B\u81EA\u52A8\u5236\u4F5C\uFF08\u9700\u6D88\u8017\u5B9D\u77F3)\r"
+  - key_index: 200
+    localize_value_kr: "\uAC15\uD654\uBC84\uADF8\uB85C \uC778\uD55C \uD658\uAE09"
+    localize_value_en: Refund due to upgrade error
+    localize_value_ja: "\u5F37\u5316\u4E0D\u5177\u5408\u306B\u3088\u308B\u8FD4\u623B"
+    localize_value_tc: "\u56E0\u5F37\u5316Bug\u7684\u9000\u9084"
+    localize_value_sc: "\u56E0\u5F3A\u5316Bug\u7684\u9000\u8FD8\r"
+  - key_index: 201
+    localize_value_kr: "\uC774\uC6A9\uC911 \uBD88\uD3B8\uC744 \uB4DC\uB824 \uC8C4\uC1A1\uD569\uB2C8\uB2E4."
+    localize_value_en: We apologize for the inconvenience you experienced.
+    localize_value_ja: "\u3054\u5229\u7528\u306B\u3054\u4E0D\u4FBF\u3092\u304A\u639B\u3051\u3057\u3001\u5927\u5909\u7533\u3057\u8A33\u3054\u3056\u3044\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+    localize_value_tc: "\u975E\u5E38\u62B1\u6B49\u4F7F\u5927\u5BB6\u5728\u4F7F\u7528\u904E\u7A0B\u4E2D\u611F\u5230\u4E0D\u4FBF\u3002"
+    localize_value_sc: "\u975E\u5E38\u62B1\u6B49\u4F7F\u5927\u5BB6\u5728\u4F7F\u7528\u904E\u7A0B\u4E2D\u611F\u5230\u4E0D\u4FBF\u3002\r"
+  - key_index: 202
+    localize_value_kr: "\uC218\uBA74\uBAA8\uB4DC"
+    localize_value_en: Night mode
+    localize_value_ja: "\u7761\u7720\u30E2\u30FC\u30C9"
+    localize_value_tc: "\u7761\u7720\u6A21\u5F0F"
+    localize_value_sc: "\u7761\u7720\u6A21\u5F0F\r"
+  - key_index: 203
+    localize_value_kr: "\uC790\uB3D9\uC804\uD22C \uC9C4\uD589\uC911"
+    localize_value_en: Repeat Battling is on
+    localize_value_ja: "\u81EA\u52D5\u6226\u95D8\u4E2D"
+    localize_value_tc: "\u6B63\u5728\u9032\u884C\u81EA\u52D5\u6230\u9B25"
+    localize_value_sc: "\u6B63\u5728\u8FDB\u884C\u81EA\u52A8\u6218\u6597\r"
+  - key_index: 204
+    localize_value_kr: "\uBC00\uC5B4\uC11C \uC808\uC804\uBAA8\uB4DC \uD574\uC81C"
+    localize_value_en: Slide to unlock
+    localize_value_ja: "\u30B9\u30E9\u30A4\u30C9\u3067\u30ED\u30C3\u30AF\u89E3\u9664"
+    localize_value_tc: "\u6ED1\u52D5\u89E3\u9396\u7701\u96FB\u6A21\u5F0F"
+    localize_value_sc: "\u6ED1\u52A8\u89E3\u9501\u7701\u7535\u6A21\u5F0F\r"
+  - key_index: 205
+    localize_value_kr: "\uC790\uB3D9 \uC2A4\uD0AC \uAC04\uACA9"
+    localize_value_en: Auto skill casting interval
+    localize_value_ja: "\u81EA\u52D5\u30B9\u30AD\u30EB\u306E\u4F7F\u7528\u6642\u9593\u9593\u9694"
+    localize_value_tc: "\u81EA\u52D5\u6280\u80FD\u7684\u6642\u9593\u9593\u9694"
+    localize_value_sc: "\u81EA\u52A8\u6280\u80FD\u7684\u65F6\u95F4\u95F4\u9694\r"
+  - key_index: 206
+    localize_value_kr: "\uACE8\uB4DC"
+    localize_value_en: Gold
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9"
+    localize_value_tc: "\u91D1\u5E63"
+    localize_value_sc: "\u91D1\u5E01\r"
+  - key_index: 207
+    localize_value_kr: "\uAD11\uACE0\uC81C\uAC70"
+    localize_value_en: Adblock
+    localize_value_ja: "\u5E83\u544A\u30D6\u30ED\u30C3\u30AF"
+    localize_value_tc: "\u5EE3\u544A\u6E05\u9664"
+    localize_value_sc: "\u5E7F\u544A\u6E05\u9664\r"
+  - key_index: 208
+    localize_value_kr: "\uAD6C\uB9E4\uAC00\uB2A5 \uC2DC\uAC04 <size=45>{0}</size>
+      \uB0A8\uC74C"
+    localize_value_en: <size=45>{0}</size> left
+    localize_value_ja: "\u58F2\u308C\u5207\u308A\u307E\u3067\u5F8C\u6B8B\u308A<size=45>{0}</size>"
+    localize_value_tc: "\u53EF\u8CFC\u8CB7\u6642\u9593\u9084\u5269<size=45>{0}</size> "
+    localize_value_sc: "\u53EF\u8D2D\u4E70\u65F6\u95F4\u8FD8\u5269<size=45>{0}</size>
+      \r"
+  - key_index: 209
+    localize_value_kr: "{0} \uC9C4\uC785 \uD328\uD0A4\uC9C0"
+    localize_value_en: '{0} Challenge Pack'
+    localize_value_ja: "{0} \u6311\u6226\u30D1\u30C3\u30B1\u30FC\u30B8"
+    localize_value_tc: "{0}\u6311\u6230\u79AE\u5305"
+    localize_value_sc: "{0}\u6311\u6218\u793C\u5305\r"
+  - key_index: 210
+    localize_value_kr: "\uAD6C\uB9E4\uD55C \uC778\uC571 \uC0C1\uD488\uC740 \uC6B0\uD3B8\uC73C\uB85C
+      \uC804\uB2EC\uB429\uB2C8\uB2E4."
+    localize_value_en: Item purchased will be sent to your in-game postbox.
+    localize_value_ja: "\u3054\u8CFC\u5165\u3055\u308C\u305F\u5546\u54C1\u306F\u30DD\u30B9\u30C8\u306B\u652F\u7D66\u3055\u308C\u307E\u3059\u3002"
+    localize_value_tc: "\u8CFC\u8CB7\u7684\u5546\u54C1\u5C07\u6703\u767C\u9001\u81F3\u60A8\u7684\u90F5\u7BB1\u3002"
+    localize_value_sc: "\u8D2D\u4E70\u7684\u5546\u54C1\u5C06\u4F1A\u53D1\u9001\u81F3\u60A8\u7684\u90AE\u7BB1\u3002\r"
+  - key_index: 211
+    localize_value_kr: "\uC0C1\uD488 \uC9C0\uAE09"
+    localize_value_en: Item purchased
+    localize_value_ja: "\u3054\u8CFC\u5165\u3055\u308C\u305F\u5546\u54C1"
+    localize_value_tc: "\u5546\u54C1\u5DF2\u767C\u9001"
+    localize_value_sc: "\u5546\u54C1\u5DF2\u53D1\u9001\r"
+  - key_index: 212
+    localize_value_kr: "\uAD6C\uB9E4\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD569\uB2C8\uB2E4."
+    localize_value_en: Thank you for your purchase
+    localize_value_ja: "\u3054\u8CFC\u5165\u3044\u305F\u3060\u304D\u3001\u8AA0\u306B\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u3002"
+    localize_value_tc: "\u611F\u8B1D\u60A8\u7684\u8CFC\u8CB7\u3002"
+    localize_value_sc: "\u611F\u8C22\u60A8\u7684\u8D2D\u4E70\u3002\r"
+  - key_index: 213
+    localize_value_kr: "\uC2B9\uB9AC \uD1A0\uD070\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4. "
+    localize_value_en: Not enough Victory Token
+    localize_value_ja: "\u52DD\u5229\u30C8\u30FC\u30AF\u30F3\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u52DD\u5229\u4EE3\u5E63\u4E0D\u8DB3\u3002"
+    localize_value_sc: "\u80DC\u5229\u4EE3\u5E01\u4E0D\u8DB3\u3002\r"
+  - key_index: 214
+    localize_value_kr: "\uC0C8\uB85C\uACE0\uCE68"
+    localize_value_en: Refresh
+    localize_value_ja: "\u3084\u308A\u76F4\u3057"
+    localize_value_tc: "\u5237\u65B0"
+    localize_value_sc: "\u5237\u65B0\r"
+  - key_index: 215
+    localize_value_kr: "PVP \uC785\uC7A5\uAD8C\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    localize_value_en: Not enough PVP Ticket.
+    localize_value_ja: "PVP\u5165\u5834\u5238\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "PVP\u5165\u5834\u5238\u4E0D\u8DB3\u3002"
+    localize_value_sc: "PVP\u5165\u573A\u5238\u4E0D\u8DB3\u3002\r"
+  - key_index: 216
+    localize_value_kr: "\uAD6C\uB9E4 \uC644\uB8CC"
+    localize_value_en: Successfully purchased
+    localize_value_ja: "\u8CFC\u5165\u6E08\u307F"
+    localize_value_tc: "\u5B8C\u6210\u8CFC\u8CB7"
+    localize_value_sc: "\u5B8C\u6210\u8D2D\u4E70\r"
+  - key_index: 217
+    localize_value_kr: "\uB300\uAE30\uC2E4"
+    localize_value_en: Waiting room
+    localize_value_ja: "\u5F85\u6A5F\u5BA4"
+    localize_value_tc: "\u7B49\u5F85\u5BA4"
+    localize_value_sc: "\u7B49\u5F85\u5BA4\r"
+  - key_index: 218
+    localize_value_kr: "\uC0C1\uC810"
+    localize_value_en: Shop
+    localize_value_ja: "\u304A\u5E97"
+    localize_value_tc: "\u5546\u5E97"
+    localize_value_sc: "\u5546\u5E97\r"
+  - key_index: 219
+    localize_value_kr: "\uC804\uD22C"
+    localize_value_en: Battle
+    localize_value_ja: "\u6226\u95D8"
+    localize_value_tc: "\u6230\u9B25"
+    localize_value_sc: "\u6218\u6597\r"
+  - key_index: 220
+    localize_value_kr: "\uC0C1\uD488"
+    localize_value_en: Products
+    localize_value_ja: "\u5546\u54C1"
+    localize_value_tc: "\u5546\u54C1"
+    localize_value_sc: "\u5546\u54C1\r"
+  - key_index: 221
+    localize_value_kr: "\uC5C5\uADF8\uB808\uC774\uB4DC"
+    localize_value_en: Upgrade
+    localize_value_ja: "\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9"
+    localize_value_tc: "\u5347\u7D1A"
+    localize_value_sc: "\u5347\u7EA7\r"
+  - key_index: 222
+    localize_value_kr: "{0}\uC704"
+    localize_value_en: Rank {0}
+    localize_value_ja: "{0}\u4F4D"
+    localize_value_tc: "\u7B2C{0}\u540D"
+    localize_value_sc: "\u7B2C{0}\u540D\r"
+  - key_index: 223
+    localize_value_kr: "PVP \uC815\uBCF4"
+    localize_value_en: PVP Info
+    localize_value_ja: "PVP\u60C5\u5831"
+    localize_value_tc: "PVP\u4FE1\u606F"
+    localize_value_sc: "PVP\u4FE1\u606F\r"
+  - key_index: 224
+    localize_value_kr: "1. PVP \uC5D0\uC11C\uB294 \uC544\uCC98\uC640 \uD654\uC0B4\uB9CC\uC744
+      \uC774\uC6A9\uD574 \uB300\uACB0\uC744 \uD569\uB2C8\uB2E4"
+    localize_value_en: 1. Only archers and arrows can be used at PVP mode.
+    localize_value_ja: "1. PVP\u3067\u306F\u30A2\u30FC\u30C1\u30E3\u30FC\u3068\u77E2\u306E\u307F\u4F7F\u7528\u3067\u304D\u307E\u3059\u3002"
+    localize_value_tc: "1. \u5728PVP\u88E1\u53EA\u5229\u7528\u5F13\u7BAD\u624B\u8207\u7BAD\u77E2\u5C0D\u6C7A\u3002"
+    localize_value_sc: "1.   \u5728PVP\u91CC\u53EA\u5229\u7528\u5F13\u7BAD\u624B\u4E0E\u7BAD\u77E2\u5BF9\u51B3\u3002\r"
+  - key_index: 225
+    localize_value_kr: "2. \uBAA8\uB4E0 \uC544\uCC98 \uC2A4\uD0AC\uC758 \uC9C0\uC18D\uC2DC\uAC04\uC740
+      5\uCD08\uAC00 \uB429\uB2C8\uB2E4. "
+    localize_value_en: 2. All archer's skill duration will be adjusted to 5 sec.
+    localize_value_ja: "2. \u3059\u3079\u3066\u306E\u30A2\u30FC\u30C1\u30E3\u30FC\u306E\u30B9\u30AD\u30EB\u6642\u9593\u306F5\u79D2\u306B\u306A\u308A\u307E\u3059\u3002"
+    localize_value_tc: "2. \u6240\u6709\u5F13\u7BAD\u624B\u7684\u6280\u80FD\u6301\u7E8C\u6642\u9593\u70BA5\u79D2\u3002"
+    localize_value_sc: "2. \u6240\u6709\u5F13\u7BAD\u624B\u7684\u6280\u80FD\u6301\u7EED\u65F6\u95F4\u4E3A5\u79D2\u3002\r"
+  - key_index: 226
+    localize_value_kr: "3. \uBAAC\uC2A4\uD130\uAC00 \uC8FD\uC73C\uBA74 \uBC29\uD5A5\uC744
+      \uBC14\uAFD4\uC11C \uC774\uB3D9\uD569\uB2C8\uB2E4."
+    localize_value_en: 3. Your team moves in a different direction if the monsters
+      die.
+    localize_value_ja: "3. \u30E2\u30F3\u30B9\u30BF\u30FC\u304C\u5012\u3055\u308C\u305F\u3089\u9055\u3046\u65B9\u5411\u3078\u79FB\u52D5\u3057\u307E\u3059\u3002"
+    localize_value_tc: "3. \u7576\u602A\u7269\u6B7B\u4EA1\u6642\u6703\u8F49\u63DB\u65B9\u5411\u79FB\u52D5\u3002"
+    localize_value_sc: "3. \u5F53\u602A\u7269\u6B7B\u4EA1\u65F6\u4F1A\u8F6C\u6362\u65B9\u5411\u79FB\u52A8\u3002\r"
+  - key_index: 227
+    localize_value_kr: "4. \uBAAC\uC2A4\uD130\uB97C \uC8FD\uC774\uAC70\uB098 \uC0C1\uB300\uBC29\uC5D0\uAC8C
+      \uACF5\uACA9\uC744 \uC131\uACF5\uD558\uBA74 \uC810\uC218\uB97C \uC5BB\uC2B5\uB2C8\uB2E4. "
+    localize_value_en: 4. You will earn points if the monsters die or attack the
+      enemy successfully.
+    localize_value_ja: "4. \u30E2\u30F3\u30B9\u30BF\u30FC\u3092\u5012\u3057\u305F\u308A\u3001\u76F8\u624B\u3092\u653B\u6483\u3059\u308B\u3068\u70B9\u6570\u304C\u8CB0\u3048\u307E\u3059\u3002"
+    localize_value_tc: "4. \u6210\u529F\u6253\u6557\u602A\u7269\u6216\u52A0\u5BB3\u6575\u65B9\u6642\u6703\u53D6\u5F97\u5206\u6578\u3002"
+    localize_value_sc: "4. \u6210\u529F\u6253\u8D25\u602A\u7269\u6216\u52A0\u5BB3\u654C\u65B9\u65F6\u4F1A\u53D6\u5F97\u5206\u6570\u3002\r"
+  - key_index: 228
+    localize_value_kr: "5. \uC810\uC218\uAC00 \uB192\uC740 \uC9C4\uC601\uC774 \uC2B9\uB9AC\uD569\uB2C8\uB2E4."
+    localize_value_en: 5. The total points gained are what determines the winner
+      of the battle.
+    localize_value_ja: "5. \u3088\u308A\u70B9\u6570\u306E\u9AD8\u3044\u9663\u55B6\u304C\u52DD\u5229\u3057\u307E\u3059\u3002"
+    localize_value_tc: "5. \u5F97\u5206\u66F4\u9AD8\u7684\u9663\u71DF\u7372\u52DD\u3002"
+    localize_value_sc: "5. \u5F97\u5206\u66F4\u9AD8\u7684\u9635\u8425\u83B7\u80DC\u3002\r"
+  - key_index: 229
+    localize_value_kr: "\uC810\uC218: {0}"
+    localize_value_en: 'Points: {0}'
+    localize_value_ja: "\u70B9\u6570: {0}"
+    localize_value_tc: "\u5206\u6578: {0}"
+    localize_value_sc: "\u5206\u6570: {0}\r"
+  - key_index: 230
+    localize_value_kr: "PVP\uB97C \uC785\uC7A5\uD558\uAE30\uC704\uD574\uC120 \uCD5C\uACE0
+      \uD654\uC0B4\uB808\uBCA8\uC774 20\uC744 \uB118\uACA8\uC57C \uD569\uB2C8\uB2E4."
+    localize_value_en: You must have at least Lv.20 arrow to enter PVP mode.
+    localize_value_ja: "PVP\u30E2\u30FC\u30C9\u3092\u3054\u5229\u7528\u9802\u304F\u305F\u3081\u306B\u306F\u3001;\u77E2\u306E\u6700\u9AD8\u30EC\u30D9\u30EB\u304C20\u3092\u8D85\u3048\u306A\u3051\u308C\u3070\u3044\u3051\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u70BA\u4E86\u9032\u5165PVP\uFF0C\u9700\u7BAD\u77E2\u7684\u6700\u9AD8\u7B49\u7D1A\u8D85\u904E20\u3002"
+    localize_value_sc: "\u4E3A\u4E86\u8FDB\u5165PVP\uFF0C\u9700\u7BAD\u77E2\u7684\u6700\u9AD8\u7B49\u7EA7\u8D85\u8FC720\u3002\r"
+  - key_index: 231
+    localize_value_kr: "\uC2DC\uC98C \uC885\uB8CC\uAE4C\uC9C0 {0} \uB0A8\uC74C"
+    localize_value_en: '{0} left until the end of the season'
+    localize_value_ja: "\u30B7\u30FC\u30BA\u30F3\u7D42\u4E86\u307E\u3067\u6B8B\u308A{0}"
+    localize_value_tc: "\u96E2\u8CFD\u5B63\u7D50\u675F\u9084\u5269{0} "
+    localize_value_sc: "\u79BB\u8D5B\u5B63\u7ED3\u675F\u8FD8\u5269{0}\r"
+  - key_index: 232
+    localize_value_kr: "\uC2DC\uC98C \uC810\uC218"
+    localize_value_en: Season Point
+    localize_value_ja: "\u30B7\u30FC\u30BA\u30F3\u70B9\u6570"
+    localize_value_tc: "\u8CFD\u5B63\u5206\u6578"
+    localize_value_sc: "\u8D5B\u5B63\u5206\u6570\r"
+  - key_index: 233
+    localize_value_kr: "\uACF5\uACA9\uC18D\uB3C4 \uAC10\uC18C {0:P0}"
+    localize_value_en: ATK SPD decreased {0:P0}
+    localize_value_ja: "\u653B\u6483\u901F\u5EA6\u6E1B\u5C11 {0:P0}"
+    localize_value_tc: "\u653B\u901F\u964D\u4F4E {0:P0}"
+    localize_value_sc: "\u653B\u901F\u964D\u4F4E {0:P0}\r"
+  - key_index: 234
+    localize_value_kr: "\uC808\uC804 \uBAA8\uB4DC"
+    localize_value_en: Sleep Mode
+    localize_value_ja: "\u7701\u96FB\u529B\u30E2\u30FC\u30C9"
+    localize_value_tc: "\u7701\u96FB\u6A21\u5F0F"
+    localize_value_sc: "\u7701\u7535\u6A21\u5F0F\r"
+  - key_index: 235
+    localize_value_kr: "PVP \uB7AD\uD0B9"
+    localize_value_en: PVP Ranking
+    localize_value_ja: "PVP\u30E9\u30F3\u30AD\u30F3\u30B0"
+    localize_value_tc: "PVP \u6392\u540D"
+    localize_value_sc: "PVP \u6392\u540D\r"
+  - key_index: 236
+    localize_value_kr: "\uC2DC\uC98C\uBCF4\uC0C1\uC218\uB839"
+    localize_value_en: Get Season Reward
+    localize_value_ja: "\u30B7\u30FC\u30BA\u30F3\u5831\u916C\u53D7\u3051\u53D6\u308A"
+    localize_value_tc: "\u9818\u53D6\u8CFD\u5B63\u734E\u52F5"
+    localize_value_sc: "\u9886\u53D6\u8D5B\u5B63\u5956\u52B1\r"
+  - key_index: 237
+    localize_value_kr: "\uB9E4\uC77C\uB9E4\uC77C;PVP\uD2F0\uCF13"
+    localize_value_en: PVP;Ticket
+    localize_value_ja: "PVP;\u30C1\u30B1\u30C3\u30C8"
+    localize_value_tc: "PVP;\u5238"
+    localize_value_sc: "PVP;\u5238\r"
+  - key_index: 238
+    localize_value_kr: "\uD654\uC0B4 \uD68D\uB4DD"
+    localize_value_en: Arrow Acquired
+    localize_value_ja: "\u77E2\u306E\u7372\u5F97"
+    localize_value_tc: "\u7372\u5F97\u7BAD\u77E2"
+    localize_value_sc: "\u83B7\u5F97\u7BAD\u77E2\r"
+  - key_index: 239
+    localize_value_kr: "\uC2DC\uC98C \uBCF4\uC0C1"
+    localize_value_en: Season Reward
+    localize_value_ja: "\u30B7\u30FC\u30BA\u30F3\u5831\u916C"
+    localize_value_tc: "\u8CFD\u5B63\u734E\u52F5"
+    localize_value_sc: "\u8D5B\u5B63\u5956\u52B1\r"
+  - key_index: 240
+    localize_value_kr: "\uC2B9\uB9AC \uD1A0\uD070"
+    localize_value_en: Victory Token
+    localize_value_ja: "\u52DD\u5229\u30C8\u30FC\u30AF\u30F3"
+    localize_value_tc: "\u52DD\u5229\u4EE3\u5E63"
+    localize_value_sc: "\u80DC\u5229\u4EE3\u5E01\r"
+  - key_index: 241
+    localize_value_kr: "\uC2E0\uADDC \uC544\uCC98 \uD328\uD0A4\uC9C0"
+    localize_value_en: New Archer Pack
+    localize_value_ja: "\u65B0\u898F\u30A2\u30FC\u30C1\u30E3\u30D1\u30C3\u30B1\u30FC\u30B8"
+    localize_value_tc: "\u65B0\u5F13\u7BAD\u624B\u79AE\u5305"
+    localize_value_sc: "\u65B0\u5F13\u7BAD\u624B\u793C\u5305\r"
+  - key_index: 242
+    localize_value_kr: "\uC0C1\uD0DC\uC774\uC0C1 \uBA74\uC5ED"
+    localize_value_en: Debuff Immunity
+    localize_value_ja: "\u30C7\u30D0\u30D5\u514D\u75AB"
+    localize_value_tc: "\u514D\u75AB\u7570\u5E38\u72C0\u614B"
+    localize_value_sc: "\u514D\u75AB\u5F02\u5E38\u72B6\u6001\r"
+  - key_index: 243
+    localize_value_kr: "\uC774\uBCA4\uD2B8"
+    localize_value_en: Event
+    localize_value_ja: "\u30A4\u30D9\u30F3\u30C8"
+    localize_value_tc: "\u6D3B\u52D5"
+    localize_value_sc: "\u6D3B\u52A8\r"
+  - key_index: 244
+    localize_value_kr: "\uC774\uBCA4\uD2B8 \uCF54\uC778\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    localize_value_en: Not enough event coin
+    localize_value_ja: "\u30A4\u30D9\u30F3\u30C8\u30B3\u30A4\u30F3\u304C\u8DB3\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u6D3B\u52D5\u4EE3\u5E63\u4E0D\u8DB3"
+    localize_value_sc: "\u6D3B\u52A8\u4EE3\u5E01\u4E0D\u8DB3\r"
+  - key_index: 245
+    localize_value_kr: "\uB354 \uC774\uC0C1 \uAD6C\uB9E4\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Unavailable to purchase
+    localize_value_ja: "\u8CFC\u5165\u3067\u304D\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u8CFC\u8CB7\u6B21\u6578\u5DF2\u6EFF"
+    localize_value_sc: "\u8D2D\u4E70\u6B21\u6570\u5DF2\u6EE1\r"
+  - key_index: 246
+    localize_value_kr: "\uAD6C\uB9E4\uAC00\uB2A5 ({0}/{1})"
+    localize_value_en: Purchase count   ({0}/{1})
+    localize_value_ja: "\u8CFC\u5165\u53EF\u80FD ({0}/{1})"
+    localize_value_tc: "\u5269\u9918\u6B21\u6578 ({0}/{1})"
+    localize_value_sc: "\u5269\u4F59\u6B21\u6570 ({0}/{1})\r"
+  - key_index: 247
+    localize_value_kr: "\uB8EC \uC815\uBCF4"
+    localize_value_en: Rune Info
+    localize_value_ja: "\u30EB\u30FC\u30F3\u60C5\u5831"
+    localize_value_tc: "\u7B26\u6587"
+    localize_value_sc: "\u7B26\u6587\r"
+  - key_index: 248
+    localize_value_kr: "\uBAAC\uC2A4\uD130\uB97C \uC7A1\uACE0 \uC774\uBCA4\uD2B8
+      \uCF54\uC778\uC744 \uD68D\uB4DD\uD558\uC138\uC694."
+    localize_value_en: Hunt monsters and get event coins!
+    localize_value_ja: "\u30E2\u30F3\u30B9\u30BF\u30FC\u3092\u5012\u3057\u3001\u30A4\u30D9\u30F3\u30C8\u30B3\u30A4\u30F3\u3092\u7372\u5F97\u3057\u307E\u3057\u3087\u3046\u3002"
+    localize_value_tc: "\u6253\u6557\u602A\u7269\u7372\u5F97\u6D3B\u52D5\u4EE3\u5E63"
+    localize_value_sc: "\u6253\u8D25\u602A\u7269\u83B7\u5F97\u6D3B\u52A8\u4EE3\u5E01\r"
+  - key_index: 249
+    localize_value_kr: "<size=30>{0}</size> \uB0A8\uC74C"
+    localize_value_en: <size=30>{0}</size> left
+    localize_value_ja: "\u30A4\u30D9\u30F3\u30C8\u7D42\u4E86\u307E\u3067\u6B8B\u308A\\n<size=30>{0}</size>"
+    localize_value_tc: "\u6D3B\u52D5\u5269\u9918\\n<size=30>{0}</size> "
+    localize_value_sc: "\u6D3B\u52A8\u5269\u4F59\\n<size=30>{0}</size>\r"
+  - key_index: 250
+    localize_value_kr: "\uB9E4\uC77C\uB9E4\uC77C;\uC2B9\uB9AC\uD1A0\uD070"
+    localize_value_en: Victory;Token
+    localize_value_ja: "\u52DD\u5229;\u30C8\u30FC\u30AF\u30F3"
+    localize_value_tc: "\u52DD\u5229\u4EE3\u5E63"
+    localize_value_sc: "\u80DC\u5229\u4EE3\u5E01\r"
+  - key_index: 251
+    localize_value_kr: "\uC774\uBCA4\uD2B8 \uD328\uD0A4\uC9C0"
+    localize_value_en: Event Package
+    localize_value_ja: "\u30A4\u30D9\u30F3\u30C8\u30D1\u30C3\u30B1\u30FC\u30B8"
+    localize_value_tc: "\u6D3B\u52D5\u79AE\u5305"
+    localize_value_sc: "\u6D3B\u52A8\u793C\u5305\r"
+  - key_index: 252
+    localize_value_kr: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9"
+    localize_value_en: Rebirth Stone Income
+    localize_value_ja: "\u8EE2\u751F\u77F3 \u7372\u5F97\u91CF"
+    localize_value_tc: "\u91CD\u751F\u77F3 \u7372\u53D6\u91CF"
+    localize_value_sc: "\u91CD\u751F\u77F3 \u83B7\u53D6\u91CF\r"
+  - key_index: 253
+    localize_value_kr: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9"
+    localize_value_en: Gold Income
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9 \u7372\u5F97\u91CF"
+    localize_value_tc: "\u91D1\u5E63 \u7372\u53D6\u91CF"
+    localize_value_sc: "\u91D1\u5E01 \u83B7\u53D6\u91CF\r"
+  - key_index: 254
+    localize_value_kr: "\uAD6C\uB9E4 \uC2DC \uAD11\uACE0 \uC2DC\uCCAD \uC5C6\uC774
+      \uBAA8\uB4E0 \uBCF4\uC0C1\uC744 \uC5BB\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4. "
+    localize_value_en: Receive all rewards without watching ads!
+    localize_value_ja: "\u8CFC\u5165\u3059\u308B\u3068\u3001\u5E83\u544A\u3092\u8996\u8074\u3059\u308B\u3053\u3068\u306A\u304F\u5168\u3066\u306E\u5831\u916C\u304C\u3082\u3089\u3048\u307E\u3059\u3002"
+    localize_value_tc: "\u672A\u89C0\u770B\u5EE3\u544A\u4E5F\u53EF\u7372\u5F97\u734E\u52F5\u3002"
+    localize_value_sc: "\u4E0D\u770B\u5E7F\u544A\u4E5F\u53EF\u83B7\u5F97\u76F8\u5E94\u7684\u5956\u52B1\u3002\r"
+  - key_index: 255
+    localize_value_kr: "[{0}] \uC9C0\uC5ED\uC73C\uB85C \uC774\uB3D9\uD560 \uC218
+      \uC788\uC2B5\uB2C8\uB2E4."
+    localize_value_en: Now you can explore [{0}]!
+    localize_value_ja: "[{0}]\u5730\u57DF\u3078\u79FB\u52D5\u3067\u304D\u307E\u3059\u3002"
+    localize_value_tc: "\u53EF\u79FB\u52D5\u81F3[{0}]\u5730\u5340\u3002"
+    localize_value_sc: "\u53EF\u79FB\u52A8\u5230[{0}]\u5730\u533A\u3002\r"
+  - key_index: 256
+    localize_value_kr: "\uCCAB \uCDA9\uC804 \uC120\uBB3C"
+    localize_value_en: First Purchase Present
+    localize_value_ja: "\u521D\u56DE\u30C1\u30E3\u30FC\u30B8\\n\u30DC\u30FC\u30CA\u30B9"
+    localize_value_tc: "\u521D\u6B21\u5132\u503C\u734E\u52F5"
+    localize_value_sc: "\u521D\u6B21\u5132\u503C\u734E\u52F5\r"
+  - key_index: 257
+    localize_value_kr: "\uCCAB \uCDA9\uC804 \uC2DC \uC9C0\uAE09\uB418\uB294 \uC120\uBB3C\uC785\uB2C8\uB2E4."
+    localize_value_en: A present for your first purchase.
+    localize_value_ja: "\u521D\u56DE\u30C1\u30E3\u30FC\u30B8\u306E\u5F8C\u304A\u53D7\u3051\u53D6\u308A\u3067\u304D\u307E\u3059\u3002"
+    localize_value_tc: "\u521D\u6B21\u5132\u503C\u5373\u53EF\u7372\u5F97"
+    localize_value_sc: "\u521D\u6B21\u5132\u503C\u5373\u53EF\u7372\u5F97\r"
+  - key_index: 258
+    localize_value_kr: "\uC218\uB839\uD558\uAE30"
+    localize_value_en: Claim
+    localize_value_ja: "\u53D7\u3051\u53D6\u308B"
+    localize_value_tc: "\u9818\u53D6"
+    localize_value_sc: "\u9818\u53D6\r"
+  - key_index: 259
+    localize_value_kr: "\uC2A4\uD0C0\uD2B8 \uBC84\uD504"
+    localize_value_en: Beginner buff
+    localize_value_ja: "\u30B9\u30BF\u30FC\u30C8\u30D0\u30D5"
+    localize_value_tc: "\u65B0\u624BBUFF"
+    localize_value_sc: "\u65B0\u624B\u52A0\u6210\r"
+  - key_index: 260
+    localize_value_kr: "\uC2DC\uC98C \uBCF4\uC0C1\uC744 \uBA3C\uC800 \uC218\uB839\uD574\uC8FC\uC138\uC694."
+    localize_value_en: Please claim your Season Reward first.
+    localize_value_ja: "\u5148\u306B\u30B7\u30FC\u30BA\u30F3\u5831\u916C\u3092\u53D7\u3051\u53D6\u3063\u3066\u304F\u3060\u3055\u3044\u3002"
+    localize_value_tc: "\u8ACB\u5148\u9818\u53D6\u8CFD\u5B63\u734E\u52F5\u3002"
+    localize_value_sc: "\u9700\u5148\u9886\u53D6\u8D5B\u5B63\u5956\u52B1\u3002\r"
+  - key_index: 261
+    localize_value_kr: "\uB8EC \uC18C\uD658"
+    localize_value_en: Rune Summon
+    localize_value_ja: "\u30EB\u30FC\u30F3\u53EC\u559A"
+    localize_value_tc: "\u7B26\u6587\u53EC\u559A"
+    localize_value_sc: "\u7B26\u6587\u53EC\u5524\r"
+  - key_index: 262
+    localize_value_kr: "\uAC00\uACA9 \uCD08\uAE30\uD654 \uAE4C\uC9C0 : {0} \uB0A8\uC74C"
+    localize_value_en: 'Until price reset: {0} left'
+    localize_value_ja: "\u4FA1\u683C\u30EA\u30BB\u30C3\u30C8\u307E\u3067\uFF1A\u6B8B\u308A{0}"
+    localize_value_tc: "\u81F3\u5237\u65B0\u50F9\u683C\u9084\u6709\uFF1A{0}"
+    localize_value_sc: "\u81F3\u5237\u65B0\u4EF7\u683C\u8FD8\u6709\uFF1A{0}\r"
+  - key_index: 263
+    localize_value_kr: "\uAD6C\uB9E4 \uCD08\uAE30\uD654 \uAE4C\uC9C0 : {0} \uB0A8\uC74C"
+    localize_value_en: 'Until purchase reset: {0} left'
+    localize_value_ja: "\u8CFC\u5165\u30EA\u30BB\u30C3\u30C8\u307E\u3067\uFF1A\u6B8B\u308A{0}"
+    localize_value_tc: "\u81F3\u5237\u65B0\u8CFC\u8CB7\u6B21\u6578\u9084\u6709\uFF1A{0}"
+    localize_value_sc: "\u81F3\u5237\u65B0\u8D2D\u4E70\u6B21\u6570\u8FD8\u6709\uFF1A{0}\r"
+  - key_index: 264
+    localize_value_kr: "\uBB34\uB8CC\uBF51\uAE30"
+    localize_value_en: Free draw
+    localize_value_ja: "\u7121\u6599\u30AC\u30C1\u30E3"
+    localize_value_tc: "\u514D\u8CBB\u62BD"
+    localize_value_sc: "\u514D\u8D39\u62BD\r"
+  - key_index: 265
+    localize_value_kr: "\uC77C\uBC18\uC5D0\uC11C\uD76C\uADC0\uAE4C\uC9C0\\n<size=90>\uB8EC
+      <color=#F9EE94>1\uD68C</color> \uCC44\uAD74</size>"
+    localize_value_en: From normal to rare\n<size=90>Mine Rune <color=#F9EE94>once</color></size>
+    localize_value_ja: "\u30CE\u30FC\u30DE\u30EB\uFF5E\u30EC\u30A2\\n<size=90>\u30EB\u30FC\u30F3<color=#F9EE94>1\u56DE</color>\u63A1\u6398</size>"
+    localize_value_tc: "\u4E00\u822C~\u7A00\u6709\\n<size=90>\u7B26\u6587 <color=#F9EE94>1\u6B21</color>
+      \u6316\u6398</size>"
+    localize_value_sc: "\u4E00\u822C~\u7A00\u6709\\n<size=90>\u7B26\u6587 <color=#F9EE94>1\u6B21</color>
+      \u6316\u6398</size>\r"
+  - key_index: 266
+    localize_value_kr: "\uC77C\uBC18\uC5D0\uC11C\\n\uD76C\uADC0\uAE4C\uC9C0"
+    localize_value_en: From normal\nto rare
+    localize_value_ja: "\u30CE\u30FC\u30DE\u30EB\\n\uFF5E\u30EC\u30A2"
+    localize_value_tc: "\u4E00\u822C\\n~\u7A00\u6709"
+    localize_value_sc: "\u4E00\u822C\\n~\u7A00\u6709\r"
+  - key_index: 267
+    localize_value_kr: "\uB8EC <color=#F9EE94>11\uD68C</color>\\n\uC5F0\uC18D\uCC44\uAD74"
+    localize_value_en: Keep mining\nRune <color=#F9EE94>11times</color>
+    localize_value_ja: "\u30EB\u30FC\u30F3<color=#F9EE94>11\u9023</color>\\n\u63A1\u6398"
+    localize_value_tc: "\u7B26\u6587 <color=#F9EE94>11\u6B21</color>\\n\u9023\u7E8C\u6316\u6398"
+    localize_value_sc: "\u7B26\u6587 <color=#F9EE94>11\u6B21</color>\\n\u8FDE\u7EED\u6316\u6398\r"
+  - key_index: 268
+    localize_value_kr: "\uBCF4\uC11D\uC744 {0} \uAC1C \uC18C\uBAA8\uD558\uC5EC \uB8EC
+      \uC18C\uD658\uC744 \uC9C4\uD589\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    localize_value_en: Do you wish to proceed Rune Summon by using {0} diamonds?
+    localize_value_ja: "\u5B9D\u77F3\u3092{0}\u500B\u6D88\u8CBB\u3057\u3066\u30EB\u30FC\u30F3\u53EC\u559A\u3092\u884C\u3044\u307E\u3059\u304B\uFF1F"
+    localize_value_tc: "\u78BA\u5B9A\u8981\u4F7F\u7528{0}\u500B\u5BF6\u77F3\u9032\u884C\u7B26\u6587\u53EC\u559A\u55CE\uFF1F"
+    localize_value_sc: "\u786E\u5B9A\u8981\u4F7F\u7528{0}\u4E2A\u5B9D\u77F3\u8FDB\u884C\u7B26\u6587\u53EC\u5524\u5417\uFF1F\r"
+  - key_index: 269
+    localize_value_kr: "\uAE08\uC77C \uAD6C\uB9E4 \uAC00\uB2A5 \uC0C1\uD488\uC744
+      \uBAA8\uB450 \uAD6C\uB9E4\uD558\uC168\uC2B5\uB2C8\uB2E4"
+    localize_value_en: You purchased all available items today.
+    localize_value_ja: "\u672C\u65E5\u8CFC\u5165\u3067\u304D\u308B\u5546\u54C1\u3092\u3059\u3079\u3066\u8CFC\u5165\u3057\u307E\u3057\u305F\u3002"
+    localize_value_tc: "\u4ECA\u5929\u7684\u5546\u54C1\u5DF2\u552E\u5B8C"
+    localize_value_sc: "\u4ECA\u5929\u7684\u5546\u54C1\u5DF2\u552E\u5B8C\r"
+  - key_index: 270
+    localize_value_kr: "VIP \uBD80\uC2A4\uD2B8: {0:P0}"
+    localize_value_en: 'VIP boost: {0:P0}'
+    localize_value_ja: "VIP \u30D6\u30FC\u30B9\u30C8: {0:P0}"
+    localize_value_tc: "VIP\u52A0\u901F\u5668\uFF1A{0:P0}"
+    localize_value_sc: "VIP \u52A0\u901F\u5668\uFF1A{0:P0}\r"
+  - key_index: 271
+    localize_value_kr: "\uB8EC \uC18C\uD658 x 1"
+    localize_value_en: Rune Summon x 1
+    localize_value_ja: "\u30EB\u30FC\u30F3\u53EC\u559A x 1"
+    localize_value_tc: "\u7B26\u6587\u53EC\u559Ax 1"
+    localize_value_sc: "\u7B26\u6587\u53EC\u5524x 1\r"
+  - key_index: 272
+    localize_value_kr: "\uB8EC \uC18C\uD658 x 11"
+    localize_value_en: Rune Summon x 11
+    localize_value_ja: "\u30EB\u30FC\u30F3\u53EC\u559A x 11"
+    localize_value_tc: "\u7B26\u6587\u53EC\u559Ax 11"
+    localize_value_sc: "\u7B26\u6587\u53EC\u5524x 11\r"
+  - key_index: 273
+    localize_value_kr: "\uC11C\uBC84\uBCC0\uACBD"
+    localize_value_en: Server Switch
+    localize_value_ja: "\u30B5\u30FC\u30D0\u30FC\u5909\u66F4"
+    localize_value_tc: "\u8B8A\u66F4\u4F3A\u670D\u5668"
+    localize_value_sc: "\u53D8\u66F4\u4F3A\u670D\u5668\r"
+  - key_index: 274
+    localize_value_kr: "\uC120\uD0DD"
+    localize_value_en: Choose
+    localize_value_ja: "\u9078\u629E"
+    localize_value_tc: "\u9078\u64C7"
+    localize_value_sc: "\u9009\u62E9\r"
+  - key_index: 275
+    localize_value_kr: "\uC6D0\uD560"
+    localize_value_en: Low
+    localize_value_ja: "\u5FEB\u9069"
+    localize_value_tc: "\u901A\u66A2"
+    localize_value_sc: "\u901A\u7545\r"
+  - key_index: 276
+    localize_value_kr: "\uD3EC\uD654"
+    localize_value_en: Full
+    localize_value_ja: "\u6DF7\u96D1"
+    localize_value_tc: "\u64C1\u64E0"
+    localize_value_sc: "\u62E5\u6324\r"
+  - key_index: 277
+    localize_value_kr: "\uBCC0\uACBD \uAC00\uB2A5\uD55C \uC11C\uBC84\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
+    localize_value_en: There is no available server to change.
+    localize_value_ja: "\u5909\u66F4\u3067\u304D\u308B\u30B5\u30FC\u30D0\u30FC\u304C\u5B58\u5728\u3057\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u6C92\u6709\u53EF\u4EE5\u8B8A\u66F4\u7684\u4F3A\u670D\u5668"
+    localize_value_sc: "\u6CA1\u6709\u53EF\u4EE5\u53D8\u66F4\u7684\u4F3A\u670D\u5668\r"
+  - key_index: 278
+    localize_value_kr: "\uC11C\uBC84\uBCC0\uACBD\uC740 \uD654\uC0B4\uB808\uBCA8 21\uBD80\uD130
+      \uAC00\uB2A5\uD569\uB2C8\uB2E4."
+    localize_value_en: You can change server after Arrow Lv. 21.
+    localize_value_ja: "\u30B5\u30FC\u30D0\u30FC\u306E\u5909\u66F4\u306F\u77E2\u306E\u30EC\u30D9\u30EB21\u304B\u3089\u53EF\u80FD\u3067\u3059\u3002"
+    localize_value_tc: "\u7BAD\u77E2\u7B49\u7D1A21\u4EE5\u4E0A\u65B9\u53EF\u8B8A\u66F4\u4F3A\u670D\u5668"
+    localize_value_sc: "\u7BAD\u77E2\u7B49\u7EA721\u4EE5\u4E0A\u65B9\u53EF\u53D8\u66F4\u4F3A\u670D\u5668\r"
+  - key_index: 279
+    localize_value_kr: "\uBCC0\uACBD \uAC00\uB2A5\uAE30\uAC04\uC774 \uC544\uB2D9\uB2C8\uB2E4."
+    localize_value_en: You cannot change during this period.
+    localize_value_ja: "\u5909\u66F4\u3067\u304D\u308B\u6642\u9593\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002"
+    localize_value_tc: "\u975E\u53EF\u8B8A\u66F4\u6642\u9593"
+    localize_value_sc: "\u975E\u53EF\u53D8\u66F4\u65F6\u95F4\r"
+  - key_index: 280
+    localize_value_kr: "\uACF5\uC9C0\uC0AC\uD56D"
+    localize_value_en: Notice
+    localize_value_ja: "\u304A\u77E5\u3089\u305B"
+    localize_value_tc: "\u516C\u544A"
+    localize_value_sc: "\u516C\u544A\r"
+  - key_index: 281
+    localize_value_kr: "\uC0C8\uB85C\uC6B4 \uACF5\uC9C0\uC0AC\uD56D\uC774 \uC788\uC2B5\uB2C8\uB2E4."
+    localize_value_en: There is new notice.
+    localize_value_ja: "\u65B0\u3057\u3044\u304A\u77E5\u3089\u305B\u304C\u3042\u308A\u307E\u3059\u3002"
+    localize_value_tc: "\u6709\u65B0\u7684\u516C\u544A"
+    localize_value_sc: "\u6709\u65B0\u7684\u516C\u544A\r"
+  - key_index: 282
+    localize_value_kr: "\uC11C\uBC84 \uBCC0\uACBD  \uD655\uC778"
+    localize_value_en: Confirm Server Change
+    localize_value_ja: "\u30B5\u30FC\u30D0\u30FC\u5909\u66F4\u306E\u78BA\u8A8D"
+    localize_value_tc: "\u78BA\u8A8D\u8B8A\u66F4\u4F3A\u670D\u5668"
+    localize_value_sc: "\u786E\u8BA4\u53D8\u66F4\u4F3A\u670D\u5668\r"
+  - key_index: 283
+    localize_value_kr: "\uC11C\uBC84\uBCC0\uACBD \uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    localize_value_en: Do you wish to change server?
+    localize_value_ja: "\u30B5\u30FC\u30D0\u30FC\u5909\u66F4\u3092\u884C\u3044\u307E\u3059\u304B\uFF1F"
+    localize_value_tc: "\u78BA\u5B9A\u8981\u8B8A\u66F4\u4F3A\u670D\u5668\u55CE\uFF1F"
+    localize_value_sc: "\u786E\u5B9A\u8981\u53D8\u66F4\u4F3A\u670D\u5668\u5417\uFF1F\r"
+  - key_index: 284
+    localize_value_kr: "{0} \uB0A8\uC74C"
+    localize_value_en: '{0} left'
+    localize_value_ja: "\u30A4\u30D9\u30F3\u30C8\u7D42\u4E86\u307E\u3067\u6B8B\u308A
+      {0}"
+    localize_value_tc: "\u6D3B\u52D5\u5269\u9918 {0}"
+    localize_value_sc: "\u6D3B\u52A8\u5269\u4F59 {0}\r"
+  - key_index: 285
+    localize_value_kr: "\uB8EC <color=#F9EE94>{0}\uD68C</color>\\n\uC5F0\uC18D\uCC44\uAD74"
+    localize_value_en: Keep mining\nRune <color=#F9EE94>{0}times</color>
+    localize_value_ja: "\u30EB\u30FC\u30F3<color=#F9EE94>{0}\u9023</color>\\n\u63A1\u6398"
+    localize_value_tc: "\u7B26\u6587 <color=#F9EE94>{0}\u6B21</color>\\n\u9023\u7E8C\u6316\u6398"
+    localize_value_sc: "\u7B26\u6587 <color=#F9EE94>{0}\u6B21</color>\\n\u8FDE\u7EED\u6316\u6398\r"
+  - key_index: 286
+    localize_value_kr: "<size=50>\uB8EC</size><color=#F9EE94>{0}\uD68C+{1}\uD68C</color>\\n<size=90>\uC5F0
+      \uC18D \uCC44 \uAD74</size>"
+    localize_value_en: <size=50>Rune</size><color=#F9EE94>{0}times+{1}times</color>\n<size=90>Keep
+      mining</size>
+    localize_value_ja: "<size=50>\u30EB\u30FC\u30F3</size><color=#F9EE94>{0}\u56DE+{1}\u56DE</color>\\n<size=90>\u63A1
+      \u6398</size>"
+    localize_value_tc: "<size=50>\u7B26\u6587</size><color=#F9EE94>{0}\u6B21+{1}\u6B21</color>\\n<size=90>\u9023
+      \u7E8C \u6316 \u6398</size>"
+    localize_value_sc: "<size=50>\u7B26\u6587</size><color=#F9EE94>{0}\u6B21+{1}\u6B21</color>\\n<size=90>\u8FDE
+      \u7EED \u6316 \u6398</size>\r"
+  - key_index: 287
+    localize_value_kr: "<size=50>\uB8EC</size><color=#F9EE94>{0}\uD68C+{1}\uD68C</color>\\n<size=90>\uD3ED
+      \uD48D \uCC44 \uAD74</size>"
+    localize_value_en: <size=50>Rune</size><color=#F9EE94>{0}times+{1}times</color>\n<size=90>Mining
+      Frenzy</size>
+    localize_value_ja: "<size=50>\u30EB\u30FC\u30F3</size><color=#F9EE94>{0}\u56DE+{1}\u56DE</color>\\n<size=90>\u63A1
+      \u6398 \u4E09 \u6627</size>"
+    localize_value_tc: "<size=50>\u7B26\u6587</size><color=#F9EE94>{0}\u6B21+{1}\u6B21</color>\\n<size=90>\u760B
+      \u72C2 \u6316 \u6398</size>"
+    localize_value_sc: "<size=50>\u7B26\u6587</size><color=#F9EE94>{0}\u6B21+{1}\u6B21</color>\\n<size=90>\u75AF
+      \u72C2 \u6316 \u6398</size>\r"
+  - key_index: 288
+    localize_value_kr: "\uB8EC, \uD1A0\uD15C"
+    localize_value_en: Rune;Totem
+    localize_value_ja: "\u30EB\u30FC\u30F3;\u30C8\u30FC\u30C6\u30E0"
+    localize_value_tc: "\u7B26\u6587\uFF0C\u5716\u9A30"
+    localize_value_sc: "\u7B26\u6587\uFF0C\u56FE\u817E\r"
+  - key_index: 289
+    localize_value_kr: "\uD1A0\uD15C \uC815\uBCF4"
+    localize_value_en: Totem Info
+    localize_value_ja: "\u30C8\u30FC\u30C6\u30E0\u60C5\u5831"
+    localize_value_tc: "\u5716\u9A30\u60C5\u5831"
+    localize_value_sc: "\u56FE\u817E\u60C5\u62A5\r"
+  - key_index: 290
+    localize_value_kr: "\uC7A5\uCC29"
+    localize_value_en: Equip
+    localize_value_ja: "\u88C5\u7740"
+    localize_value_tc: "\u4F7F\u7528"
+    localize_value_sc: "\u4F7F\u7528\r"
+  - key_index: 291
+    localize_value_kr: "\uC7A5\uCC29\uD574\uC81C"
+    localize_value_en: Unequip
+    localize_value_ja: "\u88C5\u7740\u89E3\u9664"
+    localize_value_tc: "\u5378\u9664"
+    localize_value_sc: "\u5378\u9664\r"
+  - key_index: 292
+    localize_value_kr: "\uBCF4\uC11D\uC744 {0} \uAC1C \uC18C\uBAA8\uD558\uC5EC \uD1A0\uD15C\uC744
+      \uAD6C\uB9E4\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    localize_value_en: Do you wish to spend {0} gem(s) to purchase totem?
+    localize_value_ja: "\u30C0\u30A4\u30E4\u3092{0}\u500B\u6D88\u8CBB\u3057\u3066\u30C8\u30FC\u30C6\u30E0\u3092\u8CFC\u5165\u3057\u307E\u3059\u304B\uFF1F"
+    localize_value_tc: "\u78BA\u5B9A\u8981\u6D88\u8017{0}\u500B\u5BF6\u77F3\u4F86\u8CFC\u8CB7\u5716\u9A30\u55CE\uFF1F"
+    localize_value_sc: "\u786E\u5B9A\u8981\u6D88\u8017{0}\u4E2A\u5B9D\u77F3\u6765\u8D2D\u4E70\u56FE\u817E\u5417\uFF1F\r"
+  - key_index: 293
+    localize_value_kr: "\uD604\uC7AC \uCD1D \uBCF4\uC720\uD6A8\uACFC :"
+    localize_value_en: 'Cirremt Total Effect:'
+    localize_value_ja: "\u73FE\u5728\u306E\u5408\u8A08\u6240\u6709\u52B9\u679C\uFF1A"
+    localize_value_tc: "\u76EE\u524D\u6301\u6709\u6548\u679C\uFF1A"
+    localize_value_sc: "\u76EE\u524D\u6301\u6709\u6548\u679C\uFF1A\r"
+  - key_index: 294
+    localize_value_kr: "\uC0C1\uD488 \uAD6C\uB9E4\uC2DC \uBCF4\uC720\uD6A8\uACFC\uB294
+      \uC790\uB3D9\uC73C\uB85C \uC801\uC6A9\uB429\uB2C8\uB2E4."
+    localize_value_en: The effect is automatically applied upon purchase.
+    localize_value_ja: "\u5546\u54C1\u8CFC\u5165\u6642\u3001\u6240\u6709\u52B9\u679C\u306F\u81EA\u52D5\u3067\u9069\u7528\u3055\u308C\u307E\u3059\u3002"
+    localize_value_tc: "\u8CFC\u8CB7\u5546\u54C1\u5F8C\u5C07\u81EA\u52D5\u7372\u5F97\u6301\u6709\u6548\u679C"
+    localize_value_sc: "\u8D2D\u4E70\u5546\u54C1\u540E\u5C06\u81EA\u52A8\u83B7\u5F97\u6301\u6709\u6548\u679C\r"
+  - key_index: 295
+    localize_value_kr: "\uBCF4\uC720\uD6A8\uACFC"
+    localize_value_en: Effect
+    localize_value_ja: "\u6240\u6709\u52B9\u679C"
+    localize_value_tc: "\u6301\u6709\u6548\u679C"
+    localize_value_sc: "\u6301\u6709\u6548\u679C\r"
+  - key_index: 296
+    localize_value_kr: "[{0}] \uC9C0\uC5ED\uC73C\uB85C \uC774\uB3D9 \uD6C4 \uC774\uC6A9\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    localize_value_en: You can use after moving to [{0}] area.
+    localize_value_ja: "[{0}]\u5730\u57DF\u3078\u79FB\u52D5\u3057\u3066\u304B\u3089\u5229\u7528\u3067\u304D\u307E\u3059\u3002"
+    localize_value_tc: "\u9700\u79FB\u52D5\u5230[{0}]\u5730\u5340\u5F8C\u65B9\u53EF\u4F7F\u7528\u3002"
+    localize_value_sc: "\u9700\u79FB\u52A8\u5230[{0}]\u5730\u533A\u540E\u65B9\u53EF\u4F7F\u7528\u3002\r"
+  - key_index: 297
+    localize_value_kr: "\uCCAB {0} \uD68D\uB4DD \uCD95\uD558 \uD328\uD0A4\uC9C0"
+    localize_value_en: First {0} Gain Celebration Pack
+    localize_value_ja: "\u521D{0}\u7372\u5F97\u304A\u795D\u3044\u30D1\u30C3\u30B1\u30FC\u30B8"
+    localize_value_tc: "{0} \u65B0\u5165\u624B\u79AE\u5305"
+    localize_value_sc: "{0} \u65B0\u5165\u624B\u793C\u5305\r"
+  - key_index: 298
+    localize_value_kr: "\uAD6C\uB9E4 \uC644\uB8CC"
+    localize_value_en: Purchased
+    localize_value_ja: "\u8CFC\u5165\u5B8C\u4E86"
+    localize_value_tc: "\u5DF2\u8CFC\u8CB7"
+    localize_value_sc: "\u5DF2\u8D2D\u4E70\r"
+  - key_index: 299
+    localize_value_kr: "\uC544\uCC98 \uC131\uC7A5 \uC9C0\uC6D0 \uD328\uD0A4\uC9C0"
+    localize_value_en: Archer Growth Support Pack
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u6210\u9577\u652F\u63F4\u30D1\u30C3\u30B1\u30FC\u30B8"
+    localize_value_tc: "\u5F13\u7BAD\u624B\u6210\u9577\u61C9\u63F4\u5305"
+    localize_value_sc: "\u5F13\u7BAD\u624B\u6210\u957F\u5E94\u63F4\u5305\r"
+  - key_index: 300
+    localize_value_kr: "\uB808\uBCA8 {0} \uD654\uC0B4 \uB2EC\uC131 \uD328\uD0A4\uC9C0"
+    localize_value_en: Lv.{0} Arrow Achievement Pack
+    localize_value_ja: "\u77E2\u306E\u30EC\u30D9\u30EB{0}\u9054\u6210\u30D1\u30C3\u30B1\u30FC\u30B8"
+    localize_value_tc: "\u7BAD\u77E2\u7B49\u7D1A{0}\u9054\u6210\u5305"
+    localize_value_sc: "\u7BAD\u77E2\u7B49\u7EA7{0}\u8FBE\u6210\u5305\r"
+  - key_index: 301
+    localize_value_kr: "{0}\uB2D8~!! \uACE7 \uC774\uBCA4\uD2B8 \uC2DC\uC98C\uC774
+      \uB9C8\uAC10\uB418\uACE0 \uCF54\uC778\uC774 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4!
+      \uC544\uC9C1 \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC740 \uC774\uBCA4\uD2B8 \uCF54\uC778\uC744
+      \uC0AC\uC6A9\uD574\uC8FC\uC138\uC694!"
+    localize_value_en: '{0}~!! Event season will end, and coins will reset soon!
+      Please use any remaining coins!'
+    localize_value_ja: "{0}\u69D8\uFF01\u3082\u3046\u3059\u3050\u30A4\u30D9\u30F3\u30C8\u30B7\u30FC\u30BA\u30F3\u304C\u7D42\u308F\u308A\u3001\u30B3\u30A4\u30F3\u304C\u30EA\u30BB\u30C3\u30C8\u3055\u308C\u307E\u3059\uFF01\u307E\u3060\u4F7F\u7528\u3057\u3066\u3044\u306A\u3044\u30A4\u30D9\u30F3\u30C8\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+    localize_value_tc: "\u89AA\u611B\u7684{0}\uFF01\u6D3B\u52D5\u7D50\u675F\u5F8C\u4EE3\u5E63\u5C31\u6B78\u96F6\u56C9\uFF01\u60A8\u90FD\u7528\u5B8C\u4E86\u55CE\uFF1F"
+    localize_value_sc: "\u4EB2\u7231\u7684{0}\uFF01\u6D3B\u52A8\u7ED3\u675F\u540E\u4EE3\u5E01\u5C31\u5F52\u96F6\u56C9\uFF01\u60A8\u90FD\u7528\u5B8C\u4E86\u5417\uFF1F\r"
+  - key_index: 302
+    localize_value_kr: "{0}\uB2D8 1\uC2DC\uAC04 \uC548\uC5D0 \uC811\uC18D\uD558\uC2DC\uBA74
+      \uB300\uB7C9\uC758 \uBCF4\uC11D\uC774\uB098 \uB8EC \uBF51\uAE30\uAD8C\uC744
+      \uBA54\uC77C\uB85C \uC989\uC2DC \uC9C0\uAE09\uD574\uB4DC\uB9BD\uB2C8\uB2E4!\u201D"
+    localize_value_en: '{0}, log in within an hour to claim random rewards immediately!'
+    localize_value_ja: "{0}\u69D8\u3001\u3042\u30681\u6642\u9593\u3067\u30ED\u30B0\u30A4\u30F3\u3059\u308B\u3068\u5927\u91CF\u306E\u30C0\u30A4\u30E4\u3084\u30EB\u30FC\u30F3\u30AC\u30C1\u30E3\u5238\u3092\u30E1\u30FC\u30EB\u3067\u5373\u652F\u7D66\u3057\u307E\u3059\uFF01"
+    localize_value_tc: "\u89AA\u611B\u7684{0}\uFF01\u57281\u5C0F\u6642\u5167\u767B\u5165\u904A\u6232\u5C31\u53EF\u4EE5\u7372\u5F97\u5927\u91CF\u7684\u5BF6\u77F3\u6216\u662F\u7B26\u6587\u53EC\u559A\u5238\u5594\uFF01"
+    localize_value_sc: "\u4EB2\u7231\u7684{0}\uFF01\u57281\u5C0F\u65F6\u5185\u767B\u5165\u6E38\u620F\u5C31\u53EF\u4EE5\u83B7\u5F97\u5927\u91CF\u7684\u5B9D\u77F3\u6216\u662F\u7B26\u6587\u53EC\u5524\u5238\u5594\uFF01\r"
+  - key_index: 303
+    localize_value_kr: "{0}\uB2D8~! \uC624\uD504\uB77C\uC778 \uBCF4\uC0C1\uC774 \uC313\uC5EC
+      \uAC00\uB4DD\uCC28\uAE30 \uC9C1\uC804\uC785\uB2C8\uB2E4. \uBCF4\uC0C1\uC744
+      \uC218\uB839\uD574\uC8FC\uC138\uC694!"
+    localize_value_en: '{0}~! It will be filled with offline rewards soon. Please
+      claim rewards!'
+    localize_value_ja: "{0}\u69D8\uFF01\u30AA\u30D5\u30E9\u30A4\u30F3\u5831\u916C\u304C\u3044\u3063\u3071\u3044\u3067\u3059\u3002\u5831\u916C\u3092\u53D7\u3051\u53D6\u3063\u3066\u304F\u3060\u3055\u3044\uFF01"
+    localize_value_tc: "\u89AA\u611B\u7684{0}\uFF01\u60A8\u7684\u90F5\u7BB1\u5FEB\u88AB\u734E\u52F5\u585E\u7206\u56C9\uFF01\u4E0D\u4F86\u62FF\u55CE\uFF1F"
+    localize_value_sc: "\u4EB2\u7231\u7684{0}\uFF01\u60A8\u7684\u90AE\u7BB1\u5FEB\u88AB\u5956\u52B1\u585E\u7206\u56C9\uFF01\u4E0D\u6765\u62FF\u5417\uFF1F\r"
+  - key_index: 304
+    localize_value_kr: "\uC544\uCC98\uD0A4\uC6B0\uAE30 : \uBC29\uCE58\uD615 \uB514\uD39C\uC2A4"
+    localize_value_en: 'Archer Forest : Idle Defence'
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u30D5\u30A9\u30EC\u30B9\u30C8\uFF1A\u653E\u7F6E\u30C7\u30A3\u30D5\u30A7\u30F3\u30B9"
+    localize_value_tc: "\u5F13\u7BAD\u624B\u990A\u6210\uFF1A\u653E\u7F6E\u578B\u5854\u9632"
+    localize_value_sc: "\u5F13\u7BAD\u624B\u517B\u6210\uFF1A\u653E\u7F6E\u578B\u5854\u9632\r"
+  - key_index: 305
+    localize_value_kr: "\uAE5C\uC9DD\uC120\uBB3C"
+    localize_value_en: Suprise Gift
+    localize_value_ja: "\u30B5\u30D7\u30E9\u30A4\u30BA\u30D7\u30EC\u30BC\u30F3\u30C8"
+    localize_value_tc: "\u9A5A\u559C\u79AE\u7269"
+    localize_value_sc: "\u60CA\u559C\u793C\u7269\r"
+  - key_index: 306
+    localize_value_kr: "\uAE5C\uC9DD\uC120\uBB3C\uC744 \uB193\uCE58\uC9C0 \uB9C8\uC138\uC694!
+      (\uB9E4\uC77C 1\uD68C)"
+    localize_value_en: Don't miss your suprise gift! (Once a day)
+    localize_value_ja: "\u30B5\u30D7\u30E9\u30A4\u30BA\u30D7\u30EC\u30BC\u30F3\u30C8\u3092\u304A\u898B\u9003\u3057\u306A\u304F\uFF01(\u6BCE\u65E51\u56DE)"
+    localize_value_tc: "\u606D\u559C\u7372\u5F97\u9A5A\u559C\u79AE\u7269\uFF01(\u6BCF\u65E51\u6B21)"
+    localize_value_sc: "\u606D\u559C\u83B7\u5F97\u60CA\u559C\u793C\u7269\uFF01(\u6BCF\u65E51\u6B21)\r"
+  - key_index: 307
+    localize_value_kr: "\uC624\uD504\uB77C\uC778 \uBCF4\uC0C1 \uD68D\uB4DD!"
+    localize_value_en: Offline Reward!
+    localize_value_ja: "\u30AA\u30D5\u30E9\u30A4\u30F3\u5831\u916CGET\uFF01"
+    localize_value_tc: "\u7372\u5F97\u7DDA\u4E0B\u734E\u52F5\uFF01"
+    localize_value_sc: "\u83B7\u5F97\u7EBF\u4E0B\u5956\u52B1\uFF01\r"
+  - key_index: 308
+    localize_value_kr: "\uBE44\uD65C\uC131 \uAE30\uAC04 : {0}"
+    localize_value_en: 'Period of Inactivity : {0}'
+    localize_value_ja: "\u30AA\u30D5\u30E9\u30A4\u30F3\u671F\u9593\uFF1A{0}"
+    localize_value_tc: "\u4E0B\u7DDA\u6642\u9593\uFF1A{0}"
+    localize_value_sc: "\u4E0B\u7EBF\u65F6\u95F4\uFF1A{0}\r"
+  - key_index: 309
+    localize_value_kr: "\uAD11\uACE0\uBCF4\uACE0 2\uBC30 \uBC1B\uAE30"
+    localize_value_en: Watch Ad to double it
+    localize_value_ja: "\u5E83\u544A\u8996\u8074\u3067\u5831\u916C2\u500D"
+    localize_value_tc: "\u770B\u5EE3\u544A\u62FF\u96D9\u500D\u734E\u52F5"
+    localize_value_sc: "\u770B\u5E7F\u544A\u62FF\u53CC\u500D\u5956\u52B1\r"
+  - key_index: 310
+    localize_value_kr: "\uC9C4\uD589 Wave {0} -> {1}"
+    localize_value_en: Wave in Progress {0} -> {1}
+    localize_value_ja: "\u9032\u884CWave{0}->{1}"
+    localize_value_tc: "\u901A\u95DCWave {0} -> {1}"
+    localize_value_sc: "\u901A\u5173Wave {0} -> {1}"
+  - key_index: 311
+    localize_value_kr: "\uACE8\uB4DC : {0}"
+    localize_value_en: 'Gold(s) : {0}'
+    localize_value_ja: "\u30B4\u30FC\u30EB\u30C9\uFF1A{0}"
+    localize_value_tc: "\u91D1\u5E63\uFF1A{0}"
+    localize_value_sc: "\u91D1\u5E01\uFF1A{0}"
+  - key_index: 312
+    localize_value_kr: "\uBCF4\uC11D : {0}"
+    localize_value_en: 'Gem(s) : {0}'
+    localize_value_ja: "\u30C0\u30A4\u30E4\uFF1A{0}"
+    localize_value_tc: "\u5BF6\u77F3\uFF1A{0}"
+    localize_value_sc: "\u5B9D\u77F3\uFF1A{0}"
+  - key_index: 313
+    localize_value_kr: "\uC774\uBCA4\uD2B8 \uCF54\uC778 : {0}"
+    localize_value_en: 'Event Coin(s) : {0}'
+    localize_value_ja: "\u30A4\u30D9\u30F3\u30C8\u30B3\u30A4\u30F3\uFF1A{0}"
+    localize_value_tc: "\u6D3B\u52D5\u4EE3\u5E63\uFF1A{0}"
+    localize_value_sc: "\u6D3B\u52A8\u4EE3\u5E01\uFF1A{0}"
+  - key_index: 314
+    localize_value_kr: "\uCDA9\uC804\uC11D : {0}"
+    localize_value_en: 'Arrow Stone(s) : {0}'
+    localize_value_ja: "\u88DC\u7D66\u77F3\uFF1A{0}"
+    localize_value_tc: "\u88DC\u7D66\u77F3\uFF1A{0}"
+    localize_value_sc: "\u8865\u7ED9\u77F3\uFF1A{0}"
+  - key_index: 315
+    localize_value_kr: "\uD658\uC0DD\uC11D : {0}"
+    localize_value_en: 'Rebirth Stone(s) : {0}'
+    localize_value_ja: "\u8EE2\u751F\u77F3\uFF1A{0}"
+    localize_value_tc: "\u91CD\u751F\u77F3\uFF1A{0}"
+    localize_value_sc: "\u91CD\u751F\u77F3\uFF1A{0}"
+  - key_index: 316
+    localize_value_kr: "\uBCF4\uC0C1\uC740 \uCD5C\uACE0 \uB09C\uC774\uB3C4 \uB9F5\uC758
+      \uD074\uB9AC\uC5B4 \uC2A4\uD14C\uC774\uC9C0\uC640 \uBE44\uB840\uD569\uB2C8\uB2E4."
+    localize_value_en: The reward is proportional to the stages of the map of the
+      highest level
+    localize_value_ja: "\u5831\u916C\u306F\u6700\u9AD8\u96E3\u6613\u5EA6\u30DE\u30C3\u30D7\u306E\u30AF\u30EA\u30A2\u30B9\u30C6\u30FC\u30B8\u306B\u3088\u3063\u3066\u6C7A\u307E\u308A\u307E\u3059\u3002"
+    localize_value_tc: "\u734E\u52F5\u4F9D\u64DA\u5DF2\u901A\u95DC\u4E4B\u95DC\u5361\u7684\u6700\u9AD8\u96E3\u5EA6\u767C\u9001\u3002"
+    localize_value_sc: "\u5956\u52B1\u4F9D\u636E\u5DF2\u901A\u5173\u4E4B\u5173\u5361\u7684\u6700\u9AD8\u96BE\u5EA6\u53D1\u9001\u3002"
+  - key_index: 317
+    localize_value_kr: "\uB4DC\uB113\uACE0 \uB9E4\uC6B0 \uD070 \uB300\uB959\uC758
+      \uC791\uC740 \uC232\uC18D\uC5D0\uB294 \uADC0\uC5EC\uC6B4 \uC544\uCC98 \uCE5C\uAD6C\uB4E4\uC774
+      \uC0B4\uACE0 \uC788\uC2B5\uB2C8\uB2E4. "
+    localize_value_en: Adorable archers are living in a little forest of a vast and
+      enormous continent
+    localize_value_ja: "\u5E83\u5927\u306A\u5927\u9678\u306E\u5C0F\u3055\u3044\u68EE\u306E\u4E2D\u306B\u306F;\u53EF\u611B\u3044\u30A2\u30FC\u30C1\u30E3\u30FC\u305F\u3061\u304C\u66AE\u3089\u3057\u3066\u3044\u307E\u3059\u3002"
+    localize_value_tc: "\u5728\u5EE3\u95CA\u7121\u57A0\u7684\u5927\u9678\u4E0A\uFF0C\u6709\u4E00\u7FA4\u53EF\u611B\u7684\u5F13\u7BAD\u624B\u5011\uFF0C\u5C45\u4F4F\u5728\u5C0F\u5C0F\u7684\u68EE\u6797\u88E1\u3002"
+    localize_value_sc: "\u5728\u5E7F\u9614\u65E0\u57A0\u7684\u5927\u9646\u4E0A\uFF0C\u6709\u4E00\u7FA4\u53EF\u7231\u7684\u5F13\u7BAD\u624B\u4EEC\uFF0C\u5C45\u4F4F\u5728\u5C0F\u5C0F\u7684\u68EE\u6797\u88E1\u3002\r"
+  - key_index: 318
+    localize_value_kr: "\uC544\uCC98 \uCE5C\uAD6C\uB4E4\uC740 '\uB9C8\uBC95\uC758
+      \uBAA8\uB8E8'\uC5D0\uC11C \uB9CC\uB4E4\uC5B4\uC9C0\uB294 \uBA4B\uC9C4 \uD654\uC0B4\uB85C
+      \uC232\uACFC \uBAA8\uB8E8\uB97C \uC9C0\uD0A4\uBA70 \uC0B4\uC544\uAC00\uACE0
+      \uC788\uC2B5\uB2C8\uB2E4."
+    localize_value_en: These archers protect the forest and anvil with awesome arrows
+      from the Magical Anvil
+    localize_value_ja: "\u30A2\u30FC\u30C1\u30E3\u30FC\u305F\u3061\u306F\u300C\u9B54\u6CD5\u306E\u91D1\u6577\u300D\u304B\u3089\u4F5C\u3089\u308C\u308B;\u7D20\u6575\u306A\u77E2\u3067\u68EE\u3084\u91D1\u6577\u3092\u5B88\u3063\u3066\u751F\u304D\u3066\u3044\u307E\u3059\u3002"
+    localize_value_tc: "\u9019\u7FA4\u5F13\u7BAD\u624B\u5011\u4F7F\u7528\"\u9B54\u6CD5\u9435\u7827\"\u88FD\u4F5C\u51FA\u7684\u7BAD\u77E2\u4F86\u4FDD\u885B\u8457\u68EE\u6797\u548C\"\u9B54\u6CD5\u9435\u7827\"\u3002"
+    localize_value_sc: "\u8FD9\u7FA4\u5F13\u7BAD\u624B\u4EEC\u4F7F\u7528\"\u9B54\u6CD5\u94C1\u7827\"\u88FD\u4F5C\u51FA\u7684\u7BAD\u77E2\u6765\u4FDD\u536B\u7740\u68EE\u6797\u548C\"\u9B54\u6CD5\u94C1\u7827\"\u3002\r"
+  - key_index: 319
+    localize_value_kr: "\uC774 \uC138\uACC4\uC5D0\uB294 '\uB9C8\uBC95\uC758 \uBAA8\uB8E8'\uB97C
+      \uAC16\uACE0 \uC2F6\uC5B4\uD558\uB294 \uCE5C\uAD6C\uB4E4\uC774 \uB9CE\uC774
+      \uC788\uAE30 \uB54C\uBB38\uC774\uC5D0\uC694!"
+    localize_value_en: There are those who want to take the Magical Anvil from all
+      over the world!
+    localize_value_ja: "\u3053\u306E\u4E16\u754C\u306B\u306F\u3001;\u300C\u9B54\u6CD5\u306E\u91D1\u6577\u300D\u3092\u6B32\u3057\u304C\u308B\u304A\u53CB\u9054\u304C\u305F\u304F\u3055\u3093\u3044\u308B\u306E\u3067\u3059\uFF01"
+    localize_value_tc: "\u6709\u5F88\u591A\u52E2\u529B\u5728\u864E\u8996\u7708\u7708\u7684\u8096\u60F3\u8457\"\u9B54\u6CD5\u9435\u7827\"\u5462\uFF01"
+    localize_value_sc: "\u6709\u5F88\u591A\u52BF\u529B\u5728\u864E\u89C6\u7708\u7708\u7684\u8096\u60F3\u7740\"\u9B54\u6CD5\u94C1\u7827\"\u5462\uFF01\r"
+  - key_index: 320
+    localize_value_kr: "\uC624\uB298\uB3C4 \uC544\uCC98\uCE5C\uAD6C\uB4E4\uC740 \uBAB0\uB824\uC624\uB294
+      \uC801\uB4E4\uC744 \uD5A5\uD574 \uD65C\uC2DC\uC704\uB97C \uB2F9\uAE41\uB2C8\uB2E4!"
+    localize_value_en: Even today, the archers aim their bows to the incoming enemies!
+    localize_value_ja: "\u4ECA\u65E5\u3082\u30A2\u30FC\u30C1\u30E3\u30FC\u305F\u3061\u306F\u3001;\u62BC\u3057\u5BC4\u305B\u308B\u6575\u3092\u76EE\u639B\u3051\u3066\u5F13\u3092\u5F15\u304D\u307E\u3059\uFF01"
+    localize_value_tc: "\u5F13\u7BAD\u624B\u5011\u4ECA\u5929\u4F9D\u820A\u62C9\u8457\u6230\u5F13\uFF0C\u52AA\u529B\u7684\u62B5\u64CB\u5916\u6575\u5462\uFF01"
+    localize_value_sc: "\u5F13\u7BAD\u624B\u4EEC\u4ECA\u5929\u4F9D\u65E7\u62C9\u7740\u6218\u5F13\uFF0C\u52AA\u529B\u7684\u62B5\u6321\u5916\u654C\u5462\uFF01\r"
+  - key_index: 321
+    localize_value_kr: "{0}\uCD08 \uB4A4\uC5D0 \uB9E4\uCE6D\uC774 \uC2DC\uC791\uB429\uB2C8\uB2E4."
+    localize_value_en: Matching begins in {0}seconds.
+    localize_value_ja: "{0}\u79D2\u5F8C\u306B\u30DE\u30C3\u30C1\u30F3\u30B0\u304C\u958B\u59CB\u3057\u307E\u3059\u3002"
+    localize_value_tc: "{0}\u79D2\u5F8C\u81EA\u52D5\u641C\u5C0B\u5C0D\u8C61\u3002"
+    localize_value_sc: "{0}\u79D2\u540E\u81EA\u52A8\u641C\u5BFB\u5BF9\u8C61\u3002\r"
+  - key_index: 322
+    localize_value_kr: "PVP \uC790\uB3D9 \uC9C4\uD589"
+    localize_value_en: Automatic PVP.
+    localize_value_ja: "PVP\u30AA\u30FC\u30C8\u9032\u884C"
+    localize_value_tc: "PVP\u81EA\u52D5\u9032\u884C"
+    localize_value_sc: "PVP\u81EA\u52A8\u8FDB\u884C\r"
+  - key_index: 323
+    localize_value_kr: "{0}\uCD08 \uB4A4\uC5D0 \uBA54\uC778\uD654\uBA74\uC73C\uB85C
+      \uB3CC\uC544\uAC11\uB2C8\uB2E4."
+    localize_value_en: Returning to the main screen in {0}seconds.
+    localize_value_ja: "{0}\u79D2\u5F8C\u306B\u30E1\u30A4\u30F3\u753B\u9762\u306B\u623B\u308A\u307E\u3059\u3002"
+    localize_value_tc: "{0}\u79D2\u5F8C\u56DE\u5230\u4E3B\u756B\u9762\u3002"
+    localize_value_sc: "{0}\u79D2\u540E\u56DE\u5230\u4E3B\u753B\u9762\u3002\r"
+  - key_index: 324
+    localize_value_kr: "\u201CPVP \uC790\uB3D9 \uC9C4\uD589\u201D \uC2DC \uC0C1\uB300
+      \uBAA9\uB85D \uC911 \uAC00\uC7A5 \uB0AE\uC740 \uC804\uD22C\uB825\uC744 \uAC00\uC9C4
+      \uC720\uC800\uC640 \uC790\uB3D9\uC73C\uB85C \uB9E4\uCE6D\uB429\uB2C8\uB2E4."
+    localize_value_en: '"Automatic PVP" matches you automatically with a player with
+      the least CP on the list.'
+    localize_value_ja: "\u300CPVP\u30AA\u30FC\u30C8\u9032\u884C\u300D\u3092\u884C\u3046\u3068\u3001\u76F8\u624B\u30EA\u30B9\u30C8\u306E\u4E2D\u3067\u6700\u3082\u6226\u95D8\u529B\u306E\u4F4E\u3044\u30E6\u30FC\u30B6\u30FC\u3068\u81EA\u52D5\u7684\u306B\u30DE\u30C3\u30C1\u30F3\u30B0\u3055\u308C\u307E\u3059\u3002"
+    localize_value_tc: "PVP\u81EA\u52D5\u9032\u884C\u6642\uFF0C\u5C07\u81EA\u52D5\u641C\u5C0B\u5C0D\u8C61\u6E05\u55AE\u4E2D\u6230\u9B25\u529B\u6700\u4F4E\u7684\u73A9\u5BB6\u9032\u884C\u5C0D\u6230\u3002"
+    localize_value_sc: "PVP\u81EA\u52A8\u8FDB\u884C\u65F6\uFF0C\u5C06\u81EA\u52A8\u641C\u5BFB\u5BF9\u8C61\u6E05\u5355\u4E2D\u6218\u6597\u529B\u6700\u4F4E\u7684\u73A9\u5BB6\u8FDB\u884C\u5BF9\u6218\u3002\r"
+  - key_index: 325
+    localize_value_kr: "\uD2F0\uCF13\uC774 \uC5C6\uC744 \uACBD\uC6B0 \uC790\uB3D9\uC73C\uB85C
+      PVE \uD654\uBA74\uC73C\uB85C \uB3CC\uC544\uAC11\uB2C8\uB2E4."
+    localize_value_en: Without a ticket, you will automatically return to PVE screen.
+    localize_value_ja: "PVP\u30C1\u30B1\u30C3\u30C8\u304C\u306A\u3044\u5834\u5408\u3001\u81EA\u52D5\u3067PVE\u753B\u9762\u306B\u623B\u308A\u307E\u3059\u3002"
+    localize_value_tc: "\u5982\u82E5\u6C92\u6709\u5C0D\u8C61\u53EF\u4EE5\u5C0D\u6230\u6642\uFF0C\u5C07\u81EA\u52D5\u56DE\u5230PVE\u756B\u9762\u3002"
+    localize_value_sc: "\u5982\u82E5\u6CA1\u6709\u5BF9\u8C61\u53EF\u4EE5\u5BF9\u6218\u65F6\uFF0C\u5C06\u81EA\u52A8\u56DE\u5230PVE\u753B\u9762\u3002\r"
+  - key_index: 326
+    localize_value_kr: "{0}\uCD08 \uD6C4 \uC790\uB3D9\uC73C\uB85C \uC218\uB839\uB429\uB2C8\uB2E4."
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: .
+  resourceName: LocalizeData

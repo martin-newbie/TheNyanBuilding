@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d252503e4e949d28af436b0dc6fb4c, type: 3}
+  m_Name: LocalizeData_ToTem
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_ToTem
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uB3FC\uC9C0 (\uD558\uAE09)"
+    localize_value_kr2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uB3FC\uC9C0 (\uD558\uAE09)"
+    localize_value_en2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uB3FC\uC9C0 (\uD558\uAE09)"
+    localize_value_ja2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uB3FC\uC9C0 (\uD558\uAE09)"
+    localize_value_tc2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uB3FC\uC9C0 (\uD558\uAE09)"
+    localize_value_sc2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 1
+    localize_value_kr: "\uC5EC\uC6B0 (\uD558\uAE09)"
+    localize_value_kr2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uC5EC\uC6B0 (\uD558\uAE09)"
+    localize_value_en2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uC5EC\uC6B0 (\uD558\uAE09)"
+    localize_value_ja2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uC5EC\uC6B0 (\uD558\uAE09)"
+    localize_value_tc2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uC5EC\uC6B0 (\uD558\uAE09)"
+    localize_value_sc2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 2
+    localize_value_kr: "\uC18C (\uD558\uAE09)"
+    localize_value_kr2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uC18C (\uD558\uAE09)"
+    localize_value_en2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uC18C (\uD558\uAE09)"
+    localize_value_ja2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uC18C (\uD558\uAE09)"
+    localize_value_tc2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uC18C (\uD558\uAE09)"
+    localize_value_sc2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 3
+    localize_value_kr: "\uB3FC\uC9C0 (\uC911\uAE09)"
+    localize_value_kr2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uB3FC\uC9C0 (\uC911\uAE09)"
+    localize_value_en2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uB3FC\uC9C0 (\uC911\uAE09)"
+    localize_value_ja2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uB3FC\uC9C0 (\uC911\uAE09)"
+    localize_value_tc2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uB3FC\uC9C0 (\uC911\uAE09)"
+    localize_value_sc2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 4
+    localize_value_kr: "\uC5EC\uC6B0 (\uC911\uAE09)"
+    localize_value_kr2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uC5EC\uC6B0 (\uC911\uAE09)"
+    localize_value_en2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uC5EC\uC6B0 (\uC911\uAE09)"
+    localize_value_ja2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uC5EC\uC6B0 (\uC911\uAE09)"
+    localize_value_tc2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uC5EC\uC6B0 (\uC911\uAE09)"
+    localize_value_sc2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 5
+    localize_value_kr: "\uC18C (\uC911\uAE09)"
+    localize_value_kr2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uC18C (\uC911\uAE09)"
+    localize_value_en2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uC18C (\uC911\uAE09)"
+    localize_value_ja2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uC18C (\uC911\uAE09)"
+    localize_value_tc2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uC18C (\uC911\uAE09)"
+    localize_value_sc2: "\uACF5\uACA9\uB825 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 6
+    localize_value_kr: "\uB3FC\uC9C0 (\uC0C1\uAE09)"
+    localize_value_kr2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uB3FC\uC9C0 (\uC0C1\uAE09)"
+    localize_value_en2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uB3FC\uC9C0 (\uC0C1\uAE09)"
+    localize_value_ja2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uB3FC\uC9C0 (\uC0C1\uAE09)"
+    localize_value_tc2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uB3FC\uC9C0 (\uC0C1\uAE09)"
+    localize_value_sc2: "\uACE8\uB4DC \uD68D\uB4DD\uB7C9 <color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 7
+    localize_value_kr: "\uC5EC\uC6B0 (\uC0C1\uAE09)"
+    localize_value_kr2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uC5EC\uC6B0 (\uC0C1\uAE09)"
+    localize_value_en2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uC5EC\uC6B0 (\uC0C1\uAE09)"
+    localize_value_ja2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uC5EC\uC6B0 (\uC0C1\uAE09)"
+    localize_value_tc2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uC5EC\uC6B0 (\uC0C1\uAE09)"
+    localize_value_sc2: "\uD658\uC0DD\uC11D \uD68D\uB4DD\uB7C9<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00\r"
+  - key_index: 8
+    localize_value_kr: "\uC18C (\uC0C1\uAE09)"
+    localize_value_kr2: "\uACF5\uACA9\uB825<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_en: "\uC18C (\uC0C1\uAE09)"
+    localize_value_en2: "\uACF5\uACA9\uB825<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_ja: "\uC18C (\uC0C1\uAE09)"
+    localize_value_ja2: "\uACF5\uACA9\uB825<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_tc: "\uC18C (\uC0C1\uAE09)"
+    localize_value_tc2: "\uACF5\uACA9\uB825<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+    localize_value_sc: "\uC18C (\uC0C1\uAE09)"
+    localize_value_sc2: "\uACF5\uACA9\uB825<color=#B66418><size=35>{0}</size></color>
+      \uC99D\uAC00"
+  resourceName: LocalizeData_ToTem

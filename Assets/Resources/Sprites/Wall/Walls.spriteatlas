@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Walls
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: da0ad12603cfcf64385fd6e81f6e9812, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 09b3c2e24825b9643ace39f12c0c9b71, type: 3}
+  - {fileID: 21300000, guid: 22659c18177bdcd4db0d957de619f490, type: 3}
+  - {fileID: 21300000, guid: e29db09822f0b6a4da23728975662a8b, type: 3}
+  - {fileID: 21300000, guid: eba9f98ed3521c949a4c61fbe4fd7529, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 3
+  - 0
+  - 2
+  - 1
+  m_RenderDataMap: {}
+  m_Tag: Walls
+  m_IsVariant: 0

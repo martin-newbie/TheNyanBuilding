@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff903ee8c68445baa353b3171d6364, type: 3}
+  m_Name: LocalizeData_Map
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_Map
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uC2DC\uC791\uC758 \uC232"
+    localize_value_en: Training Forest
+    localize_value_ja: "\u59CB\u307E\u308A\u306E\u68EE"
+    localize_value_tc: "\u59CB\u4E4B\u68EE\u6797"
+    localize_value_sc: "\u59CB\u4E4B\u68EE\u6797\r"
+  - key_index: 1
+    localize_value_kr: "\uBAA8\uB798\uC0AC\uB9C9"
+    localize_value_en: Sand Desert
+    localize_value_ja: "\u592A\u967D\u306E\u7802\u6F20"
+    localize_value_tc: "\u6C99\u6F20"
+    localize_value_sc: "\u6C99\u6F20\r"
+  - key_index: 2
+    localize_value_kr: "\uBD88\uD0C0\uB294 \uD3D0\uD5C8"
+    localize_value_en: Burning Ruin
+    localize_value_ja: "\u71C3\u3048\u308B\u5EC3\u589F"
+    localize_value_tc: "\u71D2\u707C\u7684\u5EE2\u589F"
+    localize_value_sc: "\u70E7\u707C\u7684\u5E9F\u589F\r"
+  - key_index: 3
+    localize_value_kr: "\uC11C\uB9AC \uC232"
+    localize_value_en: Frost Forest
+    localize_value_ja: "\u971C\u68EE"
+    localize_value_tc: "\u971C\u4E4B\u68EE\u6797"
+    localize_value_sc: "\u971C\u4E4B\u68EE\u6797\r"
+  - key_index: 4
+    localize_value_kr: "\uB9DD\uC790\uC758 \uB545"
+    localize_value_en: Land of the Dead
+    localize_value_ja: "\u4EA1\u8005\u306E\u5730"
+    localize_value_tc: "\u4EA1\u8005\u4E4B\u5730"
+    localize_value_sc: "\u4EA1\u8005\u4E4B\u5730\r"
+  - key_index: 5
+    localize_value_kr: "\uC2DC\uC791\uC758 \uC12C"
+    localize_value_en: Isle of Beginning
+    localize_value_ja: "\u59CB\u307E\u308A\u306E\u5CF6"
+    localize_value_tc: "\u521D\u59CB\u4E4B\u5CF6"
+    localize_value_sc: "\u521D\u59CB\u4E4B\u5C9B\r"
+  - key_index: 6
+    localize_value_kr: "\uB9D0\uD558\uB294 \uC12C"
+    localize_value_en: Isle of Mumbling
+    localize_value_ja: "\u558B\u308A\u304B\u3051\u308B\u5CF6"
+    localize_value_tc: "\u8A00\u8A9E\u4E4B\u5CF6"
+    localize_value_sc: "\u8A00\u8BED\u4E4B\u5C9B\r"
+  - key_index: 7
+    localize_value_kr: "\uAE30\uC5B5\uC758 \uC12C"
+    localize_value_en: Isle of Reminiscence
+    localize_value_ja: "\u8A18\u61B6\u306E\u5CF6"
+    localize_value_tc: "\u8A18\u61B6\u4E4B\u5CF6"
+    localize_value_sc: "\u8BB0\u5FC6\u4E4B\u5C9B\r"
+  - key_index: 8
+    localize_value_kr: "\uC0C8\uBCBD\uC758 \uC12C"
+    localize_value_en: Isle of Dawn
+    localize_value_ja: "\u591C\u660E\u3051\u306E\u5CF6"
+    localize_value_tc: "\u9ECE\u660E\u4E4B\u5CF6"
+    localize_value_sc: "\u9ECE\u660E\u4E4B\u5C9B\r"
+  - key_index: 9
+    localize_value_kr: "\uCD5C\uD6C4\uC758 \uC12C"
+    localize_value_en: Isle of the End
+    localize_value_ja: "\u6700\u5F8C\u306E\u5CF6"
+    localize_value_tc: "\u7D42\u7D50\u4E4B\u5CF6"
+    localize_value_sc: "\u7EC8\u7ED3\u4E4B\u5C9B\r"
+  - key_index: 10
+    localize_value_kr: "\uAD6C\uB984 \uB300\uC9C0"
+    localize_value_en: Land of Cloud
+    localize_value_ja: "\u96F2\u306E\u5927\u5730"
+    localize_value_tc: "\u96F2\u5F69\u5927\u5730"
+    localize_value_sc: "\u4E91\u5F69\u5927\u5730\r"
+  - key_index: 11
+    localize_value_kr: "\uBCC4\uBE5B \uB300\uC9C0"
+    localize_value_en: Land of Starlight
+    localize_value_ja: "\u661F\u306E\u5927\u5730"
+    localize_value_tc: "\u661F\u5149\u5927\u5730"
+    localize_value_sc: "\u661F\u5149\u5927\u5730\r"
+  - key_index: 12
+    localize_value_kr: "\uB2EC\uBE5B \uB300\uC9C0"
+    localize_value_en: Land of Moonlight
+    localize_value_ja: "\u6708\u306E\u5927\u5730"
+    localize_value_tc: "\u6708\u5149\u5927\u5730"
+    localize_value_sc: "\u6708\u5149\u5927\u5730\r"
+  - key_index: 13
+    localize_value_kr: "\uD587\uBE5B \uB300\uC9C0"
+    localize_value_en: Land of Sunlight
+    localize_value_ja: "\u65E5\u306E\u5927\u5730"
+    localize_value_tc: "\u967D\u5149\u5927\u5730"
+    localize_value_sc: "\u9633\u5149\u5927\u5730\r"
+  - key_index: 14
+    localize_value_kr: "\uCD5C\uD6C4\uC758 \uD0D1"
+    localize_value_en: The Last Tower
+    localize_value_ja: "\u6700\u5F8C\u306E\u5854"
+    localize_value_tc: "\u7D42\u7D50\u4E4B\u5854"
+    localize_value_sc: "\u7EC8\u7ED3\u4E4B\u5854"
+  resourceName: LocalizeData_Map
