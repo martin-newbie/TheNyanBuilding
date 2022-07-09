@@ -11,7 +11,7 @@ public class CameraMove : MonoBehaviour
 
     void Start()
     {
-        yMax = (InGameManager.Instance.y * 2f - 1f) - Camera.main.orthographicSize;
+        yMax = (InGameManager.Instance.y * InGameManager.Instance.gridSize_y - (InGameManager.Instance.gridSize_y / 2)) - Camera.main.orthographicSize;
     }
 
     private void FixedUpdate()

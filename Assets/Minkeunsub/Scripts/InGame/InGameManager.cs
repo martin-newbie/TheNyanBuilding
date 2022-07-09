@@ -36,7 +36,8 @@ public class InGameManager : Singleton<InGameManager>
     [Header("Grid")]
     public int x;
     public int y;
-    public int gridSize;
+    public int gridSize_x;
+    public int gridSize_y;
     public Vector2 GridOffset;
     public GridType[,] AbleGrid;
     public Vector2[,] GridPos;
@@ -67,6 +68,8 @@ public class InGameManager : Singleton<InGameManager>
 
     [Header("Values")]
     public int curFloor;
+    public bool isDragging;
+    public bool isUImoving;
 
     private void Awake()
     {
@@ -83,6 +86,7 @@ public class InGameManager : Singleton<InGameManager>
         InitCharacters();
         GainCharacter(0);
         SpawnCharacterAsIndex(0, new Vector2(-2f, -4f));
+        UnlockFloor();
     }
 
     public void GainCharacter(int idx)
@@ -147,22 +151,25 @@ public class InGameManager : Singleton<InGameManager>
     {
         if (AutoIdlCharacters.Count > 0) AutoCharacterLogic();
 
-        if (Input.GetMouseButtonDown(0)) OnTouch();
-        else if (Input.GetMouseButton(0) && curDrag != null) OnDrag();
-        else if (Input.GetMouseButtonUp(0) && curDrag != null) EndDrag();
-
-        if (curDrag != null && curDrag is CharacterBuff)
+        if (!isUImoving)
         {
-            CharacterBuff buff = curDrag.GetComponent<CharacterBuff>();
-            InitGridColor();
-            foreach (var item in buff.BuffList)
+            if (Input.GetMouseButtonDown(0)) OnTouch();
+            else if (Input.GetMouseButton(0) && curDrag != null) OnDrag();
+            else if (Input.GetMouseButtonUp(0) && curDrag != null) EndDrag();
+
+            if (curDrag != null && curDrag is CharacterBuff)
             {
-                int _x = item.x + buff.thisPosIdx.x;
-                int _y = item.y + buff.thisPosIdx.y;
+                CharacterBuff buff = curDrag.GetComponent<CharacterBuff>();
+                InitGridColor();
+                foreach (var item in buff.BuffList)
+                {
+                    int _x = item.x + buff.thisPosIdx.x;
+                    int _y = item.y + buff.thisPosIdx.y;
 
-                if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
+                    if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
 
-                Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
+                    Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
+                }
             }
         }
     }
@@ -193,6 +200,8 @@ public class InGameManager : Singleton<InGameManager>
 
             curDrag.BodySR.sortingOrder = 9;
             curDrag.HeadSR.sortingOrder = 10;
+
+            isDragging = true;
         }
     }
 
@@ -229,28 +238,18 @@ public class InGameManager : Singleton<InGameManager>
         curDrag.BodySR.sortingOrder = 2;
         curDrag.HeadSR.sortingOrder = 3;
         curDrag = null;
+        isDragging = false;
 
         InitGridColor();
         SetBuffCharacter();
     }
 
 
-    public void GaugeChargeEvent(float bad, float better, float best)
+    public void GaugeReward(int idx)
     {
         float rand = Random.Range(0f, 1f);
+        var data = StaticDataManager.GetCatData(idx);
 
-        if (rand <= bad)
-        {
-            //bad
-        }
-        else if (rand <= best)
-        {
-            //best
-        }
-        else
-        {
-            //better
-        }
     }
 
     void AutoCharacterLogic()
@@ -293,7 +292,7 @@ public class InGameManager : Singleton<InGameManager>
         {
             for (int y = 0; y < GridPos.GetLength(0); y++)
             {
-                GridPos[y, x] = new Vector2(x * gridSize, y * gridSize) + GridOffset;
+                GridPos[y, x] = new Vector2(x * gridSize_x, y * gridSize_y) + GridOffset;
             }
         }
     }
@@ -468,7 +467,7 @@ public class InGameManager : Singleton<InGameManager>
 
     public Vector2 GetGridPos(int x, int y)
     {
-        Vector2 retVec = (new Vector2(x, y) * gridSize) + GridOffset;
+        Vector2 retVec = (new Vector2(x * gridSize_x, y * gridSize_y)) + GridOffset;
         return retVec;
     }
 

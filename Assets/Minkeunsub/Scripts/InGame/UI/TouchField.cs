@@ -12,28 +12,37 @@ public class TouchField : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,
     Vector3 camTargetPos;
     public Transform camPos;
     CameraMove move;
+    bool isDrag;
     private void Awake()
     {
         move = camPos.GetComponent<CameraMove>();
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        startPos = Camera.main.ScreenToWorldPoint(eventData.position);
-        camStartPos = camPos.position;
+        if (!InGameManager.Instance.isDragging)
+        {
+            startPos = Camera.main.ScreenToWorldPoint(eventData.position);
+            camStartPos = camPos.position;
+            isDrag = true;
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        touchPos = Camera.main.ScreenToWorldPoint(eventData.position);
-        float distance = startPos.y - touchPos.y;
+        if (isDrag)
+        {
+            touchPos = Camera.main.ScreenToWorldPoint(eventData.position);
+            float distance = startPos.y - touchPos.y;
 
-        camTargetPos.y = camStartPos.y + distance;
-        camTargetPos.z = -100f;
-        move.targetPos = camTargetPos;
+            camTargetPos.y = camStartPos.y + distance;
+            camTargetPos.z = -100f;
+            move.targetPos = camTargetPos;
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        isDrag = false;
     }
 
     public void OnPointerDown(PointerEventData eventData)

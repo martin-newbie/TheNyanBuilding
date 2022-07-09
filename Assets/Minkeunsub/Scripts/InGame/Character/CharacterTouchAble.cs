@@ -30,7 +30,6 @@ public class CharacterTouchAble : Character, ITouchAble, IGauge
 
         if(curGaugeValue >= maxGaugeValue)
         {
-            GaugeEvent?.Invoke();
             curGaugeValue = 0f;
         }
     }
