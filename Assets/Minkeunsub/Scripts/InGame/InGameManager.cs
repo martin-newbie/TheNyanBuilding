@@ -17,6 +17,12 @@ public enum GridType
     Empty
 }
 
+public enum BuffType
+{
+    SpeedUp,
+    FailDecrease
+}
+
 public class InGameManager : Singleton<InGameManager>
 {
     [Header("Characters")]
@@ -45,6 +51,9 @@ public class InGameManager : Singleton<InGameManager>
     [Header("Characters")]
     public List<ITouchAble> TouchAbleCharacters = new List<ITouchAble>();
     public List<IAuto> AutoIdlCharacters = new List<IAuto>();
+    public List<IBuff> QACharacters = new List<IBuff>();
+    public List<IBuff> PMCharacters = new List<IBuff>();
+    public List<IGauge> GaugeCharacters = new List<IGauge>();
 
     private void Awake()
     {
@@ -149,7 +158,9 @@ public class InGameManager : Singleton<InGameManager>
                 ((CharacterTouchAble)bro).InitGauge(gauge);
 
                 TouchAbleCharacters.Add(bro.GetComponent<ITouchAble>());
+                GaugeCharacters.Add(bro.GetComponent<IGauge>());
                 CharacterGridInfo[pos.y, pos.x] = bro;
+
                 break;
             case CharacterType.Developer:
 
@@ -160,15 +171,23 @@ public class InGameManager : Singleton<InGameManager>
                 ((CharacterIdle)dev).InitGauge(gauge1);
 
                 AutoIdlCharacters.Add(dev.GetComponent<IAuto>());
+                GaugeCharacters.Add(dev.GetComponent<IGauge>());
                 CharacterGridInfo[pos.y, pos.x] = dev;
+
                 break;
             case CharacterType.QualityAssureance:
-                SpawnCharacter(QA[idx], spawnPos);
+                Character qa = SpawnCharacter(QA[idx], spawnPos);
+                QACharacters.Add(qa.GetComponent<IBuff>());
+
+                CharacterGridInfo[pos.y, pos.x] = qa;
                 break;
             case CharacterType.ProductManager:
                 SpawnCharacter(PM[idx], spawnPos);
                 break;
         }
+
+        AbleGrid[pos.y, pos.x] = GridType.Filled;
+        SetBuffCharacter();
     }
 
     public void TouchCharacter()
@@ -225,17 +244,13 @@ public class InGameManager : Singleton<InGameManager>
         else return false;
     }
 
-    private void OnDrawGizmos()
+    public void SetBuffCharacter()
     {
-        if (Application.isPlaying)
-            for (int x = 0; x < AbleGrid.GetLength(1); x++)
-            {
-                for (int y = 0; y < AbleGrid.GetLength(0); y++)
-                {
-                    Gizmos.color = Color.blue;
-                    Gizmos.DrawCube(GetGridPos(x, y), new Vector2(gridSize - 0.2f, gridSize - 0.2f));
-                }
-            }
+        for (int i = 0; i < GaugeCharacters.Count; i++)
+        {
+            GaugeCharacters[i].GetBuff(BuffType.FailDecrease, QACharacters.ToArray());
+            GaugeCharacters[i].GetBuff(BuffType.SpeedUp, PMCharacters.ToArray());
+        }
     }
 }
 
@@ -249,7 +264,14 @@ public interface IAuto
     public abstract void OnIdle();
 }
 
+public interface IGauge
+{
+    public abstract float GetBuff(BuffType type, params IBuff[] buff);
+}
+
 public interface IBuff
 {
+    public float value { get; }
     public abstract void OnBuff();
 }
+

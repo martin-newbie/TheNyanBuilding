@@ -20,7 +20,7 @@ public abstract class Character : MonoBehaviour
 
     [Header("Animation")]
     public Sprite[] BodyAnimationFrame;
-    public float frameDelay;
+    public float frameDelay = 0.05f;
 
 
     Coroutine animationCoroutine;
