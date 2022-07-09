@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 2cb1828a94a3819419f42c26e2dcb41c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5456e12bddb8d1841aba5002eab41195, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,16 +134,17 @@ MonoBehaviour:
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
   BodyAnimationFrame:
-  - {fileID: 21300000, guid: 2cb1828a94a3819419f42c26e2dcb41c, type: 3}
-  - {fileID: 21300000, guid: 7f89759766947004b86cccd1c27154ed, type: 3}
-  - {fileID: 21300000, guid: eea6187dbd1c37c44973f80a2d419a0e, type: 3}
-  - {fileID: 21300000, guid: 343857ee4eadfa24f9907f5f7256134e, type: 3}
-  - {fileID: 21300000, guid: d09fb8f9ed5bd3b47a5130c4ed5f8fd0, type: 3}
+  - {fileID: 21300000, guid: 5456e12bddb8d1841aba5002eab41195, type: 3}
+  - {fileID: 21300000, guid: fa49302b113b63448a76cb2103fc6a2f, type: 3}
+  - {fileID: 21300000, guid: 661fd28f44be75d479925f96b4d0e115, type: 3}
+  - {fileID: 21300000, guid: 5b517f34096bb9747810c09d18e71dec, type: 3}
+  - {fileID: 21300000, guid: b0535bb2cb4f4c34e86920a61c92a44c, type: 3}
   frameDelay: 0.05
+  isDrag: 0
+  thisPosIdx: {x: 0, y: 0}
   BuffList:
   - {x: 1, y: 0}
   - {x: -1, y: 0}
-  thisPosIdx: {x: 0, y: 0}
   buffValue: 2
   buffType: 1
 --- !u!1 &3992776412042503799
@@ -217,7 +218,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: e217ca07ee42dd140b5d03da980ae708, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b52129fdcff384e4c85c0d6da6b2daa4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

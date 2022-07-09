@@ -58,6 +58,12 @@ public class InGameManager : Singleton<InGameManager>
     public List<IGauge> GaugeCharacters = new List<IGauge>();
     public List<IBuff> BuffCharacters = new List<IBuff>();
 
+    [Header("Inventory")]
+    public List<Character> CharacterInventory = new List<Character>();
+
+    [Header("Values")]
+    public int curFloor;
+
     private void Awake()
     {
         AbleGrid = new GridType[y, x];
@@ -67,14 +73,24 @@ public class InGameManager : Singleton<InGameManager>
 
         InitGridPos();
         UnlockGrid(0);
-        UnlockGrid(1);
         InitLock();
         SetLock();
 
         InitCharacters();
         SpawnCharacter(CharacterType.Bro, new Vector2Int(0, 0));
-        SpawnCharacter(CharacterType.Developer, new Vector2Int(1, 0));
-        SpawnCharacter(CharacterType.ProductManager, new Vector2Int(2, 0));
+
+    }
+
+    public void GainCharacter(CharacterType type, int idx)
+    {
+
+    }
+
+    public void UnlockFloor()
+    {
+        curFloor++;
+        UnlockGrid(curFloor);
+        SetLock();
     }
 
     void InitGrid()
