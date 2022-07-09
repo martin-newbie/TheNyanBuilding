@@ -127,10 +127,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fb7b89cb2256640be1aad661830f86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posInfo:
-    x_pos: 0
-    y_pos: 0
-    idx: 3
+  info:
+    rewardChance: []
+    rewardAmount: []
+    idx: 0
+  characterType: 1
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
   BodyAnimationFrame:

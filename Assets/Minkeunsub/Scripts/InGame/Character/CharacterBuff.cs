@@ -8,12 +8,22 @@ public class CharacterBuff : Character, IBuff
 
     [Header("Character Buff")]
     public List<Vector2Int> BuffList = new List<Vector2Int>(); // 현재 자기 위치 기준
-    public float buffValue;
     public BuffType buffType;
 
-    public float value => buffValue;
+    [Header("Character Buff Value")]
+    public float buffValue;
+    public float up_value;
+
+    public float value => GetValue();
 
     public BuffType type => buffType;
+
+    public float GetValue()
+    {
+        float v = 0f;
+        v = buffValue + (manager.Instance.CharacterLevel[info.idx] * up_value);
+        return v;
+    }
 
     public void Init(Vector2Int idx)
     {

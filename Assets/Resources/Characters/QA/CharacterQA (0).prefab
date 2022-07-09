@@ -127,10 +127,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e4623cc878826041a3562753271e90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posInfo:
-    x_pos: 0
-    y_pos: 0
-    idx: 7
+  info:
+    rewardChance: []
+    rewardAmount: []
+    idx: 0
+  characterType: 6
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
   BodyAnimationFrame:
@@ -145,8 +146,9 @@ MonoBehaviour:
   BuffList:
   - {x: 1, y: 0}
   - {x: -1, y: 0}
-  buffValue: 2
   buffType: 1
+  buffValue: 2
+  up_value: 0
 --- !u!1 &3992776412042503799
 GameObject:
   m_ObjectHideFlags: 0

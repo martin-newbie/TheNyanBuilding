@@ -94,7 +94,7 @@ public class InGameManager : Singleton<InGameManager>
             Character temp = null;
             foreach (var item in AllCharacterPrefabs)
             {
-                if (item.posInfo.idx == idx)
+                if (item.info.idx == idx)
                 {
                     temp = item;
                     break;
@@ -119,7 +119,7 @@ public class InGameManager : Singleton<InGameManager>
         Character spawn = CharacterInventory[idx];
         Vector2Int pos = GetPosIdx(inputPos);
 
-        SpawnTypeCharacter(spawn.type, pos, (int)spawn.type - idx);
+        SpawnTypeCharacter(spawn.characterType, pos, (int)spawn.characterType - idx);
         return spawn;
     }
 

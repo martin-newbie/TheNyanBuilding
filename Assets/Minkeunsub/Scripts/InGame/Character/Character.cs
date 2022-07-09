@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public struct PositionInfo
+public struct CharacterValue
 {
-    public float x_pos, y_pos;
+    public float[] rewardChance;
+    public float[] rewardAmount;
     public int idx;
 }
 
 public abstract class Character : MonoBehaviour
 {
     [Header("Info")]
-    public PositionInfo posInfo;
-    public CharacterType type;
+    public CharacterValue info;
+    public CharacterType characterType;
 
     [Header("Componenet")]
     public SpriteRenderer BodySR;
