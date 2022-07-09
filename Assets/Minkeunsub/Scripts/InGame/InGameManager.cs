@@ -10,6 +10,13 @@ public enum CharacterType
     ProductManager
 }
 
+public enum GridType
+{
+    Locked,
+    Filled,
+    Empty
+}
+
 public class InGameManager : Singleton<InGameManager>
 {
     [Header("Characters")]
@@ -17,6 +24,33 @@ public class InGameManager : Singleton<InGameManager>
     public Character[] Dev;
     public Character[] QA;
     public Character[] PM;
+
+    [Header("Grid")]
+    public int x, y;
+    public int gridSize;
+    public Vector2 GridOffset;
+    public GridType[,] AbleGrid;
+
+    private void Awake()
+    {
+        AbleGrid = new GridType[y, x];
+        UnlockGrid(0);
+
+        InitCharacters();
+        SpawnCharacter(CharacterType.Bro);
+    }
+
+    public void UnlockGrid(int floor)
+    {
+        for (int y = 0; y < AbleGrid.GetLength(0); y++)
+        {
+            for (int x = 0; x < AbleGrid.GetLength(1); x++)
+            {
+                if (y == floor) AbleGrid[y, x] = GridType.Empty;
+                else AbleGrid[y, x] = GridType.Locked;
+            }
+        }
+    }
 
     public void InitCharacters()
     {
@@ -53,6 +87,15 @@ public class InGameManager : Singleton<InGameManager>
     {
         Character spawnTmp = Instantiate(prefab, pos, Quaternion.identity);
         return spawnTmp;
+    }
+
+    public Vector2 GetGridPos(Vector2 inputPos)
+    {
+        int x = Mathf.RoundToInt(inputPos.x);
+        int y = Mathf.RoundToInt(inputPos.y);
+
+        Vector2 retVec = new Vector2(x, y) * (gridSize / 2) + GridOffset;
+        return retVec;
     }
 }
 
