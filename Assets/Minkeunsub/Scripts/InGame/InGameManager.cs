@@ -69,6 +69,7 @@ public class InGameManager : Singleton<InGameManager>
         UnlockGrid(0);
         UnlockGrid(1);
         InitLock();
+        SetLock();
 
         InitCharacters();
         SpawnCharacter(CharacterType.Bro, new Vector2Int(0, 0));
@@ -97,7 +98,7 @@ public class InGameManager : Singleton<InGameManager>
         else if (Input.GetMouseButton(0) && curDrag != null) OnDrag();
         else if (Input.GetMouseButtonUp(0) && curDrag != null) EndDrag();
 
-        if(curDrag != null && curDrag is CharacterBuff)
+        if (curDrag != null && curDrag is CharacterBuff)
         {
             CharacterBuff buff = curDrag.GetComponent<CharacterBuff>();
             InitGridColor();
@@ -216,9 +217,14 @@ public class InGameManager : Singleton<InGameManager>
 
     void SetLock()
     {
-        for (int y = 0; y < AbleGrid.GetLength(0); y++)
+        for (int x = 0; x < AbleGrid.GetLength(1); x++)
         {
-            LockList[y].SetActive(AbleGrid[y, 0] == GridType.Locked);
+            for (int y = 0; y < AbleGrid.GetLength(0); y++)
+            {
+                LockList[y].SetActive(AbleGrid[y, 0] == GridType.Locked);
+
+                Grid[y, x].gameObject.SetActive(AbleGrid[y, x] != GridType.Locked);
+            }
         }
     }
 

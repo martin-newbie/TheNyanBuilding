@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 8860817650244381034}
   - component: {fileID: 8860817650244381035}
   m_Layer: 0
-  m_Name: whiteBox
+  m_Name: Desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
