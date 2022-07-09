@@ -134,16 +134,17 @@ MonoBehaviour:
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
   BodyAnimationFrame:
-  - {fileID: 21300000, guid: 2cb1828a94a3819419f42c26e2dcb41c, type: 3}
-  - {fileID: 21300000, guid: 7f89759766947004b86cccd1c27154ed, type: 3}
-  - {fileID: 21300000, guid: eea6187dbd1c37c44973f80a2d419a0e, type: 3}
-  - {fileID: 21300000, guid: 343857ee4eadfa24f9907f5f7256134e, type: 3}
-  - {fileID: 21300000, guid: d09fb8f9ed5bd3b47a5130c4ed5f8fd0, type: 3}
+  - {fileID: 21300000, guid: d5f1362dc4f82a84b8ef5a8b31a8b8f5, type: 3}
+  - {fileID: 21300000, guid: 4838123bc4bc8c64ba08545a09a14e44, type: 3}
+  - {fileID: 21300000, guid: fdbeef30350b6794983d3d6b153841d9, type: 3}
+  - {fileID: 21300000, guid: c326c3d11ad3bb346ab2c757658af467, type: 3}
+  - {fileID: 21300000, guid: dfca100bc6f0b2440a8754bfd11537b8, type: 3}
   frameDelay: 0.05
+  isDrag: 0
+  thisPosIdx: {x: 0, y: 0}
   BuffList:
   - {x: 1, y: 0}
   - {x: -1, y: 0}
-  thisPosIdx: {x: 0, y: 0}
   buffValue: 2
   buffType: 1
 --- !u!1 &3992776412042503799
