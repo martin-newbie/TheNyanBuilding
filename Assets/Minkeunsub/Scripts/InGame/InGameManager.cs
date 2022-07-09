@@ -62,6 +62,7 @@ public class InGameManager : Singleton<InGameManager>
         CharacterGridInfo = new Character[y, x];
         InitGridPos();
         UnlockGrid(0);
+        UnlockGrid(1);
         InitLock();
 
 
@@ -76,6 +77,14 @@ public class InGameManager : Singleton<InGameManager>
         if (AutoIdlCharacters.Count > 0) AutoCharacterLogic();
     }
 
+    void OnTouch()
+    {
+        Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 touchIdx = GetGridPos(touchPos);
+
+    }
+
+
     public void GaugeChargeEvent(float bad, float better, float best)
     {
         float rand = Random.Range(0f, 1f);
@@ -84,13 +93,13 @@ public class InGameManager : Singleton<InGameManager>
         {
             //bad
         }
-        else if (rand <= better)
-        {
-            //better
-        }
         else if (rand <= best)
         {
             //best
+        }
+        else
+        {
+            //better
         }
     }
 
@@ -131,7 +140,6 @@ public class InGameManager : Singleton<InGameManager>
             for (int x = 0; x < AbleGrid.GetLength(1); x++)
             {
                 if (y == floor) AbleGrid[y, x] = GridType.Empty;
-                else AbleGrid[y, x] = GridType.Locked;
             }
         }
     }

@@ -22,6 +22,9 @@ public abstract class Character : MonoBehaviour
     public Sprite[] BodyAnimationFrame;
     public float frameDelay = 0.05f;
 
+    [Header("Value")]
+    public bool isDrag;
+
 
     Coroutine animationCoroutine;
 
