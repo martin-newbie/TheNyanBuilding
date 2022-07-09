@@ -457,6 +457,8 @@ MonoBehaviour:
   y: 5
   gridSize: 2
   GridOffset: {x: -2, y: -4}
+  LockObj: {fileID: 2857182987337619060, guid: e06f3a91782910043856dd7571727132, type: 3}
+  LockList: []
 --- !u!1 &1504447942
 GameObject:
   m_ObjectHideFlags: 0

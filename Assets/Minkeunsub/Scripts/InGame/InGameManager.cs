@@ -34,15 +34,30 @@ public class InGameManager : Singleton<InGameManager>
     public GridType[,] AbleGrid;
     public Vector2[,] GridPos;
 
+    [Header("Objects")]
+    public GameObject LockObj;
+    public List<GameObject> LockList = new List<GameObject>();
+
     private void Awake()
     {
         AbleGrid = new GridType[y, x];
         InitGridPos();
-
         UnlockGrid(0);
+        InitLock();
+
         /*
                 InitCharacters();
                 SpawnCharacter(CharacterType.Bro, Vector2.zero);*/
+    }
+
+    void InitLock()
+    {
+        for (int y = 0; y < AbleGrid.GetLength(0); y++)
+        {
+            GameObject temp = Instantiate(LockObj);
+            temp.transform.position = GetGridPos(1, y);
+            temp.SetActive(AbleGrid[y, 0] == GridType.Locked);
+        }
     }
 
     void InitGridPos()
