@@ -101,6 +101,7 @@ public class InGameManager : Singleton<InGameManager>
 
     private void Update()
     {
+        // debug
         if (Input.GetMouseButtonDown(0))
         {
             temp.transform.position = GetGridPos(Camera.main.ScreenToWorldPoint(Input.mousePosition));
