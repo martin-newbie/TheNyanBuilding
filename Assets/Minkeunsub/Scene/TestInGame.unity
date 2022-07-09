@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 1248965027}
   - component: {fileID: 1248965028}
   m_Layer: 0
-  m_Name: white_cat_ingamehead_00
+  m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
