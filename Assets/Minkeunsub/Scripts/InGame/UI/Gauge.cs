@@ -12,7 +12,7 @@ public class Gauge : MonoBehaviour
 
     private void Update()
     {
-        cur = Mathf.Lerp(cur, tar, Time.deltaTime * 5f);
+        cur = Mathf.Lerp(cur, tar, Time.deltaTime * 15f);
         gaugeImg.fillAmount = cur / max;
 
         if (target != null)

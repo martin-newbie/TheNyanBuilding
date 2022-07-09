@@ -19,7 +19,6 @@ public enum GridType
 
 public class InGameManager : Singleton<InGameManager>
 {
-    public GameObject temp;
     [Header("Characters")]
     public Character Bro;
     public Character[] Dev;
@@ -42,6 +41,9 @@ public class InGameManager : Singleton<InGameManager>
     public List<GameObject> LockList = new List<GameObject>();
     public Gauge gaugeObj;
 
+    [Header("Characters")]
+    public List<ITouchAble> TouchAbleCharacters = new List<ITouchAble>();
+
     private void Awake()
     {
         AbleGrid = new GridType[y, x];
@@ -49,9 +51,9 @@ public class InGameManager : Singleton<InGameManager>
         UnlockGrid(0);
         InitLock();
 
-        /*
-                InitCharacters();
-                SpawnCharacter(CharacterType.Bro, Vector2.zero);*/
+
+        InitCharacters();
+        SpawnCharacter(CharacterType.Bro, new Vector2Int(0, 0));
     }
 
     void InitLock()
@@ -90,25 +92,26 @@ public class InGameManager : Singleton<InGameManager>
 
     public void InitCharacters()
     {
-        Bro = Resources.Load<Character>("Characters/Bro");
+        Bro = Resources.Load<Character>("Characters/BroNyan");
         Dev = Resources.LoadAll<Character>("Characters/DEV");
         QA = Resources.LoadAll<Character>("Characters/QA");
         PM = Resources.LoadAll<Character>("Characters/PM");
     }
 
 
-    public void SpawnCharacter(CharacterType type, Vector2 pos, int idx = 0)
+    public void SpawnCharacter(CharacterType type, Vector2Int pos, int idx = 0)
     {
-        Vector2 spawnPos = GetGridPos(pos);
+        Vector2 spawnPos = GetGridPos(pos.x, pos.y);
 
         switch (type)
         {
             case CharacterType.Bro:
                 Gauge gauge = Instantiate(gaugeObj, canvas.transform);
+                gauge.transform.SetAsFirstSibling();
                 Character bro = SpawnCharacter(Bro, spawnPos);
 
                 ((CharacterTouchAble)bro).InitGauge(gauge);
-
+                TouchAbleCharacters.Add(bro.GetComponent<ITouchAble>());
                 break;
             case CharacterType.Developer:
                 Character dev = SpawnCharacter(Dev[idx], spawnPos);
@@ -122,12 +125,11 @@ public class InGameManager : Singleton<InGameManager>
         }
     }
 
-    private void Update()
+    public void TouchCharacter()
     {
-        // debug
-        if (Input.GetMouseButtonDown(0))
+        foreach (var item in TouchAbleCharacters)
         {
-            temp.transform.position = GetGridPos(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            item.OnTouch();
         }
     }
 

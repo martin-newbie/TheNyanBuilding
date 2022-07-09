@@ -37,5 +37,6 @@ public class CharacterTouchAble : Character, ITouchAble
 
     public void OnTouch()
     {
+        curGaugeValue += touchGaugeAmt;
     }
 }
