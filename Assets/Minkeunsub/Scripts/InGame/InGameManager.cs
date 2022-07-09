@@ -133,6 +133,9 @@ public class InGameManager : Singleton<InGameManager>
         curDrag = nearby;
 
         nearby.isDrag = true;
+
+        curDrag.BodySR.sortingOrder = 9;
+        curDrag.HeadSR.sortingOrder = 10;
     }
 
     void OnDrag()
@@ -164,6 +167,9 @@ public class InGameManager : Singleton<InGameManager>
         {
             curDrag.transform.position = GetGridPos(curDrag.thisPosIdx.x, curDrag.thisPosIdx.y);
         }
+
+        curDrag.BodySR.sortingOrder = 2;
+        curDrag.HeadSR.sortingOrder = 3;
         curDrag = null;
 
         InitGridColor();
@@ -203,9 +209,19 @@ public class InGameManager : Singleton<InGameManager>
         {
             GameObject temp = Instantiate(LockObj);
             temp.transform.position = GetGridPos(1, y);
-            temp.SetActive(AbleGrid[y, 0] == GridType.Locked);
+            LockList.Add(temp);
+
         }
     }
+
+    void SetLock()
+    {
+        for (int y = 0; y < AbleGrid.GetLength(0); y++)
+        {
+            LockList[y].SetActive(AbleGrid[y, 0] == GridType.Locked);
+        }
+    }
+
 
     void InitGridPos()
     {
