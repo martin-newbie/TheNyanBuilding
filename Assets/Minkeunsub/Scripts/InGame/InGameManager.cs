@@ -19,6 +19,7 @@ public enum GridType
 
 public class InGameManager : Singleton<InGameManager>
 {
+    public GameObject temp;
     [Header("Characters")]
     public Character Bro;
     public Character[] Dev;
@@ -26,18 +27,34 @@ public class InGameManager : Singleton<InGameManager>
     public Character[] PM;
 
     [Header("Grid")]
-    public int x, y;
+    public int x;
+    public int y;
     public int gridSize;
     public Vector2 GridOffset;
     public GridType[,] AbleGrid;
+    public Vector2[,] GridPos;
 
     private void Awake()
     {
         AbleGrid = new GridType[y, x];
-        UnlockGrid(0);
+        InitGridPos();
 
-        InitCharacters();
-        SpawnCharacter(CharacterType.Bro, Vector2.zero);
+        UnlockGrid(0);
+        /*
+                InitCharacters();
+                SpawnCharacter(CharacterType.Bro, Vector2.zero);*/
+    }
+
+    void InitGridPos()
+    {
+        GridPos = new Vector2[y, x];
+        for (int x = 0; x < GridPos.GetLength(1); x++)
+        {
+            for (int y = 0; y < GridPos.GetLength(0); y++)
+            {
+                GridPos[y, x] = new Vector2(x * gridSize, y * gridSize) + GridOffset;
+            }
+        }
     }
 
     public void UnlockGrid(int floor)
@@ -82,6 +99,14 @@ public class InGameManager : Singleton<InGameManager>
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            temp.transform.position = GetGridPos(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        }
+    }
+
     public Character SpawnCharacter(Character prefab, Vector2 pos)
     {
         Character spawnTmp = Instantiate(prefab, pos, Quaternion.identity);
@@ -90,32 +115,35 @@ public class InGameManager : Singleton<InGameManager>
 
     public Vector2 GetGridPos(Vector2 inputPos)
     {
-        int x = Mathf.RoundToInt(inputPos.x);
-        int y = Mathf.RoundToInt(inputPos.y);
+        float distance = 100f;
+        Vector2 pos = new Vector2();
 
-        if (GetAblePos(x, y))
+        for (int _x = 0; _x < GridPos.GetLength(1); _x++)
         {
-            Vector2 retVec = new Vector2(x, y) * gridSize + GridOffset;
-            return retVec;
+            for (int _y = 0; _y < GridPos.GetLength(0); _y++)
+            {
+                float _d = Vector3.Distance(GridPos[_y, _x], inputPos);
+                if (_d < distance)
+                {
+                    distance = _d;
+                    pos = GridPos[_y, _x];
+                }
+            }
         }
 
-        return Vector2.zero;
+        return pos;
     }
 
     public Vector2 GetGridPos(int x, int y)
     {
-        if (GetAblePos(x, y))
-        {
-            Vector2 retVec = new Vector2(x, y) * gridSize + GridOffset;
-            return retVec;
-        }
-
-        return Vector2.zero;
+        Vector2 retVec = (new Vector2(x, y) * gridSize) + GridOffset;
+        return retVec;
     }
 
     public bool GetAblePos(int x, int y)
     {
-        if (x < 0 || y < 0 || x >= AbleGrid.GetLength(1) || y >= AbleGrid.GetLength(0)) return false;
+        if (x < 0 || y < 0 || x >= AbleGrid.GetLength(1) || y >= AbleGrid.GetLength(0))
+            return false;
 
         GridType type = AbleGrid[y, x];
         if (type == GridType.Empty)
@@ -123,6 +151,19 @@ public class InGameManager : Singleton<InGameManager>
             return true;
         }
         else return false;
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (Application.isPlaying)
+            for (int x = 0; x < AbleGrid.GetLength(1); x++)
+            {
+                for (int y = 0; y < AbleGrid.GetLength(0); y++)
+                {
+                    Gizmos.color = Color.blue;
+                    Gizmos.DrawCube(GetGridPos(x, y), new Vector2(gridSize - 0.2f, gridSize - 0.2f));
+                }
+            }
     }
 }
 
