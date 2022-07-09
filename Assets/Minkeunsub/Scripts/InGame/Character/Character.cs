@@ -13,7 +13,8 @@ public abstract class Character : MonoBehaviour
     public PositionInfo posInfo;
 
     [Header("Componenet")]
-    public SpriteRenderer SR;
+    public SpriteRenderer BodySR;
+    public SpriteRenderer HeadSR;
 
     [Header("Animation")]
     public Sprite[] BodyAnimationFrame;
@@ -24,7 +25,10 @@ public abstract class Character : MonoBehaviour
 
     private void Awake()
     {
-        SR = GetComponent<SpriteRenderer>();
+        BodySR = GetComponentsInChildren<SpriteRenderer>()[0];
+        HeadSR = GetComponentsInChildren<SpriteRenderer>()[1];
+
+        PlayIdleAnimation();
     }
 
     public void PlayIdleAnimation()
@@ -43,7 +47,7 @@ public abstract class Character : MonoBehaviour
         int idx = 0;
         while (true)
         {
-            SR.sprite = sprites[idx];
+            BodySR.sprite = sprites[idx];
             yield return new WaitForSeconds(frameDelay);
 
             if (idx < sprites.Length - 1) idx++;

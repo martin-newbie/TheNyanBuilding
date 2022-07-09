@@ -5,6 +5,7 @@ using System;
 
 public class CharacterTouchAble : Character, ITouchAble
 {
+    [Header("Character Touch Able")]
     public float autoGaugeAmt;
     public float touchGaugeAmt;
 
@@ -19,7 +20,7 @@ public class CharacterTouchAble : Character, ITouchAble
     private void Update()
     {
         curGaugeValue += autoGaugeAmt * Time.deltaTime;
-        valueGauge.SetGaugeFill(curGaugeValue, maxGaugeValue);
+        valueGauge?.SetGaugeFill(curGaugeValue, maxGaugeValue);
 
         if(curGaugeValue >= maxGaugeValue)
         {
