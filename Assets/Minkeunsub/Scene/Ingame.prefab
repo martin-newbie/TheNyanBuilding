@@ -47,6 +47,7 @@ MonoBehaviour:
   Dev: []
   QA: []
   PM: []
+  AllCharacterPrefabs: []
   x: 3
   y: 5
   gridSize: 2
@@ -56,6 +57,10 @@ MonoBehaviour:
   LockList: []
   gaugeObj: {fileID: 6508624494094140468, guid: af78b0a3ccaf327439bbcb33c7d48a55, type: 3}
   Node: {fileID: 8860817650244381035, guid: 634e03382a3076d4a8ca75e4ef6421bf, type: 3}
+  CharacterInventory: []
+  CharacterLevel: 000000000000000000000000000000000000000000000000000000000000000000000000
+  CharacterIdxInventory: 
+  curFloor: 0
 --- !u!1 &4384581576233711195
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,7 +374,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
