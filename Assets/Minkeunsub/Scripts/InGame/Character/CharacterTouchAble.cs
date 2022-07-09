@@ -20,6 +20,9 @@ public class CharacterTouchAble : Character, ITouchAble, IGauge
     public float additionalGaugeValue;
     public float additionalFailValue;
 
+    List<IBuff> BuffCharacterList = new List<IBuff>();
+
+
     private void Update()
     {
         curGaugeValue += (autoGaugeAmt * additionalGaugeValue)* Time.deltaTime;
@@ -43,24 +46,29 @@ public class CharacterTouchAble : Character, ITouchAble, IGauge
         curGaugeValue += touchGaugeAmt;
     }
 
-    public float GetBuff(BuffType type, params IBuff[] buff)
+    public void SetBuff(IBuff buff)
     {
-        float value = 1f;
-        foreach (var item in buff)
+        BuffCharacterList.Add(buff);
+    }
+
+    public void GetValue()
+    {
+        additionalFailValue = 1f;
+        additionalGaugeValue = 1f;
+
+        foreach (var item in BuffCharacterList)
         {
-            value += item.value;
+            switch (item.type)
+            {
+                case BuffType.SpeedUp:
+                    additionalGaugeValue += item.value;
+                    break;
+                case BuffType.FailDecrease:
+                    additionalFailValue += item.value;
+                    break;
+            }
         }
 
-        switch (type)
-        {
-            case BuffType.SpeedUp:
-                additionalGaugeValue = value;
-                break;
-            case BuffType.FailDecrease:
-                additionalFailValue = value;
-                break;
-        }
-
-        return value;
+        BuffCharacterList.Clear();
     }
 }

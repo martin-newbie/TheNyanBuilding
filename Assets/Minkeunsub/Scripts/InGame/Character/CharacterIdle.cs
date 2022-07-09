@@ -16,26 +16,27 @@ public class CharacterIdle : Character, IAuto, IGauge
     public float additionalGaugeValue;
     public float additionalFailValue;
 
-    public float GetBuff(BuffType type, params IBuff[] buff)
+    List<IBuff> BuffCharacterList = new List<IBuff>();
+
+    public void GetValue()
     {
+        additionalFailValue = 1f;
+        additionalGaugeValue = 1f;
 
-        float value = 1f;
-        foreach (var item in buff)
+        foreach (var item in BuffCharacterList)
         {
-            value += item.value;
+            switch (item.type)
+            {
+                case BuffType.SpeedUp:
+                    additionalGaugeValue += item.value;
+                    break;
+                case BuffType.FailDecrease:
+                    additionalFailValue += item.value;
+                    break;
+            }
         }
 
-        switch (type)
-        {
-            case BuffType.SpeedUp:
-                additionalGaugeValue = value;
-                break;
-            case BuffType.FailDecrease:
-                additionalFailValue = value;
-                break;
-        }
-
-        return value;
+        BuffCharacterList.Clear();
     }
 
     public void InitGauge(Gauge gauge)
@@ -56,4 +57,8 @@ public class CharacterIdle : Character, IAuto, IGauge
         }
     }
 
+    public void SetBuff(IBuff buff)
+    {
+        BuffCharacterList.Add(buff);
+    }
 }

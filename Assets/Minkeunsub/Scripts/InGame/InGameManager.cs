@@ -54,6 +54,7 @@ public class InGameManager : Singleton<InGameManager>
     public List<IBuff> QACharacters = new List<IBuff>();
     public List<IBuff> PMCharacters = new List<IBuff>();
     public List<IGauge> GaugeCharacters = new List<IGauge>();
+    public List<IBuff> BuffCharacters = new List<IBuff>();
 
     private void Awake()
     {
@@ -67,6 +68,7 @@ public class InGameManager : Singleton<InGameManager>
         InitCharacters();
         SpawnCharacter(CharacterType.Bro, new Vector2Int(0, 0));
         SpawnCharacter(CharacterType.Developer, new Vector2Int(1, 0));
+        SpawnCharacter(CharacterType.ProductManager, new Vector2Int(2, 0));
     }
 
     private void Update()
@@ -177,12 +179,24 @@ public class InGameManager : Singleton<InGameManager>
                 break;
             case CharacterType.QualityAssureance:
                 Character qa = SpawnCharacter(QA[idx], spawnPos);
-                QACharacters.Add(qa.GetComponent<IBuff>());
+
+                IBuff qaBuff = qa.GetComponent<IBuff>();
+
+                qaBuff.Init(pos);
+                QACharacters.Add(qaBuff);
+                BuffCharacters.Add(qaBuff);
 
                 CharacterGridInfo[pos.y, pos.x] = qa;
                 break;
             case CharacterType.ProductManager:
-                SpawnCharacter(PM[idx], spawnPos);
+                Character pm = SpawnCharacter(PM[idx], spawnPos);
+
+                IBuff buff = pm.GetComponent<IBuff>();
+                buff.Init(pos);
+                QACharacters.Add(buff);
+                BuffCharacters.Add(buff);
+
+                CharacterGridInfo[pos.y, pos.x] = pm;
                 break;
         }
 
@@ -244,12 +258,24 @@ public class InGameManager : Singleton<InGameManager>
         else return false;
     }
 
+    public Character GetIndexCharacter(int x, int y)
+    {
+        if (x < 0 || y < 0 || x >= this.x || y >= this.y) return null;
+
+        Character temp = CharacterGridInfo[y, x];
+        return temp;
+    }
+
     public void SetBuffCharacter()
     {
-        for (int i = 0; i < GaugeCharacters.Count; i++)
+        foreach (var item in BuffCharacters)
         {
-            GaugeCharacters[i].GetBuff(BuffType.FailDecrease, QACharacters.ToArray());
-            GaugeCharacters[i].GetBuff(BuffType.SpeedUp, PMCharacters.ToArray());
+            item.OnBuff();
+        }
+
+        foreach (var item in GaugeCharacters)
+        {
+            item.GetValue();
         }
     }
 }
@@ -266,12 +292,15 @@ public interface IAuto
 
 public interface IGauge
 {
-    public abstract float GetBuff(BuffType type, params IBuff[] buff);
+    public abstract void SetBuff(IBuff buff);
+    public abstract void GetValue();
 }
 
 public interface IBuff
 {
     public float value { get; }
+    public BuffType type { get; }
     public abstract void OnBuff();
+    public abstract void Init(Vector2Int idx);
 }
 
