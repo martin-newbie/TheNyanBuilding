@@ -1,0 +1,439 @@
+0	다음레벨	Next Lv.	次のレベル	下一等級	下一等级
+1	전투력	CP	戦闘力	戰鬥力	战斗力
+2	추가 데미지	Additional DMG	追加ダメージ	傷害加成	伤害加成
+3	화살 레벨	Arrow Lv.	矢のレベル	箭矢等級	箭矢等级
+4	치명타 데미지	CRIT DMG	致命打;ダメージ	暴擊傷害	暴击伤害
+5	화살 공격력	Arrow ATK	矢の攻撃力	箭矢攻擊力	箭矢攻击力
+6	치명타율	CRIT Chance	致命打確率	暴擊率	暴击率
+7	공격력	ATK	攻撃力	攻擊力	攻击力
+8	스킬 강화	Skill Upgrade	スキル強化	強化技能	强化技能
+9	공격 속도	ASPD	攻撃速度	攻速	攻速
+10	스킬 쿨감	Cooldown	クールタイム;減少	減少技能冷卻時間	减少技能冷却时间
+11	레벨 {0} 보너스 : 공격력 {1:P0} 증가	Lv. {0} Bonus : ATK {1:P0} increased	レベル {0} ボーナス : 攻撃力 {1:P0} 増加	{0}級獎勵 : 提高攻擊力 {1:P0}	{0}级奖励 : 提高攻击力 {1:P0}
+12	번개 공격력	Lightning DMG	雷の攻撃力	雷擊攻擊力	雷击攻击力
+13	번개 공격력	You cannot make arrows anymore.	これ以上矢を製作できません。	箭矢已達最大值。	箭矢已达最大值。
+14	<size=85>레벨 </size><size=95>{0}</size>	<size=85>Lv. </size><size=95>{0}</size>	<size=85>レベル </size><size=95>{0}</size>	<size=85>Lv. </size><size=95>{0}</size>	<size=85>Lv. </size><size=95>{0}</size>
+15	알림	Notice	お知らせ	提醒	提醒
+16	로드 성공	Successfully Loaded	ロード成功	下載成功	下载成功
+17	확인	Confirm	確認	確認	确认
+18	이미 포함된 패널 입니다.	This panel is already included.	既に含まれているパネルです。		
+19	최고 스테이지 : {0}	Highest Stage : {0}	最高ステージ : {0}	最高記錄：{0}	最高记录：{0}
+20	러쉬 가능 스테이지 : {0:N0}	Rush Available Stage : {0:N0}	ラッシュ可能なステージ : {0:N0}	可跳關至 : {0:N0}	可跳关至 : {0:N0}
+21	아처제거	Remove Archer	アーチャー除外	移除弓箭手	移除弓箭手
+22	골드가 부족합니다.	Not enough gold	ゴールドが足りません。	金幣不足。	金币不足。
+23	보석이 부족합니다.	Not enough diamonds	ダイアが足りません。	寶石不足。	宝石不足。
+24	환생석이 부족합니다.	Not enough rebirth stone	転生石が足りません。	重生石不足。	重生石不足。
+25	광고가 준비되지 않았습니다.	Advertisement is not ready yet.	広告が準備されていません。	廣告補充中，請稍後	广告补充中，请稍后
+26	요청을 처리중입니다.;잠시만 기다려주세요.	Processing request.;Please wait.	要請を処理しています。;しばらくお待ちください。	要求處理中，; 請稍後	要求处理中，; 请稍后
+27	제작된 화살이 최대치입니다.	The amount of arrows has reached the maximum.	製作された矢が上限です。	可製作數量已達上限。	可製作数量已达上限。
+28	최대 스테이지: {0}	Highest Stage : {0}	最大ステージ: {0}	最高記錄：{0}	最高记录：{0}
+29	환생석 증가: {0:P0}	Rebirth stone increased: {0:P0}	転生石増加: {0:P0}	重生石增加：{0:P0}	重生石增加：{0:P0}
+30	환생석 부스트: {0:P0}	Rebirth stone boost: {0:P0}	転生石ブースト: {0:P0}	重生石加倍：{0:P0}	重生石加倍：{0:P0}
+31	맵 난이도: {0:P0}	Map difficulty: {0:P0}	マップ難易度: {0:P0}	地圖難度：{0:P0}	地图困难度：{0:P0}
+32	30개	30	30個	30個	30个
+33	x2;30초	x2;30seconds	x2;30秒	x2;30秒	x2;30秒
+34	실패하였습니다.	Failed	失敗しました。	失敗	失败
+35	보석 보상 10	Diamonds reward 10	ダイア報酬　10	寶石獎勵 10	宝石奖励 10
+36	60초동안 골드 획득 2배	Double gold income for 60seconds	60秒の間、ゴールド獲得2倍	60秒內可獲得金幣2倍	60秒内可获得金币2倍
+37	골드 x 10	Gold x 10	ゴールド x 10	金幣 x 10	金币 x 10
+38	게임 속도 증가	Game Speed Increase	ゲーム速度増加	加快遊戲進行速度	加快游戏进行速度
+39	공격력 증가	ATK Increase	攻撃力増加	增加攻擊力	增加攻击力
+40	공격속도 증가	ASPD Increase	攻撃速度増加	提高攻速	提高攻速
+41	이미 구매한 상품입니다.	This product is already sold.	既に購入した商品です。	已購買該商品。	已购买该商品。
+42	무료	Free	無料	免費	免费
+43	저장 성공	Successfully saved	保存成功	儲存成功	储存成功
+44	데이터 검사 중 ({0}/{1})	Checking data ({0}/{1})	データ検査中 ({0}/{1})	檢查數據中 ({0}/{1})	检查数据中 ({0}/{1})
+45	레벨	Lv.	レベル	等級	等级
+46	티어	Tier	ティア	星級	星级
+47	다음 충전 {0}:{1:D2}:{2:D2}	Until next recharge {0}:{1:D2}:{2:D2}	チャージまで {0}:{1:D2}:{2:D2}	離下次機會還剩 {0}:{1:D2}:{2:D2}	离下次机会还剩 {0}:{1:D2}:{2:D2}
+48	보스전	Boss	ボス戦	BOSS戰	BOSS战
+49	보스전 티켓이 부족합니다.	Not enough boss ticket(s)	ボス戦チケットが足りません。	BOSS戰券不足。	BOSS战券不足。
+50	다시 뽑기({0}/3)	redraw;({0}/3)	引き直し;({0}/3)	重新抽取({0}/3)	重新抽取({0}/3)
+51	일	d	日	天	天
+52	시\간	h	時\間	小\時	小\时
+53	분	m	分	分	分
+54	초	s	秒	秒	秒
+55	메일을 불러오는 중 입니다.	Updating email...	メールを呼び込んでいます。	正在讀取郵件。	正在读取邮件。
+56	안읽은 메일 수 {0}	{0} Unread mails	新着メール {0}件	未讀 {0}	未读 {0}
+57	메일을 수령하였습니다.	Mail successfully recieved	メールを受け取りました。	已領取郵件	已领取邮件
+58	보관기간:{0}남음	valid for:{0}	受け取り期間:{0}	保留時間還剩：{0}	保留时间还剩：{0}
+59	환생석 {0:P0}  골드 {1:P0}	Rebirth stone {0:P0}  Gold {1:P0}	転生石 {0:P0}  ゴールド {1:P0}	重生石{0:P0} 金幣 {1:P0}	重生石{0:P0} 金币 {1:P0}
+60	{0} wave {1} 필요	{0} wave {1} required	{0} wave {1} 必要	需通關{0}的wave {1}	需通关{0}的wave {1}
+61	비속어가 포함된 닉네임은;경고없이 변경될 수 있습니다.	Nickname with vulgarism may be changed without any notice.	俗語を使用したニックネームは;別途のお知らせなく変更される可能性があります。	包含不文明用語的暱稱將會被自動修改。	包含不文明用语的昵称将会被自动修改。
+62	요청을 처리중입니다	Processing request	要請を処理しています。	正在處理您的要求。	正在处理您的要求。
+63	닉네임 변경 성공	Nickname successfully changed	ニックネームを変更しました。	成功變更暱稱。	成功变更昵称。
+64	이미 사용중이거나 잘못된 닉네임입니다.	This nickname is already taken or the wrong nickname.	既に使われているニックネーム、又は、間違ったニックネームです。	該暱稱正在被他人使用或是錯誤的暱稱。	该昵称正在被他人使用或是错误的昵称。
+65	아처키우기 문의	Archer Forest Inquiry	アーチャーフォレストお問い合わせ	弓箭手養成客服	弓箭手养成客服
+66	본문에 문의내용을 입력해주세요.;;;;;;문의해주셔서 감사합니다.	Please enter your message..;;;;;;Thank you for your inquiry.	お問い合わせの内容を記入してください。;;;;;;お問い合わせくださり、ありがとうございます。	請輸入咨詢內容。;;;;;;感謝您的咨詢。	请输入咨询内容。;;;;;;感谢您的咨询。
+67	총 전투력	Total CP	総合戦闘力	總戰鬥力	总战斗力
+68	최고화살레벨	Max Arrow Lv.	矢の最高レベル	箭矢最高等級	箭矢最高等级
+69	순위권 외	Out of Ranking	等外	未進榜	未进榜
+70	최고스테이지 랭킹	Highest Stage;Ranking	最高ステージランキング	最高關卡排名	最高关卡排名
+71	전투력 랭킹	CP Ranking	戦闘力ランキング	戰鬥力排名	战斗力排名
+72	화살레벨 랭킹	Highest;Arrow Lv. Ranking	矢のレベルランキング	箭矢等級排名	箭矢等级排名
+73	총합:{0:	Total:{0:	総合:{0:	累計：{0:	累计：{0:
+74	(최대{1:	(Maximum {1:	(最大 {1:	(上限 {1:	(上限 {1:
+75	보석 {0}개	{0} Diamonds	ダイア {0}個	寶石{0}個	宝石{0}个
+76	보다 안정적인 서비스 이용을 위해서는 최신버전으로 업데이트가 필요합니다.	Updating to a recent version is required for stable service.	より安定したサービス利用の為、 最新バージョンにアップデートしてください。	為了更優質的服務，請更新至最新版本。	为了更优质的服务，请更新至最新版本。
+77	나중에하기	Later	後にする	以後更新	以后更新
+78	업데이트	Update	アップデート	更新	更新
+79	이어서 하기	Continue	読み込み	繼續	继续
+80	업데이트 필요	Update required	アップデート必要	需要更新	需要更新
+81	<size=50>데이터 확인 중...</size>;잠시만 기다려주세요.	<size=50>Checking Data...</size>;Please wait.	<size=50>データ確認中…</size>;しばらくお待ちください。	<size=50>正在確認數據...</size>;請稍等。	<size=50>正在确认数据...</size>;请稍等。
+82	<size=50>버전 확인 중...</size>;(인터넷 연결이 필요합니다.)	<size=50>Version Checking ...</size>;(Internet connection is required.)	<size=50>バージョン確認中…</size>;(インターネットに接続してください。)	<size=50>正在確認版本...</size>;(需要連接網絡。)	<size=50>正在确认版本...</size>;(需要连接网络。)
+83	환생하시겠습니까?	Would you like to rebirth?	転生しますか？	確認重生嗎？	确认重生吗？
+84	20스테이지 미달 패널티 : 10%	Under 20 Stage Penalty : 10%	20ステージ未達ペナルティー : 10%	未到達到Wave20重生時只能獲得10%	未到达到Wave20重生时只能获得10%
+85	골드 업그레이드는 환생시 초기화됩니다!	The gold upgraded stats will be reset after rebirth!	ゴールドでアップグレードした能力値は 転生の際、リセットされます！	使用金幣升級，重生後將會重置。	使用金币升级，重生后将会重置。
+86	환생	Rebirth	転生	重生	重生
+87	자동 스킬	Auto;Skill	自動スキル	自動施展技能	自动施展技能
+88	자동 제작	Auto;Production	自動製作	自動製作	自动制作
+89	관리	Manage	管理	管理	管理
+90	공격	ATK	攻撃	攻擊	攻击
+91	제작	Production	製作	製作	制作
+92	특수	Special	特殊	特殊	特殊
+93	특수 카드는 보스전을 클리어하여 얻을 수 있습니다.	Special cards can be obtained by defeating bosses.	特殊カードはボスを倒したら貰えます。	特殊卡片可在BOSS戰勝利時獲得	特殊卡片可在BOSS战胜利时获得
+94	광고 보기	Watch Ad	広告を見る	觀看廣告	观看广告
+95	30분 동안 화살을 자동으로 생성합니다.	Create arrows automatically for 30mins.	30分間、矢を自動的に製作します。	自動生成箭矢30分鐘	自动生成箭矢30分钟
+96	스테이지 스킵	Stage skip	ステージスキップ	跳過關卡	跳过关卡
+97	스킬	Skill	スキル	技能	技能
+98	패시브	Passive	パッシブ	人物技能	人物技能
+99	정렬	Array	整列	排序	排序
+100	아처 변경	Change;Archer	アーチャー;変更	變更弓箭手	变更弓箭手
+101	아처 소환 x 1	Archer Summon;x 1	アーチャー召喚;x 1	召喚弓箭手 x 1	召唤弓箭手 x 1
+102	아처 소환 x 11	Archer Summon;x 11	アーチャー召喚;x 11	召喚弓箭手 x 11	召唤弓箭手 x 11
+103	보석	Diamonds	ダイア	寶石	宝石
+104	스페셜 패키지	Special Packs	スペシャルパッケージ	特別禮包	特别礼包
+105	보스전 티켓 x 1	Boss ticket x 1	ボス戦チケット;x 1	BOSS戰券 x 1	BOSS战券 x 1
+106	보스전 티켓 x 5	Boss ticket x 5	ボス戦チケット;x 5	BOSS戰券 x 5	BOSS战券 x 5
+107	화살 보급 x 10	Arrow supply;x 10	矢の補給 x 10	箭矢補給 x 10	箭矢补给 x 10
+108	아처 관리	Manage Archer	アーチャー;管理	管理弓箭手	管理弓箭手
+109	설정	Settings	設定	設置	设置
+110	랭킹	Ranking	ランキング	排行榜	排行榜
+111	지도	Map	地図	地圖	地图
+112	우편함	Post	ポスト	郵箱	邮箱
+113	드매 대륙	Continent of Dematt	ドメ大陸	德麥大陸	德麦大陆
+114	거북 섬	Turtle Island	亀島	龜島	龟岛
+115	하늘 요새	Sky Fortress	天空の要塞	天空要塞	天空要塞
+116	이동	Move	移動	移動	移动
+117	변경	Change	変更	變更	变更
+118	효과음	SFX	効果音	效果音	效果音
+119	배경음	Music	背景音	背景音	背景音
+120	개인정보;보호정책	Privacy;Policy	プライバシー;ポリシー	隱私權政策	隐私权政策
+121	이용약관	Terms of Service	利用契約	使用條款	使用条款
+122	문의하기	Inquiry	お問い合わせ	聯繫客服	联繫客服
+123	시작	Start	スタート	開始	开始
+124	처치보상	Clear reward	クリア報酬	勝利獎勵	胜利奖励
+125	최초보상	First clear reward	初回報酬	最初獎勵	最初奖励
+126	스테이지	Stage	ステージ	關卡	关卡
+127	전투력	CP	戦闘力	戰鬥力	战斗力
+128	화살레벨	Arrow Lv.	矢のレベル	箭矢等級	箭矢等级
+129	아처 소환	Archer Summon	アーチャー召喚	召喚弓箭手	召唤弓箭手
+130	취소	Cancel	取り消し	取消	取消
+131	구매복원	Purchases Restored	購入復旧	購買復原	购买复原
+132	다시뽑기	Redraw	引き直し	重新抽取	重新抽取
+133	확률정보	Rate information	確率情報	機率情報	机率信息
+134	새로운 화살 발견!!	The New arrow found!	新しい矢発見！	發現新箭矢！	发现新箭矢！
+135	받은 메일이 없습니다.	No emails received.	新着メールがありません。	未收到郵件	未收到邮件
+136	다시하기	Retry	やり直し	重新開始	重新开始
+137	돌아가기	Back	戻る	返回	返回
+138	보상	Rewards	報酬	獎勵	奖励
+139	부활	Rebirth	復活	復活	复活
+140	보스전 티켓	Boss;ticket	ボス戦チケット	BOSS戰券	BOSS战券
+141	화살 충전석	Arrow;stone	矢の補給石	箭矢補給石	箭矢补给石
+142	정보	Info	情報	信息	信息
+143	사용	Use	使用	使用	使用
+144	패스권	Pass	パス券	通行證	通行证
+145	V.I.P 티켓	VIP Ticket	VIP チケット	V.I.P券	V.I.P券
+146	환생을 하고 선택한 맵으로 이동합니다.	Rebirth and move to the selected map.	転生し、;選択した地域へ移動します。	重生且移至選中的地圖	重生且移至选中的地图。
+147	없음	None	無し	無	无
+148	닉네임 변경	Change Nickname	ニックネーム変更	變更暱稱	变更昵称
+149	새 이름 입력 :	New Nickname :	新しいニックネーム：	請輸入新名字：	请输入新名字：
+150	닉네임을 입력하세요. (최대 8글자)	Enter your nickname. (maximum 16 characters)	ニックネームを入力してください。（最大8文字）	請輸入暱稱。（最多8個字）	请输入昵称。（最多8个字）
+151	환생석	Rebrith;Stone	転生石	重生石	重生石
+152	{0}레벨 화살	Lv.{0} Arrow	{0}レベル矢	{0}級箭矢	{0}级箭矢
+153	공지사항	Notice	お知らせ	公告	公告
+154	{0}버전 업데이트 사항	Update notice for;version. {0}	{0}バージョン;アップデート事項	{0}版本更新內容	{0}版本更新内容
+155	클라우드에 데이터를 안전히 저장하였습니다.	Your data is successfully saved in the cloud.	クラウドにデータを安全に保存しました。	已將數據保存至雲端	已将数据保存至云端。
+156	요청을 처리하지 못했습니다.	The request could not be processed.	要請を処理できませんでした。	處理失敗	处理失败。
+157	잠시 후 다시 시도해주세요.	Please try again later.	しばらくしてからもう一度お試しください。	請稍後重試	请稍后重试。
+158	이미 연동 된 계정입니다.	Your account is already connected.	既に連携されたアカウントです。	該帳號已綁定	该帐号已绑定
+159	구글플레이 계정을 확인해주세요.	Please check your Google Play account.	グーグルプレイアカウントをご確認ください。	請確認您的谷歌帳號。	请确认您的谷歌帐号。
+160	기기 내 설정 - 게임센터를 확인해주세요.	Please check Setting > Game Center on your device.	機器内の設定＞ゲームセンターをご確認ください。	請在設備內確認【設置-遊戲中心。】	请确认设备的【设置-游戏中心。】
+161	구글플레이;연동완료	Google Play;Successfully Connected	グーグル;プレイ;連携済み	Google Play;綁定成功	Google Play;绑定成功
+162	게임센터;연동완료	Game Center;Connected	ゲーム;センター;連携済み	遊戲中心;綁定成功	游戏中心;绑定成功
+163	소셜;연동하기	Social;Connection	ソーシャル;連携	綁定;社交帳號	绑定;社交帐号
+164	클라우드;저장	Cloud;Save	クラウド;保存	保存到雲端	保存到云端
+165	<size=50>게임 정책을 위반하여 이용 정지된 유저입니다.</size>;;자세한 내용은 고객지원 메일을 통해 문의하세요;archer@gameduo.net	<size=50>Account has been suspended.</size>;;Please contact us for details.;archer@gameduo.net	<size=50>ゲーム政策を違反したため、利用停止されたアカウントです。</size>;;詳細は以下のお問い合わせメールでお問い合わせください。;archer@gameduo.net	<size=50>您的帳號因違反遊戲政策而被禁用。</size>;;詳細內容請咨詢以下客服郵箱：;archer@gameduo.net	<size=50>您的帐号因违反游戏政策而被禁用。</size>;;详细内容请咨询以下客服邮箱：;archer@gameduo.net
+166	매일매일;보석	Everyday;Diamonds	毎日;ダイア	天天送;寶石	天天送;宝石
+167	매일매일;보스전티켓	Everyday;Boss Ticket	毎日;ボス戦;チケット	天天送;BOSS戰券	天天送;BOSS战券
+168	매일매일;화살충전석	Everyday;Arrow Stone	毎日;矢の補給石	天天送;箭矢補給石	天天送;箭矢补给石
+169	환생석;획득량	Rebirth Stone;Income	転生石;獲得量	重生石;獲取量	重生石;获取量
+170	골드;획득량	Gold;Income	ゴールド;獲得量	金幣;獲取量	金币;获取量
+171	<size=50>현재 점검중입니다.</size>;;자세한 내용은 고객지원 메일을 통해 문의하세요;archer@gameduo.net	<size=50>We are currently performing maintenance.</size>;;Please contact us for details.;archer@gameduo.net	<size=50>只今メンテナンス中です。</size>;;詳細は以下のお問い合わせメールでお問い合わせください。;archer@gameduo.net	<size=50>正在維護中。</size>;;詳細內容請向下列客服郵箱咨詢：;archer@gameduo.net	<size=50>正在維護中。</size>;;詳細內容請向下列客服郵箱咨詢：;archer@gameduo.net
+172	구매 성공! 우편함을 확인하세요.	Purchase Successful! Check your postbox.	購入成功！受信トレイをご確認ください。	購買成功！請確認郵箱。	购买成功！请确认邮箱。
+173	아직 획득하지 못했습니다.	You have not summoned this archer yet.	未所持キャラクター	尚未獲得	尚未获得
+174	궁수사전	Archer;Book	図鑑	圖鑑	图鉴
+175	VIP 보상은 매일 {0}시에 우편으로 전달됩니다.	VIP Pass items will be delivered to your postbox at {0} every day.	VIPパッケージのアイテムは毎日 {0}時ポストにお送りいたします。	VIP獎勵將在每天{0}點發送至您的郵箱	VIP奖励将在每天{0}点发送至您的邮箱
+176	궁수사전	Archer Book	アーチャー図鑑	圖鑑	图鉴
+177	‘허용’시 불필요하거나 부적절한 광고는 나가지 않고, 유익한 광고만 제공해 드립니다.	If you allow us to track you, we provide you  helpful advertisement.	「トラッキング許可」の際、不適切な広告は拒否され、適切な広告のみ流れます。	設置為“允許”時，不會出現沒用或不適合的廣告，只提供適合您的廣告。	设置为“允许”时，不会出现没用或不适合的广告，只提供适合您的广告。
+178	원활한 광고 보상을 위해 다음화면에서 “허용”을 탭해주세요. 	Please allow us to track you so that we can provide you more rewards smoothly.	より円滑な広告視聴報酬の支給の為、次の画面で「トラッキング許可」をタップして下さい。	為了更順利地領取廣告獎勵，請在下一個畫面點擊“允許”。	为了更顺利地领取广告奖励，请在下一个画面点击“允许”。
+179	광고 부족 현상을 줄여, 다양한 보상을 획득하실 수 있습니다.	It helps you to get more items by reducing the shortage of advertisement.	広告が見れない現象を減らし、様々な報酬が獲得できます。	可減少廣告未準備好的現象，獲取更多獎勵。	可减少广告未准备好的现象，获取更多奖励。
+180	보너스	Bonus	ボーナス	廣告獎勵	广告奖励
+181	계속	Continue	続く	繼續	继续
+182	다음	Next	次へ	前往下一個畫面	前往下一个画面
+183	출석보상은 매일 {0}시에 우편으로 전달됩니다.	Log in reward will be delivered to your postbox at {0}.	ログインボーナス報酬は毎日 {0}時にポストで支給されます。	簽到獎勵將會在每日 {0}點發至您的郵箱。	签到奖励将会在每日 {0}点发至您的邮箱。
+184	출석 보상	Log in Reward	ログインボーナス報酬	簽到獎勵	签到奖励
+185	즐거운 하루 되세요~!	Have a nice day!	良い１日を！	祝您有個美好的一天！	祝您有个美好的一天！
+186	<size=65>아처키우기</size>;재밌게 즐기고 계신가요?	<size=65>Are you enjoying</size>;Archer Forest?	<size=65>アーチャーフォレストは</size>;いかがでしょうか？	您滿意;<size=65>弓箭手養成</size>嗎？	您满意;<size=65>弓箭手养成</size>吗？
+187	네, 맘에 들어요	Yes, I like it!	はい、楽しいです。	是，很滿意。	是，很满意。
+188	아뇨, 별로에요	No, I don't.	いいえ、楽しくないです。	不，不滿意。	不，不满意。
+189	좋은 리뷰는;개발자에게 큰힘이 됩니다.;리뷰를 남겨주시겠어요?	Positive review helps the developers.;Would you please leave your review?	良いレビューで応援していただけると;開発者一同されなる励みになります。;レビューで応援しますか？	您的評論可以振奮開發團隊喔！;前往留下評論？	您的评论可以振奋开发团队喔！;前往留下评论？
+190	네, 좋아요	Yes, I would like to.	はい、応援します。	好的	好的
+191	아뇨, 다음에 할게요	No, maybe next time.	いいえ、今はしません。	再等一等	再等一等
+192	어떤점이 아쉬웠는지 의견을 남겨주시겠어요?	Would you please give us some feedbacks?	ご意見をお聞かせください。	若有發現不足之處，請留下您的建議。	若有发现不足之处，请留下您的建议。
+193	네, 의견 있어요	Yes, I would like to.	意見を書く	去寫評論。	去写评论。
+194	아뇨, 의견 없어요	No, I don't want to.	今はしない	不用了，謝謝。	不用了，谢谢。
+195	아처키우기 건의	Archer Forest Inquiry	アーチャーフォレストお問い合わせ	向弓箭手養成提議	向弓箭手养成提议
+196	본문에 건의내용을 입력해주세요.;;;;;;건의해주셔서 감사합니다.	Please enter your message.;;;;;;Thank you for your inquiry.	お問い合わせの内容を記入してください。;;;;;;お問い合わせくださり、ありがとうございます。	請輸入提議內容。;;;;;感謝您的建議。	请输入提议内容。;;;;;感谢您的建议。
+197	이벤트	Event	イベント	活動	活动
+198	화살 충전석 자동 사용	Auto use arrow stone	自動で矢の補給石使用	自動使用箭矢補給石	自动使用箭矢补给石
+199	자동 제작 활성화 (보석 소모)	Activate auto production (requires diamonds)	自動製作活性化 (ダイアを消耗します)	激活自動製作（需消耗寶石)	激活自动制作（需消耗宝石)
+200	강화버그로 인한 환급	Refund due to upgrade error	強化不具合による返戻	因強化Bug的退還	因强化Bug的退还
+201	이용중 불편을 드려 죄송합니다.	We apologize for the inconvenience you experienced.	ご利用にご不便をお掛けし、大変申し訳ございませんでした。	非常抱歉使大家在使用過程中感到不便。	非常抱歉使大家在使用過程中感到不便。
+202	수면모드	Night mode	睡眠モード	睡眠模式	睡眠模式
+203	자동전투 진행중	Auto Battle is on	自動戦闘中	自動戰鬥中	自动战斗中
+204	밀어서 절전모드 해제	Slide to unlock	スライドでロック解除	滑動解鎖省電模式	滑动解锁省电模式
+205	자동 스킬 간격	Auto skill casting interval	スキルの自動使用時間	自動技能時間差	自动技能时间差
+206	골드	Gold	ゴールド	金幣	金币
+207	광고제거	Adblock	広告ブロック	廣告清除	广告清除
+208	구매가능 시간 <size=45>{0}</size> 남음	<size=45>{0}</size> left	販売終了まで残り<size=45>{0}</size>	可購買時間還剩<size=45>{0}</size>	可购买时间还剩<size=45>{0}</size>
+209	{0} 진입 패키지	{0} Challenge Pack	{0} 挑戦パッケージ	{0}挑戰禮包	{0}挑战礼包
+210	구매한 인앱 상품은 우편으로 전달됩니다.	Item purchased will be sent to your in-game postbox.	購入商品はポストに支給されます。	購買的商品將會發送至您的郵箱。	购买的商品将会发送至您的邮箱。
+211	상품 지급	Item purchased	購入商品	商品已發送	商品已发送
+212	구매해주셔서 감사합니다.	Thank you for your purchase	ご購入いただき、誠にありがとうございます。	感謝您的購買。	感谢您的购买。
+213	승리 토큰이 부족합니다. 	Not enough Victory Token	勝利トークンが足りません。	勝利代幣不足。	胜利代币不足。
+214	새로고침	Refresh	更新	刷新	刷新
+215	PVP 입장권이 부족합니다.	Not enough PVP Ticket	PVP入場券が足りません。	PVP入場券不足。	PVP入场券不足。
+216	구매 완료	Successfully purchased	購入済み	完成購買	完成购买
+217	대기실	Waiting room	待合室	待機室	待机室
+218	상점	Shop	お店	商店	商店
+219	전투	Battle	戦闘	戰鬥	战斗
+220	상품	Products	商品	商品	商品
+221	업그레이드	Upgrade	アップグレード	升級	升级
+222	{0}위	Rank {0}	{0}位	第{0}名	第{0}名
+223	PVP 정보	PVP Info	PVP情報	PVP信息	PVP信息
+224	1. PVP 에서는 아처와 화살만을 이용해 대결을 합니다	1. Only archers and arrows can be used at PVP mode.	1. PVPではアーチャーと矢のみ使用できます。	1. 只利用弓箭手與箭矢對決。	1. 只利用弓箭手与箭矢对决。
+225	2. 모든 아처 스킬의 지속시간은 5초가 됩니다. 	2. All archer's skill duration will be adjusted to 5 sec.	2. すべてのアーチャーのスキル時間は5秒になります。	2. 所有弓箭手的技能持續時間為5秒。	2. 所有弓箭手的技能持续时间为5秒。
+226	3. 몬스터가 죽으면 방향을 바꿔서 이동합니다.	3. Your team moves in a different direction if the monsters die.	3. モンスターが倒されたら違う方向へ移動します。	3. 怪物死亡時會轉換移動方向。	3. 怪物死亡时会转换移动方向。
+227	4. 몬스터를 죽이거나 상대방에게 공격을 성공하면 점수를 얻습니다. 	4. You will earn points if the monsters die or attack the enemy successfully.	4. モンスターを倒したり、相手を攻撃すると点数が貰えます。	4. 成功打敗怪物或傷害敵方時可取得分數。	4. 成功打败怪物或伤害敌方时可取得分数。
+228	5. 점수가 높은 진영이 승리합니다.	5. The total points gained are what determines the winner of the battle.	5. より点数の高い陣営が勝利します。	5. 得分較高的陣營獲勝。	5. 得分较高的阵营获胜。
+229	점수: {0}	Points: {0}	点数: {0}	分數: {0}	分数: {0}
+230	PVP를 입장하기위해선 최고 화살레벨이 20을 넘겨야 합니다.	You must have at least Lv.21 arrow to enter PVP mode.	PVPモードをご利用頂くためには、;矢の最高レベルが20を超えなければいけません。	為了進入PVP，需箭矢的最高等級超過20。	为了进入PVP，需箭矢的最高等级超过20。
+231	시즌 종료까지 {0} 남음	{0} left until the end of the season	シーズン終了まで残り{0}	離賽季結束還剩{0}	离赛季结束还剩{0}
+232	시즌 점수	Season Point	シーズン点数	賽季分數	赛季分数
+233	공격속도 감소 {0:P0}	ATK SPD decreased {0:P0}	攻撃速度減少 {0:P0}	攻速降低 {0:P0}	攻速降低 {0:P0}
+234	절전 모드	Sleep Mode	低電力モード	省電模式	省电模式
+235	PVP 랭킹	PVP Ranking	PVPランキング	PVP 排名	PVP 排名
+236	시즌보상수령	Get Season Reward	シーズン報酬受け取り	領取賽季獎勵	领取赛季奖励
+237	매일매일;PVP티켓	PVP;Ticket	PVP;チケット	PVP;券	PVP;券
+238	화살 획득	Arrow Acquired	矢の獲得	獲得箭矢	获得箭矢
+239	시즌 보상	Season Reward	シーズン報酬	賽季獎勵	赛季奖励
+240	승리 토큰	Victory Token	勝利トークン	勝利代幣	胜利代币
+241	신규 아처 패키지	New Archer Pack	新規アーチャパッケージ	新弓箭手禮包	新弓箭手礼包
+242	상태이상 면역	Debuff Immunity	デバフ免疫	免疫異常狀態	免疫异常状态
+243	이벤트	Event	イベント	活動	活动
+244	이벤트 코인이 부족합니다.	Not enough event coin	イベントコインが足りません。	活動代幣不足	活动代币不足
+245	더 이상 구매할 수 없습니다.	Unavailable to purchase	購入できません。	購買次數已滿	购买次数已满
+246	구매가능 ({0}/{1})	Purchase count ({0}/{1})	購入可能 ({0}/{1})	剩餘次數 ({0}/{1})	剩余次数 ({0}/{1})
+247	룬 정보	Rune Info	ルーン情報	符文	符文
+248	몬스터를 잡고 이벤트 코인을 획득하세요.	Hunt monsters and get event coins!	モンスターを倒し、イベントコインを獲得しましょう。	打敗怪物獲得活動代幣	打败怪物获得活动代币
+249	<size=30>{0}</size> 남음	<size=30>{0}</size> left	イベント終了まで残り\n<size=30>{0}</size>	活動剩餘\n<size=30>{0}</size>	活动剩余\n<size=30>{0}</size>
+250	매일매일;승리토큰	Victory;Token	勝利;トークン	勝利代幣	胜利代币
+251	이벤트 패키지	Event Package	イベントパッケージ	活動禮包	活动礼包
+252	환생석 획득량	Rebirth Stone Income	転生石 獲得量	重生石 獲取量	重生石 获取量
+253	골드 획득량	Gold Income	ゴールド 獲得量	金幣 獲取量	金币 获取量
+254	구매 시 광고 시청 없이 모든 보상을 얻을 수 있습니다. 	Receive all rewards without watching ads!	購入すると、広告を視聴することなく全ての報酬がもらえます。	未觀看廣告也可獲得獎勵。	不看广告也可获得相应的奖励。
+255	[{0}] 지역으로 이동할 수 있습니다.	Now you can explore [{0}]!	[{0}]地域へ移動できます。	可移動至[{0}]地區。	可移动到[{0}]地区。
+256	첫 충전 선물	First Purchase Present	初回チャージ\nボーナス	初次儲值獎勵	初次儲值獎勵
+257	첫 충전 시 지급되는 선물입니다.	A present for your first purchase.	初回チャージの後お受け取りできます。	初次儲值即可獲得	初次儲值即可獲得
+258	수령하기	Claim	受け取る	領取	領取
+259	스타트 버프	Beginner buff	スタートバフ	新手BUFF	新手加成
+260	시즌 보상을 먼저 수령해주세요.	Please claim your Season Reward first.	先にシーズン報酬を受け取ってください。	請先領取賽季獎勵。	需先领取赛季奖励。
+261	룬 소환	Rune Summon	ルーン召喚	符文召喚	符文召唤
+262	가격 초기화 까지 : {0} 남음	Until price reset: {0} left	価格リセットまで：残り{0}	至刷新價格還有：{0}	至刷新价格还有：{0}
+263	구매 초기화 까지 : {0} 남음	Until purchase reset: {0} left	購入リセットまで：残り{0}	至刷新購買次數還有：{0}	至刷新购买次数还有：{0}
+264	무료뽑기	Free draw	無料ガチャ	免費抽	免费抽
+265	일반에서희귀까지\n<size=90>룬 <color=#F9EE94>1회</color> 채굴</size>	From normal to rare\n<size=90>Mine Rune <color=#F9EE94>once</color></size>	ノーマル～レア\n<size=90>ルーン<color=#F9EE94>1回</color>採掘</size>	一般~稀有\n<size=90>符文 <color=#F9EE94>1次</color> 挖掘</size>	一般~稀有\n<size=90>符文 <color=#F9EE94>1次</color> 挖掘</size>
+266	일반에서\n희귀까지	From normal\nto rare	ノーマル\n～レア	一般\n~稀有	一般\n~稀有
+267	룬 <color=#F9EE94>11회</color>\n연속채굴	Keep mining\nRune <color=#F9EE94>11times</color>	ルーン<color=#F9EE94>11連</color>\n採掘	符文 <color=#F9EE94>11次</color>\n連續挖掘	符文 <color=#F9EE94>11次</color>\n连续挖掘
+268	보석을 {0} 개 소모하여 룬 소환을 진행하시겠습니까?	Do you wish to proceed Rune Summon by using {0} diamonds?	宝石を{0}個消費してルーン召喚を行いますか？	確定要使用{0}個寶石進行符文召喚嗎？	确定要使用{0}个宝石进行符文召唤吗？
+269	금일 구매 가능 상품을 모두 구매하셨습니다	You purchased all available items today.	本日購入できる商品をすべて購入しました。	今天的商品已售完	今天的商品已售完
+270	VIP 부스트: {0:P0}	VIP boost: {0:P0}	VIP ブースト: {0:P0}	VIP加速器：{0:P0}	VIP 加速器：{0:P0}
+271	룬 소환 x 1	Rune Summon x 1	ルーン召喚 x 1	符文召喚x 1	符文召唤x 1
+272	룬 소환 x 11	Rune Summon x 11	ルーン召喚 x 11	符文召喚x 11	符文召唤x 11
+273	서버변경	Server Switch	サーバー変更	變更伺服器	变更伺服器
+274	선택	Choose	選択	選擇	选择
+275	원할	Low	快適	通暢	通畅
+276	포화	Full	混雑	擁擠	拥挤
+277	변경 가능한 서버가 없습니다.	There is no available server to change.	変更できるサーバーが存在しません。	沒有可以變更的伺服器	没有可以变更的伺服器
+278	서버변경은 화살레벨 21부터 가능합니다.	You can change server after Arrow Lv. 21.	サーバーの変更は矢のレベル21から可能です。	箭矢等級21以上方可變更伺服器	箭矢等级21以上方可变更伺服器
+279	변경 가능기간이 아닙니다.	You cannot change during this period.	変更できる時間ではありません。	非可變更時間	非可变更时间
+280	공지사항	Notice	お知らせ	公告	公告
+281	새로운 공지사항이 있습니다.	There is new notice.	新しいお知らせがあります。	有新的公告	有新的公告
+282	서버 변경  확인	Confirm Server Change	サーバー変更の確認	確認變更伺服器	确认变更伺服器
+283	서버변경 하시겠습니까?	Do you wish to change server?	サーバー変更を行いますか？	確定要變更伺服器嗎？	确定要变更伺服器吗？
+284	{0} 남음	{0} left	イベント終了まで残り {0}	活動剩餘 {0}	活动剩余 {0}
+285	룬 <color=#F9EE94>{0}회</color>\n연속채굴	Keep mining\nRune <color=#F9EE94>{0}times</color>	ルーン<color=#F9EE94>{0}連</color>\n採掘	符文 <color=#F9EE94>{0}次</color>\n連續挖掘	符文 <color=#F9EE94>{0}次</color>\n连续挖掘
+286	<size=50>룬</size><color=#F9EE94>{0}회+{1}회</color>\n<size=90>연 속 채 굴</size>	<size=50>Rune</size><color=#F9EE94>{0}times+{1}times</color>\n<size=90>Keep mining</size>	<size=50>ルーン</size><color=#F9EE94>{0}連+{1}連</color>\n<size=90>採 掘</size>	<size=50>符文</size><color=#F9EE94>{0}次+{1}次</color>\n<size=90>連 續 挖 掘</size>	<size=50>符文</size><color=#F9EE94>{0}次+{1}次</color>\n<size=90>连 续 挖 掘</size>
+287	<size=50>룬</size><color=#F9EE94>{0}회+{1}회</color>\n<size=90>폭 풍 채 굴</size>	<size=50>Rune</size><color=#F9EE94>{0}times+{1}times</color>\n<size=90>Mining Frenzy</size>	<size=50>ルーン</size><color=#F9EE94>{0}連+{1}連</color>\n<size=90>採 掘 放 題</size>	<size=50>符文</size><color=#F9EE94>{0}次+{1}次</color>\n<size=90>瘋 狂 挖 掘</size>	<size=50>符文</size><color=#F9EE94>{0}次+{1}次</color>\n<size=90>疯 狂 挖 掘</size>
+288	룬, 토템	Rune;Totem	ルーン;トーテム	符文，圖騰	符文，图腾
+289	토템 정보	Totem Info	トーテム情報	圖騰	图腾
+290	장착	Equip	装着	使用	使用
+291	장착해제	Unequip	装着解除	卸除	卸除
+292	보석을 {0} 개 소모하여 토템을 구매하시겠습니까?	Do you wish to spend {0} gem(s) to purchase totem?	ダイヤを{0}個消費してトーテムを購入しますか？	確定要消耗{0}個寶石來購買圖騰嗎？	确定要消耗{0}个宝石来购买图腾吗？
+293	현재 총 보유효과 :	Current Total Effect:	現在の合計所有効果：	目前持有效果：	目前持有效果：
+294	상품 구매시 보유효과는 자동으로 적용됩니다.	The effect is automatically applied upon purchase.	商品購入時、所有効果は自動で適用されます。	購買商品後將自動獲得持有效果	购买商品后将自动获得持有效果
+295	보유효과	Effect	所有効果	持有效果	持有效果
+296	[{0}] 지역으로 이동 후 이용할 수 있습니다.	You can use after moving to [{0}] area.	[{0}]地域へ移動してから利用できます。	需移動到[{0}]地區後方可使用。	需移动到[{0}]地区后方可使用。
+297	첫 {0} 획득 축하 패키지	First {0} Gain Celebration Pack	初{0}獲得お祝いパッケージ	{0} 新入手禮包	{0} 新入手礼包
+298	구매 완료	Purchased	購入完了	已購買	已购买
+299	아처 성장 지원 패키지	Archer Growth Support Pack	アーチャー成長支援パッケージ	弓箭手成長應援包	弓箭手成长应援包
+300	레벨 {0} 화살 달성 패키지	Lv.{0} Arrow Achievement Pack	矢のレベル{0}達成パッケージ	箭矢等級{0}達成包	箭矢等级{0}达成包
+301	{0}님~!! 곧 이벤트 시즌이 마감되고 코인이 초기화됩니다! 아직 사용하지 않은 이벤트 코인을 사용해주세요!	{0}~!! Event season will end, and coins will reset soon! Please use any remaining coins!	{0}様！もうすぐイベントシーズンが終わり、コインがリセットされます！まだ使用していないイベントコインは使用してください！	親愛的{0}！活動結束後代幣就歸零囉！您都用完了嗎？	亲爱的{0}！活动结束后代币就归零囉！您都用完了吗？
+302	{0}님 1시간 안에 접속하시면 대량의 보석이나 룬 뽑기권을 메일로 즉시 지급해드립니다!”	{0}, log in within an hour to claim random rewards immediately!	{0}様、あと1時間でログインすると大量のダイヤやルーンガチャ券をメールで即支給します！	親愛的{0}！在1小時內登入遊戲就可以獲得大量的寶石或是符文召喚券喔！	亲爱的{0}！在1小时内登入游戏就可以获得大量的宝石或是符文召唤券喔！
+303	{0}님~! 오프라인 보상이 쌓여 가득차기 직전입니다. 보상을 수령해주세요!	{0}~! It will be filled with offline rewards soon. Please claim rewards!	{0}様！オフライン報酬がいっぱいです。報酬を受け取ってください！	親愛的{0}！您的郵箱快被獎勵塞爆囉！不來拿嗎？	亲爱的{0}！您的邮箱快被奖励塞爆囉！不来拿吗？
+304	아처키우기 : 방치형 디펜스	Archer Forest : Idle Defence	アーチャーフォレスト：放置ディフェンス	弓箭手養成：放置型塔防	弓箭手养成：放置型塔防
+305	깜짝선물	Suprise Gift	サプライズプレゼント	驚喜禮物	惊喜礼物
+306	깜짝선물을 놓치지 마세요! (매일 1회)	Don't miss your suprise gift! (Once a day)	サプライズプレゼントをお見逃しなく！(毎日1回)	恭喜獲得驚喜禮物！(每日1次)	恭喜获得惊喜礼物！(每日1次)
+307	오프라인 보상 획득!	Offline Reward!	オフライン報酬GET！	獲得線下獎勵！	获得线下奖励！
+308	비활성 기간 : {0}	Period of Inactivity : {0}	オフライン期間：{0}	下線時間：{0}	下线时间：{0}
+309	광고보고 2배 받기	Watch Ad to double it	広告視聴で報酬2倍	看廣告拿雙倍獎勵	看广告拿双倍奖励
+310	진행 Wave {0} -> {1}	Wave in Progress {0} -> {1}	進行Wave{0}->{1}	通關Wave {0} -> {1}	通关Wave {0} -> {1}
+311	골드 : {0}	Gold(s) : {0}	ゴールド：{0}	金幣：{0}	金币：{0}
+312	보석 : {0}	Gem(s) : {0}	ダイヤ：{0}	寶石：{0}	宝石：{0}
+313	이벤트 코인 : {0}	Event Coin(s) : {0}	イベントコイン：{0}	活動代幣：{0}	活动代币：{0}
+314	충전석 : {0}	Arrow Stone(s) : {0}	補給石：{0}	補給石：{0}	补给石：{0}
+315	환생석 : {0}	Rebirth Stone(s) : {0}	転生石：{0}	重生石：{0}	重生石：{0}
+316	보상은 최고 난이도 맵의 클리어 스테이지와 비례합니다.	The reward is proportional to the stages of the map of the highest level	報酬は最高難易度マップのクリアステージによって決まります。	獎勵依據已通關之關卡的最高難度發送。	奖励依据已通关之关卡的最高难度发送。
+317	드넓고 매우 큰 대륙의 작은 숲속에는 귀여운 아처 친구들이 살고 있습니다. 	Adorable archers are living in a little forest of a vast and enormous continent	広大な大陸の小さい森の中には;可愛いアーチャーたちが暮らしています。	在廣闊無垠的大陸上，有一群可愛的弓箭手們，居住在小小的森林裡。	在广阔无垠的大陆上，有一群可爱的弓箭手们，居住在小小的森林裡。
+318	아처 친구들은 '마법의 모루'에서 만들어지는 멋진 화살로 숲과 모루를 지키며 살아가고 있습니다.	These archers protect the forest and anvil with awesome arrows from the Magical Anvil	アーチャーたちは「魔法の金敷」から作られる;素敵な矢で森や金敷を守って生きています。	這群弓箭手們使用"魔法鐵砧"製作出的箭矢來保衛著森林和"魔法鐵砧"。	这群弓箭手们使用"魔法铁砧"製作出的箭矢来保卫着森林和"魔法铁砧"。
+319	이 세계에는 '마법의 모루'를 갖고 싶어하는 친구들이 많이 있기 때문이에요!	There are those who want to take the Magical Anvil from all over the world!	この世界には、;「魔法の金敷」を欲しがるお友達がたくさんいるのです！	有很多勢力在虎視眈眈的肖想著"魔法鐵砧"呢！	有很多势力在虎视眈眈的肖想着"魔法铁砧"呢！
+320	오늘도 아처친구들은 몰려오는 적들을 향해 활시위를 당깁니다!	Even today, the archers aim their bows to the incoming enemies!	今日もアーチャーたちは、;押し寄せる敵を目掛けて弓を引きます！	弓箭手們今天依舊拉著戰弓，努力的抵擋外敵呢！	弓箭手们今天依旧拉着战弓，努力的抵挡外敌呢！
+321	{0}초 뒤에 매칭이 시작됩니다.	Matching begins in {0}seconds.	{0}秒後にマッチングが開始します。	{0}秒後自動搜尋對象。	{0}秒后自动搜寻对象。
+322	PVP 자동 진행	Automatic PVP.	PVPオート進行	PVP自動進行	PVP自动进行
+323	{0}초 뒤에 메인화면으로 돌아갑니다.	Returning to the main screen in {0}seconds.	{0}秒後にメイン画面に戻ります。	{0}秒後回到主畫面。	{0}秒后回到主画面。
+324	6. “PVP 자동 진행” 시 상대 목록 중 가장 낮은 전투력을 가진 유저와 자동으로 매칭됩니다.	6. "Automatic PVP" matches you automatically with a player with the least CP on the list.	6. 「PVPオート進行」を行うと、相手リストの中で最も戦闘力の低いユーザーと自動的にマッチングされます。	6. "PVP自動進行"時，將自動搜索戰鬥力最低的玩家進行對戰。	6. "PVP自动进行"时，将自动搜索战斗力最低的玩家进行对战。
+325	7. 티켓이 없을 경우 자동으로 PVE 화면으로 돌아갑니다.	7. Without a ticket, you will automatically return to PVE screen.	7. PVPチケットがない場合、自動でPVE画面に戻ります。	7. 入場券用盡時將自動回到主畫面	7. 入场券用尽时将自动回到主画面
+326	{0}초 후 자동으로 수령됩니다.	Automatically receive after {0}seconds	{0}秒後自動で受け取ります。	{0}秒後自動領取。	{0}秒后自动领取。
+327	효율	Cost-Efficiency	効率	效率	效率
+328	리그전	Competition	リーグ戦	聯賽	联赛
+329	리그 랭킹	League Rankings	リーグランキング	聯賽排名	联赛排名
+330	리그	League	リーグ	聯盟	联盟
+331	참가보상	Participation Rewards	参加報酬	參加獎勵	参加奖励
+332	그룹	Group	グループ	組	组
+333	각 그룹의 상위 30%는 다음 리그로 진출합니다.	The top 30% in each group proceeds to the next league	各グループの上位30％は次のリーグに進出します。	各組的前30%可進階下一聯。	各组的前30%可进阶下一联。
+334	내 랭킹 정보가 없습니다.	No information available for my rank	自分のランキング情報がありません。	無我的排名信息。	无我的排名信息。
+335	랭킹 정보가 없습니다.	No information available for rank	ランキング情報がありません。	無排名信息。	无排名信息。
+336	정산중	Calculating	集計中	結算中	结算中
+337	펫	Pet	ペット	寵物	宠物
+338	펫 장착	Equip Pet	ペット装備	寵物配戴	宠物配戴
+339	펫 소환	Summon Pet	ペット召喚	寵物召喚	宠物召唤
+340	펫은 각기 다른 특별한 능력으로 전투를 도울 수 있습니다.\n펫은 최대 4마리 까지 장착 가능 합니다.	Pets can assist battle with respective special abilities.\nUp to 4 pets can be equipped.	ペットはそれぞれ異なる特別な能力で戦闘を手伝えます。\nペットは最大4匹まで装備できます。	寵物可以使用不同的特殊能力來幫助戰鬥。\n寵物一次最多可配戴4個。	宠物可以使用不同的特殊能力来帮助战斗。\n宠物一次最多可配戴4个。
+341	내 정보	My Information	自分の情報	我的信息	我的信息
+342	장착중인 펫	Equipped Pet(s)	装備しているペット	配戴中的寵物	配戴中的宠物
+343	비어 있음	Empty	空き	閒置中	闲置中
+344	잠금 해제	Unlock	ロック解除	解鎖	解锁
+345	비어 있음	Empty	空き	閒置中	闲置中
+346	미획득	Not Summoned Yet	未獲得	未獲得	未获得
+347	펫 소환 x 1	Summon Pet x 1	ペット召喚x1	召喚寵物 x 1	召唤宠物 x 1
+348	펫 소환 x 11	Summon Pet x 11	ペット召喚x11	召喚寵物 x 11	召唤宠物 x 11
+349	펫 정보	Pet Details	ペット情報	寵物信息	宠物信息
+350	<size=40>나만없어 <color=#F9EE94>아처 펫 !</color></size>\n펫 <size=100><color=#F06A62>1회</color></size> 소환	<size=40>I don't have an archer pet... <color=#F9EE94>Let me pick one !</color></size>\nSummon <size=100><color=#F06A62>1</color></size>Pet(s) 	<size=40>俺だけない<color=#F9EE94>アーチャーペット！</color></size>\nペット<size=100><color=#F06A62>1回</color></size>召喚	<size=40>只有我沒有<color=#F9EE94>寵物!</color></size>\n寵物召喚<size=100><color=#F06A62>1次</color></size>	<size=40>只有我没有<color=#F9EE94>宠物!</color></size>\n宠物召唤<size=100><color=#F06A62>1次</color></size>
+351	<size=40>나만없어 <color=#F9EE94>아처 펫 !</color></size>\n펫 <size=100><color=#F06A62>11회</color></size> 연속소환	<size=40>I don't have an archer pet... <color=#F9EE94>Let me pick one !</color></size>\nSummon <size=100><color=#F06A62>11</color></size>Pets in a Row	<size=40>俺だけない<color=#F9EE94>アーチャーペット！</color></size>\nペット<size=100><color=#F06A62>11回</color></size>連続召喚	<size=40>沒有我<color=#F9EE94>寵物!</color></size>\n寵物連續召喚<size=100><color=#F06A62>11次</color></size>	<size=40>只有我没有<color=#F9EE94>宠物!</color></size>\n宠物连续召唤<size=100><color=#F06A62>11次</color></size>
+352	정산 중에는 이용 하실 수 없습니다.	Not available while calculating	集計中はご利用できません。	結算中無法使用。	结算中无法使用。
+353	리그전 중에는 이용 하실 수 없습니다.	Not available while in Competition	リーグ戦中はご利用できません。	聯賽中無法使用。	联赛中无法使用。
+354	빈 자리가 없습니다.	No Empty Seats	空きがありません。	沒有空位。	没有空位。
+355	이미 장착 중인 펫입니다.	Already Equipped	既に装備しているペットです。	已配戴中的寵物。	已配戴中的宠物。
+356	브론즈	Bronze	ブロンズ	銅牌	铜牌
+357	실버	Silver	シルバー	銀牌	银牌
+358	골드	Gold	ゴールド	金牌	金牌
+359	다이아	Diamond	ダイヤモンド	鑽石	鑽石
+360	마스터	Master	マスター	王者	王者
+361	챔피언	Champion	チャンピオン	傳說	传说
+362	장착중	Equipped	装備中	裝備中	装备中
+363	획득 점수	Acquired Scores	獲得ポイント	獲得分數	获得分数
+364	최고 점수	Top Scroes	最高ポイント	最高分數	最高分数
+365	자동환생	Automatic Rebirth	自動転生	自動重生	自动重生
+366	{0}스테이지 진입 시 자동으로 환생	Automatic Rebirth when entering Stage {0}	{0}ステージで自動転生	進入{0}關卡時自動重生	进入{0}关卡时自动重生
+367	사용함	Used	使用	已使用	已使用
+368	자동환생 설정	Setting automatic rebirth	自動転生設定	自動重生設定	自动重生设定
+369	리그전 정보	Competition Info	リーグ戦情報	聯賽說明	联赛说明
+370	1. 리그전은 3일 단위로 시즌이 진행됩니다.	1. A competition season lasts for 3 days.	1. リーグ戦は3日単位でシーズンが行われます。	1. 聯賽以3天為一個循環	1. 联赛以3天为一个循环
+371	2. 리그전은 모든 국가, 모든 서버의 통합 컨텐츠 입니다.	2. Competition is a global game mode for every country and every server.	2. リーグ戦は全国家、全サーバーの統合コンテンツです。	2. 聯賽為全國家、全伺服器進行的賽制	2. 联赛为全国家、全伺服器进行的赛制
+372	3. 리그전 도중 종료 시 도전 기회가 사라집니다. 주의하세요!	3. Please note that if you exit during a competition you will lose you chance.	3. リーグ戦は途中で終了すると挑戦権が失われますのでご注意ください！	3. 若在聯賽進行間中斷遊戲，將取消參賽機會	3. 若在联赛进行间中断游戏，将取消参赛机会
+373	4. 리그는 6단계로 나뉘어 있으며, 상위 30%에 속하면 다음 리그로 승급, 하위 30%에 속하면 하위 리그로 강등됩니다. *최상위 리그 제외	4. There are 6 tiers in the league. If you are in the top 30%, you will be promoted to the next tier. If you are in the bottom 30%, you will be demoted to the previous tier. *Except for the highest tier.	4. リーグは6段階で分かれており、上位30％に属すると次のリーグに昇格、下位30％に属すると下のリーグに降格されます。※最上位リーグは例外	4. 共為6個階級。上段30%可晉級，下段30%將降級 *最頂尖階級除外	4. 共为6个阶级。上段30%可晋级，下段30%将降级 *最顶尖阶级除外
+374	5. 리그에 따라 시작 웨이브의 난이도가 다르며, 웨이브는 빠르게 강해집니다.	5. The difficulty of the starting wave depends on tiers which also determine how fast the wave gets difficult. 	5. リーグによって開始Waveの難易度が変わり、Waveは強さを増します。	5. Wave的難易度將依據階級不同而調整	5. Wave的难易度将依据阶级不同而调整
+375	6. 적을 빠르게 처치할 수록 보너스 점수를 많이 획득할 수 있습니다.	6. More bonus scores are acquired if enemies are defeated faster.	6. 敵を早めに倒すほど、ボーナスポイントを多く獲得できます。	6. 越早擊退怪物可以獲得的分數越多	6. 越早击退怪物可以获得的分数越多
+376	6. 시즌 정산 시 자신의 리그와 그룹 내 순위에 따라 붉은 보석 보상을 받습니다.	6. The amount of Red Diamonds granted at the end of season depends on your rank in the league and group 	6. シーズン集計で自分のリーグとグループ内の順位によって赤いダイヤを報酬として獲得できます。	6. 賽季結算時，將依據所屬聯盟發送紅寶石獎勵	6. 赛季结算时，将依据所属联盟发送红宝石奖励
+377	붉은 보석	Red Diamonds	赤いダイヤ	紅寶石	红宝石
+378	리그전 보상	Competition Rewards	リーグ戦報酬	聯賽獎勵	联赛奖励
+379	리그전 보상이 도착했습니다.	Your Competition Rewards Have Arrived	リーグ戦報酬が届きました。	感謝您的參與	感谢您的参与
+380	4~5성 확정 아처 뽑기	4~5 Star Archer Guaranteed Draw	星4～5アーチャー確定ガチャ	4~5星弓箭手絕對召喚	4~5星弓箭手绝对召唤
+381	랜덤 선물	Random Gifts	ランダムプレゼント	隨機禮物	随机礼物
+382	첫 결제 이후 수령 가능합니다.	Available after the first purchase!	初回チャージ以降受け取りできます。	可於首購後領取	可于首购后领取
+383	수령 이후 전면 광고가 제거됩니다.	Pop-up Ads are removed after it is received	受け取った後、全面広告(報酬なし)がブロックされます。	領取後可去除強制性廣告	领取后可去除强制性广告
+384	첫 충전 선물	First Purchase Present	初回チャージボーナス	初次儲值獎勵	初次儲值獎勵
+385	전투 종료	Battle Over	戦闘終了	戰鬥結束	战斗结束
+386	4~5성 확정 아처 뽑기	4~5 Star Archer x1	星4～5アーチャー 確定ガチャ	4~5星 弓箭手絕對召喚	4~5星 弓箭手绝对召唤
+387	보석을 {0} 개 소모하여 구매하시겠습니까?	Do you wish to spend {0} gem(s) to purchase?	ダイヤを{0}個を消費して購入しますか？	確定要消耗{0}個寶石來購買嗎？	确定要消耗{0}个宝石来购买吗？
+388	시즌 도전보상	Season Challenge Rewards	シーズン挑戦報酬	賽季挑戰獎勵	赛季挑战奖励
+389	{0} {1} 레벨 즉시 업그레이드 패키지	Immediate Lv.{1} {0} Upgrade Pack	{0}{1}レベルアップパッケージ	{0}等級{1}急速升級包	{0}等级{1}急速升级包
+390	자동으로 다이아 환생을 시작합니다	Rebirth automatically using Diamonds.	自動でダイヤ転生を始めます。	自動使用寶石來進行重生	自動使用寶石來進行重生
+391	광고제거 상품 구매 시 자동으로 활성화됩니다.	Automatically activated upon purchase of Adblock Package.	広告ブロック商品購入時、自動でONになります。	購買去除廣告商品時自動套用效果	購買去除廣告商品時自動套用效果
+392	-자동 업그레이드 활성화 시 업그레이드 항목 중 가장 저렴한 것을 우선으로 업그레이드합니다.	-When auto upgrade is activated, the cheapest one among upgrades will be upgraded primarily.	-自動アップグレードONでアップグレード項目の中で最も安いものを優先でアップグレードします。	-使用自動升級時，將從花費最低的項目開始升級	-使用自動升級時，將從花費最低的項目開始升級
+393	-자동 업그레이드는 시작의 섬 이후 가능합니다.	-Auto upgrade is available after Isle of Beginning.	-自動アップグレードは「始まりの島」以降使用できます。-	-自動升級需先解鎖初始之島後方可使用	-自動升級需先解鎖初始之島後方可使用
+394	-광고제거 상품 구매 시 자유롭게 활성화할 수 있습니다.	-Activated freely upon purchase of Adblock Package.	-広告ブロック商品購入時、自由にONにできます。	-購買去除廣告商品時可自由激活	-購買去除廣告商品時可自由激活
+395	-중간에 게임을 끄게 되면 자동 업그레이드가 꺼집니다.	-Auto upgrade is turned off if the game is closed in the middle of playing.	-途中でゲームを消すと自動アップグレードもOFFになります。	-中途若關閉遊戲，將停止自動升級	-中途若關閉遊戲，將停止自動升級
+396	자동 업그레이드	Auto Upgrade	自動アップグレード	自動升級	自动升级
+397	할인	Discount	割引	優惠	优惠
+398	Google로 로그인	Log in with Google	Googleでログイン	以Google登入	以Google登入
+399	Apple로 로그인	Log in with Aaple	Appleでログイン	以Apple登入	以Apple登入
+400	GameCenter로 로그인	Log in with GameCenter	GameCenterでログイン	登入到GameCenter	登入到GameCenter
+401	Google Play로 로그인	Log in with Google Play	Google Playでログイン	登入到Google Play	登入到Google Play
+402	Google 연동됨	Linked to Google	Google連携済み	Google綁定成功	Google绑定成功
+403	Apple 연동됨	Linked to Apple	Apple連携済み	Apple綁定成功	Apple绑定成功
+404	GameCenter 연동됨	Linked to GameCenter	GameCenter連携済み	GameCenter綁定成功	GameCenter绑定成功
+405	Google Play 연동됨	Linked to Google Play	Google Play連携済み	Google Play綁定成功	Google Play绑定成功
+406	연동됨	Linked	連携済み	綁定	绑定
+407	이미 연동되어있는 계정이 있습니다.	You already have a linked account.	既に連携されているアカウントが存在します。	存在已綁定的帳號	存在已绑定的帐号
+408	계정이 연동되어있지 않습니다.	The account is not linked.	アカウントが連携されていません。	帳號未綁定	帐号未绑定
+409	로그아웃 시, 계정을 복구할 수 없습니다.	The account is not restorable once logged out.	ログアウトの際、アカウントを復旧できません。	登出後將無法復原帳號	登出后将无法復原帐号
+410	계정 연동	Link Account	アカウント連携	帳號綁定	帐号绑定
+411	연동 가능한 플랫폼이 없습니다.	No platform to link	連携できるプラットフォームが存在しません。	沒有可綁定的平台	没有可绑定的平台
+412	환생 대기시간 감소	Reduce rebirth waiting time	転生クールタイム減少	重生冷卻時間減少	重生冷却时间减少
+413	자동 다시하기	Automatically retry	自動やり直し	自動重新開始	自动重新开始
+414	{0}초 후 자동으로 다시합니다.	Automatically retrying in {0}s	{0}秒後自動でやり直します。	{0}秒後自動重新開始	{0}秒后自动重新开始
+415	연동에 실패하였습니다.	Failed to link.	連携に失敗しました。	綁定失敗	绑定失败
+416	{0}을(를) 불러오시겠습니까?	Do you want to load {0}?	{0}を呼び込みますか？	確定要喚回{0}嗎？	确定要唤回{0}吗？
+417	불러오기	Load	呼び込み	確定喚回	确定唤回
+418	현재 계정에 소셜 연동이 되어있지 않습니다. ;불러오기 시, 더 이상 현재 계정에 접속할 수 없습니다.;불러오시겠습니까?	The current account is not linked to any platform. ;Once loaded, this account is no longer available.;Proceed to load?	現在のアカウントはソーシャルに連携されていません。;呼び込みをすると、現在のアカウントにはログインできなくなります。;呼び込みますか？	目前的帳號沒有綁定。;喚回後目前帳號將再也無法登入。;確認要喚回嗎？	目前的帐号没有绑定。;唤回后目前帐号将再也无法登入。;确认要唤回吗？
+419	재접속이 필요합니다.	Reconnection required.	再接続してください。	需重新登錄。	需重新登录。
+420	친구 추가	Add Friend	フレンド申請	添加好友	添加好友
+421	신고	Report	報告	舉報	举报
+422	프로필 변경	Edit Profile	プロフィール変更	更改個人檔案	更改个人档案
+423	Lv.{0} 화살 획득 시 잠금 해제	Unlocked after Lv. {0} Arrow is acquired	Lv.{0}矢を獲得するとロック解除	獲得Lv.{0}箭矢時方可解鎖	获得Lv.{0}箭矢时方可解锁
+424	Lv.{0} {1} 아처 보유 시 잠금 해제	Unlocked after Lv. {0} {1} Archer is in possession	Lv.{0}の{1}アーチャー所持でロック解除	獲得Lv.{0} {1}弓箭手時方可解鎖	获得Lv.{0} {1}弓箭手时方可解锁
+425	VIP{0} 효과 보유 시 잠금 해제	Unlocked after VIP{0} is in effect	VIP{0}効果でロック解除	獲得VIP{0}效果時方可解鎖	获得VIP{0}效果时方可解锁
+426	{0} 리그전 진입 시 잠금 해제	Unlocked after entering into {0} Competition	{0}リーグ戦に進むとロック解除	進入{0}聯盟時方可解鎖	进入{0}联盟时方可解锁
+427	{0} 펫 보유 시 잠금 해제	Unlocked after Pet {0} is in possession	{0}ペット所持でロック解除	擁有寵物{0}時方可解鎖	拥有宠物{0}时方可解锁
+428	기본 보유	Basic Possession	基本所有	基本持有	基本持有
+429	잠금	Lock	ロック	鎖定	锁定
+430	아이콘	Icon	アイコン	圖示	图示
+431	테두리	Border	フレーム	邊框	边框
+432	클랜보스 보상	Guild Boss Rewards	クランボス報酬	公會BOSS獎勵	公会BOSS奖励
+433	잠금 해제 후 이용 가능합니다.	Available after it is unlocked	ロック解除後に利用できます。	解鎖後方可使用	解锁后方可使用
+434	사용 중	In Use	使用中	使用中	使用中
+435	선택	Choose	選択	選擇	选择
+436	최적화 모드	Optimal Mode	最適化モード	優化模式	优化模式
+437	마지막 기회! 더 이상의 할인 상품은 제공되지 않습니다.	Last Chance! The Cheapest It Can Get.	ラストチャンス！これ以上割引は提供されません。	最後機會！之後將不再提供此優惠商品	最后机会！之后将不再提供此优惠商品
+438	보스전 티켓이 부족할 경우 자동으로 퇴장합니다.	If boss ticket(s) is insufficient, you will automatically go back.	ボス戦チケットが足りない場合、退場します。	BOSS戰券不足時將回到主畫面	BOSS战券不足时将回到主画面

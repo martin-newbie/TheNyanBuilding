@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: f68be80dadbea9a44b196c5705e6998f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -85057556977526450
+    second: MA_ui_madarcher_ui_pack1_single (1)_0
+  - first:
+      213: -3853069697521557887
+    second: MA_ui_madarcher_ui_pack1_single (1)_1
+  - first:
+      213: 6218104206941157138
+    second: MA_ui_madarcher_ui_pack1_single (1)_2
+  - first:
+      213: -6770945738051324590
+    second: MA_ui_madarcher_ui_pack1_single (1)_3
+  - first:
+      213: 5564263115350995222
+    second: MA_ui_madarcher_ui_pack1_single (1)_4
+  - first:
+      213: 4492559443923221192
+    second: MA_ui_madarcher_ui_pack1_single (1)_5
+  - first:
+      213: 1748222481013559596
+    second: MA_ui_madarcher_ui_pack1_single (1)_6
+  - first:
+      213: 6808311384110739779
+    second: MA_ui_madarcher_ui_pack1_single (1)_7
+  - first:
+      213: 1621650288690410788
+    second: MA_ui_madarcher_ui_pack1_single (1)_8
+  - first:
+      213: 2188459826290890367
+    second: MA_ui_madarcher_ui_pack1_single (1)_9
+  - first:
+      213: -5934285100910793384
+    second: MA_ui_madarcher_ui_pack1_single (1)_10
+  - first:
+      213: -6223858251294958958
+    second: MA_ui_madarcher_ui_pack1_single (1)_11
+  - first:
+      213: 5103158681256553940
+    second: MA_ui_madarcher_ui_pack1_single (1)_12
+  - first:
+      213: 5602965129578629395
+    second: MA_ui_madarcher_ui_pack1_single (1)_13
+  - first:
+      213: 5304718868224895798
+    second: MA_ui_madarcher_ui_pack1_single (1)_14
+  - first:
+      213: -4997371628423764014
+    second: MA_ui_madarcher_ui_pack1_single (1)_15
+  - first:
+      213: 7040671059723177323
+    second: MA_ui_madarcher_ui_pack1_single (1)_16
+  - first:
+      213: -6888616501084968589
+    second: MA_ui_madarcher_ui_pack1_single (1)_17
+  - first:
+      213: 4568979625326196304
+    second: MA_ui_madarcher_ui_pack1_single (1)_18
+  - first:
+      213: 2499807912394094873
+    second: MA_ui_madarcher_ui_pack1_single (1)_19
+  - first:
+      213: 6012491320594805457
+    second: MA_ui_madarcher_ui_pack1_single (1)_20
+  - first:
+      213: 8339997530633142511
+    second: MA_ui_madarcher_ui_pack1_single (1)_21
+  - first:
+      213: 1986631769133459455
+    second: MA_ui_madarcher_ui_pack1_single (1)_22
+  - first:
+      213: -3236254905781372386
+    second: MA_ui_madarcher_ui_pack1_single (1)_23
+  - first:
+      213: 6180924135347931784
+    second: MA_ui_madarcher_ui_pack1_single (1)_24
+  - first:
+      213: -3047615699706936262
+    second: MA_ui_madarcher_ui_pack1_single (1)_25
+  - first:
+      213: 6729345688348803006
+    second: MA_ui_madarcher_ui_pack1_single (1)_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 843
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4954e24a90d1def0800000000000000
+      internalID: -85057556977526450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 584
+        width: 228
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ed7684685278ac0800000000000000
+      internalID: -3853069697521557887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 735
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217f61fc4d42b4650800000000000000
+      internalID: 6218104206941157138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_3
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 806
+        width: 153
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255710aa9b4c802a0800000000000000
+      internalID: -6770945738051324590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 678
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611fd4b92db383d40800000000000000
+      internalID: 5564263115350995222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 740
+        width: 167
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cabe5bf207c85e30800000000000000
+      internalID: 4492559443923221192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 687
+        width: 89
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c215a21851fe24810800000000000000
+      internalID: 1748222481013559596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_7
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 688
+        width: 100
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3413b22c12bfb7e50800000000000000
+      internalID: 6808311384110739779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 613
+        width: 114
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4253d4f7852418610800000000000000
+      internalID: 1621650288690410788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 623
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f761847fd98fe5e10800000000000000
+      internalID: 2188459826290890367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 623
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85da154542f25ada0800000000000000
+      internalID: -5934285100910793384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_11
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 537
+        width: 181
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a1e2755e960a9a0800000000000000
+      internalID: -6223858251294958958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 512
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd6fbc68cf02d640800000000000000
+      internalID: 5103158681256553940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 498
+        width: 147
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3194f6d791bb1cd40800000000000000
+      internalID: 5602965129578629395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 539
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b6bdd74b52e9940800000000000000
+      internalID: 5304718868224895798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_15
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 527
+        width: 200
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7af2d2bf4c5aab0800000000000000
+      internalID: -4997371628423764014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 496
+        width: 178
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d4c27960d75b160800000000000000
+      internalID: 7040671059723177323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_17
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 348
+        width: 149
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379afea2ac7b660a0800000000000000
+      internalID: -6888616501084968589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 353
+        width: 476
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056b09103c6486f30800000000000000
+      internalID: 4568979625326196304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 167
+        width: 251
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919f5f04d0a11b220800000000000000
+      internalID: 2499807912394094873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 171
+        width: 251
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d23c232009a07350800000000000000
+      internalID: 6012491320594805457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_21
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 163
+        width: 149
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe00601219f9db370800000000000000
+      internalID: 8339997530633142511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 17
+        width: 185
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a4b2811fe19b10800000000000000
+      internalID: 1986631769133459455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 18
+        width: 185
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a39424f438613d0800000000000000
+      internalID: -3236254905781372386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 44
+        width: 117
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 16, y: 30, z: 16, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a4d0fc0cd07c550800000000000000
+      internalID: 6180924135347931784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_25
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 100
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3480170ba1b4b5d0800000000000000
+      internalID: -3047615699706936262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MA_ui_madarcher_ui_pack1_single (1)_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 96
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf36dcff30736d50800000000000000
+      internalID: 6729345688348803006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: front_land
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d053bfc078df44b87a45b8d2e6a62055, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3f0034573274e0340b3c530eb3907fc1, type: 3}
+  - {fileID: 21300000, guid: b0672ad91da006d4e98c2f9b4823f0dc, type: 3}
+  - {fileID: 21300000, guid: 5ee59eaba810bb343ad914e422ca861f, type: 3}
+  - {fileID: 21300000, guid: e2edc62e114bdd243a6147e532fd5c3d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Mi_store_draw_frontLand_multiple_0001
+  - Mi_store_draw_frontLand_multiple_0002
+  - Mi_store_draw_frontLand_multiple_0000
+  - Mi_store_draw_frontLand_multiple_0003
+  m_RenderDataMap: {}
+  m_Tag: front_land
+  m_IsVariant: 0

@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff903ee8c68445baa353b3171d6364, type: 3}
+  m_Name: LocalizeData_Archer
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_Archer
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uD0C0\uC6B0"
+    localize_value_en: Taurus
+    localize_value_ja: "\u30BF\u30A6"
+    localize_value_tc: "\u6DD8\u6DD8"
+    localize_value_sc: "\u6DD8\u6DD8"
+  - key_index: 1
+    localize_value_kr: "\uBE0C\uB77C\uC6B0\uB2C8"
+    localize_value_en: Brownie
+    localize_value_ja: "\u30D6\u30E9\u30A6\u30CB\u30FC"
+    localize_value_tc: "\u5E03\u6717\u5C3C"
+    localize_value_sc: "\u5E03\u6717\u5C3C"
+  - key_index: 2
+    localize_value_kr: "\uBC14\uB2C8"
+    localize_value_en: Bunny
+    localize_value_ja: "\u30D0\u30CB\u30FC"
+    localize_value_tc: "\u5154\u5154"
+    localize_value_sc: "\u5154\u5154"
+  - key_index: 3
+    localize_value_kr: "\uD2F0\uAC70"
+    localize_value_en: Tyger
+    localize_value_ja: "\u30C6\u30A3\u30AC\u30FC"
+    localize_value_tc: "\u5C0F\u864E"
+    localize_value_sc: "\u5C0F\u864E"
+  - key_index: 4
+    localize_value_kr: "\uBE44\uD504"
+    localize_value_en: Beef
+    localize_value_ja: "\u30D3\u30FC\u30D5"
+    localize_value_tc: "\u8089\u8089"
+    localize_value_sc: "\u8089\u8089"
+  - key_index: 5
+    localize_value_kr: "\uB124\uB808\uC6B0\uC2A4"
+    localize_value_en: Nereus
+    localize_value_ja: "\u30CD\u30EC\u30A6\u30B9"
+    localize_value_tc: "\u6D85\u67D4\u65AF"
+    localize_value_sc: "\u6D85\u67D4\u65AF"
+  - key_index: 6
+    localize_value_kr: "\uC824\uB2E4"
+    localize_value_en: Zelda
+    localize_value_ja: "\u30BC\u30EB\u30C0"
+    localize_value_tc: "\u585E\u723E\u9054"
+    localize_value_sc: "\u585E\u5C14\u8FBE"
+  - key_index: 7
+    localize_value_kr: "\uC904\uB9AC\uC575"
+    localize_value_en: Julian
+    localize_value_ja: "\u30B8\u30E5\u30EA\u30A2\u30F3"
+    localize_value_tc: "\u6731\u8389\u9E1A"
+    localize_value_sc: "\u6731\u8389\u9E66"
+  - key_index: 8
+    localize_value_kr: "\uB12C\uC2A8"
+    localize_value_en: Nelson
+    localize_value_ja: "\u30CD\u30EB\u30BD\u30F3"
+    localize_value_tc: "\u7EB3\u5C14\u900A"
+    localize_value_sc: "\u7EB3\u5C14\u900A"
+  - key_index: 9
+    localize_value_kr: "\uD1A0\uB2C8"
+    localize_value_en: Tony
+    localize_value_ja: "\u30C8\u30CB\u30FC"
+    localize_value_tc: "\u6258\u5C3C"
+    localize_value_sc: "\u6258\u5C3C"
+  - key_index: 10
+    localize_value_kr: "\uD638\uADF8"
+    localize_value_en: Hog
+    localize_value_ja: "\u30DB\u30C3\u30B0"
+    localize_value_tc: "\u970D\u683C"
+    localize_value_sc: "\u970D\u683C"
+  - key_index: 11
+    localize_value_kr: "\uC288\uD53C\uAC94\uB9CC"
+    localize_value_en: Spiegel
+    localize_value_ja: "\u30B7\u30E5\u30D4\u30FC\u30B2\u30EB"
+    localize_value_tc: "\u53F2\u6BD4\u514B\u66FC"
+    localize_value_sc: "\u53F2\u6BD4\u514B\u66FC"
+  - key_index: 12
+    localize_value_kr: "\uD310\uD130"
+    localize_value_en: Panther
+    localize_value_ja: "\u30D1\u30F3\u30B5\u30FC"
+    localize_value_tc: "\u9ED1\u8C79"
+    localize_value_sc: "\u9ED1\u8C79"
+  - key_index: 13
+    localize_value_kr: "\uC789\uC5B4\uACF5\uC791"
+    localize_value_en: Carp
+    localize_value_ja: "\u30B3\u30A4\u516C\u7235"
+    localize_value_tc: "\u9BC9\u9B5A\u516C\u7235"
+    localize_value_sc: "\u9CA4\u9C7C\u516C\u7235"
+  - key_index: 14
+    localize_value_kr: "\uC870\uB85C"
+    localize_value_en: Zorro
+    localize_value_ja: "\u30BE\u30ED"
+    localize_value_tc: "\u9732\u9732"
+    localize_value_sc: "\u9732\u9732"
+  - key_index: 15
+    localize_value_kr: "\uD5E4\uB4DC\uC705"
+    localize_value_en: Hedwig
+    localize_value_ja: "\u30D8\u30C3\u30C9\u30A6\u30A3\u30C3\u30B0"
+    localize_value_tc: "\u6D77\u5FB7\u5A01"
+    localize_value_sc: "\u6D77\u5FB7\u5A01"
+  - key_index: 16
+    localize_value_kr: "\uB77C\uD504"
+    localize_value_en: Raffe
+    localize_value_ja: "\u30E9\u30D5"
+    localize_value_tc: "\u62C9\u666E"
+    localize_value_sc: "\u62C9\u666E"
+  - key_index: 17
+    localize_value_kr: "\uC2A4\uCE74"
+    localize_value_en: Scar
+    localize_value_ja: "\u30B9\u30AB\u30FC"
+    localize_value_tc: "\u65AF\u5361"
+    localize_value_sc: "\u65AF\u5361"
+  - key_index: 18
+    localize_value_kr: "\uB4DC\uB808\uC774\uD06C"
+    localize_value_en: Drake
+    localize_value_ja: "\u30C9\u30EC\u30A4\u30AF"
+    localize_value_tc: "\u5FB7\u96F7\u514B"
+    localize_value_sc: "\u5FB7\u96F7\u514B"
+  - key_index: 19
+    localize_value_kr: "\uD37C\uD54F\uC2A8"
+    localize_value_en: Pappitson
+    localize_value_ja: "\u30D1\u30D4\u30C3\u30C8\u30BD\u30F3"
+    localize_value_tc: "\u6015\u6BD4\u7279\u677E"
+    localize_value_sc: "\u6015\u6BD4\u7279\u677E"
+  - key_index: 20
+    localize_value_kr: "\uB0B8\uC2DC"
+    localize_value_en: Nancy
+    localize_value_ja: "\u30CA\u30F3\u30B7\u30FC"
+    localize_value_tc: "\u5357\u5E0C"
+    localize_value_sc: "\u5357\u5E0C"
+  - key_index: 21
+    localize_value_kr: "\uB514\uB178"
+    localize_value_en: Dino
+    localize_value_ja: "\u30C7\u30A3\u30CE"
+    localize_value_tc: "\u8FEA\u8AFE"
+    localize_value_sc: "\u8FEA\u8BFA"
+  - key_index: 22
+    localize_value_kr: "\uD230\uD230"
+    localize_value_en: Tuntun
+    localize_value_ja: "\u30C4\u30F3\u30C4\u30F3"
+    localize_value_tc: "\u541E\u541E"
+    localize_value_sc: "\u541E\u541E"
+  - key_index: 23
+    localize_value_kr: "\uD32C\uB3C4\uB9AC"
+    localize_value_en: Pandori
+    localize_value_ja: "\u30D1\u30F3\u30C9\u30EA"
+    localize_value_tc: "\u6F58\u591A\u5229"
+    localize_value_sc: "\u6F58\u591A\u5229"
+  - key_index: 24
+    localize_value_kr: "\uBE0C\uB808\uB514"
+    localize_value_en: Brady
+    localize_value_ja: "\u30D6\u30E9\u30C3\u30C7\u30A3"
+    localize_value_tc: "\u8C9D\u8482"
+    localize_value_sc: "\u8D1D\u8482"
+  - key_index: 25
+    localize_value_kr: "\uC6E1"
+    localize_value_en: Wong
+    localize_value_ja: "\u30A6\u30A9\u30F3"
+    localize_value_tc: "\u6EAB"
+    localize_value_sc: "\u6E29"
+  - key_index: 26
+    localize_value_kr: "\uBA38\uD53C"
+    localize_value_en: Murphy
+    localize_value_ja: "\u30DE\u30C3\u30D5\u30A3\u30FC"
+    localize_value_tc: "\u58A8\u83F2"
+    localize_value_sc: "\u58A8\u83F2"
+  - key_index: 27
+    localize_value_kr: "\uC2DC\uBAAC"
+    localize_value_en: Simon
+    localize_value_ja: "\u30B7\u30E2\u30F3"
+    localize_value_tc: "\u897F\u8499"
+    localize_value_sc: "\u897F\u8499"
+  - key_index: 28
+    localize_value_kr: "\uB809\uC2A4"
+    localize_value_en: Rex
+    localize_value_ja: "\u30EC\u30C3\u30AF\u30B9"
+    localize_value_tc: "\u96F7\u514B\u65AF"
+    localize_value_sc: "\u96F7\u514B\u65AF"
+  - key_index: 29
+    localize_value_kr: "\uAC00\uC824"
+    localize_value_en: Gazelle
+    localize_value_ja: "\u30AC\u30BC\u30EB"
+    localize_value_tc: "\u683C\u8CFD\u723E"
+    localize_value_sc: "\u683C\u8D5B\u5C14"
+  - key_index: 30
+    localize_value_kr: "\uD1A0\uB4DC"
+    localize_value_en: Todd
+    localize_value_ja: "\u30C8\u30C3\u30C9"
+    localize_value_tc: "\u9676\u5FB7"
+    localize_value_sc: "\u9676\u5FB7"
+  - key_index: 31
+    localize_value_kr: "\uCF54\uD321"
+    localize_value_en: Raccoo
+    localize_value_ja: "\u30E9\u30AF\u30FC"
+    localize_value_tc: "\u6D63\u4ED4"
+    localize_value_sc: "\u6D63\u4ED4"
+  - key_index: 32
+    localize_value_kr: "\uCF08\uD53C"
+    localize_value_en: Kelpie
+    localize_value_ja: "\u30B1\u30EB\u30D5\u30A3"
+    localize_value_tc: "\u51F1\u723E\u6BD4"
+    localize_value_sc: "\u51EF\u5C14\u6BD4"
+  - key_index: 33
+    localize_value_kr: "\uC81C\uC2A4\uD130"
+    localize_value_en: Dexter
+    localize_value_ja: "\u30BC\u30C3\u30C8\u30B9\u30BF\u30FC"
+    localize_value_tc: "\u5091\u65AF"
+    localize_value_sc: "\u6770\u65AF"
+  - key_index: 34
+    localize_value_kr: "\uB9B4\uB9AC"
+    localize_value_en: Lily
+    localize_value_ja: "\u30EA\u30EA\u30FC"
+    localize_value_tc: "\u8389\u8389"
+    localize_value_sc: "\u8389\u8389"
+  - key_index: 35
+    localize_value_kr: "\uBB49\uCE58"
+    localize_value_en: Genta
+    localize_value_ja: "\u30E4\u30F3\u30C1\u30E3\u30E2\u30F3"
+    localize_value_tc: "\u5143\u592A"
+    localize_value_sc: "\u5143\u592A"
+  - key_index: 36
+    localize_value_kr: "\uCE04\uCE04"
+    localize_value_en: Chuchu
+    localize_value_ja: "\u30C1\u30E5\u30C1\u30E5\u30FC"
+    localize_value_tc: "\u90B1\u90B1"
+    localize_value_sc: "\u90B1\u90B1"
+  - key_index: 37
+    localize_value_kr: "\uD328\uD2F0"
+    localize_value_en: Patty
+    localize_value_ja: "\u30D1\u30C6\u30A3\u30FC"
+    localize_value_tc: "\u8C9D\u8482"
+    localize_value_sc: "\u8D1D\u8482"
+  - key_index: 38
+    localize_value_kr: "\uD788\uD3EC"
+    localize_value_en: Hippo
+    localize_value_ja: "\u30D2\u30C3\u30DD"
+    localize_value_tc: "\u5695\u7C73"
+    localize_value_sc: "\u59C6\u7C73"
+  - key_index: 39
+    localize_value_kr: "\uCF00\uB85C"
+    localize_value_en: Kero
+    localize_value_ja: "\u30B1\u30ED"
+    localize_value_tc: "\u5361\u5361"
+    localize_value_sc: "\u5361\u5361"
+  - key_index: 40
+    localize_value_kr: "\uD558\uC6B4\uB4DC"
+    localize_value_en: Hound
+    localize_value_ja: "\u30CF\u30A6\u30F3\u30C9"
+    localize_value_tc: "\u7375\u72FC"
+    localize_value_sc: "\u730E\u72FC"
+  - key_index: 41
+    localize_value_kr: "\uD06C\uB8E8\uB178"
+    localize_value_en: Koruuno
+    localize_value_ja: "\u30B3\u30EB\u30FC\u30CE"
+    localize_value_tc: "\u67EF\u8DEF\u8AFE"
+    localize_value_sc: "\u67EF\u8DEF\u8BFA"
+  - key_index: 42
+    localize_value_kr: "\uBAA8\uBAA8"
+    localize_value_en: Momo
+    localize_value_ja: "\u30E2\u30E2"
+    localize_value_tc: "\u9ED8\u9ED8"
+    localize_value_sc: "\u9ED8\u9ED8"
+  - key_index: 43
+    localize_value_kr: "\uBABD\uD0A4"
+    localize_value_en: Lil' Kong
+    localize_value_ja: "\u30C9\u30F3\u30AD\u30FC\u30B3\u30F3\u30B0"
+    localize_value_tc: "\u91D1\u525B"
+    localize_value_sc: "\u91D1\u521A"
+  - key_index: 44
+    localize_value_kr: "\uB9C8\uD2F0"
+    localize_value_en: Marty
+    localize_value_ja: "\u30DE\u30FC\u30C6\u30A3"
+    localize_value_tc: "\u99AC\u8482"
+    localize_value_sc: "\u9A6C\u8482"
+  - key_index: 45
+    localize_value_kr: "\uCF54\uBC18"
+    localize_value_en: Bully
+    localize_value_ja: "\u30B3\u30D0\u30F3"
+    localize_value_tc: "\u9BCA\u738B"
+    localize_value_sc: "\u9CA8\u738B"
+  - key_index: 46
+    localize_value_kr: "\uB77C\uC774\uB178"
+    localize_value_en: Rhino
+    localize_value_ja: "\u30E9\u30A4\u30CE"
+    localize_value_tc: "\u7280\u592A\u90CE"
+    localize_value_sc: "\u7280\u592A\u90CE"
+  - key_index: 47
+    localize_value_kr: "\uC2E4\uD53C"
+    localize_value_en: Sylphy
+    localize_value_ja: "\u30B7\u30EB\u30D5\u30A3"
+    localize_value_tc: "\u7D55\u5F71"
+    localize_value_sc: "\u7EDD\u5F71"
+  resourceName: LocalizeData_Archer

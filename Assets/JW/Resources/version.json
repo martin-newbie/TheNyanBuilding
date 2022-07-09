@@ -1,0 +1,126 @@
+{
+"archer_map_type0" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":2000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":100},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":3},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":5},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":5}
+],
+"archer_map_type1" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":5000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":200},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":5},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":5},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":5},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":5},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":5}
+],
+"archer_map_type2" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":10000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":300},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":5},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":15,"param_0":5}
+],
+"archer_map_type3" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":20000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":300},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":15,"param_0":10}
+],
+"archer_map_type4" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":30000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":500},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":15,"param_0":10}
+],
+"archer_map_type5" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":60000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":700},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":15,"param_0":10}
+],
+"archer_map_type6" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":100000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":1000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":50},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":15,"param_0":20}
+],
+"archer_map_type7" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":100000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":1000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":50},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":15,"param_0":20}
+],
+"archer_map_type8" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":100000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":1000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":50},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":0,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":1,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":16,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"7","reward_amount":17,"param_0":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","reward_type":"7","reward_amount":15,"param_0":20}
+],
+"archer_dia_type_0" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","reward_type":"1","reward_amount":500}
+],
+"archer_dia_type_1" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":2000}
+],
+"archer_dia_type_2" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":10000}
+],
+"archer_dia_type_3" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":40000}
+],
+"archer_dia_type_4" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":120000}
+],
+"archer_adremove" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":3000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"3","reward_amount":15},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"5","reward_amount":50}
+],
+"archer_starter_type_0" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":500},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"2","reward_amount":10000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":10},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"5","reward_amount":10}
+],
+"archer_starter_type_1" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":1500},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"2","reward_amount":20000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":20},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"5","reward_amount":15}
+],
+"archer_starter_type_2" :[
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"1","reward_amount":10000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"2","reward_amount":50000},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"4","reward_amount":30},
+{"has_mail_id":true,"title_id":211,"message_id":212,"has_reward":"true","expire_time":"2021-12-01T05:54:37.443Z","reward_type":"5","reward_amount":0}
+]
+}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fingers
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 72ae666f86682ea49b850594980b98e8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 79237470b5ec5ba40986f2bb760b6ca9, type: 3}
+  - {fileID: 21300000, guid: e28ce682b41b5c749aad8919fef1a3c0, type: 3}
+  - {fileID: 21300000, guid: f8a1e2a6edb754a4cac3bb6861bd79c9, type: 3}
+  - {fileID: 21300000, guid: c1a7ec87e41a9644a8045256946918ec, type: 3}
+  - {fileID: 21300000, guid: 6757549a22bf6ae48b266df0f247412c, type: 3}
+  - {fileID: 21300000, guid: fb2c171b92269cf4a9586383ffd193b4, type: 3}
+  - {fileID: 21300000, guid: dd92eeeb5531a4f49b42419104f1967d, type: 3}
+  - {fileID: 21300000, guid: 67456dffbf24ab04fa6488eeef684684, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - finger_0001
+  - finger_0003
+  - finger_0007
+  - finger_0002
+  - finger_0004
+  - finger_0006
+  - finger_0000
+  - finger_0005
+  m_RenderDataMap: {}
+  m_Tag: fingers
+  m_IsVariant: 0

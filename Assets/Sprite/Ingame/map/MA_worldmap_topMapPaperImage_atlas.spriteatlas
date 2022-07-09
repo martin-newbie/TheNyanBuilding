@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MA_worldmap_topMapPaperImage_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 353e7c3d973a06f4e84c59619f48db80, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e26952a055729354abac091fe07e869b, type: 3}
+  - {fileID: 21300000, guid: 9ae8e0c0e7f300346be212c601a60717, type: 3}
+  - {fileID: 21300000, guid: 47de4821577813d458e94e2649c6b9d7, type: 3}
+  - {fileID: 21300000, guid: 4928a9317d3a84a489db2bcff2c1d08a, type: 3}
+  - {fileID: 21300000, guid: b751ebb1b7c05614d8916ec08520fbc5, type: 3}
+  - {fileID: 21300000, guid: 2c2881f164bcbd84d9f446ae5937420c, type: 3}
+  - {fileID: 21300000, guid: 62ff7d32c7ee5994eb428bc9dada38d8, type: 3}
+  - {fileID: 21300000, guid: 64b216c327a99904e857370377092279, type: 3}
+  - {fileID: 21300000, guid: cc753864b526883419a67fb1ac42e42e, type: 3}
+  - {fileID: 21300000, guid: 91ae83747f990c54f81e458d95484438, type: 3}
+  - {fileID: 21300000, guid: c68c9895fed1d4b42b325d9bd91bea93, type: 3}
+  - {fileID: 21300000, guid: f2073646c38e6864980b491b033c511d, type: 3}
+  - {fileID: 21300000, guid: 21f3c207c83f0c3439bd2eba615181f7, type: 3}
+  - {fileID: 21300000, guid: 2da57c27434fc484993855c2ac3b238c, type: 3}
+  - {fileID: 21300000, guid: a8861dc7622c6614796a199383c7085f, type: 3}
+  - {fileID: 21300000, guid: d64c9f384dd7be44998ae66d6afad28a, type: 3}
+  - {fileID: 21300000, guid: d2711d39471ca5e478e6426f9bf67862, type: 3}
+  - {fileID: 21300000, guid: c8189e4a82dd2a74aba91514078a6dbc, type: 3}
+  - {fileID: 21300000, guid: bb59a6aa54ccbe345b454ddd1fc3d224, type: 3}
+  - {fileID: 21300000, guid: dc3148ea545d7c34691683792d3f74a3, type: 3}
+  - {fileID: 21300000, guid: ed63d9cb95148704e8bd50e4ae2a6b47, type: 3}
+  - {fileID: 21300000, guid: 37d8740c7c74d5d4fa66db6efd32fb0b, type: 3}
+  - {fileID: 21300000, guid: 419a5eec79fc69d4689e3d09642332b4, type: 3}
+  - {fileID: 21300000, guid: 95fb02ad354b0d74fbf9d6dbc291949c, type: 3}
+  - {fileID: 21300000, guid: 72732acd19bdcd94ba4498f48c104730, type: 3}
+  - {fileID: 21300000, guid: f25c37fd6ff8e4947bfef85e59bb4730, type: 3}
+  - {fileID: 21300000, guid: c6c06d2e7cf5c6d46a4e7d14395e154f, type: 3}
+  - {fileID: 21300000, guid: 24d6bc3eed8899643a257200bdf06075, type: 3}
+  - {fileID: 21300000, guid: 96b0215eabaa1ca4486f598e8ea7523b, type: 3}
+  - {fileID: 21300000, guid: aaec746ef0b8fe1469cc5d636c5f701c, type: 3}
+  - {fileID: 21300000, guid: a08456ee36a4d614ba7d32e1bb857461, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - MA_worldmap_mapWorldMapTextImage_single
+  - MA_worldmap_mapTopTapPaperImageA_single
+  - MA_worldmap_sky_2_single
+  - MA_worldmap_mapDesertAreaImage_single
+  - MA_worldmap_mapVolcanoAreaImage_single
+  - MA_ui_mapXButton_single
+  - MA_worldmap_mapExtraObjextImage_single
+  - MA_worldmap_mapTopTapPaperImageB_single
+  - MA_worldmap_sky_3_single
+  - MA_worldmap_stage2_3_single
+  - MA_worldmap_mapTopTapPaperImageC_single
+  - MA_ui_woodArrowR_single
+  - MA_worldmap_stage2_5_single
+  - MA_worldmap_sky_0_single
+  - MA_worldmap_topMapPaperImage_single
+  - MA_worldmap_sky_1_single
+  - MA_worldmap_stage2_4_single
+  - MA_worldmap_mapForestAreaImage_single
+  - MA_worldmap_stage2_2_single
+  - MA_worldmap_currentLocationImage_single
+  - MA_worldmap_mapIslandAreaImage_single
+  - MA_worldmap_sky_extraObjextImage_single
+  - MA_worldmap_sky_4_single
+  - MA_worldmap_mapAreaRockImage_single
+  - MA_worldmap_stage2_1_single
+  - MA_worldmap_backPlateImage_single
+  - MA_worldmap_mapIceAreaImage_single
+  - MA_ui_woodArrowL_single
+  - MA_ui_textRabbitMark_single
+  - MA_worldmap_belowTextPaperImage_single
+  - MA_worldmap_stage2_0_single
+  m_RenderDataMap: {}
+  m_Tag: MA_worldmap_topMapPaperImage_atlas
+  m_IsVariant: 0

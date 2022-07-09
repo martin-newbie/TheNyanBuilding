@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff903ee8c68445baa353b3171d6364, type: 3}
+  m_Name: LocalizeData_Nickname
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_Nickname
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uAC80\uC18C\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 1
+    localize_value_kr: "\uC808\uC57D\uD558\uB294"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 2
+    localize_value_kr: "\uACB8\uC190\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 3
+    localize_value_kr: "\uAD00\uB300\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 4
+    localize_value_kr: "\uAD00\uC6A9\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 5
+    localize_value_kr: "\uADFC\uC2EC\uC774 \uC5C6\uB294"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 6
+    localize_value_kr: "\uAE0D\uC815\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 7
+    localize_value_kr: "\uB099\uCC9C\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 8
+    localize_value_kr: "\uB0AD\uB9CC\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 9
+    localize_value_kr: "\uB0B4\uC131\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 10
+    localize_value_kr: "\uB290\uAE0B\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 11
+    localize_value_kr: "\uB2E4\uC815\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 12
+    localize_value_kr: "\uB2E8\uD638\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 13
+    localize_value_kr: "\uB300\uB2F4\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 14
+    localize_value_kr: "\uB9E4\uB825\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 15
+    localize_value_kr: "\uBA85\uB791\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 16
+    localize_value_kr: "\uBBFC\uCCA9\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 17
+    localize_value_kr: "\uBC14\uB978"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 18
+    localize_value_kr: "\uBC1C\uB784\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 19
+    localize_value_kr: "\uBD80\uC9C0\uB7F0\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 20
+    localize_value_kr: "\uC0AC\uAD50\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 21
+    localize_value_kr: "\uC0AC\uB791\uC2A4\uB7F0"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 22
+    localize_value_kr: "\uC0AC\uB824 \uAE4A\uC740"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 23
+    localize_value_kr: "\uC0AC\uC2EC \uC5C6\uB294"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 24
+    localize_value_kr: "\uC0C1\uB0E5\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 25
+    localize_value_kr: "\uC131\uC2E4\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 26
+    localize_value_kr: "\uC194\uC9C1\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 27
+    localize_value_kr: "\uC21C\uC885\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 28
+    localize_value_kr: "\uC2E0\uB8B0\uD560 \uC218 \uC788\uB294"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 29
+    localize_value_kr: "\uC2E0\uC911\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 30
+    localize_value_kr: "\uC2F9\uC2F9\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 31
+    localize_value_kr: "\uC57C\uB9DD\uC5D0 \uCC2C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 32
+    localize_value_kr: "\uC608\uC758 \uBC14\uB978"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 33
+    localize_value_kr: "\uC628\uC21C\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 34
+    localize_value_kr: "\uC678\uD5A5\uC801\uC778"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 35
+    localize_value_kr: "\uC6A9\uAC10\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: ".\r"
+  - key_index: 36
+    localize_value_kr: "\uC6D0\uB9CC\uD55C"
+    localize_value_en: .
+    localize_value_ja: .
+    localize_value_tc: .
+    localize_value_sc: .
+  resourceName: LocalizeData_Nickname

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkillIcons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 1f7e1a1cafabc944a8d1c88da175eeb3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7c7f83d23e3b6dd428ab7dbd5d00cf24, type: 3}
+  - {fileID: 21300000, guid: be91ac249e363384faad11ee52154631, type: 3}
+  - {fileID: 21300000, guid: 508d1035ae349094eb200cc418732396, type: 3}
+  - {fileID: 21300000, guid: 9bd42ca53ce869c458ce2ec1fa0f2474, type: 3}
+  - {fileID: 21300000, guid: 5efc8786198b93b4ebbc673956b492b1, type: 3}
+  - {fileID: 21300000, guid: 5a7d50870aff24f4ca26f0685621386a, type: 3}
+  - {fileID: 21300000, guid: 8d64d087f65b4e3479a323aadbb9727f, type: 3}
+  - {fileID: 21300000, guid: 6561f7b7f798c914e868f16bc2872983, type: 3}
+  - {fileID: 21300000, guid: ed82718a3b1ca694fb2ac65d08d700c7, type: 3}
+  - {fileID: 21300000, guid: d5f038da4f8659b4d987827941dd1085, type: 3}
+  - {fileID: 21300000, guid: c454541bc7ded344eb358fce73f72e75, type: 3}
+  - {fileID: 21300000, guid: 0381c3ab75b09824baf41d2a8fb05c8f, type: 3}
+  - {fileID: 21300000, guid: 5dd4aadbebc390a4aa93a416fcde29a6, type: 3}
+  - {fileID: 21300000, guid: 1dc142fb3a0cc4a418a1ddab51602741, type: 3}
+  - {fileID: 21300000, guid: 1372425d729af864095e968afe5a8bed, type: 3}
+  - {fileID: 21300000, guid: b4a9867d4d269554ab3d3c727bf6fb52, type: 3}
+  - {fileID: 21300000, guid: 68ec723e3aa1dc9429bebed21cc6582a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - -01
+  - 13
+  - 05
+  - 00
+  - 02
+  - 08
+  - 03
+  - 11
+  - 04
+  - 01
+  - 06
+  - 15
+  - 10
+  - 12
+  - 07
+  - 09
+  - 14
+  m_RenderDataMap: {}
+  m_Tag: SkillIcons
+  m_IsVariant: 0

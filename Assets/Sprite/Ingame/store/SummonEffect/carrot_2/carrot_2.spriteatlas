@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: carrot_2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 1ebd56eb043d146bd96c020483448ab3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 93987921dfd60054a9b3a20a05d6c65f, type: 3}
+  - {fileID: 21300000, guid: 8800a931e37cf654ebc403316a8532ce, type: 3}
+  - {fileID: 21300000, guid: de49ff3183331554799725aa5bd3af64, type: 3}
+  - {fileID: 21300000, guid: fab89cc1d03c4324ba6c5ffc8712a103, type: 3}
+  - {fileID: 21300000, guid: 3fed0b22e89fd8d41afe2c92df426fbd, type: 3}
+  - {fileID: 21300000, guid: 387596c272c92064fb8835a983a05cab, type: 3}
+  - {fileID: 21300000, guid: 8b16b123709fa914987c7341c3449449, type: 3}
+  - {fileID: 21300000, guid: 742442b33bdeb22458570f5295e2a4a3, type: 3}
+  - {fileID: 21300000, guid: e39219143c39d1a46bb1f9e363f48f3f, type: 3}
+  - {fileID: 21300000, guid: c0ad0b84bd0aeaf44806a622cc4703ec, type: 3}
+  - {fileID: 21300000, guid: a0defa558f7dcee4cb0813c10176a5fc, type: 3}
+  - {fileID: 21300000, guid: 9040de75b78cb1744ade35ef3ed676e9, type: 3}
+  - {fileID: 21300000, guid: 51ff5785254f0c744966e4fe15e1f2c9, type: 3}
+  - {fileID: 21300000, guid: 9ce78717d2653fc4a812ab712d0242b0, type: 3}
+  - {fileID: 21300000, guid: ea899138051dc984aaabbf7e5c488961, type: 3}
+  - {fileID: 21300000, guid: c593a178a0954e6469a1000300d0e23d, type: 3}
+  - {fileID: 21300000, guid: c26e0149096e0a74ea2bb3a82de6aa99, type: 3}
+  - {fileID: 21300000, guid: 458935e9fa35b75459be5260b8f9dc5c, type: 3}
+  - {fileID: 21300000, guid: 6ab5556a4f863f346aa379db56d4b079, type: 3}
+  - {fileID: 21300000, guid: 565bc31b966d9184e95dc9735994e8dc, type: 3}
+  - {fileID: 21300000, guid: 3f355f9bd87aa9e42b594b0d6dad03b0, type: 3}
+  - {fileID: 21300000, guid: 1ee9037d7a5b8894e9adb5a186f65ea5, type: 3}
+  - {fileID: 21300000, guid: 40c2dedd2d7241c4595c60cbd2ec2dd7, type: 3}
+  - {fileID: 21300000, guid: f12a20ee640bfca48be88cc77ff4f3b6, type: 3}
+  - {fileID: 21300000, guid: 422f36dff862fd7478bfcf6610796320, type: 3}
+  - {fileID: 21300000, guid: d90f9eef59e78c64bad3eef286f41427, type: 3}
+  - {fileID: 21300000, guid: dbda38ffa63bd364b98b2a5810f17c3d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Mi_store_draw_carrot_2_multiple_0007
+  - Mi_store_draw_carrot_2_multiple_0008
+  - Mi_store_draw_carrot_2_hold_multiple_0002
+  - Mi_store_draw_carrot_2_multiple_0002
+  - Mi_store_draw_carrot_2_multiple_0012
+  - Mi_store_draw_carrot_2_multiple_0005
+  - Mi_store_draw_carrot_2_multiple_0006
+  - Mi_store_draw_carrot_2_multiple_0004
+  - Mi_store_draw_carrot_2_multiple_0009
+  - Mi_store_draw_carrot_2_hold_multiple_0001
+  - Mi_store_draw_carrot_2_multiple_0016
+  - Mi_store_draw_carrot_2_hold_multiple_0000
+  - Mi_store_draw_carrot_2_multiple_0010
+  - Mi_store_draw_carrot_2_multiple_0011
+  - Mi_store_draw_carrot_2_multiple_0017
+  - Mi_store_draw_carrot_2_multiple_0000
+  - Mi_store_draw_carrot_2_multiple_0015
+  - Mi_store_draw_carrot_2_multiple_0001
+  - Mi_store_draw_carrot_2_hold_multiple_0005
+  - Mi_store_draw_carrot_2_hold_multiple_0008
+  - Mi_store_draw_carrot_2_hold_multiple_0004
+  - Mi_store_draw_carrot_2_hold_multiple_0006
+  - Mi_store_draw_carrot_2_multiple_0014
+  - Mi_store_draw_carrot_2_hold_multiple_0003
+  - Mi_store_draw_carrot_2_hold_multiple_0007
+  - Mi_store_draw_carrot_2_multiple_0003
+  - Mi_store_draw_carrot_2_multiple_0013
+  m_RenderDataMap: {}
+  m_Tag: carrot_2
+  m_IsVariant: 0

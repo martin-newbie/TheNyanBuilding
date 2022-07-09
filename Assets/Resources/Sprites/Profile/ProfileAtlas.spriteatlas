@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ProfileAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f14005d03f9fc1042a848f2008da3eb8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 71479a107251b96429953961b43234f0, type: 3}
+  - {fileID: 21300000, guid: 35a5eb10cd2692d4796c7e36906e3f64, type: 3}
+  - {fileID: 21300000, guid: d00d42a095c0c574e8c79a0625d403e2, type: 3}
+  - {fileID: 21300000, guid: cf2b47b066c844f46a9e61b6645491c4, type: 3}
+  - {fileID: 21300000, guid: 6d0635e08ba009944b75f97484c5f972, type: 3}
+  - {fileID: 21300000, guid: d0f247e0a92bf7f489cbab0feea4ce6e, type: 3}
+  - {fileID: 21300000, guid: d4937531136b1fa4597c02fbcc67505d, type: 3}
+  - {fileID: 21300000, guid: 8b7858719e5ef854c92a4e1f7a32be84, type: 3}
+  - {fileID: 21300000, guid: f81defb170a799241bedf779f8bbe77a, type: 3}
+  - {fileID: 21300000, guid: aba83e02ca15ec54a9c15179c16be485, type: 3}
+  - {fileID: 21300000, guid: 68a84522313bd134ea106ec6900c287a, type: 3}
+  - {fileID: 21300000, guid: 2fd566821978ca849ac628fb60b5d025, type: 3}
+  - {fileID: 21300000, guid: bea8bfa2724c47240a1186991e5151da, type: 3}
+  - {fileID: 21300000, guid: b6472003466de574eae2cd2ee7931a3a, type: 3}
+  - {fileID: 21300000, guid: 52fc591344a7d7c4ebfff3e31b6b8cc9, type: 3}
+  - {fileID: 21300000, guid: 78c36e83cb21ed748a096dbe53f82e76, type: 3}
+  - {fileID: 21300000, guid: 2768462497a519f4f8ffa6b0e2b973d4, type: 3}
+  - {fileID: 21300000, guid: a3e40e242ba51c746aa75f58acfd0506, type: 3}
+  - {fileID: 21300000, guid: 8bae4834b48451644a093098f63b8265, type: 3}
+  - {fileID: 21300000, guid: 5e860e84d987d334e9974d2a7c3f0cbb, type: 3}
+  - {fileID: 21300000, guid: 79da65d46ac22e243981e0209f89458f, type: 3}
+  - {fileID: 21300000, guid: 56e339f42db2d6d4d9f698e39a6904d7, type: 3}
+  - {fileID: 21300000, guid: 90418af40da86d74bad270431f663963, type: 3}
+  - {fileID: 21300000, guid: f60b9145e0fe26c469614005490ee76b, type: 3}
+  - {fileID: 21300000, guid: 97fa49452cd3fa34b84dbf1e9218c5ff, type: 3}
+  - {fileID: 21300000, guid: 681413c57cbd48540b99b20c0ab310cf, type: 3}
+  - {fileID: 21300000, guid: 385fa106eeb2c19469b1352c1a0e2365, type: 3}
+  - {fileID: 21300000, guid: d051de36084a9b34d8ecb9daefa5a756, type: 3}
+  - {fileID: 21300000, guid: 83b22db6448fd644abc51d99183276f6, type: 3}
+  - {fileID: 21300000, guid: d278ddc6adb3ea247822a77b87f8053c, type: 3}
+  - {fileID: 21300000, guid: edef39d663d1c6c41a9958e243776a42, type: 3}
+  - {fileID: 21300000, guid: 8de070e609098514390f2481f95c597c, type: 3}
+  - {fileID: 21300000, guid: 15fdb5e65313a5749af891230e4a864d, type: 3}
+  - {fileID: 21300000, guid: 25afa35718f67744fb62f7361df7e0ab, type: 3}
+  - {fileID: 21300000, guid: 3c64ef87ba1ead4468866a80b4cb413b, type: 3}
+  - {fileID: 21300000, guid: 5188f4f7e00eb8843a3add55a5b2da49, type: 3}
+  - {fileID: 21300000, guid: a3561958b63beaf41b70d2adca976e75, type: 3}
+  - {fileID: 21300000, guid: 4bf868687d389504c8dffb6b1448908a, type: 3}
+  - {fileID: 21300000, guid: a8d39e880b67b6e4280152b0b7500343, type: 3}
+  - {fileID: 21300000, guid: a608dcb8364fd4e4ea7814609a285e74, type: 3}
+  - {fileID: 21300000, guid: 3eb4f7d80fa4401498803a99a46e7189, type: 3}
+  - {fileID: 21300000, guid: 9f2d23f8247cba74f955a2ccb0cd1631, type: 3}
+  - {fileID: 21300000, guid: a6beb4395e65499479efdd4ac882065f, type: 3}
+  - {fileID: 21300000, guid: 89189f39227dabc4bb9e931ddab26faa, type: 3}
+  - {fileID: 21300000, guid: e731a36997687a84f9b4d6defff05bfd, type: 3}
+  - {fileID: 21300000, guid: 575ee9e9e1537f846aa5ed5004bbd103, type: 3}
+  - {fileID: 21300000, guid: 80efbd5abdf1b2f4d8ae091144faa7b6, type: 3}
+  - {fileID: 21300000, guid: 283dea9a9444c214c83ee3d32db46cf8, type: 3}
+  - {fileID: 21300000, guid: a2b3b4aaf378b9b48a4f3f1b5ad3f6cf, type: 3}
+  - {fileID: 21300000, guid: 7123970bfb45ef7438d4b828a186e3f6, type: 3}
+  - {fileID: 21300000, guid: 86d5680b8ff50704cb260a08e64603ae, type: 3}
+  - {fileID: 21300000, guid: 974ef22bf7140874ca9f189ed5777041, type: 3}
+  - {fileID: 21300000, guid: 3461462bdd8e74a46bce210ec328c2e8, type: 3}
+  - {fileID: 21300000, guid: 7afbb86b66edcc04f8972a5cbc6768ee, type: 3}
+  - {fileID: 21300000, guid: 547990dba9ebd584fb20d6cb6b4c8e2f, type: 3}
+  - {fileID: 21300000, guid: 661548db7868c3c43be7c060a229a862, type: 3}
+  - {fileID: 21300000, guid: 227dc70c85e73c14b86d3f95c139f068, type: 3}
+  - {fileID: 21300000, guid: 534d2b8cb0b60184ba51d3bfac034e1c, type: 3}
+  - {fileID: 21300000, guid: b85e84eca22e5964faacebee2aa6cb15, type: 3}
+  - {fileID: 21300000, guid: 1cb6291d044578442aa9925100ff0567, type: 3}
+  - {fileID: 21300000, guid: 1064075ded0d91747af2331d2d8ab544, type: 3}
+  - {fileID: 21300000, guid: 413ad47d1bb6b7f4bbde7c580af918d9, type: 3}
+  - {fileID: 21300000, guid: 3dc966dd9d89f714fa3217d23b286fc3, type: 3}
+  - {fileID: 21300000, guid: bf81295e1176c2340930a778d98e3c81, type: 3}
+  - {fileID: 21300000, guid: 830e8b5e00d34c148b6cc5e5862b1a4b, type: 3}
+  - {fileID: 21300000, guid: b1d9c37eed6014e47ac20299cc3a7343, type: 3}
+  - {fileID: 21300000, guid: 46968dfe2c9ae0b4f95bab296466afde, type: 3}
+  - {fileID: 21300000, guid: 1726d32fcb2b99b47bba8627882e7b2e, type: 3}
+  - {fileID: 21300000, guid: e1f616efbd89a0f429cd32e779449000, type: 3}
+  - {fileID: 21300000, guid: a8253fff0984e1b4c8d6fe87e6610252, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - cover_league_rank_4
+  - icon_archer_14_1
+  - icon_check
+  - icon_vip_1
+  - icon_archer_19_1
+  - icon_archer_24_1
+  - cover_league_rank_5
+  - icon_archer_25_1
+  - icon_vip_3
+  - icon_archer_38_1
+  - icon_archer_46_1
+  - icon_archer_13_1
+  - icon_archer_47_1
+  - icon_vip_2
+  - icon_arrow_400
+  - icon_archer_18_1
+  - icon_archer_35_1
+  - icon_archer_30_1
+  - icon_archer_26_1
+  - icon_archer_20_1
+  - icon_archer_40_1
+  - icon_archer_36_1
+  - icon_archer_2_1
+  - icon_archer_23_1
+  - icon_archer_15_1
+  - icon_archer_15_10
+  - cover_base_2
+  - icon_archer_12_1
+  - icon_archer_32_1
+  - icon_archer_6_1
+  - cover_base_1
+  - icon_archer_0_1
+  - icon_archer_33_1
+  - icon_archer_5_1
+  - icon_archer_41_1
+  - icon_archer_4_1
+  - icon_archer_45_1
+  - cover_league_rank_3
+  - icon_archer_43_1
+  - cover_league_rank_0
+  - cover_base_0
+  - icon_vip_0
+  - icon_archer_16_1
+  - icon_arrow_500
+  - icon_lock
+  - icon_archer_47_10
+  - icon_archer_11_1
+  - icon_archer_27_1
+  - icon_archer_1_1
+  - icon_archer_7_1
+  - icon_archer_29_1
+  - icon_archer_9_1
+  - cover_league_rank_1
+  - icon_arrow_200
+  - icon_archer_28_1
+  - cover_league_rank_2
+  - icon_arrow_100
+  - icon_archer_37_1
+  - icon_archer_22_1
+  - icon_archer_31_1
+  - icon_archer_39_1
+  - icon_archer_34_1
+  - icon_archer_17_1
+  - icon_arrow_300
+  - icon_archer_3_1
+  - icon_archer_42_1
+  - icon_archer_10_1
+  - icon_archer_8_1
+  - icon_archer_21_1
+  - icon_archer_44_1
+  m_RenderDataMap: {}
+  m_Tag: ProfileAtlas
+  m_IsVariant: 0

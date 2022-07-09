@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff903ee8c68445baa353b3171d6364, type: 3}
+  m_Name: LocalizeData_Clan
+  m_EditorClassIdentifier: 
+  currentVersion: 0
+  TextDataPath: LocalizeData_Clan
+  datas:
+  - key_index: 0
+    localize_value_kr: "\uC815\uBCF4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 1
+    localize_value_kr: "\uD074\uB79C\uC6D0"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 2
+    localize_value_kr: "\uBCF4\uC2A4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 3
+    localize_value_kr: "\uB7AD\uD0B9"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 4
+    localize_value_kr: "\uC0C1\uC810"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 5
+    localize_value_kr: "\uD074\uB79C\uC815\uBCF4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 6
+    localize_value_kr: "\uD61C\uD0DD"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 7
+    localize_value_kr: "\uD074\uB79C\uC7A5"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 8
+    localize_value_kr: "\uAE30\uBCF8\uC5B8\uC5B4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 9
+    localize_value_kr: "\uD074\uB79C\uC6D0"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 10
+    localize_value_kr: "\uD074\uB79C \uD30C\uC6CC"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 11
+    localize_value_kr: "\uD65C\uB3D9 \uC810\uC218"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 12
+    localize_value_kr: "\uD074\uB79C\uC7A5\uC758 \uBA54\uC138\uC9C0"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 13
+    localize_value_kr: "\uD074\uB79C \uC124\uBA85"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 14
+    localize_value_kr: "\uD074\uB79C \uC124\uC815"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 15
+    localize_value_kr: "\uD074\uB79C \uD0C8\uD1F4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 16
+    localize_value_kr: "\uD074\uB79C\uC6D0 \uC815\uBCF4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 17
+    localize_value_kr: "\uB9C8\uC9C0\uB9C9\uD65C\uB3D9"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 18
+    localize_value_kr: "\uD65C\uB3D9\uC810\uC218"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 19
+    localize_value_kr: "\uD074\uB79C\uC6D0 \uBAA9\uB85D"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 20
+    localize_value_kr: "\uD074\uB79C\uC6D0 \uAD00\uB9AC"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 21
+    localize_value_kr: "\uAC00\uC785\uC2E0\uCCAD \uBAA9\uB85D"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 22
+    localize_value_kr: "\uCD5C\uACE0 \uD654\uC0B4 Lv.{0}"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 23
+    localize_value_kr: "\uCD9C\uC11D"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 24
+    localize_value_kr: "\uB0B4\uBCF4\uB0B4\uAE30"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 25
+    localize_value_kr: "\uD074\uB79C\uC7A5 \uC704\uC784"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 26
+    localize_value_kr: "\uC218\uB77D"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 27
+    localize_value_kr: "\uAC70\uBD80"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 28
+    localize_value_kr: "\uD074\uB79C \uBCF4\uC2A4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 29
+    localize_value_kr: "\uC0AC\uC6A9\uB371"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 30
+    localize_value_kr: "\uB09C\uC774\uB3C4 : {0}"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 31
+    localize_value_kr: "\uC2DC\uC791"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 32
+    localize_value_kr: "\uBCF4\uC0C1"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 33
+    localize_value_kr: "\uBCF4\uC0C1 \uBC1B\uAE30"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 34
+    localize_value_kr: "\uD544\uC694 : {0} \uC774\uC0C1\uC758 \uD53C\uD574\uB97C
+      \uC785\uD798"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 35
+    localize_value_kr: "\uD074\uB79C\uBCF4\uC2A4\uC640 \uC804\uD22C \uD6C4 \uD68D\uB4DD\uD558\uB294
+      \uC0C1\uC790\uC785\uB2C8\uB2E4.\uC0C1\uC790\uC5D0\uC11C\uB294 \uC544\uB798
+      \uBCF4\uC0C1 \uC911 {0}\uC885\uC774 \uBB34\uC791\uC704\uB85C \uC9C0\uAE09\uB429\uB2C8\uB2E4."
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 36
+    localize_value_kr: "{0} \uBCF4\uC0C1"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 37
+    localize_value_kr: "\uBCF4\uC2A4\uB97C \uC120\uD0DD\uD574\uC8FC\uC138\uC694!"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 38
+    localize_value_kr: "\uAE08\uC77C \uB3C4\uC804 \uD69F\uC218\uB97C \uBAA8\uB450
+      \uC0AC\uC6A9\uD558\uC168\uC2B5\uB2C8\uB2E4."
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 39
+    localize_value_kr: "\uC7A0\uC2DC \uD6C4 \uB3C4\uC804 \uAC00\uB2A5\uD569\uB2C8\uB2E4."
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 40
+    localize_value_kr: "\uD074\uB79C \uB7AD\uD0B9"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 41
+    localize_value_kr: "\uB4F1\uC218"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 42
+    localize_value_kr: "\uD074\uB79C \uC815\uBCF4"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 43
+    localize_value_kr: "\uCD1D \uC804\uD22C\uB825 : {0}"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 44
+    localize_value_kr: "\uD074\uB79C \uCC3E\uAE30"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 45
+    localize_value_kr: "\uD074\uB79C \uC0DD\uC131"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 46
+    localize_value_kr: "\uAC80\uC0C9"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 47
+    localize_value_kr: "\uAC00\uC785\uD615\uD0DC"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 48
+    localize_value_kr: "\uC790\uC720\uAC00\uC785"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 49
+    localize_value_kr: "\uC120\uBCC4\uAC00\uC785"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 50
+    localize_value_kr: "\uBE44\uACF5\uAC1C"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 51
+    localize_value_kr: "\uAC00\uC785"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 52
+    localize_value_kr: "\uAC00\uC785\uC2E0\uCCAD"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 53
+    localize_value_kr: "\uC2E0\uCCAD\uCDE8\uC18C"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 54
+    localize_value_kr: "\uC778\uC6D0\uC774 \uAC00\uB4DD \uCC28 \uAC00\uC785\uD560
+      \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 55
+    localize_value_kr: "\uAC00\uC785\uC5D0 \uC2E4\uD328 \uD558\uC600\uC2B5\uB2C8\uB2E4."
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 56
+    localize_value_kr: "\uD074\uB79C \uBB38\uC591"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 57
+    localize_value_kr: "\uD074\uB79C \uC774\uB984"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 58
+    localize_value_kr: "\uAC00\uC785 \uBC29\uC2DD"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 59
+    localize_value_kr: "\uD074\uB79C\uBA85\uC744 \uC785\uB825\uD558\uC138\uC694!"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 60
+    localize_value_kr: "\uD074\uB79C \uC218\uC815"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 61
+    localize_value_kr: "\uC800\uC7A5"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 62
+    localize_value_kr: "\uD074\uB79C\uBB38\uC591 \uC120\uD0DD"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 63
+    localize_value_kr: "\uD074\uB79C"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 64
+    localize_value_kr: "\uBCF4\uD1B5"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 65
+    localize_value_kr: "\uC5B4\uB824\uC6C0"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 66
+    localize_value_kr: "\uACE0\uC218"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 67
+    localize_value_kr: "\uB2EC\uC778"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 68
+    localize_value_kr: "\uACE0\uD589"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 69
+    localize_value_kr: "0\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 70
+    localize_value_kr: "1\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 71
+    localize_value_kr: "2\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 72
+    localize_value_kr: "3\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 73
+    localize_value_kr: "4\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 74
+    localize_value_kr: "5\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 75
+    localize_value_kr: "6\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 76
+    localize_value_kr: "7\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 77
+    localize_value_kr: "8\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 78
+    localize_value_kr: "9\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 79
+    localize_value_kr: "10\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 80
+    localize_value_kr: "11\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: "-\r"
+  - key_index: 81
+    localize_value_kr: "12\uB808\uBCA8 \uC0C1\uC790"
+    localize_value_en: '-'
+    localize_value_ja: '-'
+    localize_value_tc: '-'
+    localize_value_sc: '-'
+  resourceName: LocalizeData_Clan
