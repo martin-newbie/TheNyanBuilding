@@ -13,6 +13,7 @@ public abstract class Character : MonoBehaviour
 {
     [Header("Info")]
     public PositionInfo posInfo;
+    public CharacterType type;
 
     [Header("Componenet")]
     public SpriteRenderer BodySR;

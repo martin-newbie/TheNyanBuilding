@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public enum CharacterType
 {
     Bro,
-    Developer,
-    QualityAssureance,
-    ProductManager
+    Developer = 1,
+    QualityAssureance = 6,
+    ProductManager = 4
 }
 
 public enum GridType
@@ -30,6 +31,7 @@ public class InGameManager : Singleton<InGameManager>
     public Character[] Dev;
     public Character[] QA;
     public Character[] PM;
+    public List<Character> AllCharacterPrefabs = new List<Character>();
 
     [Header("Grid")]
     public int x;
@@ -60,6 +62,8 @@ public class InGameManager : Singleton<InGameManager>
 
     [Header("Inventory")]
     public List<Character> CharacterInventory = new List<Character>();
+    public List<int> CharacterLevel = new List<int>(new int[9]);
+    public List<int> CharacterIdxInventory = new List<int>();
 
     [Header("Values")]
     public int curFloor;
@@ -77,13 +81,46 @@ public class InGameManager : Singleton<InGameManager>
         SetLock();
 
         InitCharacters();
-        SpawnCharacter(CharacterType.Bro, new Vector2Int(0, 0));
-
+        GainCharacter(0);
+        SpawnCharacterAsIndex(0, new Vector2(-2f, -4f));
     }
 
-    public void GainCharacter(CharacterType type, int idx)
+    public void GainCharacter(int idx)
     {
+        if (!CharacterIdxInventory.Contains(idx))
+        {
+            CharacterIdxInventory.Add(idx);
 
+            Character temp = null;
+            foreach (var item in AllCharacterPrefabs)
+            {
+                if (item.posInfo.idx == idx)
+                {
+                    temp = item;
+                    break;
+                }
+            }
+
+            CharacterInventory.Add(temp);
+
+        }
+        else
+        {
+            CharacterLevel[idx]++;
+        }
+    }
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="idx">index of character inventory</param>
+    /// <returns></returns>
+    public Character SpawnCharacterAsIndex(int idx, Vector2 inputPos)
+    {
+        Character spawn = CharacterInventory[idx];
+        Vector2Int pos = GetPosIdx(inputPos);
+
+        SpawnTypeCharacter(spawn.type, pos, (int)spawn.type - idx);
+        return spawn;
     }
 
     public void UnlockFloor()
@@ -278,6 +315,11 @@ public class InGameManager : Singleton<InGameManager>
         Dev = Resources.LoadAll<Character>("Characters/DEV");
         QA = Resources.LoadAll<Character>("Characters/QA");
         PM = Resources.LoadAll<Character>("Characters/PM");
+
+        AllCharacterPrefabs.Add(Bro);
+        AllCharacterPrefabs.AddRange(Dev);
+        AllCharacterPrefabs.AddRange(QA);
+        AllCharacterPrefabs.AddRange(PM);
     }
 
     public Character GetTouchCharacter(Vector2 inputPos)
@@ -325,9 +367,10 @@ public class InGameManager : Singleton<InGameManager>
         return nearby;
     }
 
-    public void SpawnCharacter(CharacterType type, Vector2Int pos, int idx = 0)
+    public Character SpawnTypeCharacter(CharacterType type, Vector2Int pos, int idx = 0)
     {
         Vector2 spawnPos = GetGridPos(pos.x, pos.y);
+        Character spawn = null;
 
         switch (type)
         {
@@ -336,13 +379,13 @@ public class InGameManager : Singleton<InGameManager>
                 Gauge gauge = Instantiate(gaugeObj, canvas.transform);
                 gauge.transform.SetAsFirstSibling();
 
-                Character bro = SpawnCharacter(Bro, spawnPos);
-                bro.thisPosIdx = pos;
-                ((CharacterTouchAble)bro).InitGauge(gauge);
+                spawn = SpawnCharacter(Bro, spawnPos);
+                spawn.thisPosIdx = pos;
+                ((CharacterTouchAble)spawn).InitGauge(gauge);
 
-                TouchAbleCharacters.Add(bro.GetComponent<ITouchAble>());
-                GaugeCharacters.Add(bro.GetComponent<IGauge>());
-                CharacterGridInfo[pos.y, pos.x] = bro;
+                TouchAbleCharacters.Add(spawn.GetComponent<ITouchAble>());
+                GaugeCharacters.Add(spawn.GetComponent<IGauge>());
+                CharacterGridInfo[pos.y, pos.x] = spawn;
 
                 break;
             case CharacterType.Developer:
@@ -350,40 +393,42 @@ public class InGameManager : Singleton<InGameManager>
                 Gauge gauge1 = Instantiate(gaugeObj, canvas.transform);
                 gauge1.transform.SetAsFirstSibling();
 
-                Character dev = SpawnCharacter(Dev[idx], spawnPos);
-                dev.thisPosIdx = pos;
-                ((CharacterIdle)dev).InitGauge(gauge1);
+                spawn = SpawnCharacter(Dev[idx], spawnPos);
+                spawn.thisPosIdx = pos;
+                ((CharacterIdle)spawn).InitGauge(gauge1);
 
-                AutoIdlCharacters.Add(dev.GetComponent<IAuto>());
-                GaugeCharacters.Add(dev.GetComponent<IGauge>());
-                CharacterGridInfo[pos.y, pos.x] = dev;
+                AutoIdlCharacters.Add(spawn.GetComponent<IAuto>());
+                GaugeCharacters.Add(spawn.GetComponent<IGauge>());
+                CharacterGridInfo[pos.y, pos.x] = spawn;
 
                 break;
             case CharacterType.QualityAssureance:
-                Character qa = SpawnCharacter(QA[idx], spawnPos);
+                spawn = SpawnCharacter(QA[idx], spawnPos);
 
-                IBuff qaBuff = qa.GetComponent<IBuff>();
+                IBuff qaBuff = spawn.GetComponent<IBuff>();
 
                 qaBuff.Init(pos);
                 QACharacters.Add(qaBuff);
                 BuffCharacters.Add(qaBuff);
 
-                CharacterGridInfo[pos.y, pos.x] = qa;
+                CharacterGridInfo[pos.y, pos.x] = spawn;
                 break;
             case CharacterType.ProductManager:
-                Character pm = SpawnCharacter(PM[idx], spawnPos);
+                spawn = SpawnCharacter(PM[idx], spawnPos);
 
-                IBuff buff = pm.GetComponent<IBuff>();
+                IBuff buff = spawn.GetComponent<IBuff>();
                 buff.Init(pos);
                 QACharacters.Add(buff);
                 BuffCharacters.Add(buff);
 
-                CharacterGridInfo[pos.y, pos.x] = pm;
+                CharacterGridInfo[pos.y, pos.x] = spawn;
                 break;
         }
 
         AbleGrid[pos.y, pos.x] = GridType.Filled;
         SetBuffCharacter();
+
+        return spawn;
     }
 
     public void TouchCharacter()
