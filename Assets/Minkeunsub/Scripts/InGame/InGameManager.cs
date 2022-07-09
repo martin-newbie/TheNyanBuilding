@@ -65,7 +65,6 @@ public class InGameManager : Singleton<InGameManager>
         UnlockGrid(1);
         InitLock();
 
-
         InitCharacters();
         SpawnCharacter(CharacterType.Bro, new Vector2Int(0, 0));
         SpawnCharacter(CharacterType.Developer, new Vector2Int(1, 0));
@@ -75,13 +74,55 @@ public class InGameManager : Singleton<InGameManager>
     private void Update()
     {
         if (AutoIdlCharacters.Count > 0) AutoCharacterLogic();
+
+        if (Input.GetMouseButtonDown(0)) OnTouch();
+        else if (Input.GetMouseButton(0) && curDrag != null) OnDrag();
+        else if (Input.GetMouseButtonUp(0) && curDrag != null) EndDrag();
     }
+
+    Character curDrag;
 
     void OnTouch()
     {
         Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 touchIdx = GetGridPos(touchPos);
+        Character nearby = GetTouchCharacter(touchPos);
+        curDrag = nearby;
 
+        nearby.isDrag = true;
+    }
+
+    void OnDrag()
+    {
+        Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        curDrag.transform.position = touchPos;
+    }
+
+    void EndDrag()
+    {
+        Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2Int posIdx = GetPosIdx(touchPos);
+
+        if (GetAblePos(posIdx.x, posIdx.y))
+        {
+            Vector2Int cIdx = curDrag.thisPosIdx;
+
+            AbleGrid[cIdx.y, cIdx.x] = GridType.Empty;
+            CharacterGridInfo[cIdx.y, cIdx.x] = null;
+
+            curDrag.transform.position = GetGridPos(posIdx.x, posIdx.y);
+
+            AbleGrid[posIdx.y, posIdx.x] = GridType.Filled;
+            CharacterGridInfo[posIdx.y, posIdx.x] = curDrag;
+            curDrag.thisPosIdx = posIdx;
+
+        }
+        else
+        {
+            curDrag.transform.position = GetGridPos(curDrag.thisPosIdx.x, curDrag.thisPosIdx.y);
+        }
+        curDrag = null;
+
+        SetBuffCharacter();
     }
 
 
@@ -152,6 +193,47 @@ public class InGameManager : Singleton<InGameManager>
         PM = Resources.LoadAll<Character>("Characters/PM");
     }
 
+    public Character GetTouchCharacter(Vector2 inputPos)
+    {
+        float distance = 100f;
+        Character nearby = null;
+
+        for (int _x = 0; _x < GridPos.GetLength(1); _x++)
+        {
+            for (int _y = 0; _y < GridPos.GetLength(0); _y++)
+            {
+                float _d = Vector3.Distance(GridPos[_y, _x], inputPos);
+                if (_d < distance)
+                {
+                    distance = _d;
+                    nearby = CharacterGridInfo[_y, _x];
+                }
+            }
+        }
+
+        return nearby;
+    }
+
+    public Vector2Int GetPosIdx(Vector2 inputPos)
+    {
+        float distance = 100f;
+        Vector2Int nearby = new Vector2Int();
+
+        for (int _x = 0; _x < GridPos.GetLength(1); _x++)
+        {
+            for (int _y = 0; _y < GridPos.GetLength(0); _y++)
+            {
+                float _d = Vector3.Distance(GridPos[_y, _x], inputPos);
+                if (_d < distance)
+                {
+                    distance = _d;
+                    nearby = new Vector2Int(_x, _y);
+                }
+            }
+        }
+
+        return nearby;
+    }
 
     public void SpawnCharacter(CharacterType type, Vector2Int pos, int idx = 0)
     {
@@ -165,6 +247,7 @@ public class InGameManager : Singleton<InGameManager>
                 gauge.transform.SetAsFirstSibling();
 
                 Character bro = SpawnCharacter(Bro, spawnPos);
+                bro.thisPosIdx = pos;
                 ((CharacterTouchAble)bro).InitGauge(gauge);
 
                 TouchAbleCharacters.Add(bro.GetComponent<ITouchAble>());
@@ -178,6 +261,7 @@ public class InGameManager : Singleton<InGameManager>
                 gauge1.transform.SetAsFirstSibling();
 
                 Character dev = SpawnCharacter(Dev[idx], spawnPos);
+                dev.thisPosIdx = pos;
                 ((CharacterIdle)dev).InitGauge(gauge1);
 
                 AutoIdlCharacters.Add(dev.GetComponent<IAuto>());

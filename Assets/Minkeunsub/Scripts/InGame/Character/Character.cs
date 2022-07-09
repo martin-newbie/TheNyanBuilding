@@ -24,7 +24,7 @@ public abstract class Character : MonoBehaviour
 
     [Header("Value")]
     public bool isDrag;
-
+    public Vector2Int thisPosIdx = new Vector2Int();
 
     Coroutine animationCoroutine;
 

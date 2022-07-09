@@ -8,7 +8,6 @@ public class CharacterBuff : Character, IBuff
 
     [Header("Character Buff")]
     public List<Vector2Int> BuffList = new List<Vector2Int>(); // 현재 자기 위치 기준
-    public Vector2Int thisPosIdx = new Vector2Int();
     public float buffValue;
     public BuffType buffType;
 
