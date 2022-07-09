@@ -9,6 +9,7 @@ public class NavigationController : MonoBehaviour
     public Image[] barImage;
     public Sprite[] barImage_Clicked;
     public Sprite[] barImage_unClicked;
+    public GameObject[] blockImages;
     public UpgradeCanvas upgradeCanvas;
     public CatCanvas catCanvas;
     public StoreCanvas storeCanvas;
@@ -17,8 +18,8 @@ public class NavigationController : MonoBehaviour
     {
         currentCanvasIndex = -1;
         //Init();
-        for ( int i=0; i< barImage.Length; i++)
-            barImage[i].sprite = barImage_unClicked[i];
+        for (int i = 0; i < blockImages.Length; i++)
+            blockImages[i].SetActive(true);
     }
 
 
@@ -30,8 +31,8 @@ public class NavigationController : MonoBehaviour
         catCanvas.gameObject.SetActive(false);
         storeCanvas.gameObject.SetActive(false);
 
-        for (int i = 0; i < barImage.Length; i++)
-            barImage[i].sprite = barImage_unClicked[i];
+        for (int i = 0; i < blockImages.Length; i++)
+            blockImages[i].SetActive(true);
 
 
         switch (index)
@@ -39,7 +40,7 @@ public class NavigationController : MonoBehaviour
             case 0:
                 if(currentCanvasIndex != index)
                 {
-                    barImage[index].sprite = barImage_Clicked[index];
+                    blockImages[index].SetActive(false);
                     currentCanvasIndex = index;
                     upgradeCanvas.gameObject.SetActive(true);
                     upgradeCanvas.Open();
@@ -55,7 +56,7 @@ public class NavigationController : MonoBehaviour
             case 1:
                 if (currentCanvasIndex != index)
                 {
-                    barImage[index].sprite = barImage_Clicked[index];
+                    blockImages[index].SetActive(false);
                     currentCanvasIndex = index;
                     catCanvas.gameObject.SetActive(true);
                     catCanvas.Open();
@@ -71,7 +72,7 @@ public class NavigationController : MonoBehaviour
             case 2:
                 if (currentCanvasIndex != index)
                 {
-                    barImage[index].sprite = barImage_Clicked[index];
+                    blockImages[index].SetActive(false);
                     currentCanvasIndex = index;
                     storeCanvas.gameObject.SetActive(true);
 

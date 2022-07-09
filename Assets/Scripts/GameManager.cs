@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     {
         Init();
         can = 1000000000;
+        churu = 1000000000;
+
         SetGoods();
 
     }
@@ -49,6 +51,8 @@ public class GameManager : MonoBehaviour
     public double can;
     public double churu;
     public int[] upgradeLevelList = { 0, 0, 0, 0, 0 };
+    public List<int> selectedCat;
+
     public List<UserData_Cat> catDatas;
     public Sprite[] catSprites;
     private void Init()
@@ -58,6 +62,14 @@ public class GameManager : MonoBehaviour
         Set_tenGaugeUP();
         Set_successRate();
         Set_failedRate();
+        catDatas = new List<UserData_Cat>();
+        selectedCat = new List<int>();
+
+        for (int i = 0; i < StaticDataManager.Instance.catData.datas.Count; i++)
+        {
+            catDatas.Add(new UserData_Cat(i, 0, 0));
+            selectedCat.Add(0);
+        }
 
     }
     private void SetGoods()
@@ -165,6 +177,33 @@ public class GameManager : MonoBehaviour
   
         }
 
+
+    }
+
+    public void AddCat(int catIndex, int amount = 1)
+    {
+
+        catDatas[catIndex].soulStone += amount;
+        CatLevelUp(catIndex);
+
+    }
+    public void CatLevelUp(int catIndex)
+    {
+        int c = 0;
+        while (c < 100)
+        {
+            int max = (catDatas[catIndex].tier + 1);
+            if (catDatas[catIndex].soulStone >= max)
+            {
+                catDatas[catIndex].tier++;
+                catDatas[catIndex].soulStone -= max;
+  
+            }
+            else
+            {
+                break;
+            }
+        }
 
     }
 }
