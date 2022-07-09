@@ -86,7 +86,6 @@ public class InGameManager : Singleton<InGameManager>
         InitCharacters();
         GainCharacter(0);
         SpawnCharacterAsIndex(0, new Vector2(-2f, -4f));
-        UnlockFloor();
     }
 
     public void GainCharacter(int idx)
@@ -190,19 +189,26 @@ public class InGameManager : Singleton<InGameManager>
     void OnTouch()
     {
         Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Character nearby = GetTouchCharacter(touchPos);
+        Vector2Int posidx = GetPosIdx(touchPos);
 
-        if (nearby != null)
+        if (GetAblePos(posidx.x, posidx.y, GridType.Filled))
         {
+            Character nearby = GetTouchCharacter(touchPos);
             curDrag = nearby;
-
             nearby.isDrag = true;
-
             curDrag.BodySR.sortingOrder = 9;
             curDrag.HeadSR.sortingOrder = 10;
-
             isDragging = true;
         }
+        else if(GetAblePos(posidx.x, posidx.y, GridType.Locked))
+        {
+            TryUnlock();
+        }
+    }
+
+    void TryUnlock()
+    {
+        // UI
     }
 
     void OnDrag()
@@ -250,7 +256,7 @@ public class InGameManager : Singleton<InGameManager>
         int idx = character.info.idx;
         var data = StaticDataManager.GetCatData(idx);
 
-        if(GetRandom(data.devRates[0]))
+        if (GetRandom(data.devRates[0]))
         {//½ÇÆÐ
             GetReward(data.rewardRates[0]);
         }
@@ -497,13 +503,13 @@ public class InGameManager : Singleton<InGameManager>
         return retVec;
     }
 
-    public bool GetAblePos(int x, int y)
+    public bool GetAblePos(int x, int y, GridType grid = GridType.Empty)
     {
         if (x < 0 || y < 0 || x >= AbleGrid.GetLength(1) || y >= AbleGrid.GetLength(0))
             return false;
 
         GridType type = AbleGrid[y, x];
-        if (type == GridType.Empty)
+        if (type == grid)
         {
             return true;
         }
