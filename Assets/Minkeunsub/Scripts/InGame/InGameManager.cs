@@ -245,11 +245,37 @@ public class InGameManager : Singleton<InGameManager>
     }
 
 
-    public void GaugeReward(int idx)
+    public void GaugeReward(Character character)
     {
-        float rand = Random.Range(0f, 1f);
+        int idx = character.info.idx;
         var data = StaticDataManager.GetCatData(idx);
 
+        if(GetRandom(data.devRates[0]))
+        {//실패
+            GetReward(data.rewardRates[0]);
+        }
+        else if (GetRandom(data.devRates[2]))
+        {//대성공
+            GetReward(data.rewardRates[2]);
+        }
+        else
+        {//성공
+            GetReward(data.rewardRates[1]);
+        }
+    }
+
+    void GetReward(float value)
+    {
+
+    }
+
+    bool GetRandom(float value)
+    {
+        float rand = Random.Range(0f, 1f);
+
+        if (rand <= value) return true;
+        else
+            return true;
     }
 
     void AutoCharacterLogic()

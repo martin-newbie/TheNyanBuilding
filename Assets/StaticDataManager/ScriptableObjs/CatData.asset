@@ -14,4 +14,154 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 0
   TextDataPath: CatData
-  datas: []
+  datas:
+  - key_index: 0
+    name: "\uBE0C\uB85C"
+    type: 0
+    devRates:
+    - 0.2
+    - 0.6
+    - 0.2
+    rewardRates:
+    - 10
+    - 25
+    - 100
+    speedRate: 0.01
+    passive: -1
+    passive_ranges: ffffffff
+    value: -1
+    valueIncrease: -1
+    grade: 0
+    summonRate: -1
+    content: "\uCD5C\uACE0\uC758 \uAC8C\uC784 \uAC1C\uBC1C\uC790\uB97C \uAFC8\uAFB8\uB294
+      \uACE0\uC591\uC774\r"
+  - key_index: 1
+    name: "\uD615\uC900\uB0E5\uC774"
+    type: 2
+    devRates:
+    - -1
+    rewardRates:
+    - -1
+    speedRate: -1
+    passive: 1
+    passive_ranges: 0c0000000d000000
+    value: 0.2
+    valueIncrease: 0.1
+    grade: 1
+    summonRate: 0.25
+    content: "\uC0AC\uB78C\uB4E4\uC744 \uC5F4\uBC1B\uAC8C \uD569\uB2C8\uB2E4\r"
+  - key_index: 2
+    name: "\uD61C\uBE48\uB0E5\uC774"
+    type: 3
+    devRates:
+    - -1
+    rewardRates:
+    - -1
+    speedRate: -1
+    passive: 2
+    passive_ranges: 0c0000000d000000
+    value: 0.2
+    valueIncrease: 0.1
+    grade: 1
+    summonRate: 0.5
+    content: "\uB530\uB4EF\uD55C \uB9C8\uC74C\uC744 \uC9C0\uB154\uC2B5\uB2C8\uB2E4.
+      \uC544\uB9C8\uB3C4\r"
+  - key_index: 3
+    name: "\uCC3D\uD638\uB0E5\uC774"
+    type: 1
+    devRates:
+    - 0.5
+    - 0.4
+    - 0.1
+    rewardRates:
+    - 15
+    - 50
+    - 150
+    speedRate: 0.03
+    passive: 0
+    passive_ranges: ffffffff
+    value: 0.3
+    valueIncrease: 0.15
+    grade: 2
+    summonRate: 0.63
+    content: "\uC5D0\uC774\uC9D5 \uCEE4\uBE0C \uADF8\uAC83\uC740 \uC544\uBB34\uAC83\uB3C4
+      \uC544\uB2D9\uB2C8\uB2E4.\r"
+  - key_index: 4
+    name: "\uC11C\uC5F0\uB0E5\uC774"
+    type: 2
+    devRates:
+    - -1
+    rewardRates:
+    - -1
+    speedRate: -1
+    passive: 1
+    passive_ranges: 070000000800000009000000
+    value: 0.3
+    valueIncrease: 0.15
+    grade: 2
+    summonRate: 0.76
+    content: "\uD68C\uC0AC\uC758 NPC \uAC19\uC740 \uC874\uC7AC\uC785\uB2C8\uB2E4.\r"
+  - key_index: 5
+    name: "\uC131\uD604\uB0E5\uC774"
+    type: 3
+    devRates:
+    - -1
+    rewardRates:
+    - -1
+    speedRate: -1
+    passive: 2
+    passive_ranges: 070000000800000009000000
+    value: 0.3
+    valueIncrease: 0.15
+    grade: 2
+    summonRate: 0.89
+    content: "\uC9C0\uB3C5\uD55C \uAF30\uB300 \uB0E5\uC774 \uC785\uB2C8\uB2E4.\r"
+  - key_index: 6
+    name: "\uC7AC\uC6D0\uB0E5\uC774"
+    type: 1
+    devRates:
+    - 0.5
+    - 0.4
+    - 0.1
+    rewardRates:
+    - 30
+    - 100
+    - 250
+    speedRate: 0.05
+    passive: 0
+    passive_ranges: ffffffff
+    value: 0.5
+    valueIncrease: 0.3
+    grade: 3
+    summonRate: 0.92
+    content: "\uC9C0\uC625\uC758 \uAC1C\uBC1C \uB0E5\uC774\uC785\uB2C8\uB2E4.\r"
+  - key_index: 7
+    name: "\uC885\uCC3D\uB0E5\uC774"
+    type: 2
+    devRates:
+    - -1
+    rewardRates:
+    - -1
+    speedRate: -1
+    passive: 1
+    passive_ranges: 0700000008000000090000000c0000000d000000100000001100000012000000
+    value: 0.5
+    valueIncrease: 0.3
+    grade: 3
+    summonRate: 0.96
+    content: "\uC815\uC0C1 \uAC19\uC9C0\uB9CC \uC815\uC0C1\uC774 \uC544\uB2D9\uB2C8\uB2E4.\r"
+  - key_index: 8
+    name: "\uB3D9\uCC9C\uB0E5\uC774"
+    type: 3
+    devRates:
+    - -1
+    rewardRates:
+    - -1
+    speedRate: -1
+    passive: 2
+    passive_ranges: 0700000008000000090000000c0000000d000000100000001100000012000000
+    value: 0.5
+    valueIncrease: 0.3
+    grade: 3
+    summonRate: 1
+    content: "\uBC84\uADF8\uB97C \uBC1C\uACAC\uD558\uBA74 \uCC38\uC9C0 \uBABB\uD569\uB2C8\uB2E4."

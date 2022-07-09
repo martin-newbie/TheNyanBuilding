@@ -52,7 +52,7 @@ public class CharacterIdle : Character, IAuto, IGauge
 
         if (curGagueValue >= maxGagueValue)
         {
-            // gauge event
+            InGameManager.Instance.GaugeReward(this);
             curGagueValue = 0f;
         }
     }
