@@ -34,9 +34,13 @@ public class InGameManager : Singleton<InGameManager>
     public GridType[,] AbleGrid;
     public Vector2[,] GridPos;
 
+    [Header("UI")]
+    public Canvas canvas;
+
     [Header("Objects")]
     public GameObject LockObj;
     public List<GameObject> LockList = new List<GameObject>();
+    public Gauge gaugeObj;
 
     private void Awake()
     {
@@ -100,10 +104,14 @@ public class InGameManager : Singleton<InGameManager>
         switch (type)
         {
             case CharacterType.Bro:
-                SpawnCharacter(Bro, spawnPos);
+                Gauge gauge = Instantiate(gaugeObj, canvas.transform);
+                Character bro = SpawnCharacter(Bro, spawnPos);
+
+                ((CharacterTouchAble)bro).InitGauge(gauge);
+
                 break;
             case CharacterType.Developer:
-                SpawnCharacter(Dev[idx], spawnPos);
+                Character dev = SpawnCharacter(Dev[idx], spawnPos);
                 break;
             case CharacterType.QualityAssureance:
                 SpawnCharacter(QA[idx], spawnPos);
