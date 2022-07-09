@@ -37,7 +37,7 @@ public class InGameManager : Singleton<InGameManager>
         UnlockGrid(0);
 
         InitCharacters();
-        SpawnCharacter(CharacterType.Bro);
+        SpawnCharacter(CharacterType.Bro, Vector2.zero);
     }
 
     public void UnlockGrid(int floor)
@@ -61,10 +61,9 @@ public class InGameManager : Singleton<InGameManager>
     }
 
 
-    public void SpawnCharacter(CharacterType type, int idx = 0)
+    public void SpawnCharacter(CharacterType type, Vector2 pos, int idx = 0)
     {
-
-        Vector2 spawnPos = new Vector2();
+        Vector2 spawnPos = GetGridPos(pos);
 
         switch (type)
         {
@@ -94,8 +93,36 @@ public class InGameManager : Singleton<InGameManager>
         int x = Mathf.RoundToInt(inputPos.x);
         int y = Mathf.RoundToInt(inputPos.y);
 
-        Vector2 retVec = new Vector2(x, y) * (gridSize / 2) + GridOffset;
-        return retVec;
+        if (GetAblePos(x, y))
+        {
+            Vector2 retVec = new Vector2(x, y) * gridSize + GridOffset;
+            return retVec;
+        }
+
+        return Vector2.zero;
+    }
+
+    public Vector2 GetGridPos(int x, int y)
+    {
+        if (GetAblePos(x, y))
+        {
+            Vector2 retVec = new Vector2(x, y) * gridSize + GridOffset;
+            return retVec;
+        }
+
+        return Vector2.zero;
+    }
+
+    public bool GetAblePos(int x, int y)
+    {
+        if (x < 0 || y < 0 || x >= AbleGrid.GetLength(1) || y >= AbleGrid.GetLength(0)) return false;
+
+        GridType type = AbleGrid[y, x];
+        if (type == GridType.Empty)
+        {
+            return true;
+        }
+        else return false;
     }
 }
 
