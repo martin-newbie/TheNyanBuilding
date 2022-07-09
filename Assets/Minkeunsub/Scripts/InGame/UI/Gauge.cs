@@ -7,19 +7,25 @@ public class Gauge : MonoBehaviour
 {
     [SerializeField] Image gaugeImg;
     float tar, cur, max;
+    Transform target;
+    Vector3 offset;
 
     private void Update()
     {
         cur = Mathf.Lerp(cur, tar, Time.deltaTime * 5f);
         gaugeImg.fillAmount = cur / max;
+
+        if (target != null)
+            transform.position = target.position + offset;
     }
 
-    public void SetPof(Vector3 offset, Transform target)
+    public void SetPos(Vector3 _offset, Transform _target)
     {
-        transform.position = target.position + offset;
+        target = _target;
+        offset = _offset;
     }
 
-    public void SetGuageFill(float _tar, float _max)
+    public void SetGaugeFill(float _tar, float _max)
     {
         tar = _tar;
         max = _max;
