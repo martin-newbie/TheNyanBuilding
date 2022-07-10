@@ -185,6 +185,9 @@ public class InGameManager : Singleton<InGameManager>
 
     public void ShowBuffRange(CharacterBuff buff)
     {
+
+        Color color = buff.buffType == BuffType.FailDecrease ? Color.red : Color.green;
+
         foreach (var item in buff.BuffList)
         {
             int _x = item.x + buff.thisPosIdx.x;
@@ -192,7 +195,7 @@ public class InGameManager : Singleton<InGameManager>
 
             if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
 
-            Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
+            Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = color;
         }
     }
 
