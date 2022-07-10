@@ -226,7 +226,7 @@ MonoBehaviour:
   isDrag: 0
   thisPosIdx: {x: 0, y: 0}
   autoGaugeAmt: 3
-  touchGaugeAmt: 10
+  touchGaugeAmt: 5
   curGaugeValue: 0
   maxGaugeValue: 100
   valueGauge: {fileID: 0}

@@ -26,7 +26,7 @@ public class CharacterTouchAble : Character, ITouchAble, IGauge
     private void Update()
     {
         float value = autoGaugeAmt * additionalGaugeValue;
-        curGaugeValue += value * Time.deltaTime;
+        curGaugeValue += (value + value * GameManager.Instance.tenGaugeUP)* Time.deltaTime;
         valueGauge?.SetGaugeFill(curGaugeValue, maxGaugeValue);
 
         if(curGaugeValue >= maxGaugeValue)
@@ -44,7 +44,7 @@ public class CharacterTouchAble : Character, ITouchAble, IGauge
 
     public void OnTouch()
     {
-        curGaugeValue += touchGaugeAmt + (touchGaugeAmt * GameManager.Instance.tenGaugeUP);
+        curGaugeValue += touchGaugeAmt + (touchGaugeAmt * GameManager.Instance.touchGaugeUP);
     }
 
     public void SetBuff(IBuff buff)
