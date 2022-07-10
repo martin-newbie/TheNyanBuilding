@@ -95,6 +95,7 @@ public class InGameManager : Singleton<InGameManager>
         SpawnCharacterAsIndex(1, new Vector2(0f, -4f));
         SpawnCharacterAsIndex(2, new Vector2(2f, -4f));
 
+        SoundManager.Instance.PlayBackground("keyboard");
     }
 
     public void GainCharacter(int idx)
