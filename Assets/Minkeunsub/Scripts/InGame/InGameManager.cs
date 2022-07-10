@@ -169,16 +169,21 @@ public class InGameManager : Singleton<InGameManager>
             {
                 CharacterBuff buff = curDrag.GetComponent<CharacterBuff>();
                 InitGridColor();
-                foreach (var item in buff.BuffList)
-                {
-                    int _x = item.x + buff.thisPosIdx.x;
-                    int _y = item.y + buff.thisPosIdx.y;
-
-                    if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
-
-                    Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
-                }
+                ShowBuffRange(buff);
             }
+        }
+    }
+
+    public void ShowBuffRange(CharacterBuff buff)
+    {
+        foreach (var item in buff.BuffList)
+        {
+            int _x = item.x + buff.thisPosIdx.x;
+            int _y = item.y + buff.thisPosIdx.y;
+
+            if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
+
+            Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
         }
     }
 
@@ -280,7 +285,6 @@ public class InGameManager : Singleton<InGameManager>
         SetBuffCharacter();
     }
 
-
     public void GaugeReward(Character character, float failDecrease = 0f)
     {
         int idx = character.info.idx;
@@ -355,7 +359,6 @@ public class InGameManager : Singleton<InGameManager>
             }
         }
     }
-
 
     void InitGridPos()
     {
