@@ -53,9 +53,6 @@ public class InGameManager : Singleton<InGameManager>
     public SpriteRenderer Node;
     public SpriteRenderer[,] Grid;
     public GameObject Background;
-    public GameObject LooftTop;
-    public GameObject SmokeEffect;
-    public RewardTextBox TextBox;
 
     [Header("Characters")]
     public List<ITouchAble> TouchAbleCharacters = new List<ITouchAble>();
@@ -90,7 +87,7 @@ public class InGameManager : Singleton<InGameManager>
 
         InitCharacters();
         GainCharacter(0);
-        SpawnCharacterAsIndex(0, new Vector2(0f, -4f));
+        SpawnCharacterAsIndex(0, new Vector2(-2f, -4f));
         SoundManager.Instance.PlayBackground("keyboard");
     }
 
@@ -169,21 +166,16 @@ public class InGameManager : Singleton<InGameManager>
             {
                 CharacterBuff buff = curDrag.GetComponent<CharacterBuff>();
                 InitGridColor();
-                ShowBuffRange(buff);
+                foreach (var item in buff.BuffList)
+                {
+                    int _x = item.x + buff.thisPosIdx.x;
+                    int _y = item.y + buff.thisPosIdx.y;
+
+                    if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
+
+                    Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
+                }
             }
-        }
-    }
-
-    public void ShowBuffRange(CharacterBuff buff)
-    {
-        foreach (var item in buff.BuffList)
-        {
-            int _x = item.x + buff.thisPosIdx.x;
-            int _y = item.y + buff.thisPosIdx.y;
-
-            if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
-
-            Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
         }
     }
 
@@ -285,6 +277,7 @@ public class InGameManager : Singleton<InGameManager>
         SetBuffCharacter();
     }
 
+
     public void GaugeReward(Character character, float failDecrease = 0f)
     {
         int idx = character.info.idx;
@@ -292,39 +285,32 @@ public class InGameManager : Singleton<InGameManager>
 
         if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease)))
         {//실패
-            SoundManager.Instance.PlayUISound("hammer");
-            Destroy( Instantiate(SmokeEffect, character.transform.position, Quaternion.identity), 0.4f);
-            GetReward(data.rewardRates[0], character.transform);
+            GetReward(data.rewardRates[0]);
         }
         else if (GetRandom(data.devRates[2]))
         {//대성공
-            SoundManager.Instance.PlayUISound("buff");
-            SoundManager.Instance.PlayUISound("coin");
-            GetReward(data.rewardRates[2], character.transform);
+            GetReward(data.rewardRates[2]);
         }
         else
         {//성공
-            SoundManager.Instance.PlayUISound("coin");
-            GetReward(data.rewardRates[1], character.transform);
+            GetReward(data.rewardRates[1]);
         }
 
         GameManager.Instance.gold += 1;
     }
 
-    void GetReward(float value, Transform target)
+    void GetReward(float value)
     {
         GameManager.Instance.can += value;
-
-        RewardTextBox temp = Instantiate(TextBox);
-        temp.Init(string.Format("{0:0}", value), target.position + new Vector3(1, 1));
     }
 
     bool GetRandom(float value)
     {
         float rand = Random.Range(0f, 1f);
+
         if (rand <= value) return true;
         else
-            return false;
+            return true;
     }
 
     void AutoCharacterLogic()
@@ -347,8 +333,6 @@ public class InGameManager : Singleton<InGameManager>
             LockList.Add(temp);
 
         }
-
-        Instantiate(LooftTop, GetGridPos(1, AbleGrid.GetLength(0)) + new Vector2(-3.5f, -1.3f), Quaternion.identity);
     }
 
     void SetLock()
@@ -363,6 +347,7 @@ public class InGameManager : Singleton<InGameManager>
             }
         }
     }
+
 
     void InitGridPos()
     {

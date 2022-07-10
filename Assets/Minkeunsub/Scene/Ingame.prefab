@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4384581576034275348}
   - component: {fileID: 4384581576034275351}
-  - component: {fileID: 673350649}
   m_Layer: 0
   m_Name: InGameManager
   m_TagString: Untagged
@@ -50,7 +49,7 @@ MonoBehaviour:
   PM: []
   AllCharacterPrefabs: []
   x: 3
-  y: 4
+  y: 10
   gridSize_x: 2
   gridSize_y: 4
   GridOffset: {x: -2, y: -3}
@@ -59,32 +58,12 @@ MonoBehaviour:
   LockList: []
   gaugeObj: {fileID: 6508624494094140468, guid: af78b0a3ccaf327439bbcb33c7d48a55, type: 3}
   Node: {fileID: 8860817650244381035, guid: 634e03382a3076d4a8ca75e4ef6421bf, type: 3}
-  Background: {fileID: 2614737385514230799, guid: 34cffea20e104bf488447a4e9ecd581b, type: 3}
-  LooftTop: {fileID: 382291501719607197, guid: ba2523013c5d451428b64d26b2c8a6e0, type: 3}
-  SmokeEffect: {fileID: 8455693305672752134, guid: a9c952c5c8c774c42b91df386d8363f0, type: 3}
-  TextBox: {fileID: 5988623390663734980, guid: 3d77e4351dfcb704bb3725917d8d14b7, type: 3}
   CharacterInventory: []
   CharacterLevel: 000000000000000000000000000000000000000000000000000000000000000000000000
   CharacterIdxInventory: 
   curFloor: 0
   isDragging: 0
   isUImoving: 0
---- !u!114 &673350649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4384581576034275349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb381d5109cd5f14b971c25ad81ca279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curTime: 0
-  maxTime: 30
-  curDay: 0
-  maxDay: 30
 --- !u!1 &4384581576233711195
 GameObject:
   m_ObjectHideFlags: 0
