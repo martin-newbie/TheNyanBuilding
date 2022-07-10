@@ -328,6 +328,7 @@ public class InGameManager : Singleton<InGameManager>
     {
         Debug.Log(value);
         GameManager.Instance.can += value + (value * GameManager.Instance.rewardUp);
+        GameManager.Instance.SetGoods();
 
         RewardTextBox temp = Instantiate(TextBox);
         temp.Init(string.Format("{0:0}", value), target.position + new Vector3(1, 1));

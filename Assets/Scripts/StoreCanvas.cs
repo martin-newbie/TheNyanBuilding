@@ -9,6 +9,7 @@ public class StoreCanvas : MonoBehaviour
     public void GetChur()
     {
         GameManager.Instance.churu += 1000;
+        GameManager.Instance.SetGoods();
     }
     
 }

@@ -72,6 +72,12 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    private void Update()
+    {
+        SetGoods();
+    }
+
     public void SetGoods()
     {
         goldText.text = Calculator.Instance.ConvertToString(gold);
