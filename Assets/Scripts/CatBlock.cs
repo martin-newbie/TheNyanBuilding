@@ -5,11 +5,12 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.U2D;
 
-public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
+public class CatBlock : MonoBehaviour
 {
     public Image catImage;
     public int catPositionIndex;
     public bool isClicked;
+    public GameObject button;
 
     int catIndex;
     int index;
@@ -18,6 +19,7 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     Vector3 moveDirection;
     Vector3 dragStartPosition;
     CatCanvas catCanvas;
+
 
     void Awake()
     {
@@ -41,34 +43,27 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
         levelText.text = GameManager.Instance.catDatas[catIndex].tier.ToString();
     }
 
-
-    public void OnPointerEnter(PointerEventData eventData)
+    public void CatSelected()
     {
-
-    }
-    public void OnPointerExit(PointerEventData eventData)
-    {
-
+        catCanvas.UnSelect();
+        button.SetActive(true);
     }
 
 
-    public void OnBeginDrag(PointerEventData eventData)
+    public void CatInfo()
     {
+        button.SetActive(false);
 
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
         CatInfoPanel.Instance.Open(catIndex);
+    }
+    public void UseCat()
+    {
+        button.SetActive(false);
+
+    }
+    public void UnSelect()
+    {
+        button.SetActive(false);
+
     }
 }
