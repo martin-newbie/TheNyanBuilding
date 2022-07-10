@@ -209,10 +209,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a82329be9803bf446a4e8b262df1d297, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posInfo:
-    x_pos: 0
-    y_pos: 0
+  info:
+    rewardChance: []
+    rewardAmount: []
     idx: 0
+  characterType: 0
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
   BodyAnimationFrame:
@@ -224,8 +225,8 @@ MonoBehaviour:
   frameDelay: 0.05
   isDrag: 0
   thisPosIdx: {x: 0, y: 0}
-  autoGaugeAmt: 1
-  touchGaugeAmt: 5
+  autoGaugeAmt: 3
+  touchGaugeAmt: 10
   curGaugeValue: 0
   maxGaugeValue: 100
   valueGauge: {fileID: 0}

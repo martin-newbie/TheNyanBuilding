@@ -302,13 +302,13 @@ public class InGameManager : Singleton<InGameManager>
         int idx = character.info.idx;
         var data = StaticDataManager.GetCatData(idx);
 
-        if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease)))
+        if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease * GameManager.Instance.failedRate)))
         {//실패
             SoundManager.Instance.PlayUISound("hammer");
             Destroy( Instantiate(SmokeEffect, character.transform.position, Quaternion.identity), 0.4f);
             GetReward(data.rewardRates[0], character.transform);
         }
-        else if (GetRandom(data.devRates[2]))
+        else if (GetRandom(data.devRates[2] + (data.devRates[0] * GameManager.Instance.successRate)))
         {//대성공
             SoundManager.Instance.PlayUISound("buff");
             SoundManager.Instance.PlayUISound("coin");
@@ -325,7 +325,7 @@ public class InGameManager : Singleton<InGameManager>
 
     void GetReward(float value, Transform target)
     {
-        GameManager.Instance.can += value;
+        GameManager.Instance.can += value + (value * GameManager.Instance.rewardUp);
 
         RewardTextBox temp = Instantiate(TextBox);
         temp.Init(string.Format("{0:0}", value), target.position + new Vector3(1, 1));
