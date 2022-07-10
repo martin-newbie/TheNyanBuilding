@@ -302,6 +302,8 @@ public class InGameManager : Singleton<InGameManager>
         {//¼º°ø
             GetReward(data.rewardRates[1]);
         }
+
+        GameManager.Instance.gold += 1;
     }
 
     void GetReward(float value)
