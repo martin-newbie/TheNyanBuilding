@@ -6,7 +6,7 @@ public class TimeManager : Singleton<TimeManager>
 {
     [Header("Time")]
     public float curTime;
-    public float maxTime = 30f;
+    public float maxTime = 10f;
     public int curDay; //텍스트로 나타나게 될 날짜
     public int maxDay = 30;
 
@@ -19,8 +19,8 @@ public class TimeManager : Singleton<TimeManager>
         {
             curDay++;
             curTime = 0f;
-
-            if(curDay >= maxDay)
+            GameManager.Instance.dayText.text = string.Format("{0}일", curDay);
+            if (curDay >= maxDay)
             {
                 // change gold to churu
                 InitCoin();
@@ -35,5 +35,6 @@ public class TimeManager : Singleton<TimeManager>
 
         GameManager.Instance.churu += goldCnt * 10f;
         GameManager.Instance.gold = 0;
+        GameManager.Instance.SetGoods();
     }
 }

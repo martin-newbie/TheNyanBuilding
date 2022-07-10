@@ -50,7 +50,7 @@ public class UpgradeInfo : MonoBehaviour
         currentLevel = GameManager.Instance.upgradeLevelList[this.userUpgradeIndex];
 
         float contentValue = upgradeData.value + (upgradeData.valueIncrease * currentLevel);
-
+        
         //content.text = string.Format(upgradeData.content, upgradeData.value * currentLevel);
         content.text = string.Format(upgradeData.name, contentValue);
         leveText.text = string.Format("<size=30>Lv.</size><size=35>{0}</size>", currentLevel);
