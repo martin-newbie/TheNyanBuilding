@@ -63,11 +63,10 @@ public class CatCanvas : MonoBehaviour
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if (InGameManager.Instance.GetAblePos(mousePos))
             {
-                isSelect = false;
                 InGameManager.Instance.SpawnCharacterAsIndex(selectedIdx, mousePos);
                 selectedIdx = -1;
             }
-
+            isSelect = false;
         }
     }
 
