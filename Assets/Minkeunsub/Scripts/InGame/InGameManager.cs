@@ -339,7 +339,7 @@ public class InGameManager : Singleton<InGameManager>
 
         }
 
-        Instantiate(LooftTop, GetGridPos(1, AbleGrid.GetLength(0)) + new Vector2(-3f, -1.3f), Quaternion.identity);
+        Instantiate(LooftTop, GetGridPos(1, AbleGrid.GetLength(0)) + new Vector2(-3.5f, -1.3f), Quaternion.identity);
     }
 
     void SetLock()
