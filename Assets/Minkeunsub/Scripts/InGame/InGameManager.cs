@@ -277,12 +277,12 @@ public class InGameManager : Singleton<InGameManager>
     }
 
 
-    public void GaugeReward(Character character)
+    public void GaugeReward(Character character, float failDecrease = 0f)
     {
         int idx = character.info.idx;
         var data = StaticDataManager.GetCatData(idx);
 
-        if (GetRandom(data.devRates[0]))
+        if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease)))
         {//½ÇÆĞ
             GetReward(data.rewardRates[0]);
         }

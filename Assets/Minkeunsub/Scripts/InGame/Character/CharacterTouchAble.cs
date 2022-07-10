@@ -30,7 +30,7 @@ public class CharacterTouchAble : Character, ITouchAble, IGauge
 
         if(curGaugeValue >= maxGaugeValue)
         {
-            InGameManager.Instance.GaugeReward(this);
+            InGameManager.Instance.GaugeReward(this, additionalFailValue);
             curGaugeValue = 0f;
         }
     }
