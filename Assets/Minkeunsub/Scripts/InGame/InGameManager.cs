@@ -84,17 +84,10 @@ public class InGameManager : Singleton<InGameManager>
         SetLock();
 
         UnlockFloor();
-        UnlockFloor();
 
         InitCharacters();
         GainCharacter(0);
         SpawnCharacterAsIndex(0, new Vector2(-2f, -4f));
-
-        GainCharacter(5);
-        GainCharacter(8);
-        SpawnCharacterAsIndex(1, new Vector2(0f, -4f));
-        SpawnCharacterAsIndex(2, new Vector2(2f, -4f));
-
         SoundManager.Instance.PlayBackground("keyboard");
     }
 
