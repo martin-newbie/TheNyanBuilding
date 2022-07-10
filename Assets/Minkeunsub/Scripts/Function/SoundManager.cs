@@ -20,7 +20,7 @@ public class SoundManager : Singleton<SoundManager>
 
     private void Awake()
     {
-        if (Instance != null) Destroy(gameObject);
+        //if (Instance != null) Destroy(gameObject);
 
         Init();
         BackgroundAudio = GetComponents<AudioSource>();
