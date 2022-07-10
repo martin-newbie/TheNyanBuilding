@@ -209,6 +209,7 @@ public class InGameManager : Singleton<InGameManager>
 
             if (nearby != null)
             {
+                SoundManager.Instance.PlayUISound("click");
                 curDrag = nearby;
                 nearby.isDrag = true;
                 curDrag.BodySR.sortingOrder = 9;
@@ -245,6 +246,7 @@ public class InGameManager : Singleton<InGameManager>
 
             if (posChar == null)
             {//move
+                SoundManager.Instance.PlayUISound("add");
                 AbleGrid[cIdx.y, cIdx.x] = GridType.Empty;
                 CharacterGridInfo[cIdx.y, cIdx.x] = null;
 
@@ -256,6 +258,7 @@ public class InGameManager : Singleton<InGameManager>
             }
             else
             {//swap
+                SoundManager.Instance.PlayUISound("meow");
                 CharacterGridInfo[cIdx.y, cIdx.x] = posChar;
                 posChar.transform.position = GetGridPos(cIdx.x, cIdx.y);
                 posChar.thisPosIdx = cIdx;
