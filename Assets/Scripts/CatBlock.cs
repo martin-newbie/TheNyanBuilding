@@ -18,6 +18,7 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     Vector3 moveDirection;
     Vector3 dragStartPosition;
     CatCanvas catCanvas;
+    bool isEquiped;
 
     void Awake()
     {
@@ -34,7 +35,7 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
 
     private void Update()
     {
-        
+
     }
 
     public void Init(int catIndex)
@@ -87,8 +88,11 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     }
     public void OnClickUse()
     {
-        catCanvas.SelectedCharacterIdx = catIndex;
-        button.SetActive(false);
+        if (!isEquiped)
+        {
+            catCanvas.SelectedCharacterIdx = catIndex;
+            button.SetActive(false);
+        }
 
     }
     public void OnPointerDown(PointerEventData eventData)
