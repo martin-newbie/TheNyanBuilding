@@ -326,7 +326,7 @@ public class InGameManager : Singleton<InGameManager>
 
     void GetReward(float value, Transform target)
     {
-        Debug.Log(GameManager.Instance.rewardUp);
+        Debug.Log(value);
         GameManager.Instance.can += value + (value * GameManager.Instance.rewardUp);
 
         RewardTextBox temp = Instantiate(TextBox);
