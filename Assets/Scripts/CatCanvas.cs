@@ -7,6 +7,30 @@ public class CatCanvas : MonoBehaviour
 {
     public Animator animator;
     public CatBlock[] catBlocks;
+
+    bool isSelect;
+    private int selectedIdx;
+    public int SelectedCharacterIdx
+    {
+        get
+        {
+            return selectedIdx;
+        }
+        set
+        {
+            selectedIdx = value;
+            Close();
+            Invoke("Select", 0.5f);
+        }
+    }
+
+    public int curButtonCnt;
+
+    void Select()
+    {
+        isSelect = true;
+    }
+
     private void Start()
     {
         EventManager.StartListening("CatSetting", Setting);
@@ -32,15 +56,32 @@ public class CatCanvas : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (isSelect && Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if (InGameManager.Instance.GetAblePos(mousePos))
+            {
+                isSelect = false;
+                InGameManager.Instance.SpawnCharacterAsIndex(selectedIdx, mousePos);
+                selectedIdx = -1;
+            }
+
+        }
+    }
+
     public void Open()
     {
+        InGameManager.Instance.isUImoving = true;
         animator.SetFloat("speed", 1);
         animator.Play("OpenCat", -1);
 
     }
     public void Close()
     {
-        animator.SetFloat("speed",-1);
+        InGameManager.Instance.isUImoving = false;
+        animator.SetFloat("speed", -1);
         animator.Play("OpenCat", -1);
     }
 }

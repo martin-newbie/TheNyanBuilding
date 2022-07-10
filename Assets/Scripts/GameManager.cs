@@ -182,6 +182,7 @@ public class GameManager : MonoBehaviour
 
     public void AddCat(int catIndex, int amount = 1)
     {
+        InGameManager.Instance.GainCharacter(catIndex);
 
         catDatas[catIndex].soulStone += amount;
         CatLevelUp(catIndex);

@@ -10,9 +10,9 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     public Image catImage;
     public int catPositionIndex;
     public bool isClicked;
+    public int index;
 
-    int catIndex;
-    int index;
+    public int catIndex;
     Text levelText;
     Shadow shadow;
     Vector3 moveDirection;
@@ -32,7 +32,10 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
         isClicked = false;
     }
 
-
+    private void Update()
+    {
+        
+    }
 
     public void Init(int catIndex)
     {
@@ -69,6 +72,8 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        CatInfoPanel.Instance.Open(catIndex);
+        catCanvas.SelectedCharacterIdx = catIndex;
+
+        //CatInfoPanel.Instance.Open(catIndex);
     }
 }

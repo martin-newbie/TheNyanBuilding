@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 using Random = UnityEngine.Random;
 
 public enum CharacterType
@@ -125,7 +126,15 @@ public class InGameManager : Singleton<InGameManager>
     /// <returns></returns>
     public Character SpawnCharacterAsIndex(int idx, Vector2 inputPos)
     {
-        Character spawn = CharacterInventory[idx];
+
+        Character spawn = null;
+        foreach (var item in CharacterInventory)
+        {
+            if (item.info.idx == idx) spawn = item;
+        }
+
+        if (spawn == null) return null;
+
         Vector2Int pos = GetPosIdx(inputPos);
 
         SpawnTypeCharacter(spawn.characterType, pos, idx);
@@ -398,6 +407,11 @@ public class InGameManager : Singleton<InGameManager>
         AllCharacterPrefabs.AddRange(Dev);
         AllCharacterPrefabs.AddRange(QA);
         AllCharacterPrefabs.AddRange(PM);
+
+        var order = from ch in AllCharacterPrefabs
+                    select ch;
+
+        AllCharacterPrefabs = order.ToList().OrderBy(ch => ch.info.idx).ToList();
     }
 
     public Character GetTouchCharacter(Vector2 inputPos)
@@ -448,7 +462,7 @@ public class InGameManager : Singleton<InGameManager>
     public Character SpawnTypeCharacter(CharacterType type, Vector2Int pos, int idx = 0)
     {
         Vector2 spawnPos = GetGridPos(pos.x, pos.y);
-        Character spawn = SpawnCharacter(CharacterInventory[idx], spawnPos);
+        Character spawn = SpawnCharacter(AllCharacterPrefabs[idx], spawnPos);
 
         switch (type)
         {
@@ -544,6 +558,23 @@ public class InGameManager : Singleton<InGameManager>
 
     public bool GetAblePos(int x, int y, GridType grid = GridType.Empty)
     {
+        if (x < 0 || y < 0 || x >= AbleGrid.GetLength(1) || y >= AbleGrid.GetLength(0))
+            return false;
+
+        GridType type = AbleGrid[y, x];
+        if (type == grid)
+        {
+            return true;
+        }
+        else return false;
+    }
+
+    public bool GetAblePos(Vector2 pos, GridType grid = GridType.Empty)
+    {
+        Vector2Int posIdx = GetPosIdx(pos);
+        int x = posIdx.x;
+        int y = posIdx.y;
+
         if (x < 0 || y < 0 || x >= AbleGrid.GetLength(1) || y >= AbleGrid.GetLength(0))
             return false;
 
