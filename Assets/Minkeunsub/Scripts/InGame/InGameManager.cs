@@ -308,7 +308,7 @@ public class InGameManager : Singleton<InGameManager>
 
     void GetReward(float value)
     {
-
+        GameManager.Instance.can += value;
     }
 
     bool GetRandom(float value)
