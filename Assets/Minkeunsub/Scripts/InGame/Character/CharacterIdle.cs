@@ -20,7 +20,7 @@ public class CharacterIdle : Character, IAuto, IGauge
 
     public void GetValue()
     {
-        additionalFailValue = 1f;
+        additionalFailValue = 0f;
         additionalGaugeValue = 1f;
 
         foreach (var item in BuffCharacterList)
