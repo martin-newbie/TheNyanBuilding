@@ -54,6 +54,7 @@ public class InGameManager : Singleton<InGameManager>
     public SpriteRenderer[,] Grid;
     public GameObject Background;
     public GameObject LooftTop;
+    public GameObject SmokeEffect;
     public RewardTextBox TextBox;
 
     [Header("Characters")]
@@ -287,6 +288,7 @@ public class InGameManager : Singleton<InGameManager>
 
         if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease)))
         {//½ÇÆÐ
+            Destroy( Instantiate(SmokeEffect, character.transform.position, Quaternion.identity), 0.4f);
             GetReward(data.rewardRates[0], character.transform);
         }
         else if (GetRandom(data.devRates[2]))
@@ -312,10 +314,9 @@ public class InGameManager : Singleton<InGameManager>
     bool GetRandom(float value)
     {
         float rand = Random.Range(0f, 1f);
-
         if (rand <= value) return true;
         else
-            return true;
+            return false;
     }
 
     void AutoCharacterLogic()
