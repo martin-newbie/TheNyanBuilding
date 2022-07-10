@@ -31,25 +31,16 @@ public class CatCanvas : MonoBehaviour
 
         }
     }
-    public void UnSelect()
-    {
-        for (int i = 0; i < catBlocks.Length; i++)
-        {
-            catBlocks[i].UnSelect();
-        }
-    }
 
     public void Open()
     {
         animator.SetFloat("speed", 1);
         animator.Play("OpenCat", -1);
-        InGameManager.Instance.isUImoving = true;
+
     }
     public void Close()
     {
         animator.SetFloat("speed",-1);
         animator.Play("OpenCat", -1);
-        InGameManager.Instance.isUImoving = false;
-
     }
 }
