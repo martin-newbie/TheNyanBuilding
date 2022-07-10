@@ -6,6 +6,21 @@ using UnityEngine.UI;
 
 public class NavigationController : MonoBehaviour
 {
+    private static NavigationController instance;
+
+    public static NavigationController Instance => instance;
+
+    protected void Awake()
+    {
+        if (instance)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+    }
+
     public Image[] barImage;
     public Sprite[] barImage_Clicked;
     public Sprite[] barImage_unClicked;
@@ -13,7 +28,7 @@ public class NavigationController : MonoBehaviour
     public UpgradeCanvas upgradeCanvas;
     public CatCanvas catCanvas;
     public StoreCanvas storeCanvas;
-    private int currentCanvasIndex;
+    public int currentCanvasIndex;
     private void Start()
     {
         currentCanvasIndex = -1;
