@@ -144,11 +144,14 @@ public class InGameManager : Singleton<InGameManager>
 
     void InitGrid()
     {
-        for (int x = 0; x < Grid.GetLength(1); x++)
+        for (int y = 0; y < Grid.GetLength(0); y++)
         {
-            for (int y = 0; y < Grid.GetLength(0); y++)
+            int order = 4;
+            for (int x = 0; x < Grid.GetLength(1); x++)
             {
                 SpriteRenderer node = Instantiate(Node);
+                node.sortingOrder = order;
+                order++;
                 node.transform.position = GetGridPos(x, y);
                 Grid[y, x] = node;
             }
