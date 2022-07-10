@@ -11,7 +11,7 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     public int catPositionIndex;
     public bool isClicked;
     public int index;
-
+    public GameObject button;
     public int catIndex;
     Text levelText;
     Shadow shadow;
@@ -44,6 +44,16 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
         levelText.text = GameManager.Instance.catDatas[catIndex].tier.ToString();
     }
 
+    public void OnClickSelect()
+    {
+        catCanvas.UnSelect();
+        button.SetActive(true);
+    }
+    public void UnSelect()
+    {
+        button.SetActive(false);
+
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -69,10 +79,20 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     {
 
     }
+    public void OnClickInfo()
+    {
+        CatInfoPanel.Instance.Open(catIndex);
+        button.SetActive(false);
 
-    public void OnPointerDown(PointerEventData eventData)
+    }
+    public void OnClickUse()
     {
         catCanvas.SelectedCharacterIdx = catIndex;
+        button.SetActive(false);
+
+    }
+    public void OnPointerDown(PointerEventData eventData)
+    {
 
         //CatInfoPanel.Instance.Open(catIndex);
     }

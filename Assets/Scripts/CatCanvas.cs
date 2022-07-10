@@ -82,5 +82,23 @@ public class CatCanvas : MonoBehaviour
         InGameManager.Instance.isUImoving = false;
         animator.SetFloat("speed", -1);
         animator.Play("OpenCat", -1);
+        NavigationController.Instance.blockImages[1].SetActive(true);
+        InGameManager.Instance.isUImoving = false;
+        NavigationController.Instance.currentCanvasIndex = -1;
+
+
+    }
+    private void OnDisable()
+    {
+        UnSelect();
+
+    }
+
+    public void UnSelect()
+    {
+        for (int i = 0; i < catBlocks.Length; i++)
+        {
+            catBlocks[i].UnSelect();
+        }
     }
 }
