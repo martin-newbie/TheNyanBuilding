@@ -6,9 +6,9 @@ using Random = UnityEngine.Random;
 public enum CharacterType
 {
     Bro,
-    Developer = 1,
-    QualityAssureance = 6,
-    ProductManager = 4
+    Developer,
+    QualityAssureance,
+    ProductManager
 }
 
 public enum GridType
@@ -79,13 +79,21 @@ public class InGameManager : Singleton<InGameManager>
         InitGrid();
 
         InitGridPos();
-        UnlockGrid(0);
         InitLock();
         SetLock();
+
+        UnlockFloor();
+        UnlockFloor();
 
         InitCharacters();
         GainCharacter(0);
         SpawnCharacterAsIndex(0, new Vector2(-2f, -4f));
+
+        GainCharacter(5);
+        GainCharacter(8);
+        SpawnCharacterAsIndex(1, new Vector2(0f, -4f));
+        SpawnCharacterAsIndex(2, new Vector2(2f, -4f));
+
     }
 
     public void GainCharacter(int idx)
@@ -122,14 +130,14 @@ public class InGameManager : Singleton<InGameManager>
         Character spawn = CharacterInventory[idx];
         Vector2Int pos = GetPosIdx(inputPos);
 
-        SpawnTypeCharacter(spawn.characterType, pos, (int)spawn.characterType - idx);
+        SpawnTypeCharacter(spawn.characterType, pos, idx);
         return spawn;
     }
 
     public void UnlockFloor()
     {
-        curFloor++;
         UnlockGrid(curFloor);
+        curFloor++;
         SetLock();
     }
 
@@ -194,13 +202,17 @@ public class InGameManager : Singleton<InGameManager>
         if (GetAblePos(posidx.x, posidx.y, GridType.Filled))
         {
             Character nearby = GetTouchCharacter(touchPos);
-            curDrag = nearby;
-            nearby.isDrag = true;
-            curDrag.BodySR.sortingOrder = 9;
-            curDrag.HeadSR.sortingOrder = 10;
-            isDragging = true;
+
+            if (nearby != null)
+            {
+                curDrag = nearby;
+                nearby.isDrag = true;
+                curDrag.BodySR.sortingOrder = 9;
+                curDrag.HeadSR.sortingOrder = 10;
+                isDragging = true;
+            }
         }
-        else if(GetAblePos(posidx.x, posidx.y, GridType.Locked))
+        else if (GetAblePos(posidx.x, posidx.y, GridType.Locked))
         {
             TryUnlock();
         }
@@ -225,6 +237,7 @@ public class InGameManager : Singleton<InGameManager>
         if (GetAblePos(posIdx.x, posIdx.y))
         {
             Vector2Int cIdx = curDrag.thisPosIdx;
+            Debug.Log(cIdx);
 
             AbleGrid[cIdx.y, cIdx.x] = GridType.Empty;
             CharacterGridInfo[cIdx.y, cIdx.x] = null;
@@ -238,6 +251,7 @@ public class InGameManager : Singleton<InGameManager>
         }
         else
         {
+            Debug.Log("not able");
             curDrag.transform.position = GetGridPos(curDrag.thisPosIdx.x, curDrag.thisPosIdx.y);
         }
 
@@ -401,7 +415,7 @@ public class InGameManager : Singleton<InGameManager>
     public Character SpawnTypeCharacter(CharacterType type, Vector2Int pos, int idx = 0)
     {
         Vector2 spawnPos = GetGridPos(pos.x, pos.y);
-        Character spawn = null;
+        Character spawn = SpawnCharacter(CharacterInventory[idx], spawnPos);
 
         switch (type)
         {
@@ -410,13 +424,10 @@ public class InGameManager : Singleton<InGameManager>
                 Gauge gauge = Instantiate(gaugeObj, canvas.transform);
                 gauge.transform.SetAsFirstSibling();
 
-                spawn = SpawnCharacter(Bro, spawnPos);
-                spawn.thisPosIdx = pos;
                 ((CharacterTouchAble)spawn).InitGauge(gauge);
 
                 TouchAbleCharacters.Add(spawn.GetComponent<ITouchAble>());
                 GaugeCharacters.Add(spawn.GetComponent<IGauge>());
-                CharacterGridInfo[pos.y, pos.x] = spawn;
 
                 break;
             case CharacterType.Developer:
@@ -424,17 +435,13 @@ public class InGameManager : Singleton<InGameManager>
                 Gauge gauge1 = Instantiate(gaugeObj, canvas.transform);
                 gauge1.transform.SetAsFirstSibling();
 
-                spawn = SpawnCharacter(Dev[idx], spawnPos);
-                spawn.thisPosIdx = pos;
                 ((CharacterIdle)spawn).InitGauge(gauge1);
 
                 AutoIdlCharacters.Add(spawn.GetComponent<IAuto>());
                 GaugeCharacters.Add(spawn.GetComponent<IGauge>());
-                CharacterGridInfo[pos.y, pos.x] = spawn;
 
                 break;
             case CharacterType.QualityAssureance:
-                spawn = SpawnCharacter(QA[idx], spawnPos);
 
                 IBuff qaBuff = spawn.GetComponent<IBuff>();
 
@@ -442,20 +449,19 @@ public class InGameManager : Singleton<InGameManager>
                 QACharacters.Add(qaBuff);
                 BuffCharacters.Add(qaBuff);
 
-                CharacterGridInfo[pos.y, pos.x] = spawn;
                 break;
             case CharacterType.ProductManager:
-                spawn = SpawnCharacter(PM[idx], spawnPos);
 
                 IBuff buff = spawn.GetComponent<IBuff>();
                 buff.Init(pos);
-                QACharacters.Add(buff);
+                PMCharacters.Add(buff);
                 BuffCharacters.Add(buff);
 
-                CharacterGridInfo[pos.y, pos.x] = spawn;
                 break;
         }
+        spawn.thisPosIdx = pos;
 
+        CharacterGridInfo[pos.y, pos.x] = spawn;
         AbleGrid[pos.y, pos.x] = GridType.Filled;
         SetBuffCharacter();
 

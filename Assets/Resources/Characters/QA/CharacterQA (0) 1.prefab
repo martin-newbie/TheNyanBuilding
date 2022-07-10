@@ -144,8 +144,14 @@ MonoBehaviour:
   isDrag: 0
   thisPosIdx: {x: 0, y: 0}
   BuffList:
+  - {x: 1, y: -1}
+  - {x: 0, y: -1}
+  - {x: -1, y: -1}
   - {x: 1, y: 0}
   - {x: -1, y: 0}
+  - {x: 1, y: 1}
+  - {x: 0, y: 1}
+  - {x: -1, y: 1}
   buffType: 1
   buffValue: 2
   up_value: 0
