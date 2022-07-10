@@ -35,8 +35,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Init();
-        can = 1000000000;
-        churu = 1000000000;
+        can = 0;
+        churu = 0;
 
         SetGoods();
 
