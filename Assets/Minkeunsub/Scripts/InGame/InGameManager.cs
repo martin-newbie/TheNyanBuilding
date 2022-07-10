@@ -185,6 +185,9 @@ public class InGameManager : Singleton<InGameManager>
 
     public void ShowBuffRange(CharacterBuff buff)
     {
+
+        Color color = buff.buffType == BuffType.FailDecrease ? Color.red : Color.green;
+
         foreach (var item in buff.BuffList)
         {
             int _x = item.x + buff.thisPosIdx.x;
@@ -192,7 +195,7 @@ public class InGameManager : Singleton<InGameManager>
 
             if (_x < 0 || _y < 0 || _x >= x || _y >= y) continue;
 
-            Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = Color.green;
+            Grid[item.y + buff.thisPosIdx.y, item.x + buff.thisPosIdx.x].color = color;
         }
     }
 
@@ -300,20 +303,20 @@ public class InGameManager : Singleton<InGameManager>
         int idx = character.info.idx;
         var data = StaticDataManager.GetCatData(idx);
 
-        if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease) - (data.devRates[0] - (data.devRates[0] * failDecrease) *GameManager.Instance.failedRate)))
-        {//½ÇÆÐ
+        if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease * GameManager.Instance.failedRate)))
+        {//ï¿½ï¿½ï¿½ï¿½
             SoundManager.Instance.PlayUISound("hammer");
             Destroy( Instantiate(SmokeEffect, character.transform.position, Quaternion.identity), 0.4f);
             GetReward(data.rewardRates[0], character.transform);
         }
         else if (GetRandom(data.devRates[2] +(data.devRates[2] * GameManager.Instance.successRate)))
-        {//´ë¼º°ø
+        {//ï¿½ë¼ºï¿½ï¿½
             SoundManager.Instance.PlayUISound("buff");
             SoundManager.Instance.PlayUISound("coin");
             GetReward(data.rewardRates[2], character.transform);
         }
         else
-        {//¼º°ø
+        {//ï¿½ï¿½ï¿½ï¿½
             SoundManager.Instance.PlayUISound("coin");
             GetReward(data.rewardRates[1], character.transform);
         }
@@ -323,8 +326,8 @@ public class InGameManager : Singleton<InGameManager>
 
     void GetReward(float value, Transform target)
     {
-        value += (value * GameManager.Instance.rewardUp);
-        GameManager.Instance.can += value;
+        Debug.Log(GameManager.Instance.rewardUp);
+        GameManager.Instance.can += value + (value * GameManager.Instance.rewardUp);
 
         RewardTextBox temp = Instantiate(TextBox);
         temp.Init(string.Format("{0:0}", value), target.position + new Vector3(1, 1));
