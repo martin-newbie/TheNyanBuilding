@@ -90,7 +90,7 @@ public class InGameManager : Singleton<InGameManager>
 
         InitCharacters();
         GainCharacter(0);
-        SpawnCharacterAsIndex(0, new Vector2(-2f, -4f));
+        SpawnCharacterAsIndex(0, new Vector2(0f, -4f));
         SoundManager.Instance.PlayBackground("keyboard");
     }
 
