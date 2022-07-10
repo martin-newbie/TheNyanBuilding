@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeData: {fileID: 11400000, guid: f3941d4b0f55c1d4eb835eb5d67e2be6, type: 2}
-  catData: {fileID: 0}
+  catData: {fileID: 11400000, guid: e495b8033257681448807482c8b5630d, type: 2}
   dataCheckComplete: 0
 --- !u!4 &2086496290
 Transform:
