@@ -292,15 +292,19 @@ public class InGameManager : Singleton<InGameManager>
 
         if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease)))
         {//실패
+            SoundManager.Instance.PlayUISound("hammer");
             Destroy( Instantiate(SmokeEffect, character.transform.position, Quaternion.identity), 0.4f);
             GetReward(data.rewardRates[0], character.transform);
         }
         else if (GetRandom(data.devRates[2]))
         {//대성공
+            SoundManager.Instance.PlayUISound("buff");
+            SoundManager.Instance.PlayUISound("coin");
             GetReward(data.rewardRates[2], character.transform);
         }
         else
         {//성공
+            SoundManager.Instance.PlayUISound("coin");
             GetReward(data.rewardRates[1], character.transform);
         }
 
