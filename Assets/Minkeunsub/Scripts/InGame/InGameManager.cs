@@ -53,6 +53,8 @@ public class InGameManager : Singleton<InGameManager>
     public SpriteRenderer Node;
     public SpriteRenderer[,] Grid;
     public GameObject Background;
+    public GameObject LooftTop;
+    public RewardTextBox TextBox;
 
     [Header("Characters")]
     public List<ITouchAble> TouchAbleCharacters = new List<ITouchAble>();
@@ -285,23 +287,26 @@ public class InGameManager : Singleton<InGameManager>
 
         if (GetRandom(data.devRates[0] - (data.devRates[0] * failDecrease)))
         {//실패
-            GetReward(data.rewardRates[0]);
+            GetReward(data.rewardRates[0], character.transform);
         }
         else if (GetRandom(data.devRates[2]))
         {//대성공
-            GetReward(data.rewardRates[2]);
+            GetReward(data.rewardRates[2], character.transform);
         }
         else
         {//성공
-            GetReward(data.rewardRates[1]);
+            GetReward(data.rewardRates[1], character.transform);
         }
 
         GameManager.Instance.gold += 1;
     }
 
-    void GetReward(float value)
+    void GetReward(float value, Transform target)
     {
         GameManager.Instance.can += value;
+
+        RewardTextBox temp = Instantiate(TextBox);
+        temp.Init(string.Format("{0:0}", value), target.position + new Vector3(1, 1));
     }
 
     bool GetRandom(float value)
@@ -333,6 +338,8 @@ public class InGameManager : Singleton<InGameManager>
             LockList.Add(temp);
 
         }
+
+        Instantiate(LooftTop, GetGridPos(1, AbleGrid.GetLength(0)) + new Vector2(-3f, -1.3f), Quaternion.identity);
     }
 
     void SetLock()

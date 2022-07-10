@@ -58,6 +58,9 @@ MonoBehaviour:
   LockList: []
   gaugeObj: {fileID: 6508624494094140468, guid: af78b0a3ccaf327439bbcb33c7d48a55, type: 3}
   Node: {fileID: 8860817650244381035, guid: 634e03382a3076d4a8ca75e4ef6421bf, type: 3}
+  Background: {fileID: 2614737385514230799, guid: 34cffea20e104bf488447a4e9ecd581b, type: 3}
+  LooftTop: {fileID: 382291501719607197, guid: ba2523013c5d451428b64d26b2c8a6e0, type: 3}
+  TextBox: {fileID: 5988623390663734980, guid: 3d77e4351dfcb704bb3725917d8d14b7, type: 3}
   CharacterInventory: []
   CharacterLevel: 000000000000000000000000000000000000000000000000000000000000000000000000
   CharacterIdxInventory: 
