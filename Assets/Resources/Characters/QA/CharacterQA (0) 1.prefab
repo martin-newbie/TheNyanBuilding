@@ -131,7 +131,7 @@ MonoBehaviour:
     rewardChance: []
     rewardAmount: []
     idx: 8
-  characterType: 6
+  characterType: 2
   BodySR: {fileID: 0}
   HeadSR: {fileID: 0}
   BodyAnimationFrame:
@@ -153,8 +153,8 @@ MonoBehaviour:
   - {x: 0, y: 1}
   - {x: -1, y: 1}
   buffType: 1
-  buffValue: 2
-  up_value: 0
+  buffValue: 0.5
+  up_value: 0.3
 --- !u!1 &3992776412042503799
 GameObject:
   m_ObjectHideFlags: 0

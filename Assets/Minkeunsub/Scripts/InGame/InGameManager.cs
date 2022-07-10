@@ -52,6 +52,7 @@ public class InGameManager : Singleton<InGameManager>
     public Gauge gaugeObj;
     public SpriteRenderer Node;
     public SpriteRenderer[,] Grid;
+    public GameObject Background;
 
     [Header("Characters")]
     public List<ITouchAble> TouchAbleCharacters = new List<ITouchAble>();
@@ -323,6 +324,9 @@ public class InGameManager : Singleton<InGameManager>
         for (int y = 0; y < AbleGrid.GetLength(0); y++)
         {
             GameObject temp = Instantiate(LockObj);
+            GameObject back = Instantiate(Background);
+
+            back.transform.position = GetGridPos(1, y) + new Vector2(0, 1.5f);
             temp.transform.position = GetGridPos(1, y);
             LockList.Add(temp);
 
