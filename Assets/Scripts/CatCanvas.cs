@@ -64,8 +64,9 @@ public class CatCanvas : MonoBehaviour
             if (InGameManager.Instance.GetAblePos(mousePos))
             {
                 InGameManager.Instance.SpawnCharacterAsIndex(selectedIdx, mousePos);
-                selectedIdx = -1;
+                catBlocks[selectedIdx].isEquiped = true;
             }
+            selectedIdx = -1;
             isSelect = false;
         }
     }

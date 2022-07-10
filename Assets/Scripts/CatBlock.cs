@@ -18,7 +18,7 @@ public class CatBlock : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDrag
     Vector3 moveDirection;
     Vector3 dragStartPosition;
     CatCanvas catCanvas;
-    bool isEquiped;
+    public bool isEquiped;
 
     void Awake()
     {
