@@ -44,12 +44,14 @@ public class NavigationController : MonoBehaviour
                     currentCanvasIndex = index;
                     upgradeCanvas.gameObject.SetActive(true);
                     upgradeCanvas.Open();
+                    InGameManager.Instance.isUImoving = true;
 
                 }
                 else
                 {
                     upgradeCanvas.gameObject.SetActive(false);
                     currentCanvasIndex = -1;
+                    InGameManager.Instance.isUImoving = false;
 
                 }
                 break;
@@ -60,12 +62,14 @@ public class NavigationController : MonoBehaviour
                     currentCanvasIndex = index;
                     catCanvas.gameObject.SetActive(true);
                     catCanvas.Open();
+                    InGameManager.Instance.isUImoving = true;
 
                 }
                 else
                 {
                     catCanvas.gameObject.SetActive(false);
                     currentCanvasIndex = -1;
+                    InGameManager.Instance.isUImoving = false;
 
                 }
                 break;
@@ -75,12 +79,14 @@ public class NavigationController : MonoBehaviour
                     blockImages[index].SetActive(false);
                     currentCanvasIndex = index;
                     storeCanvas.gameObject.SetActive(true);
+                    InGameManager.Instance.isUImoving = true;
 
                 }
                 else
                 {
                     storeCanvas.gameObject.SetActive(false);
                     currentCanvasIndex = -1;
+                    InGameManager.Instance.isUImoving = false;
 
                 }
                 break;

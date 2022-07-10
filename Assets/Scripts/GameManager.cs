@@ -128,32 +128,32 @@ public class GameManager : MonoBehaviour
     public void Set_rewardUP()
     {
         UpgradeData upgradeData = StaticDataManager.GetUpgradeData(0);
-        rewardUp = upgradeData.value + Mathf.Pow(upgradeData.valueIncrease,upgradeLevelList[0]);
+        rewardUp = upgradeData.value + (upgradeData.valueIncrease * upgradeLevelList[0]);
     }
     public float touchGaugeUP;
 
     public void Set_touchGaugeUP()
     {
         UpgradeData upgradeData = StaticDataManager.GetUpgradeData(1);
-        touchGaugeUP = upgradeData.value + Mathf.Pow(upgradeData.valueIncrease, upgradeLevelList[1]);
+        touchGaugeUP = upgradeData.value + (upgradeData.valueIncrease * upgradeLevelList[1]);
     }
     public float tenGaugeUP;
     public void Set_tenGaugeUP()
     {
         UpgradeData upgradeData = StaticDataManager.GetUpgradeData(2);
-        tenGaugeUP = upgradeData.value + Mathf.Pow(upgradeData.valueIncrease, upgradeLevelList[2]);
+        tenGaugeUP = upgradeData.value + (upgradeData.valueIncrease * upgradeLevelList[2]);
     }
     public float successRate;
     public void Set_successRate()
     {
         UpgradeData upgradeData = StaticDataManager.GetUpgradeData(3);
-        successRate = upgradeData.value + Mathf.Pow(upgradeData.valueIncrease, upgradeLevelList[3]);
+        successRate = upgradeData.value + (upgradeData.valueIncrease * upgradeLevelList[3]);
     }
     public float failedRate;
     public void Set_failedRate()
     {
         UpgradeData upgradeData = StaticDataManager.GetUpgradeData(4);
-        failedRate = upgradeData.value + Mathf.Pow(upgradeData.valueIncrease, upgradeLevelList[4]);
+        failedRate = upgradeData.value + (upgradeData.valueIncrease * upgradeLevelList[4]);
     }
     public void InitUpgradeList(UpgradeType type)
     {
@@ -182,6 +182,7 @@ public class GameManager : MonoBehaviour
 
     public void AddCat(int catIndex, int amount = 1)
     {
+        InGameManager.Instance.GainCharacter(catIndex);
 
         catDatas[catIndex].soulStone += amount;
         CatLevelUp(catIndex);

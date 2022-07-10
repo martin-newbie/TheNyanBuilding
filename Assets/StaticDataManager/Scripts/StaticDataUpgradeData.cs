@@ -57,7 +57,7 @@ public class UpgradeData
                 upgradeType = UpgradeType.rewardUP;
                 break;
             case "touchGaugeUP":
-                upgradeType = UpgradeType.rewardUP;
+                upgradeType = UpgradeType.touchGaugeUP;
                 break;
             case "tenGaugeUP":
                 upgradeType = UpgradeType.tenGaugeUP;

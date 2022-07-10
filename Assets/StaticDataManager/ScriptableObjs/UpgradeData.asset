@@ -16,38 +16,49 @@ MonoBehaviour:
   TextDataPath: UpgradeData
   datas:
   - key_index: 0
-    name: "\uAC1C\uBC1C \uC644\uB8CC \uAE30\uBCF8 \uBCF4\uC0C1 {0}% \uC99D\uAC00"
+    name: "\uAC1C\uBC1C \uC644\uB8CC \uAE30\uBCF8 \uBCF4\uC0C1 {0:P0} \uC99D\uAC00"
     value: 0.05
     valueIncrease: 0.01
     limitCount: -1
+    cost: 50
+    costIncrease: 1.03
     upgradeType: 0
-    upgradeTypeString: 50
+    upgradeTypeString: rewardUP
   - key_index: 1
-    name: "\uD130\uCE58\uB2F9 \uBE0C\uB85C \uAC1C\uBC1C \uAC8C\uC774\uC9C0 {0}% \uC99D\uAC00"
+    name: "\uD130\uCE58 \uB2F9 \uBE0C\uB85C \uAC1C\uBC1C \uAC8C\uC774\uC9C0 {0:P1}
+      \uC99D\uAC00"
     value: 0.001
     valueIncrease: 0.001
     limitCount: 29
-    upgradeType: 0
-    upgradeTypeString: 300
+    cost: 300
+    costIncrease: 1.5
+    upgradeType: 1
+    upgradeTypeString: touchGaugeUP
   - key_index: 2
-    name: "10\uCD08 \uB9C8\uB2E4 \uBE0C\uB85C {0}\uD68C \uAC1C\uBC1C \uAC8C\uC774\uC9C0
+    name: "10\uCD08 \uB9C8\uB2E4 \uBE0C\uB85C {0:N0}\uD68C \uAC1C\uBC1C \uAC8C\uC774\uC9C0
       \uC99D\uAC00"
     value: 1
     valueIncrease: 1
     limitCount: 9
-    upgradeType: 0
-    upgradeTypeString: 350
+    cost: 350
+    costIncrease: 1.5
+    upgradeType: 2
+    upgradeTypeString: tenGaugeUP
   - key_index: 3
-    name: "\uB300\uC131\uACF5 \uD655\uB960 {0}% \uC99D\uAC00"
+    name: "\uB300\uC131\uACF5 \uD655\uB960 {0:P1}%\uC99D\uAC00"
     value: 0.01
     valueIncrease: 0.001
     limitCount: 90
-    upgradeType: 0
-    upgradeTypeString: 400
+    cost: 400
+    costIncrease: 1.5
+    upgradeType: 3
+    upgradeTypeString: successRate
   - key_index: 4
-    name: "\uC2E4\uD328 \uD655\uB960 {0}% \uAC10\uC18C"
+    name: "\uC2E4\uD328 \uD655\uB960 {0:P1} \uAC10\uC18C"
     value: 0.01
     valueIncrease: 0.001
     limitCount: 90
-    upgradeType: 0
-    upgradeTypeString: 400
+    cost: 400
+    costIncrease: 1.5
+    upgradeType: 4
+    upgradeTypeString: failedRate

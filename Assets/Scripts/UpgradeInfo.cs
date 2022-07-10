@@ -90,6 +90,7 @@ public class UpgradeInfo : MonoBehaviour
             if (GameManager.Instance.UseProperty(Property.Can, cost))
             {
                 GameManager.Instance.upgradeLevelList[userUpgradeIndex]++;
+                GameManager.Instance.InitUpgradeList(upgradeData.upgradeType);
 
             }
             Init(upgradeIndex, userUpgradeIndex);
