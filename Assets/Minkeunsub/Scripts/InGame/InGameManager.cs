@@ -234,20 +234,32 @@ public class InGameManager : Singleton<InGameManager>
         Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2Int posIdx = GetPosIdx(touchPos);
 
-        if (GetAblePos(posIdx.x, posIdx.y))
+        if (!GetAblePos(posIdx.x, posIdx.y, GridType.Locked))
         {
             Vector2Int cIdx = curDrag.thisPosIdx;
-            Debug.Log(cIdx);
+            Character posChar = GetIndexCharacter(posIdx.x, posIdx.y);
 
-            AbleGrid[cIdx.y, cIdx.x] = GridType.Empty;
-            CharacterGridInfo[cIdx.y, cIdx.x] = null;
+            if (posChar == null)
+            {//move
+                AbleGrid[cIdx.y, cIdx.x] = GridType.Empty;
+                CharacterGridInfo[cIdx.y, cIdx.x] = null;
 
-            curDrag.transform.position = GetGridPos(posIdx.x, posIdx.y);
+                curDrag.transform.position = GetGridPos(posIdx.x, posIdx.y);
 
-            AbleGrid[posIdx.y, posIdx.x] = GridType.Filled;
-            CharacterGridInfo[posIdx.y, posIdx.x] = curDrag;
-            curDrag.thisPosIdx = posIdx;
+                AbleGrid[posIdx.y, posIdx.x] = GridType.Filled;
+                CharacterGridInfo[posIdx.y, posIdx.x] = curDrag;
+                curDrag.thisPosIdx = posIdx;
+            }
+            else
+            {//swap
+                CharacterGridInfo[cIdx.y, cIdx.x] = posChar;
+                posChar.transform.position = GetGridPos(cIdx.x, cIdx.y);
+                posChar.thisPosIdx = cIdx;
 
+                curDrag.transform.position = GetGridPos(posIdx.x, posIdx.y);
+                CharacterGridInfo[posIdx.y, posIdx.x] = curDrag;
+                curDrag.thisPosIdx = posIdx;
+            }
         }
         else
         {
